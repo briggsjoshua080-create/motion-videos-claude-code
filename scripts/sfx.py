@@ -3,9 +3,10 @@
 
     .voice/venv/bin/python scripts/sfx.py      (or: npm run sfx)
 
-Writes public/audio/sfx/{whoosh,pop,chime,thud}.wav. They are committed, so you only need to run
+Writes public/audio/sfx/{whoosh,pop,chime,scribble,thud}.wav. They are committed, so you only need to run
 this again after changing a sound. Use them lightly (volume 0.12-0.3) on scene changes and reveals:
-  whoosh: scene change     pop: an item appears     chime: a key fact lands     thud: a stamp / slam
+  whoosh: scene change     pop: an item appears     chime: a key fact lands
+  scribble: a pen stroke   thud: a stamp / slam
 Requires numpy and soundfile (both in the voice venv).
 """
 
@@ -71,6 +72,15 @@ def chime() -> np.ndarray:
     return normalise(np.stack([x, x], 1), -6)
 
 
+def scribble() -> np.ndarray:
+    """Two quick pen strokes (signatures, ticks, crosses)."""
+    n = int(0.26 * SR)
+    t = np.arange(n) / SR
+    x = shaped_noise(n, np.full(n, 3200.0), 900)
+    x *= np.exp(-0.5 * ((t - 0.06) / 0.025) ** 2) + 0.8 * np.exp(-0.5 * ((t - 0.17) / 0.028) ** 2)
+    return normalise(np.stack([x, x], 1), -9)
+
+
 def thud() -> np.ndarray:
     n = int(0.3 * SR)
     t = np.arange(n) / SR
@@ -80,7 +90,7 @@ def thud() -> np.ndarray:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, fn in {"whoosh": whoosh, "pop": pop, "chime": chime, "thud": thud}.items():
+    for name, fn in {"whoosh": whoosh, "pop": pop, "chime": chime, "scribble": scribble, "thud": thud}.items():
         sf.write(OUT / f"{name}.wav", fn(), SR, subtype="PCM_16")
     print("Wrote", ", ".join(f"public/audio/sfx/{p.name}" for p in sorted(OUT.glob("*.wav"))))
 

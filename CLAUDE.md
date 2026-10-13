@@ -161,7 +161,7 @@ src/theme.ts            colours + font (Inter bundled locally)
 src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
-                        Subtitles, FranceMap)
+                        Subtitles, Hemicycle, FranceMap)
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
 src/voiceover/          narration scripts (*.script.json), generated timings, timing.ts helpers
 scripts/voiceover.py    AI voice-over generator (Kokoro TTS)

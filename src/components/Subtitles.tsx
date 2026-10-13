@@ -50,7 +50,18 @@ export const Subtitles: React.FC<{
   maxWords?: number;
   maxChars?: number;
   highlight?: string;
-}> = ({ timing, hide = [], centerY = 1330, fontSize = 74, maxWords = 3, maxChars = 16, highlight = "#ef4135" }) => {
+  /** Text colour of the highlighted word (use a dark colour on light highlights). */
+  activeColor?: string;
+}> = ({
+  timing,
+  hide = [],
+  centerY = 1330,
+  fontSize = 74,
+  maxWords = 3,
+  maxChars = 16,
+  highlight = "#ef4135",
+  activeColor = "#ffffff",
+}) => {
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
   const hideKey = hide.join("|");
@@ -97,7 +108,7 @@ export const Subtitles: React.FC<{
               display: "inline-block",
               padding: `0 ${fontSize * 0.16}px`,
               borderRadius: fontSize * 0.2,
-              color: "#ffffff",
+              color: i === active ? activeColor : "#ffffff",
               background: i === active ? highlight : "transparent",
               transform: `scale(${i === active ? 1.06 : 1})`,
               textShadow: i === active ? "none" : "0 4px 0 rgba(0,0,0,0.35), 0 0 22px rgba(0,0,0,0.55)",

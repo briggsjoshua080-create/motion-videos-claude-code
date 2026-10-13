@@ -12,6 +12,7 @@ import {
   WHY_FRANCE_DURATION_FRAMES,
   WHY_FRANCE_SIZE,
 } from "./compositions/WhyFranceVotesTwice";
+import { DutchElection, DUTCH_ELECTION_DURATION } from "./compositions/DutchElection";
 
 /**
  * Register every composition here. To add one:
@@ -45,6 +46,14 @@ export const RemotionRoot: React.FC = () => (
       fps={VIDEO.fps}
       width={WHY_FRANCE_SIZE.width}
       height={WHY_FRANCE_SIZE.height}
+    />
+    <Composition
+      id="DutchElection"
+      component={DutchElection}
+      durationInFrames={DUTCH_ELECTION_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
     />
   </>
 );
