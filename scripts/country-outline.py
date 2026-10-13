@@ -18,6 +18,15 @@ pieces that belong to one country with "+" (the first name is used):
        python3 -I scripts/country-outline.py /tmp/geo/package/countries-10m.json \
            "Austria,Belgium,Cyprus+N. Cyprus,Finland+Åland,..." src/components/europe.ts --const EU27
 The module then also exports `countries: [{name, d, centre}]`, one path per country.
+
+Regions inside one country (e.g. the UK's four nations): --cut splits the mainland along a border
+line drawn from coast to coast (its ends snap to the nearest coast point; the smaller side becomes
+the region), --assign gives other parts (islands) whose centre lies in a box to a region, and
+--rest names what is left:
+       python3 -I scripts/country-outline.py /tmp/geo/package/countries-10m.json "United Kingdom" \\
+           src/components/uk.ts --const UK --rest England \\
+           --cut "Scotland:-3.06,54.97;-2.47,55.36;-2.04,55.81" --assign "Scotland:-9,55.3,0,61" ...
+The module then also exports `regions: [{name, d, centre}]`, one path per region.
 """
 
 from __future__ import annotations
@@ -40,6 +49,19 @@ parser.add_argument("--point", action="append", default=[], help='named place "n
 parser.add_argument("--lat0", type=float, help="projection latitude (default: the country's mean latitude)")
 parser.add_argument("--min-area", type=float, default=40, help="drop islands smaller than this (in output units)")
 parser.add_argument("--tolerance", type=float, default=0.9, help="simplification tolerance (in output units)")
+parser.add_argument(
+    "--cut",
+    action="append",
+    default=[],
+    help='region "Name:lon,lat;lon,lat;..." cut off the largest part along this border line (repeatable)',
+)
+parser.add_argument(
+    "--assign",
+    action="append",
+    default=[],
+    help='"Name:min_lon,min_lat,max_lon,max_lat": other parts centred in this box belong to region Name (repeatable)',
+)
+parser.add_argument("--rest", default="Rest", help="region name for what is left after --cut and --assign")
 args = parser.parse_args()
 
 topo = json.load(open(args.topojson))
@@ -137,13 +159,57 @@ def path(rs: list[list[tuple[float, float]]]) -> tuple[str, list[list[tuple[floa
 
 d, simple = path(prj)
 
-parts = []
-for name, rs in countries:
-    cd, cs = path([[norm(*proj(*p)) for p in r] for r in rs])
-    # Centre of the country's largest part (for labels and staggered animations).
+
+def entry(name: str, rs: list[list[tuple[float, float]]]) -> str:
+    cd, cs = path(rs)
+    # Centre of the largest part (for labels and staggered animations).
     big = max(cs, key=area)
     cx, cy = sum(x for x, _ in big) / len(big), sum(y for _, y in big) / len(big)
-    parts.append(f'    {{ name: "{name}", centre: [{cx:.1f}, {cy:.1f}] as const, d: "{cd}" }},\n')
+    return f'    {{ name: "{name}", centre: [{cx:.1f}, {cy:.1f}] as const, d: "{cd}" }},\n'
+
+
+parts = [entry(name, [[norm(*proj(*p)) for p in r] for r in rs]) for name, rs in countries]
+
+
+def cut(r: list[tuple[float, float]], line: list[tuple[float, float]]):
+    """Split a closed ring along a border line whose ends snap to the nearest coast points.
+    Returns (smaller side, larger side), each closed by the border line."""
+    pts = r[:-1] if r[0] == r[-1] else r
+    n = len(pts)
+
+    def nearest(q: tuple[float, float]) -> int:
+        return min(range(n), key=lambda i: math.hypot(pts[i][0] - q[0], pts[i][1] - q[1]))
+
+    def coast(i: int, j: int) -> list[tuple[float, float]]:
+        return [pts[k % n] for k in range(i, (j if j >= i else j + n) + 1)]
+
+    a, b = nearest(line[0]), nearest(line[-1])
+    inner = line[1:-1]
+    one = coast(a, b) + inner[::-1]
+    two = coast(b, a) + inner
+    one, two = one + one[:1], two + two[:1]
+    return (one, two) if area(one) < area(two) else (two, one)
+
+
+regions = []
+if args.cut or args.assign:
+    main_i = max(range(len(prj)), key=lambda i: area(prj[i]))
+    rest = prj[main_i]
+    named: dict[str, list[list[tuple[float, float]]]] = {}
+    for spec in args.cut:
+        name, coords = spec.split(":", 1)
+        line = [norm(*proj(*map(float, p.split(",")))) for p in coords.split(";")]
+        piece, rest = cut(rest, line)
+        named.setdefault(name, []).append(piece)
+    boxes = [(name, [float(v) for v in coords.split(",")]) for name, coords in (s.split(":", 1) for s in args.assign)]
+    rest_parts = [rest]
+    for i, r in enumerate(rings):
+        if i == main_i:
+            continue
+        lon, lat = sum(p[0] for p in r) / len(r), sum(p[1] for p in r) / len(r)
+        box = next((name for name, (x0, y0, x1, y1) in boxes if x0 <= lon <= x1 and y0 <= lat <= y1), None)
+        (named.setdefault(box, []) if box else rest_parts).append(prj[i])
+    regions = [entry(name, rs) for name, rs in named.items()] + [entry(args.rest, rest_parts)]
 
 points = []
 for spec in args.point:
@@ -159,6 +225,7 @@ with open(args.out, "w") as f:
         f"export const {args.const} = {{\n  width: {width:.1f},\n  height: 1000.0,\n"
         + "".join(points)
         + (f"  countries: [\n{''.join(parts)}  ],\n" if multi else "")
+        + (f"  regions: [\n{''.join(regions)}  ],\n" if regions else "")
         + f'  d: "{d}",\n}};\n'
     )
 print(f"{args.label or args.country}: {len(simple)} parts, {sum(len(r) for r in simple)} points, {width:.0f}x1000 -> {args.out}")

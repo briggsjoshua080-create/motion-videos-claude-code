@@ -1,0 +1,872 @@
+{
+ "audio": "voiceover/uk-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.76,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "One party won almost two-thirds of the seats with a third of the votes. How?",
+   "start": 0.33,
+   "end": 4.86,
+   "words": [
+    {
+     "text": "One",
+     "start": 0.33,
+     "end": 0.569
+    },
+    {
+     "text": "party",
+     "start": 0.569,
+     "end": 0.927
+    },
+    {
+     "text": "won",
+     "start": 0.927,
+     "end": 1.166
+    },
+    {
+     "text": "almost",
+     "start": 1.166,
+     "end": 1.703
+    },
+    {
+     "text": "two-thirds",
+     "start": 1.703,
+     "end": 2.3
+    },
+    {
+     "text": "of",
+     "start": 2.3,
+     "end": 2.419
+    },
+    {
+     "text": "the",
+     "start": 2.419,
+     "end": 2.538
+    },
+    {
+     "text": "seats",
+     "start": 2.538,
+     "end": 2.897
+    },
+    {
+     "text": "with",
+     "start": 2.897,
+     "end": 3.076
+    },
+    {
+     "text": "a",
+     "start": 3.076,
+     "end": 3.255
+    },
+    {
+     "text": "third",
+     "start": 3.255,
+     "end": 3.553
+    },
+    {
+     "text": "of",
+     "start": 3.553,
+     "end": 3.672
+    },
+    {
+     "text": "the",
+     "start": 3.672,
+     "end": 3.792
+    },
+    {
+     "text": "votes.",
+     "start": 3.792,
+     "end": 4.15
+    },
+    {
+     "text": "How?",
+     "start": 4.55,
+     "end": 4.86
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? From 18: British, Irish and Commonwealth citizens in the UK, plus Britons abroad.",
+   "start": 5.22,
+   "end": 11.26,
+   "words": [
+    {
+     "text": "Who",
+     "start": 5.22,
+     "end": 5.42
+    },
+    {
+     "text": "can",
+     "start": 5.42,
+     "end": 5.62
+    },
+    {
+     "text": "vote?",
+     "start": 5.62,
+     "end": 5.87
+    },
+    {
+     "text": "From",
+     "start": 6.11,
+     "end": 6.343
+    },
+    {
+     "text": "18:",
+     "start": 6.343,
+     "end": 6.75
+    },
+    {
+     "text": "British,",
+     "start": 7.12,
+     "end": 7.5
+    },
+    {
+     "text": "Irish",
+     "start": 7.62,
+     "end": 7.946
+    },
+    {
+     "text": "and",
+     "start": 7.946,
+     "end": 8.109
+    },
+    {
+     "text": "Commonwealth",
+     "start": 8.109,
+     "end": 8.706
+    },
+    {
+     "text": "citizens",
+     "start": 8.706,
+     "end": 9.194
+    },
+    {
+     "text": "in",
+     "start": 9.194,
+     "end": 9.357
+    },
+    {
+     "text": "the",
+     "start": 9.357,
+     "end": 9.466
+    },
+    {
+     "text": "UK,",
+     "start": 9.466,
+     "end": 9.9
+    },
+    {
+     "text": "plus",
+     "start": 10.15,
+     "end": 10.427
+    },
+    {
+     "text": "Britons",
+     "start": 10.427,
+     "end": 10.871
+    },
+    {
+     "text": "abroad.",
+     "start": 10.871,
+     "end": 11.26
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "The UK has 650 areas. In each, you put one cross next to one candidate.",
+   "start": 12.12,
+   "end": 17.76,
+   "words": [
+    {
+     "text": "The",
+     "start": 12.12,
+     "end": 12.229
+    },
+    {
+     "text": "UK",
+     "start": 12.229,
+     "end": 12.667
+    },
+    {
+     "text": "has",
+     "start": 12.667,
+     "end": 12.885
+    },
+    {
+     "text": "650",
+     "start": 12.885,
+     "end": 14.087
+    },
+    {
+     "text": "areas.",
+     "start": 14.087,
+     "end": 14.47
+    },
+    {
+     "text": "In",
+     "start": 14.86,
+     "end": 15.044
+    },
+    {
+     "text": "each,",
+     "start": 15.044,
+     "end": 15.35
+    },
+    {
+     "text": "you",
+     "start": 15.62,
+     "end": 15.78
+    },
+    {
+     "text": "put",
+     "start": 15.78,
+     "end": 15.995
+    },
+    {
+     "text": "one",
+     "start": 15.995,
+     "end": 16.209
+    },
+    {
+     "text": "cross",
+     "start": 16.209,
+     "end": 16.476
+    },
+    {
+     "text": "next",
+     "start": 16.476,
+     "end": 16.797
+    },
+    {
+     "text": "to",
+     "start": 16.797,
+     "end": 16.957
+    },
+    {
+     "text": "one",
+     "start": 16.957,
+     "end": 17.172
+    },
+    {
+     "text": "candidate.",
+     "start": 17.172,
+     "end": 17.76
+    }
+   ]
+  },
+  {
+   "id": "fptp",
+   "text": "Whoever gets the most votes wins the seat. Votes for everyone else win nothing.",
+   "start": 18.12,
+   "end": 22.49,
+   "words": [
+    {
+     "text": "Whoever",
+     "start": 18.12,
+     "end": 18.529
+    },
+    {
+     "text": "gets",
+     "start": 18.529,
+     "end": 18.821
+    },
+    {
+     "text": "the",
+     "start": 18.821,
+     "end": 18.938
+    },
+    {
+     "text": "most",
+     "start": 18.938,
+     "end": 19.288
+    },
+    {
+     "text": "votes",
+     "start": 19.288,
+     "end": 19.639
+    },
+    {
+     "text": "wins",
+     "start": 19.639,
+     "end": 19.931
+    },
+    {
+     "text": "the",
+     "start": 19.931,
+     "end": 20.048
+    },
+    {
+     "text": "seat.",
+     "start": 20.048,
+     "end": 20.34
+    },
+    {
+     "text": "Votes",
+     "start": 20.75,
+     "end": 21.076
+    },
+    {
+     "text": "for",
+     "start": 21.076,
+     "end": 21.239
+    },
+    {
+     "text": "everyone",
+     "start": 21.239,
+     "end": 21.729
+    },
+    {
+     "text": "else",
+     "start": 21.729,
+     "end": 21.946
+    },
+    {
+     "text": "win",
+     "start": 21.946,
+     "end": 22.164
+    },
+    {
+     "text": "nothing.",
+     "start": 22.164,
+     "end": 22.49
+    }
+   ]
+  },
+  {
+   "id": "commons",
+   "text": "The winners form the House of Commons, which makes laws and checks the government.",
+   "start": 23.0,
+   "end": 27.18,
+   "words": [
+    {
+     "text": "The",
+     "start": 23.0,
+     "end": 23.119
+    },
+    {
+     "text": "winners",
+     "start": 23.119,
+     "end": 23.477
+    },
+    {
+     "text": "form",
+     "start": 23.477,
+     "end": 23.776
+    },
+    {
+     "text": "the",
+     "start": 23.776,
+     "end": 23.895
+    },
+    {
+     "text": "House",
+     "start": 23.895,
+     "end": 24.193
+    },
+    {
+     "text": "of",
+     "start": 24.193,
+     "end": 24.312
+    },
+    {
+     "text": "Commons,",
+     "start": 24.312,
+     "end": 24.73
+    },
+    {
+     "text": "which",
+     "start": 25.04,
+     "end": 25.329
+    },
+    {
+     "text": "makes",
+     "start": 25.329,
+     "end": 25.676
+    },
+    {
+     "text": "laws",
+     "start": 25.676,
+     "end": 25.965
+    },
+    {
+     "text": "and",
+     "start": 25.965,
+     "end": 26.139
+    },
+    {
+     "text": "checks",
+     "start": 26.139,
+     "end": 26.486
+    },
+    {
+     "text": "the",
+     "start": 26.486,
+     "end": 26.602
+    },
+    {
+     "text": "government.",
+     "start": 26.602,
+     "end": 27.18
+    }
+   ]
+  },
+  {
+   "id": "devolved",
+   "text": "Scotland, Wales and Northern Ireland have their own parliaments for things like schools. England doesn't.",
+   "start": 27.54,
+   "end": 33.34,
+   "words": [
+    {
+     "text": "Scotland,",
+     "start": 27.54,
+     "end": 28.04
+    },
+    {
+     "text": "Wales",
+     "start": 28.15,
+     "end": 28.51
+    },
+    {
+     "text": "and",
+     "start": 28.51,
+     "end": 28.69
+    },
+    {
+     "text": "Northern",
+     "start": 28.69,
+     "end": 29.11
+    },
+    {
+     "text": "Ireland",
+     "start": 29.11,
+     "end": 29.59
+    },
+    {
+     "text": "have",
+     "start": 29.59,
+     "end": 29.83
+    },
+    {
+     "text": "their",
+     "start": 29.83,
+     "end": 30.01
+    },
+    {
+     "text": "own",
+     "start": 30.01,
+     "end": 30.25
+    },
+    {
+     "text": "parliaments",
+     "start": 30.25,
+     "end": 30.91
+    },
+    {
+     "text": "for",
+     "start": 30.91,
+     "end": 31.09
+    },
+    {
+     "text": "things",
+     "start": 31.09,
+     "end": 31.39
+    },
+    {
+     "text": "like",
+     "start": 31.39,
+     "end": 31.69
+    },
+    {
+     "text": "schools.",
+     "start": 31.69,
+     "end": 32.11
+    },
+    {
+     "text": "England",
+     "start": 32.51,
+     "end": 32.953
+    },
+    {
+     "text": "doesn't.",
+     "start": 32.953,
+     "end": 33.34
+    }
+   ]
+  },
+  {
+   "id": "lords",
+   "text": "The House of Lords also checks laws, but isn't elected and can only delay them.",
+   "start": 33.7,
+   "end": 38.51,
+   "words": [
+    {
+     "text": "The",
+     "start": 33.7,
+     "end": 33.827
+    },
+    {
+     "text": "House",
+     "start": 33.827,
+     "end": 34.145
+    },
+    {
+     "text": "of",
+     "start": 34.145,
+     "end": 34.273
+    },
+    {
+     "text": "Lords",
+     "start": 34.273,
+     "end": 34.655
+    },
+    {
+     "text": "also",
+     "start": 34.655,
+     "end": 35.1
+    },
+    {
+     "text": "checks",
+     "start": 35.1,
+     "end": 35.482
+    },
+    {
+     "text": "laws,",
+     "start": 35.482,
+     "end": 35.8
+    },
+    {
+     "text": "but",
+     "start": 36.16,
+     "end": 36.389
+    },
+    {
+     "text": "isn't",
+     "start": 36.389,
+     "end": 36.733
+    },
+    {
+     "text": "elected",
+     "start": 36.733,
+     "end": 37.192
+    },
+    {
+     "text": "and",
+     "start": 37.192,
+     "end": 37.364
+    },
+    {
+     "text": "can",
+     "start": 37.364,
+     "end": 37.593
+    },
+    {
+     "text": "only",
+     "start": 37.593,
+     "end": 37.937
+    },
+    {
+     "text": "delay",
+     "start": 37.937,
+     "end": 38.281
+    },
+    {
+     "text": "them.",
+     "start": 38.281,
+     "end": 38.51
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2024, Labour won 411 seats, so its leader became Prime Minister: first Keir Starmer, now Andy Burnham.",
+   "start": 39.01,
+   "end": 47.21,
+   "words": [
+    {
+     "text": "In",
+     "start": 39.01,
+     "end": 39.151
+    },
+    {
+     "text": "2024,",
+     "start": 39.151,
+     "end": 40.0
+    },
+    {
+     "text": "Labour",
+     "start": 40.26,
+     "end": 40.581
+    },
+    {
+     "text": "won",
+     "start": 40.581,
+     "end": 40.794
+    },
+    {
+     "text": "411",
+     "start": 40.794,
+     "end": 41.969
+    },
+    {
+     "text": "seats,",
+     "start": 41.969,
+     "end": 42.29
+    },
+    {
+     "text": "so",
+     "start": 42.58,
+     "end": 42.802
+    },
+    {
+     "text": "its",
+     "start": 42.802,
+     "end": 42.969
+    },
+    {
+     "text": "leader",
+     "start": 42.969,
+     "end": 43.303
+    },
+    {
+     "text": "became",
+     "start": 43.303,
+     "end": 43.692
+    },
+    {
+     "text": "Prime",
+     "start": 43.692,
+     "end": 44.025
+    },
+    {
+     "text": "Minister:",
+     "start": 44.025,
+     "end": 44.47
+    },
+    {
+     "text": "first",
+     "start": 44.92,
+     "end": 45.308
+    },
+    {
+     "text": "Keir",
+     "start": 45.308,
+     "end": 45.567
+    },
+    {
+     "text": "Starmer,",
+     "start": 45.567,
+     "end": 46.02
+    },
+    {
+     "text": "now",
+     "start": 46.21,
+     "end": 46.46
+    },
+    {
+     "text": "Andy",
+     "start": 46.46,
+     "end": 46.773
+    },
+    {
+     "text": "Burnham.",
+     "start": 46.773,
+     "end": 47.21
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "And the head of state? King Charles inherited the crown. He approves every law, but stays out of politics.",
+   "start": 47.72,
+   "end": 53.77,
+   "words": [
+    {
+     "text": "And",
+     "start": 47.72,
+     "end": 47.866
+    },
+    {
+     "text": "the",
+     "start": 47.866,
+     "end": 47.964
+    },
+    {
+     "text": "head",
+     "start": 47.964,
+     "end": 48.159
+    },
+    {
+     "text": "of",
+     "start": 48.159,
+     "end": 48.257
+    },
+    {
+     "text": "state?",
+     "start": 48.257,
+     "end": 48.55
+    },
+    {
+     "text": "King",
+     "start": 48.91,
+     "end": 49.154
+    },
+    {
+     "text": "Charles",
+     "start": 49.154,
+     "end": 49.581
+    },
+    {
+     "text": "inherited",
+     "start": 49.581,
+     "end": 50.192
+    },
+    {
+     "text": "the",
+     "start": 50.192,
+     "end": 50.314
+    },
+    {
+     "text": "crown.",
+     "start": 50.314,
+     "end": 50.68
+    },
+    {
+     "text": "He",
+     "start": 51.02,
+     "end": 51.195
+    },
+    {
+     "text": "approves",
+     "start": 51.195,
+     "end": 51.663
+    },
+    {
+     "text": "every",
+     "start": 51.663,
+     "end": 51.956
+    },
+    {
+     "text": "law,",
+     "start": 51.956,
+     "end": 52.19
+    },
+    {
+     "text": "but",
+     "start": 52.32,
+     "end": 52.543
+    },
+    {
+     "text": "stays",
+     "start": 52.543,
+     "end": 52.878
+    },
+    {
+     "text": "out",
+     "start": 52.878,
+     "end": 53.101
+    },
+    {
+     "text": "of",
+     "start": 53.101,
+     "end": 53.212
+    },
+    {
+     "text": "politics.",
+     "start": 53.212,
+     "end": 53.77
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Is it fair that a third of the votes can win almost two-thirds of the seats?",
+   "start": 54.28,
+   "end": 58.43,
+   "words": [
+    {
+     "text": "Is",
+     "start": 54.28,
+     "end": 54.404
+    },
+    {
+     "text": "it",
+     "start": 54.404,
+     "end": 54.528
+    },
+    {
+     "text": "fair",
+     "start": 54.528,
+     "end": 54.776
+    },
+    {
+     "text": "that",
+     "start": 54.776,
+     "end": 55.023
+    },
+    {
+     "text": "a",
+     "start": 55.023,
+     "end": 55.209
+    },
+    {
+     "text": "third",
+     "start": 55.209,
+     "end": 55.519
+    },
+    {
+     "text": "of",
+     "start": 55.519,
+     "end": 55.643
+    },
+    {
+     "text": "the",
+     "start": 55.643,
+     "end": 55.767
+    },
+    {
+     "text": "votes",
+     "start": 55.767,
+     "end": 56.138
+    },
+    {
+     "text": "can",
+     "start": 56.138,
+     "end": 56.386
+    },
+    {
+     "text": "win",
+     "start": 56.386,
+     "end": 56.634
+    },
+    {
+     "text": "almost",
+     "start": 56.634,
+     "end": 57.191
+    },
+    {
+     "text": "two-thirds",
+     "start": 57.191,
+     "end": 57.811
+    },
+    {
+     "text": "of",
+     "start": 57.811,
+     "end": 57.934
+    },
+    {
+     "text": "the",
+     "start": 57.934,
+     "end": 58.058
+    },
+    {
+     "text": "seats?",
+     "start": 58.058,
+     "end": 58.43
+    }
+   ]
+  }
+ ]
+}

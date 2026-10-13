@@ -1,0 +1,27 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "2024": "twenty twenty-four",
+    "18": "eighteen",
+    "650": "six hundred and fifty",
+    "411": "four hundred and eleven",
+    "UK": "U K"
+  },
+  "pronounce": {},
+  "sentences": [
+    { "id": "hook", "text": "One party won almost two-thirds of the seats with a third of the votes. How?" },
+    { "id": "who", "text": "Who can vote? From 18: British, Irish and Commonwealth citizens in the UK, plus Britons abroad.", "pauseAfter": 0.8 },
+    { "id": "ballot", "text": "The UK has 650 areas. In each, you put one cross next to one candidate." },
+    { "id": "fptp", "text": "Whoever gets the most votes wins the seat. Votes for everyone else win nothing.", "pauseAfter": 0.45 },
+    { "id": "commons", "text": "The winners form the House of Commons, which makes laws and checks the government." },
+    { "id": "devolved", "text": "Scotland, Wales and Northern Ireland have their own parliaments for things like schools. England doesn't." },
+    { "id": "lords", "text": "The House of Lords also checks laws, but isn't elected and can only delay them.", "pauseAfter": 0.45 },
+    { "id": "result", "text": "In 2024, Labour won 411 seats, so its leader became Prime Minister: first Keir Starmer, now Andy Burnham.", "pauseAfter": 0.45 },
+    { "id": "king", "text": "And the head of state? King Charles inherited the crown. He approves every law, but stays out of politics.", "pauseAfter": 0.45 },
+    { "id": "question", "text": "Is it fair that a third of the votes can win almost two-thirds of the seats?" }
+  ]
+}

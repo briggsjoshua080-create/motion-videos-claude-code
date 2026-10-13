@@ -55,6 +55,13 @@ export const Paper: React.FC<{ palette: ExplainerPalette }> = ({ palette: c }) =
             <path key={i} d={starPath(45 + i * 90, 11, 6.5)} fill={c.accent} />
           ))}
         </svg>
+      ) : c.emblem === "uk" ? (
+        // The Union flag's horizontal arm: a red stripe edged in white, on blue.
+        <svg width={1080} height={24} style={{ position: "absolute", top: 0, left: 0, filter: "drop-shadow(0 2px 0 rgba(0,0,0,0.05))" }}>
+          <rect width={1080} height={24} fill={c.flag[0]} />
+          <rect y={7} width={1080} height={10} fill={c.flag[1]} />
+          <rect y={9} width={1080} height={6} fill={c.flag[2]} />
+        </svg>
       ) : (
       <div
         style={{

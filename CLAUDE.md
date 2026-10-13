@@ -57,9 +57,10 @@ prompt says otherwise.
     country): `Paper`, `StepHeader`, `NameCard`, `Character` (king/queen with crown and
     robe, princess with tiara, politician, candidate), icons (ballot box, red pencil, parliament, law,
     budget, ...) and `motion` helpers, plus `Hemicycle`. Make the country map for the title scene with
-    `scripts/country-outline.py` (it also makes multi-country maps, e.g. the EU in `src/components/europe.ts`).
-    Copy `DutchElection` as the starting point. For a flag that is not stripes (the EU), set `emblem` in the
-    palette; for a series split into parts, mark the other part's steps `later` in `StepHeader` (see
+    `scripts/country-outline.py` (it also makes multi-country maps, e.g. the EU in `src/components/europe.ts`,
+    and splits a country into regions with `--cut`/`--assign`, e.g. the UK's four nations in `src/components/uk.ts`).
+    Copy `DutchElection` as the starting point. For a flag that is not stripes (the EU, the UK), set `emblem` in
+    the palette; for a series split into parts, mark the other part's steps `later` in `StepHeader` (see
     `EUElectionPart1`/`EUElectionPart2`, shared parts in `src/scenes/eu-election/`).
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
   e.g. Dutch orange), collected in one colour object for the video.
@@ -96,7 +97,8 @@ prompt says otherwise.
   user's standing instruction), so new chats see the video and any rule changes.
 - Reference videos: `GermanElection` (the look) and `DutchElection` (made to this brief:
   `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`). A two-part series made to this brief:
-  `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`).
+  `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
+  (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building

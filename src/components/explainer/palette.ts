@@ -31,8 +31,9 @@ export type ExplainerPalette = {
   /**
    * "eu": draw the EU flag (blue with a ring of 12 yellow stars; flag[0] = blue, accent = yellow)
    * instead of stripes, in the header chip, the top bar and the parliament icon.
+   * "uk": draw the Union flag (flag = [blue, white, red]) the same way.
    */
-  emblem?: "eu";
+  emblem?: "eu" | "uk";
   /** Two soft background glows. */
   glows: readonly [string, string];
   skin: string;

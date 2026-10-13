@@ -22,11 +22,57 @@ export const EuFlag: React.FC<{ width: number; blue: string; yellow: string }> =
   </svg>
 );
 
+/**
+ * The Union flag at 3:5 (or any ratio): white and counterchanged red saltires, white-edged red cross.
+ * Stripe widths follow the shorter side, so a tall box (e.g. to fill a map) still reads as the flag.
+ * `x`/`y` place it inside a parent SVG; `id` keeps the clip paths of several flags apart.
+ */
+export const UnionFlag: React.FC<{
+  width: number;
+  height?: number;
+  blue: string;
+  red: string;
+  white: string;
+  id: string;
+  x?: number;
+  y?: number;
+}> = ({ width, height = width * 0.6, blue, red, white, id, x, y }) => {
+  // Units: the shorter side is 30, as in the flag's 30 x 60 construction sheet.
+  const unit = Math.min(width, height) / 30;
+  const w = width / unit;
+  const h = height / unit;
+  const cx = w / 2;
+  const cy = h / 2;
+  return (
+    <svg x={x} y={y} width={width} height={height} viewBox={`0 0 ${w} ${h}`} style={{ display: "block" }}>
+      <defs>
+        <clipPath id={`${id}-flag`}>
+          <rect width={w} height={h} />
+        </clipPath>
+        <clipPath id={`${id}-saltire`}>
+          <path d={`M${cx},${cy} h${cx} v${cy} z v${cy} h-${cx} z h-${cx} v-${cy} z v-${cy} h${cx} z`} />
+        </clipPath>
+      </defs>
+      <g clipPath={`url(#${id}-flag)`}>
+        <rect width={w} height={h} fill={blue} />
+        <path d={`M0,0 L${w},${h} M${w},0 L0,${h}`} stroke={white} strokeWidth={6} />
+        <path d={`M0,0 L${w},${h} M${w},0 L0,${h}`} clipPath={`url(#${id}-saltire)`} stroke={red} strokeWidth={4} />
+        <path d={`M${cx},0 v${h} M0,${cy} h${w}`} stroke={white} strokeWidth={10} />
+        <path d={`M${cx},0 v${h} M0,${cy} h${w}`} stroke={red} strokeWidth={6} />
+      </g>
+    </svg>
+  );
+};
+
 /** Tiny flag for headers, with a hairline so white stripes stay visible on white. */
 export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = ({ width, palette: c }) =>
   c.emblem === "eu" ? (
     <div style={{ borderRadius: 5, overflow: "hidden", boxShadow: `0 0 0 2px ${c.line}`, flexShrink: 0, lineHeight: 0 }}>
       <EuFlag width={width} blue={c.flag[0]} yellow={c.accent} />
+    </div>
+  ) : c.emblem === "uk" ? (
+    <div style={{ borderRadius: 5, overflow: "hidden", boxShadow: `0 0 0 2px ${c.line}`, flexShrink: 0, lineHeight: 0 }}>
+      <UnionFlag width={width} blue={c.flag[0]} white={c.flag[1]} red={c.flag[2]} id="flag-chip" />
     </div>
   ) : (
   <div
@@ -129,12 +175,20 @@ export const BallotBoxIcon: React.FC<IconProps & { mark?: string }> = ({ size, p
   </svg>
 );
 
-/** The red pencil Dutch voters use. Tip at the SVG origin, pointing down-left. */
-export const RedPencil: React.FC<{ length: number; palette: ExplainerPalette; color: string }> = ({ length, palette: c, color }) => (
+/**
+ * The red pencil Dutch voters use (or any pencil: `lead` colours the tip). Tip at the SVG origin,
+ * pointing down-left.
+ */
+export const RedPencil: React.FC<{ length: number; palette: ExplainerPalette; color: string; lead?: string }> = ({
+  length,
+  palette: c,
+  color,
+  lead = color,
+}) => (
   <svg width={1} height={1} style={{ overflow: "visible", position: "absolute", left: 0, top: 0 }}>
     <g transform={`rotate(-38) scale(${length / 256})`}>
       <path d="M0 0 L40 -15 L40 15 Z" fill="#F2D2A9" stroke={c.ink} strokeWidth={3} strokeLinejoin="round" />
-      <path d="M0 0 L14 -5 L14 5 Z" fill={color} />
+      <path d="M0 0 L14 -5 L14 5 Z" fill={lead} />
       <rect x={40} y={-15} width={190} height={30} rx={4} fill={color} stroke={c.ink} strokeWidth={3} />
       <rect x={230} y={-15} width={26} height={30} rx={5} fill={c.muted} stroke={c.ink} strokeWidth={3} />
     </g>
@@ -160,6 +214,8 @@ export const ParliamentIcon: React.FC<{ width: number; palette: ExplainerPalette
           <circle key={i} cx={136.5 + 6 * Math.sin((i * Math.PI) / 6)} cy={15 - 6 * Math.cos((i * Math.PI) / 6)} r={1.1} fill={c.accent} />
         ))}
       </g>
+    ) : c.emblem === "uk" ? (
+      <UnionFlag x={123} y={6} width={30} height={18} blue={c.flag[0]} white={c.flag[1]} red={c.flag[2]} id="parliament-flag" />
     ) : (
       c.flag.map((color, i) => <rect key={`${color}-${i}`} x={123} y={6 + i * 6} width={26} height={6} fill={color} />)
     )}
