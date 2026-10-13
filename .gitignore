@@ -3,5 +3,6 @@ out/*
 !out/.gitkeep
 .remotion/
 .voice/
+__pycache__/
 *.log
 .DS_Store
