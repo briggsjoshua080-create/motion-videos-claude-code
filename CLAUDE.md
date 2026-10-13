@@ -4,6 +4,31 @@ Stack: **Remotion 4.0.535** (all `@remotion/*` packages pinned to the same exact
 version — never mix versions), React 19, TypeScript, npm. Default format
 **1920×1080 @ 30 fps**.
 
+## Ask the user first (required before building)
+The user wants to decide what each video looks like before any code is written. **Before building
+a new video, or making a big change to one (new scenes, new format, new style), ask the user many
+questions, step by step, and wait for the answers.** Do not write code, render, commit or push
+until the user has approved the plan.
+
+1. Ask a few questions at a time (use the `AskUserQuestion` tool when available), in plain,
+   non-technical language, with example answers to pick from. Use each round's answers to shape
+   the next round.
+2. Cover at least:
+   - **Purpose & audience:** who watches it, where it will be posted (YouTube, TikTok/Reels/Shorts,
+     a class or presentation), what viewers should remember.
+   - **Content:** which topics, in what order, how detailed, real or made-up examples, and the facts
+     or sources to use (check facts before putting them on screen).
+   - **Format:** landscape 1920×1080, vertical 1080×1920 or square 1080×1080; length; language of
+     the on-screen text.
+   - **Style:** colours, mood (serious, playful, news-style), fonts, logos or images to include.
+   - **Audio:** silent, music, voice-over or sound effects, and who supplies the files.
+   - **Text:** the exact title, opening and ending wording, and how much text is on screen.
+3. Write the plan back as a short scene-by-scene list (what each scene shows and how long it lasts,
+   plus total length, format, style and audio) and ask the user to approve or change it.
+4. Start building only after the user approves. Small, clear requests (e.g. "make the title
+   bigger") can be done straight away. If the user says to skip the questions, use sensible
+   defaults and say which ones you picked.
+
 ## Commands
 | Task | Command |
 |---|---|
@@ -34,12 +59,13 @@ out/                    render output (git-ignored)
 ```
 
 ## Creating a new video
-1. Create `src/compositions/MyVideo.tsx` exporting the component, a props type and `defaultProps`.
-2. Build it from scenes in `src/scenes/` joined with `<TransitionSeries>` (or `<Series>`).
-3. Register in `src/Root.tsx`: `<Composition id="MyVideo" component={MyVideo}
+1. Ask the user questions and get the plan approved first (see "Ask the user first" above).
+2. Create `src/compositions/MyVideo.tsx` exporting the component, a props type and `defaultProps`.
+3. Build it from scenes in `src/scenes/` joined with `<TransitionSeries>` (or `<Series>`).
+4. Register in `src/Root.tsx`: `<Composition id="MyVideo" component={MyVideo}
    durationInFrames={...} fps={VIDEO.fps} width={VIDEO.width} height={VIDEO.height}
    defaultProps={...} />`.
-4. Preview with `npm run studio`, then `npx remotion render src/index.ts MyVideo out/my-video.mp4`.
+5. Preview with `npm run studio`, then `npx remotion render src/index.ts MyVideo out/my-video.mp4`.
 
 ## Changing resolution / fps / duration
 - Resolution & fps: edit `VIDEO` in `src/config.ts` (e.g. 1080×1920 for vertical, fps 60).
