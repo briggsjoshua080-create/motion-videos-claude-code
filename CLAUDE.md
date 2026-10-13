@@ -54,7 +54,7 @@ prompt says otherwise.
     crown or tiara and royal clothes, politicians wear suits, candidates wear a rosette;
   - dark text on light backgrounds; one national colour as the accent.
   - Build it from the reusable parts in `src/components/explainer/` (take one `ExplainerPalette` per
-    country): `Paper`, `StepHeader`, `CaptionBox`, `NameCard`, `Character` (king/queen with crown and
+    country): `Paper`, `StepHeader`, `NameCard`, `Character` (king/queen with crown and
     robe, princess with tiara, politician, candidate), icons (ballot box, red pencil, parliament, law,
     budget, ...) and `motion` helpers, plus `Hemicycle`. Make the country map for the title scene with
     `scripts/country-outline.py`. Copy `DutchElection` as the starting point.
@@ -63,9 +63,11 @@ prompt says otherwise.
 - **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
   made with `scripts/voiceover.py` (see "Making the voice-over"). Fix names the voice gets wrong with
   `pronounce`.
-- **Subtitles:** showing the voice-over word for word in a **dark rounded box** near the bottom
-  (y ≈ 1395), a short phrase at a time; spoken words light up, key words are in the accent colour
-  (`CaptionBox` in `src/components/explainer/`, as in `GermanElection`).
+- **Subtitles:** TikTok style, as in `WhyFranceVotesTwice` (the default `Subtitles` in
+  `src/components/Subtitles.tsx`, used with `<Subtitles timing={timing} />`; no extra settings).
+  Big, bold, **UPPERCASE** white words with a dark drop shadow, **no box behind them**, centred at
+  y ≈ 1330, 1–3 words at a time. The word being spoken gets a solid **red pill** (`#ef4135`) behind
+  it. Do not use the dark rounded box (`CaptionBox`) for new videos; existing videos keep theirs.
 - **Audio:** soft background music under the voice (`npm run music`), plus light, subtle sound
   effects (`public/audio/sfx/`). Master to −14 LUFS with `npm run render:final`.
 - **Ending:** a closing question, spoken and shown big on screen, that is polarising and invites
@@ -126,9 +128,10 @@ Every video gets an **AI voice-over** and **subtitles burned into the video**, u
 otherwise.
 - Write the narration script first and put it in the plan the user approves. The voice-over sets
   the pace: scene lengths follow the narration.
-- Subtitles show the narration word for word, in sync with the voice: large, bold, high-contrast,
-  a few words at a time. On vertical videos keep them out of the bottom ~20% and the right edge,
-  where the TikTok/Reels/Shorts buttons and captions sit.
+- Subtitles show the narration word for word, in sync with the voice, in the TikTok style above
+  (`<Subtitles timing={timing} />`). Use `hide={["sentence-id"]}` for lines that are already big on
+  screen. On vertical videos keep them out of the bottom ~20% and the right edge, where the
+  TikTok/Reels/Shorts buttons and captions sit.
 
 ### Making the voice-over
 The voice is **Kokoro** (free, open model, Apache-2.0), run locally by `scripts/voiceover.py`. Its
@@ -190,7 +193,7 @@ src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
                         Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts)
-src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader, CaptionBox,
+src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader,
                         NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
 src/voiceover/          narration scripts (*.script.json), generated timings, timing.ts helpers
