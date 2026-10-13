@@ -1,0 +1,30 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.12,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "500": "five hundred",
+    "2022": "twenty twenty-two",
+    "28%": "twenty-eight percent",
+    "23": "twenty-three",
+    "22": "twenty-two",
+    "59%": "fifty-nine percent"
+  },
+  "pronounce": {
+    "Mélenchon": "mˌeɪlɒnʃˈɒn",
+    "Macron": "makɹˈɒn"
+  },
+  "sentences": [
+    { "id": "hook", "text": "Why does France vote twice for its President?" },
+    { "id": "signatures", "text": "First, to run, you need signatures from 500 elected officials, like mayors.", "pauseAfter": 0.5 },
+    { "id": "rule", "text": "In round one, win over half the votes, and you win outright.", "pauseAfter": 0.5 },
+    { "id": "runoff", "text": "If no one does, the top two face a run-off, two weeks later.", "pauseAfter": 0.5 },
+    { "id": "r1a", "text": "In 2022, twelve candidates ran.", "pauseAfter": 0.2 },
+    { "id": "r1b", "text": "Macron got about 28%, Le Pen 23, and Mélenchon just missed out with 22.", "pauseAfter": 0.4 },
+    { "id": "r2", "text": "In the run-off, Macron won with almost 59%.", "pauseAfter": 0.4 },
+    { "id": "term", "text": "The winner serves five years, and no more than two terms in a row.", "pauseAfter": 0.7 },
+    { "id": "question", "text": "So, should your country vote twice?" }
+  ]
+}

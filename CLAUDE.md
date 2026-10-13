@@ -40,6 +40,33 @@ otherwise.
   a few words at a time. On vertical videos keep them out of the bottom ~20% and the right edge,
   where the TikTok/Reels/Shorts buttons and captions sit.
 
+### Making the voice-over
+The voice is **Kokoro** (free, open model, Apache-2.0), run locally by `scripts/voiceover.py`. Its
+model files download from the kokoro-onnx GitHub release (no Hugging Face access needed) into
+`.voice/` (git-ignored).
+1. Setup, once per machine: `npm run voice:setup`.
+2. Write `src/voiceover/<name>.script.json` (example: `why-france-votes-twice.script.json`):
+   - `voice` — British male `bm_george` `bm_fable` `bm_lewis` `bm_daniel`; British female `bf_emma`
+     `bf_isabella` `bf_alice` `bf_lily`; American male `am_michael` `am_fenrir` `am_puck` `am_adam`…;
+     American female `af_heart` `af_bella` `af_nicole` `af_sarah`…. `lang`: `en-gb` or `en-us`.
+   - `speed` (1.0 = normal), `leadIn` (silence at the start), `pauseAfter` (silence after each
+     sentence; can be set per sentence to give a scene's last visual time to land).
+   - `sentences`: `{ "id", "text" }` — one per idea; scenes are cued off these ids. `text` is
+     exactly what the subtitles show.
+   - `say`: how to read a word aloud (`"2022": "twenty twenty-two"`, `"28%": "twenty-eight percent"`).
+   - `pronounce`: phonemes for names the voice gets wrong (`"Mélenchon": "mˌeɪlɒnʃˈɒn"`).
+3. Generate: `npm run voiceover -- src/voiceover/<name>.script.json` → writes
+   `public/voiceover/<name>.wav` and `src/voiceover/<name>.timing.json`. Commit both, so renders
+   never need the voice tool.
+4. In the composition (see `WhyFranceVotesTwice.tsx`): import the timing JSON,
+   `<Audio src={staticFile(timing.audio)} />`, `<Subtitles timing={timing} />`, start each scene at
+   `getSentence(timing, id).start`, and trigger animations on words with `cue(id, "word")` from
+   `makeCue()` (`"two#2"` = second "two"). Derive the duration from the timing, never hard-code it.
+
+Kokoro does not report word times, so the script estimates them (anchored on the real pauses).
+Always check stills where a visual depends on a word; if timing is off, change `speed`/`pauseAfter`
+or cue a neighbouring word.
+
 ## Commands
 | Task | Command |
 |---|---|
@@ -51,9 +78,13 @@ otherwise.
 | Render any composition | `npx remotion render src/index.ts <CompositionId> out/<name>.mp4` |
 | Render one frame as PNG | `npx remotion still src/index.ts <CompositionId> out/<name>.png --frame=60` |
 | Upgrade Remotion | `npx remotion upgrade` (keeps versions in sync) |
+| Voice tool setup (once) | `npm run voice:setup` |
+| Make a voice-over | `npm run voiceover -- src/voiceover/<name>.script.json` |
 
 If Chrome cannot be auto-downloaded (offline/sandbox), add
-`--browser-executable=/path/to/chrome-or-headless_shell` to any command.
+`--browser-executable=/path/to/chrome-or-headless_shell` to any command. In Claude cloud sessions
+the download host is blocked; use the pre-installed
+`/opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell`.
 
 ## Layout
 ```
@@ -63,9 +94,13 @@ src/config.ts           VIDEO {width,height,fps}, sec(), SAMPLE timings  ← cha
 src/theme.ts            colours + font (Inter bundled locally)
 src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
-src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText)
+src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
+                        Subtitles, FranceMap)
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
+src/voiceover/          narration scripts (*.script.json), generated timings, timing.ts helpers
+scripts/voiceover.py    AI voice-over generator (Kokoro TTS)
 public/audio|images|fonts   static assets, referenced with staticFile("audio/x.mp3")
+public/voiceover/       generated voice-over WAVs
 out/                    render output (git-ignored)
 ```
 
