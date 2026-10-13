@@ -19,6 +19,12 @@ prompt says otherwise.
   coalition building, and so on.
 - The **most recent national election** as the worked example (date, result, who formed the
   government).
+- **Tell one clear, step-by-step story**, not a list of facts: e.g. Vote → Parliament → Government →
+  Head of state, with a header that shows the steps (see `GermanElection`).
+- **Show exactly how people vote:** what the ballot looks like, how it is filled in, and how votes
+  turn into seats. This is the heart of the video.
+- **Whenever an institution is named** (a parliament chamber, the senate, the head of state, ...),
+  **say in a few words what it does**. Only naming it is not helpful.
 - **Audience:** people who are generally interested and come across the video in their TikTok or
   Instagram feed. Assume no prior knowledge, use plain words and explain any term.
 - **Tone:** the video itself stays neutral and factual. Only the closing question is meant to
@@ -28,17 +34,28 @@ prompt says otherwise.
 - TikTok style: vertical **1080×1920 @ 30 fps** (`VERTICAL` in `src/config.ts`), with a hook in the
   first 2 seconds. Keep key content inside x 120–960 and y 170–1480 (TikTok's buttons sit on the
   right, its caption at the bottom).
-- **Length:** about 30 s. A little longer is fine if the relevant information needs it, but
-  **never more than 45 s** unless the user explicitly says so. Generate the voice-over first and
-  measure it. If it runs too long, propose cuts to the user (with measured lengths) before building.
+- **Length:** 25–60 s, depending on how long it takes to explain the system briefly but so that
+  it is understood. **Never more than 60 s** unless the user explicitly says so. Generate the
+  voice-over first and measure it. If it runs too long, propose cuts to the user (with measured
+  lengths) before building.
 - **Language:** always English (voice, subtitles, on-screen text).
+- **Look (standard for every video):** like the `GermanElection` video, in the country's colours:
+  - a **white background** (faint dot grid, soft colour glows, the flag as a thin bar on the top edge);
+  - a **header** with the video title and numbered step pills (e.g. Vote · Parliament · Government ·
+    King) that tick off as the story moves on;
+  - white cards with soft shadows, a **ballot card** that shows how to vote, and **one parliament
+    half-circle** (hemicycle) that carries through the steps (it fills up for majorities);
+  - **flat cartoon characters** instead of plain silhouettes (no real likenesses): royals wear a
+    crown or tiara and royal clothes, politicians wear suits, candidates wear a rosette;
+  - dark text on light backgrounds; one national colour as the accent.
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
   e.g. Dutch orange), collected in one colour object for the video.
 - **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
   made with `scripts/voiceover.py` (see "Making the voice-over"). Fix names the voice gets wrong with
   `pronounce`.
-- **Subtitles:** TikTok style, showing the voice-over word for word: big bold capitals, a few words
-  at a time, the spoken word highlighted in a national colour (`src/components/Subtitles.tsx`).
+- **Subtitles:** showing the voice-over word for word in a **dark rounded box** near the bottom
+  (y ≈ 1395), a short phrase at a time; spoken words light up, key words are in the accent colour
+  (as in `GermanElection`).
 - **Audio:** soft background music under the voice (`npm run music`), plus light, subtle sound
   effects (`public/audio/sfx/`). Master to −14 LUFS with `npm run render:final`.
 - **Ending:** a closing question, spoken and shown big on screen, that is polarising and invites
@@ -62,8 +79,8 @@ prompt says otherwise.
 - Use the project skills and pipeline in "Motion videos" below.
 - After rendering, send the MP4 in the chat, then **commit and push straight to `main`** (the
   user's standing instruction), so new chats see the video and any rule changes.
-- Reference video made to this brief: `DutchElection` (`src/compositions/DutchElection.tsx`,
-  `briefs/dutch-election-system/`).
+- Reference videos: `GermanElection` (the look) and `DutchElection` (made to this brief:
+  `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
