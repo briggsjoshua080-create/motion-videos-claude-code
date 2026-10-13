@@ -44,11 +44,12 @@
   "no direct vote" scene, tick badges covering box titles, "(for most EU laws)" over the boxes, and two cards that were
   on screen too briefly (longer pauses after "who" in Part 1 and "team" in Part 2; no words changed)
 - [x] Transition frames checked in the final MP4s: clean fades, frame 0 not empty
-- [x] Part 1: h264 1080×1920, 30 fps, 1780 frames (59.35 s), AAC 48 kHz stereo, −13.9 LUFS
-- [x] Part 2: h264 1080×1920, 30 fps, 1759 frames (58.65 s), AAC 48 kHz stereo, −14.0 LUFS (re-rendered once so the
-  half-circle fades out with its scene instead of lingering under the next title)
+- [x] Part 1 (final, TikTok-style subtitles): h264 1080×1920, 30 fps, 1780 frames (59.35 s), AAC 48 kHz stereo, −13.9 LUFS
+- [x] Part 2 (final, TikTok-style subtitles): h264 1080×1920, 30 fps, 1759 frames (58.65 s), AAC 48 kHz stereo,
+  −14.0 LUFS. The half-circle now fades out with its scene instead of lingering under the next title
 ### Phase 6: Export ✅
 - [x] `npm run render:final -- EUElectionPart1 eu-election-part-1 --browser-executable=...` → sent to the user
+  (first with the dark caption box, then again with TikTok-style subtitles)
 - [x] `npm run render:final -- EUElectionPart2 eu-election-part-2 --browser-executable=...` → sent to the user
 
 ## Decisions
