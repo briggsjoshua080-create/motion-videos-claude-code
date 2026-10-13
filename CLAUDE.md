@@ -21,13 +21,24 @@ until the user has approved the plan.
    - **Format:** landscape 1920×1080, vertical 1080×1920 or square 1080×1080; length; language of
      the on-screen text.
    - **Style:** colours, mood (serious, playful, news-style), fonts, logos or images to include.
-   - **Audio:** silent, music, voice-over or sound effects, and who supplies the files.
+   - **Voice & audio:** AI voice-over and subtitles are on by default (see below). Ask which voice
+     (e.g. female/male, accent), the subtitle style, and whether to add music or sound effects.
    - **Text:** the exact title, opening and ending wording, and how much text is on screen.
-3. Write the plan back as a short scene-by-scene list (what each scene shows and how long it lasts,
-   plus total length, format, style and audio) and ask the user to approve or change it.
+3. Write the plan back as a short scene-by-scene list (what each scene shows, the exact voice-over
+   words and how long it lasts, plus total length, format, style and audio) and ask the user to
+   approve or change it.
 4. Start building only after the user approves. Small, clear requests (e.g. "make the title
    bigger") can be done straight away. If the user says to skip the questions, use sensible
    defaults and say which ones you picked.
+
+## Voice-over and subtitles (default for every video)
+Every video gets an **AI voice-over** and **subtitles burned into the video**, unless the user says
+otherwise.
+- Write the narration script first and put it in the plan the user approves. The voice-over sets
+  the pace: scene lengths follow the narration.
+- Subtitles show the narration word for word, in sync with the voice: large, bold, high-contrast,
+  a few words at a time. On vertical videos keep them out of the bottom ~20% and the right edge,
+  where the TikTok/Reels/Shorts buttons and captions sit.
 
 ## Commands
 | Task | Command |
