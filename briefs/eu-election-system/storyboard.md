@@ -13,7 +13,8 @@ are hard-coded; the frame ranges below are what the current timing files give.
 - **StepHeader** "EU ELECTION SYSTEM" (EU flag chip) with Vote · Parliament · Commission · Laws. In Part 1 the last two
   pills are dashed ("later": covered in Part 2) and pulse in yellow with the Part 2 teaser. In Part 2, Vote and
   Parliament light up during the recap, then Commission and Laws.
-- **CaptionBox**: dark box at y = 1395, key words in yellow (`KEYWORDS` per part), hidden for the closing question.
+- **Subtitles**: TikTok style (`src/components/Subtitles.tsx`, default settings): 1–3 uppercase words at y ≈ 1330, the
+  spoken word on a red pill, hidden for the closing question.
 - **Audio**: voice-over, soft music (volume 0.11), word-synced sound effects (whoosh, pop, scribble, thud, chime),
   mastered to −14 LUFS.
 
@@ -44,5 +45,5 @@ are hard-coded; the frame ranges below are what the current timing files give.
 | 1654–1759 | Question (`QuestionScene`) | So, does your vote really count? | Ballot box, "?", law paper. The question word by word ("vote", "count" in blue), then "COMMENT BELOW". All four pills ticked. |
 
 ## Safe areas (TikTok)
-Key content stays inside x 120–960 and y 170–1300; the subtitle box sits at y ≈ 1340–1450, and the bottom ~440 px stays
+Key content stays inside x 120–960 and y 170–1270; the subtitles are centred at y ≈ 1330, and the bottom ~440 px stays
 clear for TikTok's caption and buttons.

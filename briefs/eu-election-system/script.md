@@ -78,7 +78,8 @@ Small pauses were lengthened after approval (no words changed) so cards can be r
 
 Persistent layers in both parts: white paper with a faint dot grid and soft blue/yellow glows, a thin EU-blue bar with
 small yellow stars on the top edge, the step header "EU ELECTION SYSTEM" (EU flag chip) with the pills
-Vote · Parliament · Commission · Laws, the dark subtitle box at y ≈ 1395 (key words in EU yellow), soft music and light
+Vote · Parliament · Commission · Laws, TikTok-style subtitles at y ≈ 1330 (uppercase words, red pill on the spoken
+word; the standing brief switched to these on 13 Oct 2026, replacing the dark box in the approved plan), soft music and light
 sound effects.
 
 ### Part 1

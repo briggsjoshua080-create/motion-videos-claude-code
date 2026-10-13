@@ -4,13 +4,13 @@ import { theme } from "../theme";
 import { fadeInOut } from "../lib/animation";
 import { Paper } from "../components/explainer/Paper";
 import { StepHeader } from "../components/explainer/StepHeader";
-import { CaptionBox } from "../components/explainer/CaptionBox";
+import { Subtitles } from "../components/Subtitles";
 import { BallotBoxIcon, LawIcon } from "../components/explainer/icons";
 import { EXIT_FRAMES } from "../components/explainer/motion";
 import { EU, FPS, PALETTE, type SceneProps } from "../scenes/eu-election/constants";
 import { TitleScene } from "../scenes/eu-election/TitleScene";
 import { QuestionScene } from "../scenes/eu-election/QuestionScene";
-import { KEYWORDS, NO_SUBTITLES, P2, timing, type SceneId } from "../scenes/eu-election/part2/timeline";
+import { NO_SUBTITLES, P2, timing, type SceneId } from "../scenes/eu-election/part2/timeline";
 import { HemicycleLayer } from "../scenes/eu-election/part2/HemicycleLayer";
 import { RecapScene } from "../scenes/eu-election/part2/RecapScene";
 import { CommissionScene } from "../scenes/eu-election/part2/CommissionScene";
@@ -141,7 +141,7 @@ export const EUElectionPart2: React.FC = () => (
     </Sequence>
 
     <StepHeader title="EU ELECTION SYSTEM" steps={STEPS} appearAt={P2.from("recap") - 4} allDoneAt={P2.from("question")} palette={PALETTE} />
-    <CaptionBox timing={timing} palette={PALETTE} keywords={KEYWORDS} hide={NO_SUBTITLES} />
+    <Subtitles timing={timing} hide={NO_SUBTITLES} />
 
     <Audio src={staticFile(timing.audio)} />
     <Audio src={staticFile(MUSIC_FILE)} volume={(f) => MUSIC_VOLUME * fadeInOut(f, EU_ELECTION_PART2_DURATION, Math.round(FPS))} />

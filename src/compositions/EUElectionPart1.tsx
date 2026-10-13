@@ -4,13 +4,13 @@ import { theme } from "../theme";
 import { fadeInOut } from "../lib/animation";
 import { Paper } from "../components/explainer/Paper";
 import { StepHeader } from "../components/explainer/StepHeader";
-import { CaptionBox } from "../components/explainer/CaptionBox";
+import { Subtitles } from "../components/Subtitles";
 import { EXIT_FRAMES } from "../components/explainer/motion";
 import { EU, FPS, PALETTE, type SceneProps } from "../scenes/eu-election/constants";
 import { TitleScene } from "../scenes/eu-election/TitleScene";
 import { QuestionScene } from "../scenes/eu-election/QuestionScene";
 import { MiniFlag } from "../scenes/eu-election/ui";
-import { KEYWORDS, NO_SUBTITLES, P1, timing, type SceneId } from "../scenes/eu-election/part1/timeline";
+import { NO_SUBTITLES, P1, timing, type SceneId } from "../scenes/eu-election/part1/timeline";
 import { WhoScene } from "../scenes/eu-election/part1/WhoScene";
 import { BallotScene } from "../scenes/eu-election/part1/BallotScene";
 import { SeatsScene } from "../scenes/eu-election/part1/SeatsScene";
@@ -146,7 +146,7 @@ export const EUElectionPart1: React.FC = () => (
       teaseAt={at("question", undefined, "end") + 14}
       palette={PALETTE}
     />
-    <CaptionBox timing={timing} palette={PALETTE} keywords={KEYWORDS} hide={NO_SUBTITLES} />
+    <Subtitles timing={timing} hide={NO_SUBTITLES} />
 
     <Audio src={staticFile(timing.audio)} />
     <Audio src={staticFile(MUSIC_FILE)} volume={(f) => MUSIC_VOLUME * fadeInOut(f, EU_ELECTION_PART1_DURATION, Math.round(FPS))} />

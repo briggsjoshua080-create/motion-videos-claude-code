@@ -62,6 +62,7 @@
 | Small print "(for most EU laws)" and "Parliament, the Council or citizens can ask it for one" | Accuracy (special procedures; requests for proposals) while keeping the user's point that only the Commission proposes |
 | Neutral blue tints for political groups, no party colours or logos | Party-neutral |
 | Generic cartoon politicians, names only on cards | No likenesses of real people |
+| TikTok-style subtitles (default `Subtitles`) instead of the dark box | The standing brief changed to this for all new videos on 13 Oct 2026 while these were being built; Part 1 had first been sent with the dark box, so both parts were re-rendered and re-sent |
 
 ## Files Created
 - `src/compositions/EUElectionPart1.tsx`, `src/compositions/EUElectionPart2.tsx` (registered in `src/Root.tsx`)

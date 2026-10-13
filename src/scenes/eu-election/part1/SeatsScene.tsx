@@ -94,7 +94,7 @@ export const SeatsScene: React.FC<SceneProps> = ({ cue, duration }) => {
         ))}
       </Card>
 
-      <Card top={836} height={452} style={{ padding: "30px 36px", ...riseStyle(card2, exit) }}>
+      <Card top={822} height={440} style={{ padding: "30px 36px", ...riseStyle(card2, exit) }}>
         <CardTitle>SEATS PER COUNTRY</CardTitle>
         {[
           { country: "germany" as const, name: "Germany", seats: 96, cols: 16, p: de, num: deNum, top: 92 },
