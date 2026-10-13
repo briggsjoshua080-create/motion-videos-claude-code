@@ -31,6 +31,7 @@ FRAME = 0.01  # seconds per loudness frame
 MIN_GAP = 0.08  # shortest silence that can count as a pause between phrases
 EDGE_PAD = 0.03  # silence kept before the first and after the last sound
 PAUSE_WEIGHT = 1.5  # an unheard pause at punctuation, counted in "sounds"
+PEAK = 0.89  # loudest sample of the finished track (-1 dBFS), so the voice is phone-loud
 
 
 def ensure_models() -> None:
@@ -204,6 +205,7 @@ def main() -> None:
         cursor += duration + gap
 
     audio = np.concatenate(track)
+    audio *= PEAK / np.abs(audio).max()
     audio_rel = f"voiceover/{name}.wav"
     (ROOT / "public" / "voiceover").mkdir(parents=True, exist_ok=True)
     sf.write(ROOT / "public" / audio_rel, audio, sr, subtype="PCM_16")

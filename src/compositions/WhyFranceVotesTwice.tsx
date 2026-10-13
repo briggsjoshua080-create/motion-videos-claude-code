@@ -30,7 +30,8 @@ const MUSIC_FILE = "audio/pad.mp3";
 /** pad.mp3 is ~12 s; copies overlap by 1 s and cross-fade so the music never stops. */
 const MUSIC_SECONDS = 12;
 const MUSIC_OVERLAP = 1;
-const MUSIC_VOLUME = 0.12;
+/** About 20 dB under the voice: there, but never in the way. */
+const MUSIC_VOLUME = 0.19;
 
 /** Scenes in order, each starting at the voice-over sentence it illustrates. */
 const SCENES: { sentence: string; Scene: React.FC<SceneProps> }[] = [

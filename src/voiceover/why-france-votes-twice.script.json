@@ -17,7 +17,7 @@
     "Macron": "makɹˈɒn"
   },
   "sentences": [
-    { "id": "hook", "text": "Why does France vote twice for its President?" },
+    { "id": "hook", "text": "Why does France vote twice for its President?", "pauseAfter": 0.6 },
     { "id": "signatures", "text": "First, to run, you need signatures from 500 elected officials, like mayors.", "pauseAfter": 0.5 },
     { "id": "rule", "text": "In round one, win over half the votes, and you win outright.", "pauseAfter": 0.5 },
     { "id": "runoff", "text": "If no one does, the top two face a run-off, two weeks later.", "pauseAfter": 0.5 },

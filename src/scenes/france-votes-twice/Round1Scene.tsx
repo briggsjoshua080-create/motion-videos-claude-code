@@ -73,7 +73,7 @@ export const Round1Scene: React.FC<SceneProps> = ({ cue, duration }) => {
           opacity: 0.8 * lineIn,
         }}
       >
-        50% NEEDED TO WIN
+        OVER 50% TO WIN
       </div>
       <div style={{ position: "absolute", left: SAFE.left, width: SAFE.width, top: BASE, height: 4, background: FR.line }} />
 

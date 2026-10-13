@@ -39,30 +39,25 @@ export const FlagBackdrop: React.FC = () => {
         overflow: "hidden",
       }}
     >
+      {/* Soft glows as radial gradients: same look as a blur, far cheaper to render. */}
       <div
         style={{
           position: "absolute",
-          width: 950,
-          height: 950,
-          borderRadius: "50%",
-          left: -320 + float(frame, 40, 260),
-          top: -280 + float(frame, 30, 210, 50),
-          background: FR.blue,
-          opacity: 0.45,
-          filter: "blur(170px)",
+          width: 1500,
+          height: 1500,
+          left: -600 + float(frame, 40, 260),
+          top: -560 + float(frame, 30, 210, 50),
+          background: "radial-gradient(circle, rgba(0,85,164,0.55) 0%, rgba(0,85,164,0) 60%)",
         }}
       />
       <div
         style={{
           position: "absolute",
-          width: 760,
-          height: 760,
-          borderRadius: "50%",
-          right: -360 + float(frame, 40, 240, 90),
-          bottom: 260 + float(frame, 30, 200),
-          background: FR.red,
-          opacity: 0.18,
-          filter: "blur(170px)",
+          width: 1300,
+          height: 1300,
+          right: -640 + float(frame, 40, 240, 90),
+          bottom: -20 + float(frame, 30, 200),
+          background: "radial-gradient(circle, rgba(239,65,53,0.22) 0%, rgba(239,65,53,0) 60%)",
         }}
       />
     </AbsoluteFill>
