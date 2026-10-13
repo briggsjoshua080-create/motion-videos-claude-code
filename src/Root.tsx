@@ -7,6 +7,11 @@ import {
   germanElectionDefaults,
   GERMAN_ELECTION_DURATION,
 } from "./compositions/GermanElection";
+import {
+  WhyFranceVotesTwice,
+  WHY_FRANCE_DURATION_FRAMES,
+  WHY_FRANCE_SIZE,
+} from "./compositions/WhyFranceVotesTwice";
 
 /**
  * Register every composition here. To add one:
@@ -32,6 +37,14 @@ export const RemotionRoot: React.FC = () => (
       width={VERTICAL.width}
       height={VERTICAL.height}
       defaultProps={germanElectionDefaults}
+    />
+    <Composition
+      id="WhyFranceVotesTwice"
+      component={WhyFranceVotesTwice}
+      durationInFrames={WHY_FRANCE_DURATION_FRAMES}
+      fps={VIDEO.fps}
+      width={WHY_FRANCE_SIZE.width}
+      height={WHY_FRANCE_SIZE.height}
     />
   </>
 );

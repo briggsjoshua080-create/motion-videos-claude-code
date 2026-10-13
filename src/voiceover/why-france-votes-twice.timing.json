@@ -1,0 +1,539 @@
+{
+ "audio": "voiceover/why-france-votes-twice.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 37.76,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Why does France vote twice for its President?",
+   "start": 0.33,
+   "end": 2.88,
+   "words": [
+    {
+     "text": "Why",
+     "start": 0.33,
+     "end": 0.579
+    },
+    {
+     "text": "does",
+     "start": 0.579,
+     "end": 0.828
+    },
+    {
+     "text": "France",
+     "start": 0.828,
+     "end": 1.201
+    },
+    {
+     "text": "vote",
+     "start": 1.201,
+     "end": 1.512
+    },
+    {
+     "text": "twice",
+     "start": 1.512,
+     "end": 1.885
+    },
+    {
+     "text": "for",
+     "start": 1.885,
+     "end": 2.071
+    },
+    {
+     "text": "its",
+     "start": 2.071,
+     "end": 2.258
+    },
+    {
+     "text": "President?",
+     "start": 2.258,
+     "end": 2.88
+    }
+   ]
+  },
+  {
+   "id": "signatures",
+   "text": "First, to run, you need signatures from 500 elected officials, like mayors.",
+   "start": 3.54,
+   "end": 8.64,
+   "words": [
+    {
+     "text": "First,",
+     "start": 3.54,
+     "end": 3.8
+    },
+    {
+     "text": "to",
+     "start": 3.92,
+     "end": 4.13
+    },
+    {
+     "text": "run,",
+     "start": 4.13,
+     "end": 4.41
+    },
+    {
+     "text": "you",
+     "start": 4.7,
+     "end": 4.872
+    },
+    {
+     "text": "need",
+     "start": 4.872,
+     "end": 5.16
+    },
+    {
+     "text": "signatures",
+     "start": 5.16,
+     "end": 5.734
+    },
+    {
+     "text": "from",
+     "start": 5.734,
+     "end": 5.964
+    },
+    {
+     "text": "500",
+     "start": 5.964,
+     "end": 6.711
+    },
+    {
+     "text": "elected",
+     "start": 6.711,
+     "end": 7.17
+    },
+    {
+     "text": "officials,",
+     "start": 7.17,
+     "end": 7.63
+    },
+    {
+     "text": "like",
+     "start": 7.94,
+     "end": 8.29
+    },
+    {
+     "text": "mayors.",
+     "start": 8.29,
+     "end": 8.64
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "text": "In round one, win over half the votes, and you win outright.",
+   "start": 9.2,
+   "end": 12.77,
+   "words": [
+    {
+     "text": "In",
+     "start": 9.2,
+     "end": 9.389
+    },
+    {
+     "text": "round",
+     "start": 9.389,
+     "end": 9.768
+    },
+    {
+     "text": "one,",
+     "start": 9.768,
+     "end": 10.02
+    },
+    {
+     "text": "win",
+     "start": 10.2,
+     "end": 10.429
+    },
+    {
+     "text": "over",
+     "start": 10.429,
+     "end": 10.715
+    },
+    {
+     "text": "half",
+     "start": 10.715,
+     "end": 11.002
+    },
+    {
+     "text": "the",
+     "start": 11.002,
+     "end": 11.116
+    },
+    {
+     "text": "votes,",
+     "start": 11.116,
+     "end": 11.46
+    },
+    {
+     "text": "and",
+     "start": 11.71,
+     "end": 11.887
+    },
+    {
+     "text": "you",
+     "start": 11.887,
+     "end": 12.063
+    },
+    {
+     "text": "win",
+     "start": 12.063,
+     "end": 12.299
+    },
+    {
+     "text": "outright.",
+     "start": 12.299,
+     "end": 12.77
+    }
+   ]
+  },
+  {
+   "id": "runoff",
+   "text": "If no one does, the top two face a run-off, two weeks later.",
+   "start": 13.33,
+   "end": 16.91,
+   "words": [
+    {
+     "text": "If",
+     "start": 13.33,
+     "end": 13.463
+    },
+    {
+     "text": "no",
+     "start": 13.463,
+     "end": 13.728
+    },
+    {
+     "text": "one",
+     "start": 13.728,
+     "end": 13.994
+    },
+    {
+     "text": "does,",
+     "start": 13.994,
+     "end": 14.26
+    },
+    {
+     "text": "the",
+     "start": 14.55,
+     "end": 14.655
+    },
+    {
+     "text": "top",
+     "start": 14.655,
+     "end": 14.864
+    },
+    {
+     "text": "two",
+     "start": 14.864,
+     "end": 15.074
+    },
+    {
+     "text": "face",
+     "start": 15.074,
+     "end": 15.336
+    },
+    {
+     "text": "a",
+     "start": 15.336,
+     "end": 15.493
+    },
+    {
+     "text": "run-off,",
+     "start": 15.493,
+     "end": 15.86
+    },
+    {
+     "text": "two",
+     "start": 16.09,
+     "end": 16.295
+    },
+    {
+     "text": "weeks",
+     "start": 16.295,
+     "end": 16.602
+    },
+    {
+     "text": "later.",
+     "start": 16.602,
+     "end": 16.91
+    }
+   ]
+  },
+  {
+   "id": "r1a",
+   "text": "In 2022, twelve candidates ran.",
+   "start": 17.47,
+   "end": 20.25,
+   "words": [
+    {
+     "text": "In",
+     "start": 17.47,
+     "end": 17.631
+    },
+    {
+     "text": "2022,",
+     "start": 17.631,
+     "end": 18.6
+    },
+    {
+     "text": "twelve",
+     "start": 18.86,
+     "end": 19.239
+    },
+    {
+     "text": "candidates",
+     "start": 19.239,
+     "end": 19.997
+    },
+    {
+     "text": "ran.",
+     "start": 19.997,
+     "end": 20.25
+    }
+   ]
+  },
+  {
+   "id": "r1b",
+   "text": "Macron got about 28%, Le Pen 23, and Mélenchon just missed out with 22.",
+   "start": 20.51,
+   "end": 26.73,
+   "words": [
+    {
+     "text": "Macron",
+     "start": 20.51,
+     "end": 20.904
+    },
+    {
+     "text": "got",
+     "start": 20.904,
+     "end": 21.129
+    },
+    {
+     "text": "about",
+     "start": 21.129,
+     "end": 21.467
+    },
+    {
+     "text": "28%,",
+     "start": 21.467,
+     "end": 22.48
+    },
+    {
+     "text": "Le",
+     "start": 22.84,
+     "end": 22.957
+    },
+    {
+     "text": "Pen",
+     "start": 22.957,
+     "end": 23.19
+    },
+    {
+     "text": "23,",
+     "start": 23.19,
+     "end": 23.89
+    },
+    {
+     "text": "and",
+     "start": 24.2,
+     "end": 24.376
+    },
+    {
+     "text": "Mélenchon",
+     "start": 24.376,
+     "end": 25.024
+    },
+    {
+     "text": "just",
+     "start": 25.024,
+     "end": 25.377
+    },
+    {
+     "text": "missed",
+     "start": 25.377,
+     "end": 25.671
+    },
+    {
+     "text": "out",
+     "start": 25.671,
+     "end": 25.906
+    },
+    {
+     "text": "with",
+     "start": 25.906,
+     "end": 26.083
+    },
+    {
+     "text": "22.",
+     "start": 26.083,
+     "end": 26.73
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "text": "In the run-off, Macron won with almost 59%.",
+   "start": 27.19,
+   "end": 30.62,
+   "words": [
+    {
+     "text": "In",
+     "start": 27.19,
+     "end": 27.35
+    },
+    {
+     "text": "the",
+     "start": 27.35,
+     "end": 27.457
+    },
+    {
+     "text": "run-off,",
+     "start": 27.457,
+     "end": 27.83
+    },
+    {
+     "text": "Macron",
+     "start": 28.12,
+     "end": 28.547
+    },
+    {
+     "text": "won",
+     "start": 28.547,
+     "end": 28.791
+    },
+    {
+     "text": "with",
+     "start": 28.791,
+     "end": 28.974
+    },
+    {
+     "text": "almost",
+     "start": 28.974,
+     "end": 29.522
+    },
+    {
+     "text": "59%.",
+     "start": 29.522,
+     "end": 30.62
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "text": "The winner serves five years, and no more than two terms in a row.",
+   "start": 31.08,
+   "end": 34.81,
+   "words": [
+    {
+     "text": "The",
+     "start": 31.08,
+     "end": 31.216
+    },
+    {
+     "text": "winner",
+     "start": 31.216,
+     "end": 31.558
+    },
+    {
+     "text": "serves",
+     "start": 31.558,
+     "end": 31.967
+    },
+    {
+     "text": "five",
+     "start": 31.967,
+     "end": 32.309
+    },
+    {
+     "text": "years,",
+     "start": 32.309,
+     "end": 32.65
+    },
+    {
+     "text": "and",
+     "start": 32.97,
+     "end": 33.132
+    },
+    {
+     "text": "no",
+     "start": 33.132,
+     "end": 33.349
+    },
+    {
+     "text": "more",
+     "start": 33.349,
+     "end": 33.565
+    },
+    {
+     "text": "than",
+     "start": 33.565,
+     "end": 33.728
+    },
+    {
+     "text": "two",
+     "start": 33.728,
+     "end": 33.944
+    },
+    {
+     "text": "terms",
+     "start": 33.944,
+     "end": 34.269
+    },
+    {
+     "text": "in",
+     "start": 34.269,
+     "end": 34.431
+    },
+    {
+     "text": "a",
+     "start": 34.431,
+     "end": 34.593
+    },
+    {
+     "text": "row.",
+     "start": 34.593,
+     "end": 34.81
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should your country vote twice?",
+   "start": 35.57,
+   "end": 37.43,
+   "words": [
+    {
+     "text": "So,",
+     "start": 35.57,
+     "end": 35.814
+    },
+    {
+     "text": "should",
+     "start": 35.905,
+     "end": 36.149
+    },
+    {
+     "text": "your",
+     "start": 36.149,
+     "end": 36.332
+    },
+    {
+     "text": "country",
+     "start": 36.332,
+     "end": 36.759
+    },
+    {
+     "text": "vote",
+     "start": 36.759,
+     "end": 37.064
+    },
+    {
+     "text": "twice?",
+     "start": 37.064,
+     "end": 37.43
+    }
+   ]
+  }
+ ]
+}
