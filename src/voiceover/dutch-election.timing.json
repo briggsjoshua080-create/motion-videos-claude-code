@@ -1,0 +1,586 @@
+{
+ "audio": "voiceover/dutch-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 43.26,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "The Dutch never vote for their head of state. So who's in charge?",
+   "start": 0.33,
+   "end": 3.93,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.33,
+     "end": 0.44
+    },
+    {
+     "text": "Dutch",
+     "start": 0.44,
+     "end": 0.714
+    },
+    {
+     "text": "never",
+     "start": 0.714,
+     "end": 0.988
+    },
+    {
+     "text": "vote",
+     "start": 0.988,
+     "end": 1.263
+    },
+    {
+     "text": "for",
+     "start": 1.263,
+     "end": 1.427
+    },
+    {
+     "text": "their",
+     "start": 1.427,
+     "end": 1.592
+    },
+    {
+     "text": "head",
+     "start": 1.592,
+     "end": 1.811
+    },
+    {
+     "text": "of",
+     "start": 1.811,
+     "end": 1.921
+    },
+    {
+     "text": "state.",
+     "start": 1.921,
+     "end": 2.25
+    },
+    {
+     "text": "So",
+     "start": 2.59,
+     "end": 2.872
+    },
+    {
+     "text": "who's",
+     "start": 2.872,
+     "end": 3.225
+    },
+    {
+     "text": "in",
+     "start": 3.225,
+     "end": 3.436
+    },
+    {
+     "text": "charge?",
+     "start": 3.436,
+     "end": 3.93
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "King Willem-Alexander inherited the crown. His daughter Amalia is next.",
+   "start": 4.34,
+   "end": 8.92,
+   "words": [
+    {
+     "text": "King",
+     "start": 4.34,
+     "end": 4.584
+    },
+    {
+     "text": "Willem-Alexander",
+     "start": 4.584,
+     "end": 5.622
+    },
+    {
+     "text": "inherited",
+     "start": 5.622,
+     "end": 6.232
+    },
+    {
+     "text": "the",
+     "start": 6.232,
+     "end": 6.354
+    },
+    {
+     "text": "crown.",
+     "start": 6.354,
+     "end": 6.72
+    },
+    {
+     "text": "His",
+     "start": 7.11,
+     "end": 7.388
+    },
+    {
+     "text": "daughter",
+     "start": 7.388,
+     "end": 7.806
+    },
+    {
+     "text": "Amalia",
+     "start": 7.806,
+     "end": 8.363
+    },
+    {
+     "text": "is",
+     "start": 8.363,
+     "end": 8.502
+    },
+    {
+     "text": "next.",
+     "start": 8.502,
+     "end": 8.92
+    }
+   ]
+  },
+  {
+   "id": "role",
+   "text": "He signs every law, but his ministers take the responsibility.",
+   "start": 9.23,
+   "end": 13.17,
+   "words": [
+    {
+     "text": "He",
+     "start": 9.23,
+     "end": 9.448
+    },
+    {
+     "text": "signs",
+     "start": 9.448,
+     "end": 9.885
+    },
+    {
+     "text": "every",
+     "start": 9.885,
+     "end": 10.249
+    },
+    {
+     "text": "law,",
+     "start": 10.249,
+     "end": 10.54
+    },
+    {
+     "text": "but",
+     "start": 10.87,
+     "end": 11.1
+    },
+    {
+     "text": "his",
+     "start": 11.1,
+     "end": 11.33
+    },
+    {
+     "text": "ministers",
+     "start": 11.33,
+     "end": 11.848
+    },
+    {
+     "text": "take",
+     "start": 11.848,
+     "end": 12.135
+    },
+    {
+     "text": "the",
+     "start": 12.135,
+     "end": 12.25
+    },
+    {
+     "text": "responsibility.",
+     "start": 12.25,
+     "end": 13.17
+    }
+   ]
+  },
+  {
+   "id": "voters",
+   "text": "Voters fill all 150 seats in the House of Representatives, at least every four years.",
+   "start": 13.48,
+   "end": 19.27,
+   "words": [
+    {
+     "text": "Voters",
+     "start": 13.48,
+     "end": 13.947
+    },
+    {
+     "text": "fill",
+     "start": 13.947,
+     "end": 14.214
+    },
+    {
+     "text": "all",
+     "start": 14.214,
+     "end": 14.481
+    },
+    {
+     "text": "150",
+     "start": 14.481,
+     "end": 15.683
+    },
+    {
+     "text": "seats",
+     "start": 15.683,
+     "end": 16.084
+    },
+    {
+     "text": "in",
+     "start": 16.084,
+     "end": 16.284
+    },
+    {
+     "text": "the",
+     "start": 16.284,
+     "end": 16.418
+    },
+    {
+     "text": "House",
+     "start": 16.418,
+     "end": 16.751
+    },
+    {
+     "text": "of",
+     "start": 16.751,
+     "end": 16.885
+    },
+    {
+     "text": "Representatives,",
+     "start": 16.885,
+     "end": 18.02
+    },
+    {
+     "text": "at",
+     "start": 18.23,
+     "end": 18.325
+    },
+    {
+     "text": "least",
+     "start": 18.325,
+     "end": 18.608
+    },
+    {
+     "text": "every",
+     "start": 18.608,
+     "end": 18.845
+    },
+    {
+     "text": "four",
+     "start": 18.845,
+     "end": 19.034
+    },
+    {
+     "text": "years.",
+     "start": 19.034,
+     "end": 19.27
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "The 75 senators? Provincial councils choose them, not the people directly.",
+   "start": 19.58,
+   "end": 24.42,
+   "words": [
+    {
+     "text": "The",
+     "start": 19.58,
+     "end": 19.708
+    },
+    {
+     "text": "75",
+     "start": 19.708,
+     "end": 20.539
+    },
+    {
+     "text": "senators?",
+     "start": 20.539,
+     "end": 21.05
+    },
+    {
+     "text": "Provincial",
+     "start": 21.39,
+     "end": 21.928
+    },
+    {
+     "text": "councils",
+     "start": 21.928,
+     "end": 22.412
+    },
+    {
+     "text": "choose",
+     "start": 22.412,
+     "end": 22.735
+    },
+    {
+     "text": "them,",
+     "start": 22.735,
+     "end": 22.95
+    },
+    {
+     "text": "not",
+     "start": 23.19,
+     "end": 23.404
+    },
+    {
+     "text": "the",
+     "start": 23.404,
+     "end": 23.511
+    },
+    {
+     "text": "people",
+     "start": 23.511,
+     "end": 23.885
+    },
+    {
+     "text": "directly.",
+     "start": 23.885,
+     "end": 24.42
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2025, D66 and the PVV tied with 26 seats each. A majority needs 76.",
+   "start": 24.72,
+   "end": 32.14,
+   "words": [
+    {
+     "text": "In",
+     "start": 24.72,
+     "end": 24.859
+    },
+    {
+     "text": "2025,",
+     "start": 24.859,
+     "end": 25.74
+    },
+    {
+     "text": "D66",
+     "start": 26.05,
+     "end": 27.01
+    },
+    {
+     "text": "and",
+     "start": 27.01,
+     "end": 27.19
+    },
+    {
+     "text": "the",
+     "start": 27.19,
+     "end": 27.31
+    },
+    {
+     "text": "PVV",
+     "start": 27.31,
+     "end": 28.03
+    },
+    {
+     "text": "tied",
+     "start": 28.03,
+     "end": 28.33
+    },
+    {
+     "text": "with",
+     "start": 28.33,
+     "end": 28.51
+    },
+    {
+     "text": "26",
+     "start": 28.51,
+     "end": 29.23
+    },
+    {
+     "text": "seats",
+     "start": 29.23,
+     "end": 29.59
+    },
+    {
+     "text": "each.",
+     "start": 29.59,
+     "end": 29.89
+    },
+    {
+     "text": "A",
+     "start": 30.31,
+     "end": 30.482
+    },
+    {
+     "text": "majority",
+     "start": 30.482,
+     "end": 31.053
+    },
+    {
+     "text": "needs",
+     "start": 31.053,
+     "end": 31.397
+    },
+    {
+     "text": "76.",
+     "start": 31.397,
+     "end": 32.14
+    }
+   ]
+  },
+  {
+   "id": "cabinet",
+   "text": "After 117 days of coalition talks, the King swore in Rob Jetten's cabinet, with 66 seats.",
+   "start": 32.45,
+   "end": 39.26,
+   "words": [
+    {
+     "text": "After",
+     "start": 32.45,
+     "end": 32.718
+    },
+    {
+     "text": "117",
+     "start": 32.718,
+     "end": 33.952
+    },
+    {
+     "text": "days",
+     "start": 33.952,
+     "end": 34.221
+    },
+    {
+     "text": "of",
+     "start": 34.221,
+     "end": 34.328
+    },
+    {
+     "text": "coalition",
+     "start": 34.328,
+     "end": 34.918
+    },
+    {
+     "text": "talks,",
+     "start": 34.918,
+     "end": 35.24
+    },
+    {
+     "text": "the",
+     "start": 35.63,
+     "end": 35.753
+    },
+    {
+     "text": "King",
+     "start": 35.753,
+     "end": 35.999
+    },
+    {
+     "text": "swore",
+     "start": 35.999,
+     "end": 36.307
+    },
+    {
+     "text": "in",
+     "start": 36.307,
+     "end": 36.491
+    },
+    {
+     "text": "Rob",
+     "start": 36.491,
+     "end": 36.737
+    },
+    {
+     "text": "Jetten's",
+     "start": 36.737,
+     "end": 37.168
+    },
+    {
+     "text": "cabinet,",
+     "start": 37.168,
+     "end": 37.66
+    },
+    {
+     "text": "with",
+     "start": 38.05,
+     "end": 38.223
+    },
+    {
+     "text": "66",
+     "start": 38.223,
+     "end": 38.914
+    },
+    {
+     "text": "seats.",
+     "start": 38.914,
+     "end": 39.26
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Is it really democracy if you don't vote for your head of state?",
+   "start": 39.72,
+   "end": 42.98,
+   "words": [
+    {
+     "text": "Is",
+     "start": 39.72,
+     "end": 39.841
+    },
+    {
+     "text": "it",
+     "start": 39.841,
+     "end": 39.961
+    },
+    {
+     "text": "really",
+     "start": 39.961,
+     "end": 40.324
+    },
+    {
+     "text": "democracy",
+     "start": 40.324,
+     "end": 40.927
+    },
+    {
+     "text": "if",
+     "start": 40.927,
+     "end": 41.048
+    },
+    {
+     "text": "you",
+     "start": 41.048,
+     "end": 41.229
+    },
+    {
+     "text": "don't",
+     "start": 41.229,
+     "end": 41.591
+    },
+    {
+     "text": "vote",
+     "start": 41.591,
+     "end": 41.893
+    },
+    {
+     "text": "for",
+     "start": 41.893,
+     "end": 42.074
+    },
+    {
+     "text": "your",
+     "start": 42.074,
+     "end": 42.256
+    },
+    {
+     "text": "head",
+     "start": 42.256,
+     "end": 42.497
+    },
+    {
+     "text": "of",
+     "start": 42.497,
+     "end": 42.618
+    },
+    {
+     "text": "state?",
+     "start": 42.618,
+     "end": 42.98
+    }
+   ]
+  }
+ ]
+}

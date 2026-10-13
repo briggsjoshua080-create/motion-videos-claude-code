@@ -4,6 +4,67 @@ Stack: **Remotion 4.0.535** (all `@remotion/*` packages pinned to the same exact
 version — never mix versions), React 19, TypeScript, npm. Default format
 **1920×1080 @ 30 fps**.
 
+## Standing brief: "educational motion graphics video, political system"
+When the user's prompt contains **"educational motion graphics video, political system"**, this
+section is the brief. The user does not want to repeat it, so apply every point below unless the
+prompt says otherwise.
+
+**What the video shows**
+- How the people who govern the country get into power: mainly the national election system
+  (e.g. Germany's Bundestag, the UK's House of Commons) and how the government and its leader come
+  out of it (chancellor, prime minister, coalition talks).
+- Any other top office and how it is filled, elected or not: a monarch (e.g. the King in the UK or
+  the Netherlands), a president (e.g. Germany's Bundespräsident). Also any speciality of the
+  system: several voting rounds or a run-off, a chamber the people don't elect directly, thresholds,
+  coalition building, and so on.
+- The **most recent national election** as the worked example (date, result, who formed the
+  government).
+- **Audience:** people who are generally interested and come across the video in their TikTok or
+  Instagram feed. Assume no prior knowledge, use plain words and explain any term.
+- **Tone:** the video itself stays neutral and factual. Only the closing question is meant to
+  spark debate.
+
+**Format and style**
+- TikTok style: vertical **1080×1920 @ 30 fps** (`VERTICAL` in `src/config.ts`), with a hook in the
+  first 2 seconds. Keep key content inside x 120–960 and y 170–1480 (TikTok's buttons sit on the
+  right, its caption at the bottom).
+- **Length:** about 30 s. A little longer is fine if the relevant information needs it, but
+  **never more than 45 s** unless the user explicitly says so. Generate the voice-over first and
+  measure it. If it runs too long, propose cuts to the user (with measured lengths) before building.
+- **Language:** always English (voice, subtitles, on-screen text).
+- **Colours:** the country's national colours (its flag, plus a national colour if it has one,
+  e.g. Dutch orange), collected in one colour object for the video.
+- **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
+  made with `scripts/voiceover.py` (see "Making the voice-over"). Fix names the voice gets wrong with
+  `pronounce`.
+- **Subtitles:** TikTok style, showing the voice-over word for word: big bold capitals, a few words
+  at a time, the spoken word highlighted in a national colour (`src/components/Subtitles.tsx`).
+- **Audio:** soft background music under the voice (`npm run music`), plus light, subtle sound
+  effects (`public/audio/sfx/`). Master to −14 LUFS with `npm run render:final`.
+- **Ending:** a closing question, spoken and shown big on screen, that is polarising and invites
+  many different answers in the comments, e.g. "Is it really democracy if you don't vote for your
+  head of state?"
+
+**Research (every time)**
+- Research thoroughly before writing. Prefer official sources: the government's own sites, the
+  electoral commission, parliament, the royal house or presidency.
+- In Claude cloud sessions these sites are usually blocked for direct fetching (WebFetch and curl
+  fail). Use `WebSearch` with `allowed_domains` set to the official domains instead, and
+  cross-check numbers with a second source.
+- Put the facts, dates and source links in the fact sheet in `briefs/<video>/script.md`, with the
+  date they were checked. Flag facts that will go stale (e.g. who is in office).
+
+**Process**
+- **Ask the user whenever anything is unclear.** The user wants questions, not guesses. Use
+  `AskUserQuestion` with plain-language options.
+- Everything above is already decided, so don't ask about it again. Do show the exact narration
+  and get it approved before building (see "Ask the user first").
+- Use the project skills and pipeline in "Motion videos" below.
+- After rendering, send the MP4 in the chat, then **commit and push straight to `main`** (the
+  user's standing instruction), so new chats see the video and any rule changes.
+- Reference video made to this brief: `DutchElection` (`src/compositions/DutchElection.tsx`,
+  `briefs/dutch-election-system/`).
+
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
 a new video, or making a big change to one (new scenes, new format, new style), ask the user many
@@ -30,6 +91,8 @@ until the user has approved the plan.
 4. Start building only after the user approves. Small, clear requests (e.g. "make the title
    bigger") can be done straight away. If the user says to skip the questions, use sensible
    defaults and say which ones you picked.
+5. If the prompt triggers the standing brief above, most of these answers are already given. Ask
+   only about what is still unclear, and get the narration approved.
 
 ## Voice-over and subtitles (default for every video)
 Every video gets an **AI voice-over** and **subtitles burned into the video**, unless the user says
@@ -80,6 +143,9 @@ or cue a neighbouring word.
 | Upgrade Remotion | `npx remotion upgrade` (keeps versions in sync) |
 | Voice tool setup (once) | `npm run voice:setup` |
 | Make a voice-over | `npm run voiceover -- src/voiceover/<name>.script.json` |
+| Make background music | `npm run music -- src/voiceover/<name>.timing.json [--transpose N]` → `public/audio/<name>/music.mp3` |
+| Rebuild shared sound effects | `npm run sfx` → `public/audio/sfx/*.wav` (committed; rarely needed) |
+| Render + master to −14 LUFS | `npm run render:final -- <CompositionId> <output-name> [--browser-executable=...]` → `out/<output-name>.mp4` |
 
 If Chrome cannot be auto-downloaded (offline/sandbox), add
 `--browser-executable=/path/to/chrome-or-headless_shell` to any command. In Claude cloud sessions
@@ -99,7 +165,12 @@ src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeC
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
 src/voiceover/          narration scripts (*.script.json), generated timings, timing.ts helpers
 scripts/voiceover.py    AI voice-over generator (Kokoro TTS)
+scripts/music.py        soft background music from a voice-over timing file
+scripts/sfx.py          shared sound effects (public/audio/sfx/)
+scripts/render.sh       render any composition + master the audio to -14 LUFS
+briefs/<video>/         script.md (narration + fact sheet + sources), storyboard.md, PROGRESS.md
 public/audio|images|fonts   static assets, referenced with staticFile("audio/x.mp3")
+public/audio/<name>/    per-video music; public/audio/sfx/ shared sound effects
 public/voiceover/       generated voice-over WAVs
 out/                    render output (git-ignored)
 ```
@@ -171,8 +242,8 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 
 ### Overrides to the skills' defaults in this repo
 - Do **not** create a `remotion_video/` folder or run `npx create-video`. Use `src/compositions/<Name>.tsx`, `src/scenes/<name>/`, `src/components/<name>/`, `public/audio/<name>/`, and register the composition in `src/Root.tsx`.
-- Do **not** use `edge-tts`; its service is blocked in this environment. Use the offline Kokoro pipeline in `scripts/german-election/` as the template.
-- The narration is the source of truth. Every animation, subtitle and sound-effect cue comes from `timeline.json` through `cue()` (see `src/compositions/german-election/constants.ts`). Never hard-code narration frame numbers.
+- Do **not** use `edge-tts`; its service is blocked in this environment. Use the offline Kokoro tool `scripts/voiceover.py` (see "Making the voice-over"). `scripts/german-election/` is an older, single-video version of the same idea.
+- The narration is the source of truth. Every animation, subtitle and sound-effect cue comes from the voice-over timing file through `makeCue()` / `cue(sentence, word)` (`src/voiceover/timing.ts`; examples: `DutchElection.tsx`, `WhyFranceVotesTwice.tsx`). Never hard-code narration frame numbers.
 - Colours only via the `COLORS` object. Use generic characters, not real people's likenesses, unless the user asks otherwise.
 - All motion comes from `useCurrentFrame()`. No CSS transitions or animations.
 
@@ -180,11 +251,11 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 1. Check the answers in `briefs/motion-video-brief.xlsx` (sheet "Blank Brief"). Ask the user for anything missing.
 2. Write `briefs/<video>/script.md`. Get the user's approval before building.
 3. Write `briefs/<video>/storyboard.md` with scene timings.
-4. Voice and timeline: `python3 -I scripts/<video>/build_voice.py --model-dir <dir with kokoro-v1.0.onnx and voices-v1.0.bin>`.
-5. Music and sound effects: `python3 -I scripts/<video>/build_music_sfx.py`.
-6. Build the composition, then run `npm run typecheck`.
+4. Voice and timing: write `src/voiceover/<name>.script.json`, then `npm run voiceover -- src/voiceover/<name>.script.json` (setup once: `npm run voice:setup`). Check the measured length against the length limit before building.
+5. Music: `npm run music -- src/voiceover/<name>.timing.json`. Sound effects are shared in `public/audio/sfx/`.
+6. Build the composition (scenes start at their sentence, `<Subtitles timing={...} />`, music under the voice), then run `npm run typecheck`.
 7. QA: render stills with `npx remotion still src/index.ts <Id> out/stills/f060.png --frame=60 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`. Check scene starts, scene ends, transitions, and that frame 0 is not empty.
-8. Render: `bash scripts/<video>/render.sh --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
-9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to the working branch.
+8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
+9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
 
-The `scripts/german-election/` files are templates for one video. For a new video, copy the folder and change the scene data, composition id and file names.
+For a new video, copy the newest similar video (e.g. `DutchElection.tsx` + `src/scenes/dutch-election/`) and change the scenes, colours, composition id and file names.
