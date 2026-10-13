@@ -8,6 +8,13 @@ export const VIDEO = {
   fps: 30,
 } as const;
 
+/** Vertical 9:16 format (TikTok / Reels / Shorts). Use as a per-composition override. */
+export const VERTICAL = {
+  width: 1080,
+  height: 1920,
+  fps: 30,
+} as const;
+
 /** Convert seconds to frames at the project fps. */
 export const sec = (seconds: number): number => Math.round(seconds * VIDEO.fps);
 
