@@ -1,0 +1,35 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "27": "twenty-seven",
+    "18": "eighteen",
+    "16": "sixteen",
+    "96": "ninety-six",
+    "6": "six",
+    "720": "seven hundred and twenty",
+    "MEPs": "em ee peez",
+    "EPP": "E P P",
+    "2024": "twenty twenty-four",
+    "188": "a hundred and eighty-eight",
+    "361": "three hundred and sixty-one"
+  },
+  "pronounce": {},
+  "sentences": [
+    { "id": "hook", "text": "How do 27 countries elect one parliament?" },
+    { "id": "who", "text": "EU citizens can vote from 18, or 16 in some countries, wherever in the EU they live.", "pauseAfter": 0.85 },
+    { "id": "vote", "text": "Every five years, each country votes for its own parties." },
+    { "id": "ballot", "text": "Ballots differ, but often you just mark one party." },
+    { "id": "seats", "text": "Each party then wins seats in line with its votes." },
+    { "id": "big", "text": "Big countries have more seats: Germany 96, Malta just 6.", "pauseAfter": 0.45 },
+    { "id": "meps", "text": "Together, that's 720 MEPs: members of the European Parliament." },
+    { "id": "groups", "text": "They sit in political groups, not by country." },
+    { "id": "job", "text": "Parliament votes on EU laws and the EU budget." },
+    { "id": "result", "text": "In June 2024, the centre-right EPP won the most seats: 188. But a majority needs 361, so groups team up.", "pauseAfter": 0.45 },
+    { "id": "perPerson", "text": "Per person, though, Malta has about nine times as many MEPs as Germany." },
+    { "id": "question", "text": "Is it fair that small countries get more MEPs per person than big ones?" }
+  ]
+}

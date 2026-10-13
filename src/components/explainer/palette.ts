@@ -28,6 +28,11 @@ export type ExplainerPalette = {
   flag: readonly string[];
   /** Vertical stripes (France, Italy, ...) instead of horizontal ones. */
   flagVertical?: boolean;
+  /**
+   * "eu": draw the EU flag (blue with a ring of 12 yellow stars; flag[0] = blue, accent = yellow)
+   * instead of stripes, in the header chip, the top bar and the parliament icon.
+   */
+  emblem?: "eu";
   /** Two soft background glows. */
   glows: readonly [string, string];
   skin: string;

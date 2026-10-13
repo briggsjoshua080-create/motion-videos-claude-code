@@ -3,8 +3,32 @@ import type { ExplainerPalette } from "./palette";
 
 type IconProps = { size: number; palette: ExplainerPalette };
 
+/** SVG path of an upright five-pointed star centred on (cx, cy). */
+export const starPath = (cx: number, cy: number, r: number, inner = 0.382) =>
+  Array.from({ length: 10 }, (_, i) => {
+    const a = -Math.PI / 2 + (i * Math.PI) / 5;
+    const rr = i % 2 === 0 ? r : r * inner;
+    return `${i === 0 ? "M" : "L"}${(cx + rr * Math.cos(a)).toFixed(2)} ${(cy + rr * Math.sin(a)).toFixed(2)}`;
+  }).join(" ") + " Z";
+
+/** The EU flag: 12 yellow stars on a circle of radius 1/3 of the height (Regulation 1049/2014). */
+export const EuFlag: React.FC<{ width: number; blue: string; yellow: string }> = ({ width, blue, yellow }) => (
+  <svg width={width} height={(width * 2) / 3} viewBox="0 0 150 100" style={{ display: "block" }}>
+    <rect width={150} height={100} fill={blue} />
+    {Array.from({ length: 12 }, (_, i) => {
+      const a = (i * Math.PI) / 6;
+      return <path key={i} d={starPath(75 + (100 / 3) * Math.sin(a), 50 - (100 / 3) * Math.cos(a), 100 / 18)} fill={yellow} />;
+    })}
+  </svg>
+);
+
 /** Tiny flag for headers, with a hairline so white stripes stay visible on white. */
-export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = ({ width, palette: c }) => (
+export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = ({ width, palette: c }) =>
+  c.emblem === "eu" ? (
+    <div style={{ borderRadius: 5, overflow: "hidden", boxShadow: `0 0 0 2px ${c.line}`, flexShrink: 0, lineHeight: 0 }}>
+      <EuFlag width={width} blue={c.flag[0]} yellow={c.accent} />
+    </div>
+  ) : (
   <div
     style={{
       width,
@@ -21,7 +45,7 @@ export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = 
       <div key={`${color}-${i}`} style={{ flex: 1, background: color }} />
     ))}
   </div>
-);
+  );
 
 /** A path that draws itself as `p` goes 0 -> 1 (use inside an <svg>). */
 export const DrawnPath: React.FC<{ d: string; p: number; color: string; width: number }> = ({ d, p, color, width }) => (
@@ -129,9 +153,16 @@ export const ParliamentIcon: React.FC<{ width: number; palette: ExplainerPalette
       ))}
       <rect x={12} y={128} width={216} height={16} rx={3} fill={c.card} />
     </g>
-    {c.flag.map((color, i) => (
-      <rect key={`${color}-${i}`} x={123} y={6 + i * 6} width={26} height={6} fill={color} />
-    ))}
+    {c.emblem === "eu" ? (
+      <g>
+        <rect x={123} y={6} width={27} height={18} fill={c.flag[0]} />
+        {Array.from({ length: 12 }, (_, i) => (
+          <circle key={i} cx={136.5 + 6 * Math.sin((i * Math.PI) / 6)} cy={15 - 6 * Math.cos((i * Math.PI) / 6)} r={1.1} fill={c.accent} />
+        ))}
+      </g>
+    ) : (
+      c.flag.map((color, i) => <rect key={`${color}-${i}`} x={123} y={6 + i * 6} width={26} height={6} fill={color} />)
+    )}
   </svg>
 );
 

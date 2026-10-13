@@ -1,0 +1,71 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "18": "eighteen",
+    "16": "sixteen",
+    "27": "twenty-seven",
+    "2024": "twenty twenty-four",
+    "401": "four hundred and one"
+  },
+  "pronounce": {
+    "Leyen": "lˈaɪən"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Who really runs the EU?"
+    },
+    {
+      "id": "recap",
+      "text": "From 18, or 16 in some countries, EU citizens elect the European Parliament.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "commission",
+      "text": "But day to day, the EU is run by the European Commission."
+    },
+    {
+      "id": "commissionJob",
+      "text": "It proposes new laws, manages the EU's money, and makes sure countries follow EU law."
+    },
+    {
+      "id": "leaders",
+      "text": "Its President is proposed by the leaders of the 27 countries, who set the EU's direction."
+    },
+    {
+      "id": "elected",
+      "text": "Then Parliament votes. In July 2024, it re-elected Ursula von der Leyen with 401 votes."
+    },
+    {
+      "id": "team",
+      "text": "Each country sends one commissioner, and Parliament approves the team, or can vote it out.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "notDirect",
+      "text": "So nobody votes for the Commission directly.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "onlyCommission",
+      "text": "And only the Commission can propose new EU laws."
+    },
+    {
+      "id": "decide",
+      "text": "Then two sides decide: Parliament, which you elect, and the Council, made of ministers from the 27 national governments."
+    },
+    {
+      "id": "both",
+      "text": "Only if both say yes does it become EU law.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "question",
+      "text": "So, does your vote really count?"
+    }
+  ]
+}

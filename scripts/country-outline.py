@@ -12,6 +12,12 @@
 The module exports {width, height (=1000), d, <points>} in one coordinate system (viewBox
 0 0 width height). Use --min-lon/--max-lon/--min-lat/--max-lat to drop far-away territories
 (e.g. Caribbean islands); a part is kept when its centre lies inside the box.
+
+Several countries in one map (e.g. the EU): pass a comma-separated list, and join Natural Earth
+pieces that belong to one country with "+" (the first name is used):
+       python3 -I scripts/country-outline.py /tmp/geo/package/countries-10m.json \
+           "Austria,Belgium,Cyprus+N. Cyprus,Finland+Åland,..." src/components/europe.ts --const EU27
+The module then also exports `countries: [{name, d, centre}]`, one path per country.
 """
 
 from __future__ import annotations
@@ -25,6 +31,7 @@ parser.add_argument("topojson", help="world-atlas countries-10m.json (or -50m)")
 parser.add_argument("country", help='Natural Earth name, e.g. "Netherlands", "United Kingdom", "France"')
 parser.add_argument("out", help="output .ts file")
 parser.add_argument("--const", default="OUTLINE", help="exported constant name")
+parser.add_argument("--label", help="name for the file's header comment (default: the country argument)")
 parser.add_argument("--min-lon", type=float, default=-180)
 parser.add_argument("--max-lon", type=float, default=180)
 parser.add_argument("--min-lat", type=float, default=-90)
@@ -57,9 +64,10 @@ def ring(indices: list[int]) -> list[tuple[float, float]]:
     return pts
 
 
-geom = next(g for g in topo["objects"]["countries"]["geometries"] if g.get("properties", {}).get("name") == args.country)
-polys = geom["arcs"] if geom["type"] == "MultiPolygon" else [geom["arcs"]]
-rings = [ring(p[0]) for p in polys]  # outer rings only
+def outer_rings(name: str) -> list[list[tuple[float, float]]]:
+    geom = next(g for g in topo["objects"]["countries"]["geometries"] if g.get("properties", {}).get("name") == name)
+    polys = geom["arcs"] if geom["type"] == "MultiPolygon" else [geom["arcs"]]
+    return [ring(p[0]) for p in polys]  # outer rings only
 
 
 def inside(r: list[tuple[float, float]]) -> bool:
@@ -68,7 +76,11 @@ def inside(r: list[tuple[float, float]]) -> bool:
     return args.min_lon <= lon <= args.max_lon and args.min_lat <= lat <= args.max_lat
 
 
-rings = [r for r in rings if inside(r)]
+# One entry per country: (name, rings). "A+B" joins Natural Earth pieces under the name A.
+groups = [g.split("+") for g in args.country.split(",")]
+multi = len(groups) > 1
+countries = [(g[0], [r for name in g for r in outer_rings(name) if inside(r)]) for g in groups]
+rings = [r for _, rs in countries for r in rs]
 lat0 = math.radians(args.lat0 if args.lat0 is not None else sum(p[1] for r in rings for p in r) / sum(len(r) for r in rings))
 
 
@@ -76,9 +88,8 @@ def proj(lon: float, lat: float) -> tuple[float, float]:
     return lon * math.cos(lat0), -lat
 
 
-prj = [[proj(*p) for p in r] for r in rings]
-xs = [x for r in prj for x, _ in r]
-ys = [y for r in prj for _, y in r]
+xs = [proj(*p)[0] for r in rings for p in r]
+ys = [proj(*p)[1] for r in rings for p in r]
 minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
 k = 1000.0 / (maxy - miny)
 width = (maxx - minx) * k
@@ -88,7 +99,7 @@ def norm(x: float, y: float) -> tuple[float, float]:
     return (x - minx) * k, (y - miny) * k
 
 
-prj = [[norm(*p) for p in r] for r in prj]
+prj = [[norm(*proj(*p)) for p in r] for r in rings]
 
 
 def area(r: list[tuple[float, float]]) -> float:
@@ -118,8 +129,21 @@ def simplify_ring(r: list[tuple[float, float]], eps: float) -> list[tuple[float,
     return rdp(r[: far + 1], eps)[:-1] + rdp(r[far:], eps)
 
 
-simple = [simplify_ring(r, args.tolerance) for r in prj if area(r) > args.min_area]
-d = " ".join("M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in r) + " Z" for r in simple if len(r) > 3)
+def path(rs: list[list[tuple[float, float]]]) -> tuple[str, list[list[tuple[float, float]]]]:
+    simple = [simplify_ring(r, args.tolerance) for r in rs if area(r) > args.min_area]
+    simple = [r for r in simple if len(r) > 3]
+    return " ".join("M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in r) + " Z" for r in simple), simple
+
+
+d, simple = path(prj)
+
+parts = []
+for name, rs in countries:
+    cd, cs = path([[norm(*proj(*p)) for p in r] for r in rs])
+    # Centre of the country's largest part (for labels and staggered animations).
+    big = max(cs, key=area)
+    cx, cy = sum(x for x, _ in big) / len(big), sum(y for _, y in big) / len(big)
+    parts.append(f'    {{ name: "{name}", centre: [{cx:.1f}, {cy:.1f}] as const, d: "{cd}" }},\n')
 
 points = []
 for spec in args.point:
@@ -130,10 +154,11 @@ for spec in args.point:
 
 with open(args.out, "w") as f:
     f.write(
-        f"// {args.country} outline from Natural Earth 1:10m Admin 0 countries (public domain, via the\n"
+        f"// {args.label or args.country} outline from Natural Earth 1:10m Admin 0 countries (public domain, via the\n"
         f"// world-atlas npm package), projected equirectangular and simplified by scripts/country-outline.py.\n"
         f"export const {args.const} = {{\n  width: {width:.1f},\n  height: 1000.0,\n"
         + "".join(points)
+        + (f"  countries: [\n{''.join(parts)}  ],\n" if multi else "")
         + f'  d: "{d}",\n}};\n'
     )
-print(f"{args.country}: {len(simple)} parts, {sum(len(r) for r in simple)} points, {width:.0f}x1000 -> {args.out}")
+print(f"{args.label or args.country}: {len(simple)} parts, {sum(len(r) for r in simple)} points, {width:.0f}x1000 -> {args.out}")

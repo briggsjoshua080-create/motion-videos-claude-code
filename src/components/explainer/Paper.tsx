@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame } from "remotion";
 import { float } from "../../lib/animation";
+import { starPath } from "./icons";
 import type { ExplainerPalette } from "./palette";
 
 /**
@@ -47,6 +48,14 @@ export const Paper: React.FC<{ palette: ExplainerPalette }> = ({ palette: c }) =
           opacity: 0.12,
         }}
       />
+      {c.emblem === "eu" ? (
+        <svg width={1080} height={22} style={{ position: "absolute", top: 0, left: 0, filter: "drop-shadow(0 2px 0 rgba(0,0,0,0.05))" }}>
+          <rect width={1080} height={22} fill={c.flag[0]} />
+          {Array.from({ length: 12 }, (_, i) => (
+            <path key={i} d={starPath(45 + i * 90, 11, 6.5)} fill={c.accent} />
+          ))}
+        </svg>
+      ) : (
       <div
         style={{
           position: "absolute",
@@ -63,6 +72,7 @@ export const Paper: React.FC<{ palette: ExplainerPalette }> = ({ palette: c }) =
           <div key={`${color}-${i}`} style={{ flex: 1, height: c.flagVertical ? undefined : 12, background: color }} />
         ))}
       </div>
+      )}
     </AbsoluteFill>
   );
 };

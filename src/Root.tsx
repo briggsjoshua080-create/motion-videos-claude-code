@@ -13,6 +13,8 @@ import {
   WHY_FRANCE_SIZE,
 } from "./compositions/WhyFranceVotesTwice";
 import { DutchElection, DUTCH_ELECTION_DURATION } from "./compositions/DutchElection";
+import { EUElectionPart1, EU_ELECTION_PART1_DURATION } from "./compositions/EUElectionPart1";
+import { EUElectionPart2, EU_ELECTION_PART2_DURATION } from "./compositions/EUElectionPart2";
 
 /**
  * Register every composition here. To add one:
@@ -51,6 +53,22 @@ export const RemotionRoot: React.FC = () => (
       id="DutchElection"
       component={DutchElection}
       durationInFrames={DUTCH_ELECTION_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="EUElectionPart1"
+      component={EUElectionPart1}
+      durationInFrames={EU_ELECTION_PART1_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="EUElectionPart2"
+      component={EUElectionPart2}
+      durationInFrames={EU_ELECTION_PART2_DURATION}
       fps={VERTICAL.fps}
       width={VERTICAL.width}
       height={VERTICAL.height}

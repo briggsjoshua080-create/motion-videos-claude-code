@@ -1,0 +1,783 @@
+{
+ "audio": "voiceover/eu-election-part-1.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.26,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "How do 27 countries elect one parliament?",
+   "start": 0.33,
+   "end": 3.28,
+   "words": [
+    {
+     "text": "How",
+     "start": 0.33,
+     "end": 0.571
+    },
+    {
+     "text": "do",
+     "start": 0.571,
+     "end": 0.812
+    },
+    {
+     "text": "27",
+     "start": 0.812,
+     "end": 1.594
+    },
+    {
+     "text": "countries",
+     "start": 1.594,
+     "end": 2.076
+    },
+    {
+     "text": "elect",
+     "start": 2.076,
+     "end": 2.437
+    },
+    {
+     "text": "one",
+     "start": 2.437,
+     "end": 2.678
+    },
+    {
+     "text": "parliament?",
+     "start": 2.678,
+     "end": 3.28
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "EU citizens can vote from 18, or 16 in some countries, wherever in the EU they live.",
+   "start": 3.64,
+   "end": 9.54,
+   "words": [
+    {
+     "text": "EU",
+     "start": 3.64,
+     "end": 4.062
+    },
+    {
+     "text": "citizens",
+     "start": 4.062,
+     "end": 4.604
+    },
+    {
+     "text": "can",
+     "start": 4.604,
+     "end": 4.846
+    },
+    {
+     "text": "vote",
+     "start": 4.846,
+     "end": 5.147
+    },
+    {
+     "text": "from",
+     "start": 5.147,
+     "end": 5.388
+    },
+    {
+     "text": "18,",
+     "start": 5.388,
+     "end": 5.81
+    },
+    {
+     "text": "or",
+     "start": 6.08,
+     "end": 6.207
+    },
+    {
+     "text": "16",
+     "start": 6.207,
+     "end": 6.778
+    },
+    {
+     "text": "in",
+     "start": 6.778,
+     "end": 6.968
+    },
+    {
+     "text": "some",
+     "start": 6.968,
+     "end": 7.222
+    },
+    {
+     "text": "countries,",
+     "start": 7.222,
+     "end": 7.73
+    },
+    {
+     "text": "wherever",
+     "start": 8.08,
+     "end": 8.497
+    },
+    {
+     "text": "in",
+     "start": 8.497,
+     "end": 8.654
+    },
+    {
+     "text": "the",
+     "start": 8.654,
+     "end": 8.758
+    },
+    {
+     "text": "EU",
+     "start": 8.758,
+     "end": 9.123
+    },
+    {
+     "text": "they",
+     "start": 9.123,
+     "end": 9.279
+    },
+    {
+     "text": "live.",
+     "start": 9.279,
+     "end": 9.54
+    }
+   ]
+  },
+  {
+   "id": "vote",
+   "text": "Every five years, each country votes for its own parties.",
+   "start": 10.45,
+   "end": 13.73,
+   "words": [
+    {
+     "text": "Every",
+     "start": 10.45,
+     "end": 10.78
+    },
+    {
+     "text": "five",
+     "start": 10.78,
+     "end": 11.11
+    },
+    {
+     "text": "years,",
+     "start": 11.11,
+     "end": 11.44
+    },
+    {
+     "text": "each",
+     "start": 11.75,
+     "end": 12.033
+    },
+    {
+     "text": "country",
+     "start": 12.033,
+     "end": 12.429
+    },
+    {
+     "text": "votes",
+     "start": 12.429,
+     "end": 12.768
+    },
+    {
+     "text": "for",
+     "start": 12.768,
+     "end": 12.938
+    },
+    {
+     "text": "its",
+     "start": 12.938,
+     "end": 13.108
+    },
+    {
+     "text": "own",
+     "start": 13.108,
+     "end": 13.334
+    },
+    {
+     "text": "parties.",
+     "start": 13.334,
+     "end": 13.73
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Ballots differ, but often you just mark one party.",
+   "start": 14.09,
+   "end": 17.12,
+   "words": [
+    {
+     "text": "Ballots",
+     "start": 14.09,
+     "end": 14.533
+    },
+    {
+     "text": "differ,",
+     "start": 14.533,
+     "end": 14.85
+    },
+    {
+     "text": "but",
+     "start": 15.13,
+     "end": 15.371
+    },
+    {
+     "text": "often",
+     "start": 15.371,
+     "end": 15.673
+    },
+    {
+     "text": "you",
+     "start": 15.673,
+     "end": 15.854
+    },
+    {
+     "text": "just",
+     "start": 15.854,
+     "end": 16.215
+    },
+    {
+     "text": "mark",
+     "start": 16.215,
+     "end": 16.517
+    },
+    {
+     "text": "one",
+     "start": 16.517,
+     "end": 16.758
+    },
+    {
+     "text": "party.",
+     "start": 16.758,
+     "end": 17.12
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Each party then wins seats in line with its votes.",
+   "start": 17.48,
+   "end": 20.53,
+   "words": [
+    {
+     "text": "Each",
+     "start": 17.48,
+     "end": 17.812
+    },
+    {
+     "text": "party",
+     "start": 17.812,
+     "end": 18.209
+    },
+    {
+     "text": "then",
+     "start": 18.209,
+     "end": 18.475
+    },
+    {
+     "text": "wins",
+     "start": 18.475,
+     "end": 18.806
+    },
+    {
+     "text": "seats",
+     "start": 18.806,
+     "end": 19.204
+    },
+    {
+     "text": "in",
+     "start": 19.204,
+     "end": 19.403
+    },
+    {
+     "text": "line",
+     "start": 19.403,
+     "end": 19.734
+    },
+    {
+     "text": "with",
+     "start": 19.734,
+     "end": 19.933
+    },
+    {
+     "text": "its",
+     "start": 19.933,
+     "end": 20.132
+    },
+    {
+     "text": "votes.",
+     "start": 20.132,
+     "end": 20.53
+    }
+   ]
+  },
+  {
+   "id": "big",
+   "text": "Big countries have more seats: Germany 96, Malta just 6.",
+   "start": 20.89,
+   "end": 25.02,
+   "words": [
+    {
+     "text": "Big",
+     "start": 20.89,
+     "end": 21.119
+    },
+    {
+     "text": "countries",
+     "start": 21.119,
+     "end": 21.578
+    },
+    {
+     "text": "have",
+     "start": 21.578,
+     "end": 21.807
+    },
+    {
+     "text": "more",
+     "start": 21.807,
+     "end": 22.036
+    },
+    {
+     "text": "seats:",
+     "start": 22.036,
+     "end": 22.38
+    },
+    {
+     "text": "Germany",
+     "start": 22.74,
+     "end": 23.203
+    },
+    {
+     "text": "96,",
+     "start": 23.203,
+     "end": 23.82
+    },
+    {
+     "text": "Malta",
+     "start": 23.97,
+     "end": 24.341
+    },
+    {
+     "text": "just",
+     "start": 24.341,
+     "end": 24.711
+    },
+    {
+     "text": "6.",
+     "start": 24.711,
+     "end": 25.02
+    }
+   ]
+  },
+  {
+   "id": "meps",
+   "text": "Together, that's 720 MEPs: members of the European Parliament.",
+   "start": 25.53,
+   "end": 30.64,
+   "words": [
+    {
+     "text": "Together,",
+     "start": 25.53,
+     "end": 25.96
+    },
+    {
+     "text": "that's",
+     "start": 26.13,
+     "end": 26.431
+    },
+    {
+     "text": "720",
+     "start": 26.431,
+     "end": 27.877
+    },
+    {
+     "text": "MEPs:",
+     "start": 27.877,
+     "end": 28.54
+    },
+    {
+     "text": "members",
+     "start": 28.89,
+     "end": 29.273
+    },
+    {
+     "text": "of",
+     "start": 29.273,
+     "end": 29.382
+    },
+    {
+     "text": "the",
+     "start": 29.382,
+     "end": 29.492
+    },
+    {
+     "text": "European",
+     "start": 29.492,
+     "end": 30.093
+    },
+    {
+     "text": "Parliament.",
+     "start": 30.093,
+     "end": 30.64
+    }
+   ]
+  },
+  {
+   "id": "groups",
+   "text": "They sit in political groups, not by country.",
+   "start": 31.0,
+   "end": 33.7,
+   "words": [
+    {
+     "text": "They",
+     "start": 31.0,
+     "end": 31.173
+    },
+    {
+     "text": "sit",
+     "start": 31.173,
+     "end": 31.404
+    },
+    {
+     "text": "in",
+     "start": 31.404,
+     "end": 31.578
+    },
+    {
+     "text": "political",
+     "start": 31.578,
+     "end": 32.156
+    },
+    {
+     "text": "groups,",
+     "start": 32.156,
+     "end": 32.56
+    },
+    {
+     "text": "not",
+     "start": 32.77,
+     "end": 33.018
+    },
+    {
+     "text": "by",
+     "start": 33.018,
+     "end": 33.266
+    },
+    {
+     "text": "country.",
+     "start": 33.266,
+     "end": 33.7
+    }
+   ]
+  },
+  {
+   "id": "job",
+   "text": "Parliament votes on EU laws and the EU budget.",
+   "start": 34.06,
+   "end": 37.09,
+   "words": [
+    {
+     "text": "Parliament",
+     "start": 34.06,
+     "end": 34.666
+    },
+    {
+     "text": "votes",
+     "start": 34.666,
+     "end": 35.03
+    },
+    {
+     "text": "on",
+     "start": 35.03,
+     "end": 35.211
+    },
+    {
+     "text": "EU",
+     "start": 35.211,
+     "end": 35.636
+    },
+    {
+     "text": "laws",
+     "start": 35.636,
+     "end": 35.939
+    },
+    {
+     "text": "and",
+     "start": 35.939,
+     "end": 36.12
+    },
+    {
+     "text": "the",
+     "start": 36.12,
+     "end": 36.242
+    },
+    {
+     "text": "EU",
+     "start": 36.242,
+     "end": 36.666
+    },
+    {
+     "text": "budget.",
+     "start": 36.666,
+     "end": 37.09
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In June 2024, the centre-right EPP won the most seats: 188. But a majority needs 361, so groups team up.",
+   "start": 37.44,
+   "end": 47.22,
+   "words": [
+    {
+     "text": "In",
+     "start": 37.44,
+     "end": 37.583
+    },
+    {
+     "text": "June",
+     "start": 37.583,
+     "end": 37.87
+    },
+    {
+     "text": "2024,",
+     "start": 37.87,
+     "end": 38.73
+    },
+    {
+     "text": "the",
+     "start": 39.04,
+     "end": 39.159
+    },
+    {
+     "text": "centre-right",
+     "start": 39.159,
+     "end": 39.817
+    },
+    {
+     "text": "EPP",
+     "start": 39.817,
+     "end": 40.474
+    },
+    {
+     "text": "won",
+     "start": 40.474,
+     "end": 40.713
+    },
+    {
+     "text": "the",
+     "start": 40.713,
+     "end": 40.833
+    },
+    {
+     "text": "most",
+     "start": 40.833,
+     "end": 41.191
+    },
+    {
+     "text": "seats:",
+     "start": 41.191,
+     "end": 41.55
+    },
+    {
+     "text": "188.",
+     "start": 41.86,
+     "end": 43.21
+    },
+    {
+     "text": "But",
+     "start": 43.64,
+     "end": 43.832
+    },
+    {
+     "text": "a",
+     "start": 43.832,
+     "end": 43.976
+    },
+    {
+     "text": "majority",
+     "start": 43.976,
+     "end": 44.456
+    },
+    {
+     "text": "needs",
+     "start": 44.456,
+     "end": 44.744
+    },
+    {
+     "text": "361,",
+     "start": 44.744,
+     "end": 46.04
+    },
+    {
+     "text": "so",
+     "start": 46.31,
+     "end": 46.502
+    },
+    {
+     "text": "groups",
+     "start": 46.502,
+     "end": 46.837
+    },
+    {
+     "text": "team",
+     "start": 46.837,
+     "end": 47.076
+    },
+    {
+     "text": "up.",
+     "start": 47.076,
+     "end": 47.22
+    }
+   ]
+  },
+  {
+   "id": "perPerson",
+   "text": "Per person, though, Malta has about nine times as many MEPs as Germany.",
+   "start": 47.73,
+   "end": 52.97,
+   "words": [
+    {
+     "text": "Per",
+     "start": 47.73,
+     "end": 47.925
+    },
+    {
+     "text": "person,",
+     "start": 47.925,
+     "end": 48.38
+    },
+    {
+     "text": "though,",
+     "start": 48.56,
+     "end": 48.75
+    },
+    {
+     "text": "Malta",
+     "start": 49.07,
+     "end": 49.488
+    },
+    {
+     "text": "has",
+     "start": 49.488,
+     "end": 49.766
+    },
+    {
+     "text": "about",
+     "start": 49.766,
+     "end": 50.184
+    },
+    {
+     "text": "nine",
+     "start": 50.184,
+     "end": 50.532
+    },
+    {
+     "text": "times",
+     "start": 50.532,
+     "end": 50.95
+    },
+    {
+     "text": "as",
+     "start": 50.95,
+     "end": 51.09
+    },
+    {
+     "text": "many",
+     "start": 51.09,
+     "end": 51.438
+    },
+    {
+     "text": "MEPs",
+     "start": 51.438,
+     "end": 52.204
+    },
+    {
+     "text": "as",
+     "start": 52.204,
+     "end": 52.343
+    },
+    {
+     "text": "Germany.",
+     "start": 52.343,
+     "end": 52.97
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Is it fair that small countries get more MEPs per person than big ones?",
+   "start": 53.32,
+   "end": 57.93,
+   "words": [
+    {
+     "text": "Is",
+     "start": 53.32,
+     "end": 53.458
+    },
+    {
+     "text": "it",
+     "start": 53.458,
+     "end": 53.595
+    },
+    {
+     "text": "fair",
+     "start": 53.595,
+     "end": 53.87
+    },
+    {
+     "text": "that",
+     "start": 53.87,
+     "end": 54.146
+    },
+    {
+     "text": "small",
+     "start": 54.146,
+     "end": 54.558
+    },
+    {
+     "text": "countries",
+     "start": 54.558,
+     "end": 55.109
+    },
+    {
+     "text": "get",
+     "start": 55.109,
+     "end": 55.384
+    },
+    {
+     "text": "more",
+     "start": 55.384,
+     "end": 55.659
+    },
+    {
+     "text": "MEPs",
+     "start": 55.659,
+     "end": 56.416
+    },
+    {
+     "text": "per",
+     "start": 56.416,
+     "end": 56.623
+    },
+    {
+     "text": "person",
+     "start": 56.623,
+     "end": 57.104
+    },
+    {
+     "text": "than",
+     "start": 57.104,
+     "end": 57.311
+    },
+    {
+     "text": "big",
+     "start": 57.311,
+     "end": 57.586
+    },
+    {
+     "text": "ones?",
+     "start": 57.586,
+     "end": 57.93
+    }
+   ]
+  }
+ ]
+}
