@@ -1,0 +1,484 @@
+{
+  "fps": 30,
+  "durationInFrames": 900,
+  "voice": "bm_george",
+  "scenes": {
+    "title": {
+      "from": 0,
+      "durationInFrames": 93
+    },
+    "votes": {
+      "from": 93,
+      "durationInFrames": 231
+    },
+    "bundestag": {
+      "from": 324,
+      "durationInFrames": 188
+    },
+    "chancellor": {
+      "from": 512,
+      "durationInFrames": 190
+    },
+    "president": {
+      "from": 702,
+      "durationInFrames": 198
+    }
+  },
+  "sentences": {
+    "hook": {
+      "scene": "title",
+      "from": 12,
+      "to": 86,
+      "words": [
+        {
+          "text": "How",
+          "hl": false,
+          "line": 0,
+          "from": 12,
+          "to": 21
+        },
+        {
+          "text": "does",
+          "hl": false,
+          "line": 0,
+          "from": 21,
+          "to": 30
+        },
+        {
+          "text": "Germany",
+          "hl": false,
+          "line": 0,
+          "from": 30,
+          "to": 50
+        },
+        {
+          "text": "choose",
+          "hl": false,
+          "line": 0,
+          "from": 50,
+          "to": 62
+        },
+        {
+          "text": "its",
+          "hl": false,
+          "line": 0,
+          "from": 62,
+          "to": 71
+        },
+        {
+          "text": "leaders?",
+          "hl": true,
+          "line": 0,
+          "from": 71,
+          "to": 86
+        }
+      ]
+    },
+    "twoVotes": {
+      "scene": "votes",
+      "from": 98,
+      "to": 154,
+      "words": [
+        {
+          "text": "Voters",
+          "hl": false,
+          "line": 0,
+          "from": 98,
+          "to": 118
+        },
+        {
+          "text": "cast",
+          "hl": false,
+          "line": 0,
+          "from": 118,
+          "to": 131
+        },
+        {
+          "text": "two",
+          "hl": true,
+          "line": 0,
+          "from": 131,
+          "to": 138
+        },
+        {
+          "text": "votes.",
+          "hl": true,
+          "line": 0,
+          "from": 138,
+          "to": 154
+        }
+      ]
+    },
+    "firstVote": {
+      "scene": "votes",
+      "from": 161,
+      "to": 230,
+      "words": [
+        {
+          "text": "The",
+          "hl": false,
+          "line": 0,
+          "from": 161,
+          "to": 166
+        },
+        {
+          "text": "first",
+          "hl": true,
+          "line": 0,
+          "from": 166,
+          "to": 176
+        },
+        {
+          "text": "picks",
+          "hl": false,
+          "line": 0,
+          "from": 176,
+          "to": 187
+        },
+        {
+          "text": "a",
+          "hl": false,
+          "line": 0,
+          "from": 187,
+          "to": 192
+        },
+        {
+          "text": "local",
+          "hl": true,
+          "line": 0,
+          "from": 192,
+          "to": 207
+        },
+        {
+          "text": "candidate.",
+          "hl": true,
+          "line": 0,
+          "from": 207,
+          "to": 230
+        }
+      ]
+    },
+    "secondVote": {
+      "scene": "votes",
+      "from": 237,
+      "to": 318,
+      "words": [
+        {
+          "text": "The",
+          "hl": false,
+          "line": 0,
+          "from": 237,
+          "to": 242
+        },
+        {
+          "text": "second",
+          "hl": true,
+          "line": 0,
+          "from": 242,
+          "to": 259
+        },
+        {
+          "text": "decides",
+          "hl": false,
+          "line": 0,
+          "from": 259,
+          "to": 279
+        },
+        {
+          "text": "each",
+          "hl": false,
+          "line": 0,
+          "from": 279,
+          "to": 287
+        },
+        {
+          "text": "party's",
+          "hl": true,
+          "line": 0,
+          "from": 287,
+          "to": 301
+        },
+        {
+          "text": "strength.",
+          "hl": true,
+          "line": 0,
+          "from": 301,
+          "to": 318
+        }
+      ]
+    },
+    "threshold": {
+      "scene": "bundestag",
+      "from": 329,
+      "to": 403,
+      "words": [
+        {
+          "text": "Parties",
+          "hl": false,
+          "line": 0,
+          "from": 329,
+          "to": 344
+        },
+        {
+          "text": "need",
+          "hl": false,
+          "line": 0,
+          "from": 344,
+          "to": 353
+        },
+        {
+          "text": "5%",
+          "hl": true,
+          "line": 0,
+          "from": 353,
+          "to": 385
+        },
+        {
+          "text": "to",
+          "hl": false,
+          "line": 0,
+          "from": 385,
+          "to": 391
+        },
+        {
+          "text": "enter.",
+          "hl": false,
+          "line": 0,
+          "from": 391,
+          "to": 403
+        }
+      ]
+    },
+    "seats": {
+      "scene": "bundestag",
+      "from": 410,
+      "to": 506,
+      "words": [
+        {
+          "text": "The",
+          "hl": false,
+          "line": 0,
+          "from": 410,
+          "to": 415
+        },
+        {
+          "text": "Bundestag",
+          "hl": true,
+          "line": 0,
+          "from": 415,
+          "to": 439
+        },
+        {
+          "text": "has",
+          "hl": false,
+          "line": 0,
+          "from": 439,
+          "to": 447
+        },
+        {
+          "text": "630",
+          "hl": true,
+          "line": 0,
+          "from": 447,
+          "to": 495
+        },
+        {
+          "text": "seats.",
+          "hl": true,
+          "line": 0,
+          "from": 495,
+          "to": 506
+        }
+      ]
+    },
+    "elect": {
+      "scene": "chancellor",
+      "from": 516,
+      "to": 639,
+      "words": [
+        {
+          "text": "It",
+          "hl": false,
+          "line": 0,
+          "from": 516,
+          "to": 521
+        },
+        {
+          "text": "elects",
+          "hl": false,
+          "line": 0,
+          "from": 521,
+          "to": 534
+        },
+        {
+          "text": "the",
+          "hl": false,
+          "line": 0,
+          "from": 534,
+          "to": 539
+        },
+        {
+          "text": "Chancellor,",
+          "hl": true,
+          "line": 0,
+          "from": 539,
+          "to": 563
+        },
+        {
+          "text": "with",
+          "hl": false,
+          "line": 1,
+          "from": 563,
+          "to": 570
+        },
+        {
+          "text": "at",
+          "hl": false,
+          "line": 1,
+          "from": 570,
+          "to": 575
+        },
+        {
+          "text": "least",
+          "hl": false,
+          "line": 1,
+          "from": 575,
+          "to": 584
+        },
+        {
+          "text": "316",
+          "hl": true,
+          "line": 1,
+          "from": 584,
+          "to": 628
+        },
+        {
+          "text": "votes.",
+          "hl": true,
+          "line": 1,
+          "from": 628,
+          "to": 639
+        }
+      ]
+    },
+    "merz": {
+      "scene": "chancellor",
+      "from": 646,
+      "to": 696,
+      "words": [
+        {
+          "text": "Today:",
+          "hl": false,
+          "line": 0,
+          "from": 646,
+          "to": 666
+        },
+        {
+          "text": "Friedrich",
+          "hl": true,
+          "line": 0,
+          "from": 666,
+          "to": 683
+        },
+        {
+          "text": "Merz.",
+          "hl": true,
+          "line": 0,
+          "from": 683,
+          "to": 696
+        }
+      ]
+    },
+    "convention": {
+      "scene": "president",
+      "from": 706,
+      "to": 808,
+      "words": [
+        {
+          "text": "The",
+          "hl": false,
+          "line": 0,
+          "from": 706,
+          "to": 711
+        },
+        {
+          "text": "President",
+          "hl": true,
+          "line": 0,
+          "from": 711,
+          "to": 734
+        },
+        {
+          "text": "is",
+          "hl": false,
+          "line": 0,
+          "from": 734,
+          "to": 739
+        },
+        {
+          "text": "chosen",
+          "hl": false,
+          "line": 0,
+          "from": 739,
+          "to": 756
+        },
+        {
+          "text": "by",
+          "hl": false,
+          "line": 1,
+          "from": 756,
+          "to": 764
+        },
+        {
+          "text": "a",
+          "hl": false,
+          "line": 1,
+          "from": 764,
+          "to": 769
+        },
+        {
+          "text": "Federal",
+          "hl": true,
+          "line": 1,
+          "from": 769,
+          "to": 786
+        },
+        {
+          "text": "Convention.",
+          "hl": true,
+          "line": 1,
+          "from": 786,
+          "to": 808
+        }
+      ]
+    },
+    "steinmeier": {
+      "scene": "president",
+      "from": 815,
+      "to": 885,
+      "words": [
+        {
+          "text": "Today:",
+          "hl": false,
+          "line": 0,
+          "from": 815,
+          "to": 836
+        },
+        {
+          "text": "Frank-Walter",
+          "hl": true,
+          "line": 0,
+          "from": 836,
+          "to": 861
+        },
+        {
+          "text": "Steinmeier.",
+          "hl": true,
+          "line": 0,
+          "from": 861,
+          "to": 885
+        }
+      ]
+    }
+  }
+}

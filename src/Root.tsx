@@ -1,7 +1,12 @@
 import React from "react";
 import { Composition } from "remotion";
-import { VIDEO, SAMPLE_DURATION_FRAMES } from "./config";
+import { VIDEO, VERTICAL, SAMPLE_DURATION_FRAMES } from "./config";
 import { SampleShowcase, sampleDefaults } from "./compositions/SampleShowcase";
+import {
+  GermanElection,
+  germanElectionDefaults,
+  GERMAN_ELECTION_DURATION,
+} from "./compositions/GermanElection";
 
 /**
  * Register every composition here. To add one:
@@ -18,6 +23,15 @@ export const RemotionRoot: React.FC = () => (
       width={VIDEO.width}
       height={VIDEO.height}
       defaultProps={sampleDefaults}
+    />
+    <Composition
+      id="GermanElection"
+      component={GermanElection}
+      durationInFrames={GERMAN_ELECTION_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+      defaultProps={germanElectionDefaults}
     />
   </>
 );

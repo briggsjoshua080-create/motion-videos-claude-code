@@ -8,6 +8,7 @@
     "dev": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts SampleShowcase out/sample-showcase.mp4",
     "render:still": "remotion still src/index.ts SampleShowcase out/sample-showcase.png --frame=60",
+    "render:german-election": "bash scripts/german-election/render.sh",
     "compositions": "remotion compositions src/index.ts",
     "typecheck": "tsc --noEmit",
     "upgrade": "remotion upgrade"
