@@ -89,3 +89,30 @@ out/                    render output (git-ignored)
 - After every successful render, send the MP4 to the user in the chat (e.g. with the `SendUserFile`
   tool, `display: "render"`) — `out/` is git-ignored, so the file is otherwise unreachable from a
   cloud session. Mention the file name, resolution, fps and duration.
+
+## Motion videos (read before making any new video)
+
+When the user asks for a motion video, explainer or any Remotion video, use the two project skills in `.claude/skills/` and follow the layout of this repo, not the skills' default layout.
+
+1. `educational-video-creator`: the workflow (requirements → script → storyboard → visuals → animation → audio → QA). Load it with the Skill tool.
+2. `remotion-best-practices`: Remotion API rules. Start with its `SKILL.md`, then read the reference for the task (e.g. `remotion-markup/audio.md`, `transitions.md`, `multi-scene-video.md`).
+
+### Overrides to the skills' defaults in this repo
+- Do **not** create a `remotion_video/` folder or run `npx create-video`. Use `src/compositions/<Name>.tsx`, `src/scenes/<name>/`, `src/components/<name>/`, `public/audio/<name>/`, and register the composition in `src/Root.tsx`.
+- Do **not** use `edge-tts`; its service is blocked in this environment. Use the offline Kokoro pipeline in `scripts/german-election/` as the template.
+- The narration is the source of truth. Every animation, subtitle and sound-effect cue comes from `timeline.json` through `cue()` (see `src/compositions/german-election/constants.ts`). Never hard-code narration frame numbers.
+- Colours only via the `COLORS` object. Use generic characters, not real people's likenesses, unless the user asks otherwise.
+- All motion comes from `useCurrentFrame()`. No CSS transitions or animations.
+
+### Steps, in order
+1. Check the answers in `briefs/motion-video-brief.xlsx` (sheet "Blank Brief"). Ask the user for anything missing.
+2. Write `briefs/<video>/script.md`. Get the user's approval before building.
+3. Write `briefs/<video>/storyboard.md` with scene timings.
+4. Voice and timeline: `python3 -I scripts/<video>/build_voice.py --model-dir <dir with kokoro-v1.0.onnx and voices-v1.0.bin>`.
+5. Music and sound effects: `python3 -I scripts/<video>/build_music_sfx.py`.
+6. Build the composition, then run `npm run typecheck`.
+7. QA: render stills with `npx remotion still src/index.ts <Id> out/stills/f060.png --frame=60 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`. Check scene starts, scene ends, transitions, and that frame 0 is not empty.
+8. Render: `bash scripts/<video>/render.sh --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
+9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to the working branch.
+
+The `scripts/german-election/` files are templates for one video. For a new video, copy the folder and change the scene data, composition id and file names.
