@@ -1,130 +1,191 @@
 import React from "react";
-import { interpolate, useCurrentFrame } from "remotion";
+import { useCurrentFrame } from "remotion";
 import { theme } from "../../theme";
-import { ease, enter, float } from "../../lib/animation";
-import { Crown, DrawnPath, Medallion, NL, SceneFrame, SceneHeader, pop, progress, type SceneProps } from "./ui";
+import { Character } from "../../components/explainer/Character";
+import { NameCard } from "../../components/explainer/NameCard";
+import { BallotBoxIcon, DrawnCross, DrawnPath } from "../../components/explainer/icons";
+import { pop, progress, rise, riseStyle, sceneExit } from "../../components/explainer/motion";
+import { HAIR, NL, PALETTE as C, type SceneProps } from "./constants";
 
-const X = 300; // centre line of the family chain
-const ROWS = {
-  beatrix: { y: 430, r: 50 },
-  king: { y: 720, r: 100 },
-  amalia: { y: 975, r: 70 },
-} as const;
-const LABEL_X = 440;
-/** Crown: small above Queen Beatrix, then big on the King's badge (top edge, px). */
-const CROWN_FROM = { top: 325, size: 70 };
-const CROWN_TO = { top: 520, size: 150 };
+const KING = { left: 130, top: 360, size: 330 } as const;
+const LAW = { left: 500, top: 360, width: 460, height: 360 } as const;
 
-const Label: React.FC<{ top: number; p: number; kicker?: string; name: string; sub: string; nameSize: number; subColor?: string }> = ({
-  top,
-  p,
-  kicker,
-  name,
-  sub,
-  nameSize,
-  subColor = NL.mist,
-}) => (
-  <div
-    style={{
-      position: "absolute",
-      left: LABEL_X,
-      top,
-      transform: `translateY(-50%) translateX(${(1 - p) * 40}px)`,
-      opacity: p,
-      fontFamily: theme.font,
-      color: NL.white,
-      display: "flex",
-      flexDirection: "column",
-      gap: 6,
-    }}
-  >
-    {kicker ? <div style={{ fontSize: 34, fontWeight: 800, letterSpacing: 6, color: NL.orangeLight }}>{kicker}</div> : null}
-    <div style={{ fontSize: nameSize, fontWeight: 900, letterSpacing: -1, lineHeight: 1.05 }}>{name}</div>
-    <div style={{ fontSize: 34, fontWeight: 700, color: subColor }}>{sub}</div>
-  </div>
-);
+/** A loose handwritten signature ending at (x, y) on the signature line. */
+const signature = (x: number, y: number) =>
+  `M${x} ${y - 10} C${x + 14} ${y - 50} ${x + 34} ${y - 52} ${x + 38} ${y - 20} S${x + 58} ${y + 6} ${x + 74} ${y - 30} ` +
+  `S${x + 100} ${y - 66} ${x + 112} ${y - 20} S${x + 134} ${y - 2} ${x + 150} ${y - 36} S${x + 178} ${y - 56} ${x + 192} ${y - 18}`;
 
-/** "King Willem-Alexander inherited the crown. His daughter Amalia is next." */
+/**
+ * "And the head of state? Nobody votes for him. King Willem-Alexander inherited the crown. He signs
+ * every law, but his ministers carry the responsibility."
+ */
 export const KingScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
-  const beatrix = enter(frame, 2);
-  const king = pop(frame, cue("king", "King") - 3);
-  const inherit = ease(frame, [cue("king", "inherited") - 2, cue("king", "crown") + 6]);
-  const line1 = progress(frame, cue("king", "inherited") - 4, cue("king", "crown"));
-  const line2 = progress(frame, cue("king", "daughter") - 4, cue("king", "Amalia"));
-  const amalia = pop(frame, cue("king", "Amalia") - 3);
-  const next = enter(frame, cue("king", "next") - 4);
-
-  // The crown travels from Queen Beatrix to the King while the voice says "inherited the crown".
-  const crownTop = interpolate(inherit, [0, 1], [CROWN_FROM.top, CROWN_TO.top]);
-  const crownSize = interpolate(inherit, [0, 1], [CROWN_FROM.size, CROWN_TO.size]);
+  const exit = sceneExit(frame, duration);
+  const king = pop(frame, cue("king", "head") - 6);
+  const ballot = pop(frame, cue("king", "Nobody") - 6);
+  const cross = progress(frame, cue("king", "Nobody") - 1, cue("king", "votes") + 8);
+  const notElected = rise(frame, cue("king", "votes") - 2);
+  const ballotOut = progress(frame, cue("kingRole", "He") - 8, cue("kingRole", "He") + 2);
+  const card = pop(frame, cue("kingInherit", "King") - 4);
+  const name = progress(frame, cue("kingInherit", "Willem-Alexander") - 4, cue("kingInherit", "inherited"));
+  const heir = pop(frame, cue("kingInherit", "crown") - 4);
+  const law = rise(frame, cue("kingRole", "He") - 2);
+  const kingSig = progress(frame, cue("kingRole", "signs") - 1, cue("kingRole", "law", "end") + 2);
+  const ministerSig = progress(frame, cue("kingRole", "ministers") - 1, cue("kingRole", "carry", "end") + 2);
+  const responsible = pop(frame, cue("kingRole", "responsibility") - 3);
 
   return (
-    <SceneFrame duration={duration}>
-      <SceneHeader kicker="HEAD OF STATE" title="INHERITED, NOT ELECTED" titleSize={64} />
-
-      {/* Dotted family line: mother -> son -> granddaughter, drawn on "inherited" and "daughter". */}
-      <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0 }}>
-        <DrawnPath
-          d={`M${X - 52} ${ROWS.beatrix.y + 10} C${X - 160} ${ROWS.beatrix.y + 80} ${X - 170} ${ROWS.king.y - 90} ${X - 102} ${ROWS.king.y - 20}`}
-          p={line1}
-          color={NL.orangeLight}
-          width={7}
+    <>
+      {/* The King: crown, royal robe with ermine collar and an orange sash (no real likeness) */}
+      <div
+        style={{
+          position: "absolute",
+          left: KING.left,
+          top: KING.top,
+          opacity: Math.min(1, king * 1.4) * (1 - exit),
+          transform: `translateY(${-exit * 40}px) scale(${0.85 + 0.15 * king})`,
+          filter: "drop-shadow(0 18px 30px rgba(20,33,61,0.18))",
+        }}
+      >
+        <Character
+          size={KING.size}
+          bg={NL.orangeSoft}
+          palette={C}
+          outfit="robe"
+          clothes={NL.robe}
+          sash={NL.orange}
+          hair={HAIR.light}
+          hairStyle="short"
+          headwear="crown"
+          jewels={[NL.orange, NL.blue]}
+          id="king"
         />
-        <DrawnPath
-          d={`M${X - 100} ${ROWS.king.y + 30} C${X - 165} ${ROWS.king.y + 110} ${X - 160} ${ROWS.amalia.y - 60} ${X - 72} ${ROWS.amalia.y - 6}`}
-          p={line2}
-          color={NL.orangeLight}
-          width={7}
+      </div>
+
+      {/* Nobody votes for him */}
+      <div
+        style={{
+          position: "absolute",
+          left: 620,
+          top: 380,
+          width: 240,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 12,
+          opacity: Math.min(1, ballot * 1.4) * (1 - Math.max(ballotOut, exit)),
+          transform: `scale(${0.7 + 0.3 * ballot})`,
+        }}
+      >
+        <div style={{ position: "relative", width: 210, height: 210 }}>
+          <BallotBoxIcon size={210} palette={C} />
+          <div style={{ position: "absolute", left: 10, top: 10 }}>
+            <DrawnCross size={190} p={cross} color={C.alert} stroke={5.5} />
+          </div>
+        </div>
+        <div style={{ fontFamily: theme.font, fontSize: 40, fontWeight: 800, letterSpacing: 2, color: C.alert, opacity: notElected, whiteSpace: "nowrap" }}>
+          NOT ELECTED
+        </div>
+      </div>
+
+      {/* He signs every law, but the ministers are responsible */}
+      <div
+        style={{
+          position: "absolute",
+          left: LAW.left,
+          top: LAW.top,
+          width: LAW.width,
+          height: LAW.height,
+          borderRadius: 28,
+          background: C.card,
+          boxShadow: "0 22px 54px rgba(20,33,61,0.14)",
+          fontFamily: theme.font,
+          ...riseStyle(law, exit),
+        }}
+      >
+        <div style={{ position: "absolute", left: 30, top: 26, fontSize: 32, fontWeight: 800, letterSpacing: 2, color: C.ink }}>ACT OF PARLIAMENT</div>
+        {[78, 102, 126].map((y, i) => (
+          <div key={y} style={{ position: "absolute", left: 30, top: y, width: [380, 330, 250][i], height: 12, borderRadius: 6, background: C.muted, opacity: 0.4 }} />
+        ))}
+        <svg width={LAW.width} height={LAW.height} style={{ position: "absolute", left: 0, top: 0 }}>
+          <line x1={26} y1={200} x2={240} y2={200} stroke={C.line} strokeWidth={4} />
+          <line x1={26} y1={290} x2={240} y2={290} stroke={C.line} strokeWidth={4} />
+          <DrawnPath d={signature(36, 196)} p={kingSig} color={NL.blue} width={6} />
+          <DrawnPath d={signature(36, 286)} p={ministerSig} color={NL.blue} width={6} />
+        </svg>
+        <div style={{ position: "absolute", left: 262, top: 160, fontSize: 34, fontWeight: 800, color: C.ink, opacity: Math.min(1, kingSig * 3) }}>The King</div>
+        <div style={{ position: "absolute", left: 262, top: 250, fontSize: 34, fontWeight: 800, color: C.ink, opacity: Math.min(1, ministerSig * 3) }}>Minister</div>
+        <div
+          style={{
+            position: "absolute",
+            right: 22,
+            top: 302,
+            padding: "6px 16px",
+            borderRadius: 999,
+            background: C.accent,
+            color: C.white,
+            fontSize: 32,
+            fontWeight: 800,
+            letterSpacing: 1,
+            opacity: Math.min(1, responsible * 1.4),
+            transform: `scale(${0.6 + 0.4 * responsible})`,
+          }}
+        >
+          RESPONSIBLE
+        </div>
+      </div>
+
+      <NameCard
+        top={740}
+        height={200}
+        role="HEAD OF STATE"
+        name="King Willem-Alexander"
+        sub="Inherited the crown in 2013"
+        cardP={card}
+        nameP={name}
+        exitP={exit}
+        palette={C}
+      />
+
+      {/* Next in line */}
+      <div
+        style={{
+          position: "absolute",
+          left: 230,
+          top: 966,
+          width: 620,
+          height: 170,
+          borderRadius: 28,
+          background: C.card,
+          boxShadow: "0 22px 54px rgba(20,33,61,0.12)",
+          display: "flex",
+          alignItems: "center",
+          gap: 28,
+          padding: "0 32px",
+          boxSizing: "border-box",
+          fontFamily: theme.font,
+          opacity: Math.min(1, heir * 1.4) * (1 - exit),
+          transform: `translateY(${(1 - heir) * 40 - exit * 40}px) scale(${0.92 + 0.08 * heir})`,
+        }}
+      >
+        <Character
+          size={120}
+          bg={C.paperDeep}
+          palette={C}
+          outfit="dress"
+          clothes={NL.blue}
+          hair={HAIR.auburn}
+          hairStyle="long"
+          headwear="tiara"
+          jewels={[NL.silver, NL.orange]}
+          id="princess"
         />
-      </svg>
-
-      <div style={{ position: "absolute", left: X - ROWS.beatrix.r, top: ROWS.beatrix.y - ROWS.beatrix.r, opacity: beatrix }}>
-        <Medallion r={ROWS.beatrix.r} ring={NL.mist} id="beatrix" dim />
+        <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+          <div style={{ fontSize: 32, fontWeight: 800, letterSpacing: 4, color: C.alert }}>NEXT IN LINE</div>
+          <div style={{ fontSize: 46, fontWeight: 800, letterSpacing: -1, color: C.ink }}>Princess Amalia</div>
+        </div>
       </div>
-      <Label top={ROWS.beatrix.y} p={beatrix} name="QUEEN BEATRIX" sub="until 2013" nameSize={42} />
-
-      <div
-        style={{
-          position: "absolute",
-          left: X - ROWS.king.r,
-          top: ROWS.king.y - ROWS.king.r,
-          transform: `scale(${king})`,
-        }}
-      >
-        <Medallion r={ROWS.king.r} ring={NL.orange} id="king" />
-      </div>
-      <Label top={ROWS.king.y + 10} p={king} kicker="KING" name="WILLEM-ALEXANDER" sub="since 2013" nameSize={48} />
-
-      <div
-        style={{
-          position: "absolute",
-          left: X - crownSize / 2,
-          top: crownTop + float(frame, 4, 60),
-          opacity: beatrix,
-          filter: "drop-shadow(0 10px 18px rgba(0,0,0,0.4))",
-        }}
-      >
-        <Crown size={crownSize} id="king-crown" />
-      </div>
-
-      <div style={{ position: "absolute", left: X - ROWS.amalia.r, top: ROWS.amalia.y - ROWS.amalia.r, transform: `scale(${amalia})` }}>
-        <Medallion r={ROWS.amalia.r} ring={NL.orangeLight} id="amalia" />
-      </div>
-      <Label top={ROWS.amalia.y} p={amalia} name="PRINCESS AMALIA" sub="next in line" nameSize={44} subColor={NL.orangeLight} />
-
-      {/* A faint crown waiting above Amalia on "next". */}
-      <div
-        style={{
-          position: "absolute",
-          left: X - 40,
-          top: ROWS.amalia.y - ROWS.amalia.r - 66,
-          opacity: 0.6 * next,
-          transform: `translateY(${(1 - next) * 20}px)`,
-        }}
-      >
-        <Crown size={80} id="amalia-crown" />
-      </div>
-    </SceneFrame>
+    </>
   );
 };

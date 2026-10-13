@@ -1,29 +1,33 @@
-# Storyboard: Who runs the Netherlands?
+# Storyboard: Dutch election system (version 2)
 
-Format: 1080×1920 (9:16), 30 fps, 1331 frames (44.4 s). Palette: Dutch flag red `#AE1C28`, white, blue `#21468B`, the
-national orange `#FF7F00`, on a deep blue background (`NL` in `src/scenes/dutch-election/ui.tsx`). Font: Inter.
+Format: 1080×1920, 30 fps, 1768 frames (58.9 s). The look is the `GermanElection` style in Dutch colours: white
+paper (`#FFFFFF`, faint dot grid, soft orange and blue glows), ink `#14213D`, flag red `#AE1C28`, blue `#21468B`, and
+the national orange `#FF7F00` as the accent (`PALETTE` and `NL` in `src/scenes/dutch-election/constants.ts`). Font: Inter.
 
-Every scene starts 6 frames before its sentence, and every visual cue is looked up from the voice-over timing with
-`cue(sentence, word)`. No narration frame numbers are hard-coded.
+Every cue is looked up from the voice-over timing with `cue(sentence, word)` / `at(...)`. No narration frame numbers
+are hard-coded.
 
-**Persistent layers**
-- **Backdrop:** a deep blue gradient with soft orange and red glows, drifting specks, and the tricolour along the top edge.
-- **Subtitles:** TikTok style (`src/components/Subtitles.tsx`), centred at y = 1330, with the spoken word highlighted
-  orange. They are hidden for the closing question, whose words appear big on screen.
-- **Audio:** the voice-over, soft music 16 LU under the voice (`public/audio/dutch-election/music.mp3`), and light sound
-  effects tied to words (`SFX` in `DutchElection.tsx`). Mastered to −14 LUFS.
+**Persistent layers** (`src/compositions/DutchElection.tsx`)
+- **Paper**: the white background with the red-white-blue bar on the top edge.
+- **StepHeader**: "DUTCH ELECTION SYSTEM" plus 4 pills (Vote · Parliament · Government · King). It enters with
+  step 1, the active pill is ink, and finished pills get an orange tick (all ticked for the closing question).
+- **HouseLayer**: one 150-seat half-circle from the Parliament step to the King. It sweeps in, moves left for the
+  Senate, returns for the 2025 result and the coalition (with the majority line), and fades when the King appears.
+- **CaptionBox**: a dark rounded box at y = 1395. Words light up as they are spoken and key words are orange
+  (`KEYWORDS`). It is hidden for the closing question.
+- **Audio**: the voice-over, a soft music bed (volume 0.11, about 16 LU under the voice), and word-synced sound
+  effects (whoosh, pop, scribble, thud, chime). Mastered to −14 LUFS.
 
-| # | Scene (file) | Narration | Visual |
+| Step | Scene | Narration | Visual |
 |---|---|---|---|
-| 1 | Hook (`HookScene`) | The Dutch **never** vote for their head of state. **So who's** in charge? | A ballot paper "HEAD OF STATE" with a crown is visible from frame 0. A red "NO VOTE" stamp slams in on "never" (thud). The title "WHO'S IN CHARGE?" appears on "So" and an orange "?" pops on "who's". |
-| 2 | King (`KingScene`) | **King** Willem-Alexander **inherited the crown**. His **daughter Amalia** is **next**. | Family chain: Queen Beatrix (until 2013), then King Willem-Alexander (since 2013), then Princess Amalia (next in line). The crown travels from Beatrix to the King on "inherited the crown". A dotted line draws to Amalia, and a faint crown waits above her on "next". Title: "INHERITED, NOT ELECTED". |
-| 3 | Role (`RoleScene`) | He **signs** every law, but his **ministers** take the **responsibility**. | An "ACT OF PARLIAMENT" with a royal seal. The King's signature draws on "signs" and a minister's on "ministers" (scribble sounds). On "responsibility": "MINISTERS ARE RESPONSIBLE · Constitution, article 42". |
-| 4 | Voters (`VotersScene`) | Voters **fill** all **150** seats in the **House** of Representatives, at **least** every four years. | A ballot marked with the Dutch red pencil on "fill". The 150-seat hemicycle sweeps in with a counter on "150", the "HOUSE OF REPRESENTATIVES" label appears on "House", and an "AT LEAST EVERY 4 YEARS" calendar on "least". |
-| 5 | Senate (`SenateScene`) | The **75** senators? **Provincial** councils **choose** them, **not** the people directly. | The 75-seat Senate hemicycle with a counter. 12 council-hall tiles pop in on "Provincial", arrows rise to the Senate on "choose", and a "NO DIRECT VOTE" stamp lands on "not". |
-| 6 | Result (`ResultScene`) | In 2025, **D66** and the **PVV tied** with 26 seats each. A **majority** needs 76. | The 150-seat hemicycle in idle blue. 26 seats fill orange from the left (D66) and 26 white from the right (PVV), with tags and "TIE". On "majority", a red line through the middle and "MAJORITY = 76 SEATS". Caption: "+ 13 other parties share 98 seats". |
-| 7 | Cabinet (`CabinetScene`) | After **117** days of **coalition talks**, the **King swore** in **Rob** Jetten's cabinet, with **66** seats. | The header counts to "117 DAYS OF TALKS". D66 · 26, VVD · 22 and CDA · 18 chips pop in, and the seat bar fills to 66 against the majority tick at 76. The palace-steps photo rises on "King" (crown on the King), with "SWORN IN BY THE KING · 23 FEB 2026". The PM figure turns orange on "Rob" with a "PRIME MINISTER ROB JETTEN" pill, and on "66": "66 SEATS · MINORITY CABINET". |
-| 8 | Question (`QuestionScene`) | Is it really **democracy** if you don't **vote** for your head of state? | A crown, "?" and a ballot box. The question appears word by word with the voice ("DEMOCRACY" and "VOTE" in orange). "COMMENT BELOW" pops after the last word (chime) and holds for 1.4 s. |
+| — | Title | How do the **Dutch** choose who runs their country? | Netherlands outline (Natural Earth) filled red-white-blue, already on frame 0. A "The Hague" pin pops on "Dutch". Kicker "EXPLAINED IN ONE MINUTE" and the title "Dutch election system". |
+| 1 | Vote | At least every **four** years, you get **one** vote. With a **red pencil**, you **fill** in the box next to one **candidate**. Each **party** gets **seats** in line with its votes. | Ballot card (dark header "BALLOT · You have 1 vote", 3 lists × 4 candidates with boxes). "At least every 4 years" chip. The red pencil fills one box on "fill". On "candidate", an orange frame, an arrow and a "Your candidate" card (cartoon woman with a rosette). Then a "Share of votes → Seats" card: 40/34/26% → 60/51/39 seats, with "each seat ≈ 0.67% of the votes". |
+| 2 | House | Together, they fill the **150** seats of the **House** of Representatives. It makes **laws**, **approves** the budget, **checks** the government and can even **vote** it out. | The half-circle sweeps in from "Together" with a counter to 150. Parliament icon + "House of Representatives · Tweede Kamer · elected by you". 4 job cards pop in on their words: Makes laws, Approves the budget, Checks the government, Can vote it out. |
+| 2 | Senate | Then the **75** senators **check** every **law**, but they can **only** say **yes** or **no**. **Provincial** councils **choose** them, **not** you directly. | The House moves left ("House · 150") and a red 75-seat Senate sweeps in on the right ("Senate · 75"). A law flies from House to Senate on "check every law". YES ✓ / NO ✗ pills and "but can't change it". Then 12 council-hall tiles ("12 provincial councils") with arrows up to the Senate, and a crossed-out ballot box "No direct vote" on "not". |
+| 3 | Government | No party wins **76** seats alone. In **2025**, **D66** and the **PVV** **tied** with just 26 each. So **three parties** teamed **up**, with **Rob** Jetten as Prime Minister. | The half-circle returns in grey with the red "MAJORITY · 76" tag and a dashed line. "2025 election result" in the centre. 26 seats fill orange from the left (D66 tag) and 26 blue from the right (PVV tag), then "TIE". On "three parties", PVV returns to grey and the coalition fills from the left: D66 26 + VVD 22 + CDA 18 = 66 (counter), with "66 is less than 76: a minority cabinet". Prime Minister name card with a cartoon politician. |
+| 4 | King | And the **head** of state? **Nobody** **votes** for him. **King** Willem-Alexander inherited the **crown**. He **signs** every law, but his **ministers** carry the **responsibility**. | Cartoon King (crown, red robe with ermine collar, orange sash) on an orange disc. A ballot box gets a red cross: "NOT ELECTED". Name card "HEAD OF STATE · King Willem-Alexander · Inherited the crown in 2013", then "NEXT IN LINE · Princess Amalia" (tiara). The ballot is replaced by an "ACT OF PARLIAMENT": the King's signature draws on "signs", the minister's on "ministers", and a "RESPONSIBLE" tag. |
+| — | Question | Is it really **democracy** if you don't **vote** for your head of state? | Crown, "?" and ballot box. The question appears word by word with the voice ("democracy" and "vote" in orange). "COMMENT BELOW" after the last word (chime), held to the end. |
 
 ## Safe areas (TikTok)
-Key content stays inside x 120–960 and y 170–1200, and the subtitles sit at y ≈ 1250–1410. The bottom ~440 px stays
-clear for TikTok's caption and UI, and the right edge for its buttons.
+Key content stays inside x 120–960 and y 170–1300. The subtitle box sits at y ≈ 1340–1450, and the bottom ~440 px
+stays clear for TikTok's caption and buttons.

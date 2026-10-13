@@ -48,6 +48,11 @@ prompt says otherwise.
   - **flat cartoon characters** instead of plain silhouettes (no real likenesses): royals wear a
     crown or tiara and royal clothes, politicians wear suits, candidates wear a rosette;
   - dark text on light backgrounds; one national colour as the accent.
+  - Build it from the reusable parts in `src/components/explainer/` (take one `ExplainerPalette` per
+    country): `Paper`, `StepHeader`, `CaptionBox`, `NameCard`, `Character` (king/queen with crown and
+    robe, princess with tiara, politician, candidate), icons (ballot box, red pencil, parliament, law,
+    budget, ...) and `motion` helpers, plus `Hemicycle`. Make the country map for the title scene with
+    `scripts/country-outline.py`. Copy `DutchElection` as the starting point.
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
   e.g. Dutch orange), collected in one colour object for the video.
 - **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
@@ -55,7 +60,7 @@ prompt says otherwise.
   `pronounce`.
 - **Subtitles:** showing the voice-over word for word in a **dark rounded box** near the bottom
   (y ≈ 1395), a short phrase at a time; spoken words light up, key words are in the accent colour
-  (as in `GermanElection`).
+  (`CaptionBox` in `src/components/explainer/`, as in `GermanElection`).
 - **Audio:** soft background music under the voice (`npm run music`), plus light, subtle sound
   effects (`public/audio/sfx/`). Master to −14 LUFS with `npm run render:final`.
 - **Ending:** a closing question, spoken and shown big on screen, that is polarising and invites
@@ -163,6 +168,7 @@ or cue a neighbouring word.
 | Make background music | `npm run music -- src/voiceover/<name>.timing.json [--transpose N]` → `public/audio/<name>/music.mp3` |
 | Rebuild shared sound effects | `npm run sfx` → `public/audio/sfx/*.wav` (committed; rarely needed) |
 | Render + master to −14 LUFS | `npm run render:final -- <CompositionId> <output-name> [--browser-executable=...]` → `out/<output-name>.mp4` |
+| Country map for a title scene | `python3 -I scripts/country-outline.py <countries-10m.json> "<Country>" src/components/<country>.ts --const <NAME>` (data: `npm pack world-atlas@2.0.2`, see the script) |
 
 If Chrome cannot be auto-downloaded (offline/sandbox), add
 `--browser-executable=/path/to/chrome-or-headless_shell` to any command. In Claude cloud sessions
@@ -178,13 +184,16 @@ src/theme.ts            colours + font (Inter bundled locally)
 src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
-                        Subtitles, Hemicycle, FranceMap)
+                        Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts)
+src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader, CaptionBox,
+                        NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
 src/voiceover/          narration scripts (*.script.json), generated timings, timing.ts helpers
 scripts/voiceover.py    AI voice-over generator (Kokoro TTS)
 scripts/music.py        soft background music from a voice-over timing file
 scripts/sfx.py          shared sound effects (public/audio/sfx/)
 scripts/render.sh       render any composition + master the audio to -14 LUFS
+scripts/country-outline.py  country outline (SVG path) from Natural Earth for title maps
 briefs/<video>/         script.md (narration + fact sheet + sources), storyboard.md, PROGRESS.md
 public/audio|images|fonts   static assets, referenced with staticFile("audio/x.mp3")
 public/audio/<name>/    per-video music; public/audio/sfx/ shared sound effects

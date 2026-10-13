@@ -1,82 +1,77 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
 import { theme } from "../../theme";
-import { enter, float } from "../../lib/animation";
-import { Crown, NL, Pill, SAFE, SceneFrame, pop, type SceneProps } from "./ui";
+import { float } from "../../lib/animation";
+import { BallotBoxIcon, CrownIcon } from "../../components/explainer/icons";
+import { pop } from "../../components/explainer/motion";
+import { PALETTE as C, type SceneProps } from "./constants";
 
-/** Question words, each revealed when the voice says it ("of" appears once, so no "#2" needed). */
+/** Question words, each revealed when the voice says it. */
 const WORDS: [text: string, spoken: string][] = [
-  ["IS", "Is"],
-  ["IT", "it"],
-  ["REALLY", "really"],
-  ["DEMOCRACY", "democracy"],
-  ["IF", "if"],
-  ["YOU", "you"],
-  ["DON'T", "don't"],
-  ["VOTE", "vote"],
-  ["FOR", "for"],
-  ["YOUR", "your"],
-  ["HEAD", "head"],
-  ["OF", "of"],
-  ["STATE?", "state"],
+  ["Is", "Is"],
+  ["it", "it"],
+  ["really", "really"],
+  ["democracy", "democracy"],
+  ["if", "if"],
+  ["you", "you"],
+  ["don't", "don't"],
+  ["vote", "vote"],
+  ["for", "for"],
+  ["your", "your"],
+  ["head", "head"],
+  ["of", "of"],
+  ["state?", "state"],
 ];
 const ACCENT = new Set(["democracy", "vote"]);
 
-const BallotBox: React.FC<{ size: number }> = ({ size }) => (
-  <svg width={size} height={size} viewBox="0 0 200 200">
-    <rect x={62} y={18} width={86} height={96} rx={8} fill={NL.paper} transform="rotate(8 105 66)" />
-    <circle cx={96} cy={56} r={14} fill={NL.redBright} transform="rotate(8 105 66)" />
-    <rect x={20} y={88} width={160} height={100} rx={18} fill={NL.blue} stroke={NL.white} strokeWidth={6} />
-    <rect x={56} y={80} width={88} height={14} rx={7} fill={NL.deep} />
-    <rect x={20} y={88} width={160} height={22} rx={10} fill={NL.white} opacity={0.2} />
-  </svg>
-);
-
-/** "Is it really democracy if you don't vote for your head of state?" */
-export const QuestionScene: React.FC<SceneProps> = ({ cue, duration }) => {
+/**
+ * "Is it really democracy if you don't vote for your head of state?" + a call to comment.
+ * The last scene has no exit: it stays on screen to the end (TikTok loops back to the title).
+ */
+export const QuestionScene: React.FC<SceneProps> = ({ cue }) => {
   const frame = useCurrentFrame();
   const icons = pop(frame, 0);
   const cta = pop(frame, cue("question", "state", "end") + 4);
 
   return (
-    <SceneFrame duration={duration}>
+    <>
       <div
         style={{
           position: "absolute",
-          top: 330,
-          left: SAFE.left,
-          width: SAFE.width,
+          top: 370,
+          left: 120,
+          width: 840,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          gap: 40,
+          gap: 44,
           opacity: Math.min(1, icons * 1.4),
           transform: `scale(${0.7 + 0.3 * icons})`,
         }}
       >
         <div style={{ transform: `translateY(${float(frame, 8, 70)}px) rotate(-6deg)` }}>
-          <Crown size={210} id="question-crown" />
+          <CrownIcon size={200} palette={C} />
         </div>
         <div
           style={{
             width: 120,
             height: 120,
-            borderRadius: "50%",
-            background: NL.orange,
-            color: NL.white,
+            borderRadius: 60,
+            background: C.accent,
+            color: C.white,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             fontFamily: theme.font,
-            fontSize: 96,
-            fontWeight: 900,
-            boxShadow: "0 14px 40px rgba(0,0,0,0.4)",
+            fontSize: 92,
+            fontWeight: 800,
+            boxShadow: "0 14px 34px rgba(20,33,61,0.2)",
           }}
         >
           ?
         </div>
         <div style={{ transform: `translateY(${float(frame, 8, 70, 35)}px) rotate(6deg)` }}>
-          <BallotBox size={210} />
+          <BallotBoxIcon size={200} palette={C} />
         </div>
       </div>
 
@@ -84,33 +79,30 @@ export const QuestionScene: React.FC<SceneProps> = ({ cue, duration }) => {
         style={{
           position: "absolute",
           top: 640,
-          left: SAFE.left,
-          width: SAFE.width,
+          left: 120,
+          width: 840,
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "baseline",
           columnGap: 24,
           fontFamily: theme.font,
-          fontSize: 88,
-          fontWeight: 900,
-          lineHeight: 1.08,
-          letterSpacing: -2,
+          fontSize: 92,
+          fontWeight: 800,
+          lineHeight: 1.1,
+          letterSpacing: -2.5,
         }}
       >
         {WORDS.map(([text, spoken]) => {
-          const p = enter(frame, cue("question", spoken) - 3, { damping: 14, stiffness: 180 });
-          const accent = ACCENT.has(spoken);
+          const p = pop(frame, cue("question", spoken) - 3);
           return (
             <span
               key={text}
               style={{
                 display: "inline-block",
-                fontSize: spoken === "democracy" ? 108 : undefined,
-                color: accent ? NL.orangeLight : NL.white,
-                opacity: p,
-                transform: `translateY(${(1 - p) * 40}px) scale(${0.8 + 0.2 * p})`,
-                textShadow: "0 6px 24px rgba(0,0,0,0.35)",
+                color: ACCENT.has(spoken) ? C.accentDeep : C.ink,
+                opacity: Math.min(1, p * 1.4),
+                transform: `translateY(${(1 - p) * 30}px)`,
               }}
             >
               {text}
@@ -122,19 +114,31 @@ export const QuestionScene: React.FC<SceneProps> = ({ cue, duration }) => {
       <div
         style={{
           position: "absolute",
-          top: 1190,
-          left: SAFE.left,
-          width: SAFE.width,
+          top: 1210,
+          left: 120,
+          width: 840,
           display: "flex",
           justifyContent: "center",
-          opacity: cta,
+          opacity: Math.min(1, cta * 1.4),
           transform: `scale(${cta})`,
         }}
       >
-        <Pill size={44} bg={NL.redBright}>
+        <div
+          style={{
+            padding: "16px 40px",
+            borderRadius: 999,
+            background: C.alert,
+            color: C.white,
+            fontFamily: theme.font,
+            fontSize: 44,
+            fontWeight: 800,
+            letterSpacing: 2,
+            boxShadow: "0 14px 34px rgba(20,33,61,0.2)",
+          }}
+        >
           COMMENT BELOW
-        </Pill>
+        </div>
       </div>
-    </SceneFrame>
+    </>
   );
 };

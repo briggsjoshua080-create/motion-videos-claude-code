@@ -3,30 +3,82 @@
   "lang": "en-gb",
   "speed": 1.15,
   "leadIn": 0.3,
-  "pauseAfter": 0.25,
+  "pauseAfter": 0.3,
   "say": {
     "150": "a hundred and fifty",
     "75": "seventy-five",
+    "76": "seventy-six",
     "2025": "twenty twenty-five",
     "D66": "D sixty-six",
     "PVV": "P V V",
+    "VVD": "V V D",
+    "CDA": "C D A",
     "26": "twenty-six",
-    "76": "seventy-six",
-    "117": "a hundred and seventeen",
     "66": "sixty-six"
   },
   "pronounce": {
-    "Amalia": "ɐmˈɑːliə",
-    "Jetten's": "jˈɛtənz"
+    "Jetten": "jˈɛtən"
   },
   "sentences": [
-    { "id": "hook", "text": "The Dutch never vote for their head of state. So who's in charge?", "pauseAfter": 0.35 },
-    { "id": "king", "text": "King Willem-Alexander inherited the crown. His daughter Amalia is next." },
-    { "id": "role", "text": "He signs every law, but his ministers take the responsibility." },
-    { "id": "voters", "text": "Voters fill all 150 seats in the House of Representatives, at least every four years." },
-    { "id": "senate", "text": "The 75 senators? Provincial councils choose them, not the people directly." },
-    { "id": "result", "text": "In 2025, D66 and the PVV tied with 26 seats each. A majority needs 76." },
-    { "id": "cabinet", "text": "After 117 days of coalition talks, the King swore in Rob Jetten's cabinet, with 66 seats.", "pauseAfter": 0.4 },
-    { "id": "question", "text": "Is it really democracy if you don't vote for your head of state?" }
+    {
+      "id": "hook",
+      "text": "How do the Dutch choose who runs their country?"
+    },
+    {
+      "id": "vote",
+      "text": "At least every four years, you get one vote."
+    },
+    {
+      "id": "pencil",
+      "text": "With a red pencil, you fill in the box next to one candidate."
+    },
+    {
+      "id": "share",
+      "text": "Each party gets seats in line with its votes.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "house",
+      "text": "Together, they fill the 150 seats of the House of Representatives."
+    },
+    {
+      "id": "houseJob",
+      "text": "It makes laws, approves the budget, checks the government and can even vote it out."
+    },
+    {
+      "id": "senate",
+      "text": "Then the 75 senators check every law, but they can only say yes or no."
+    },
+    {
+      "id": "senateHow",
+      "text": "Provincial councils choose them, not you directly.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "coalition",
+      "text": "No party wins 76 seats alone. In 2025, D66 and the PVV tied with just 26 each."
+    },
+    {
+      "id": "cabinet",
+      "text": "So three parties teamed up, with Rob Jetten as Prime Minister.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "king",
+      "text": "And the head of state? Nobody votes for him."
+    },
+    {
+      "id": "kingInherit",
+      "text": "King Willem-Alexander inherited the crown."
+    },
+    {
+      "id": "kingRole",
+      "text": "He signs every law, but his ministers carry the responsibility.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "question",
+      "text": "Is it really democracy if you don't vote for your head of state?"
+    }
   ]
 }

@@ -1,51 +1,57 @@
-# Video Production Progress: Who runs the Netherlands? (Dutch election system)
+# Video Production Progress: Dutch election system
 
 ## Current State
-- **Current Phase**: Done
+- **Current Phase**: Done (version 2)
 - **Current Step**: Delivered `out/dutch-election-system.mp4`; waiting for feedback
 - **Last Updated**: 2026-10-13
 
 ## Project Info
-- **Topic**: How the Netherlands is governed: hereditary head of state, elected parliament, coalition government
+- **Topic**: How the Dutch choose who runs the country: vote → parliament → government → King
 - **Brief**: the standing brief "educational motion graphics video, political system" in `CLAUDE.md`
-- **Composition**: `DutchElection` (`src/compositions/DutchElection.tsx`), 1080×1920, 30 fps, 1331 frames (44.4 s)
-- **Skills**: `.claude/skills/educational-video-creator` and `.claude/skills/remotion-best-practices`, adapted to this repo's layout
+- **Look**: the `GermanElection` style in Dutch colours, built from the reusable `src/components/explainer/`
+- **Composition**: `DutchElection` (`src/compositions/DutchElection.tsx`), 1080×1920, 30 fps, 1768 frames (58.9 s)
+- **Skills**: `.claude/skills/educational-video-creator` and `.claude/skills/remotion-best-practices`, adapted to this repo
 
 ## Phase Checklist
 ### Phase 1: Requirements ✅
-- [x] Standing brief applied. The user chose: English, British male voice, ~40 s full version + Senate line, closing question "Is it really democracy if you don't vote for your head of state?"
+- [x] Feedback on version 1: unclear how people vote, a list of facts, the House and Senate not explained. The user
+      wants the German video's look on white, a real King character, and allows 25–60 s.
+- [x] The user approved: script v2, "king" (not "key") icons, and this look as the standard for all future videos.
 ### Phase 1.5: Script ✅
-- [x] Narration and fact sheet in `script.md` (official sources). Approved; then shortened (user's choice) to fit 45 s after the Senate line was added.
+- [x] Ladder script (Vote → Parliament → Government → King), measured 57.9 s with the real voice. Facts in `script.md`.
 ### Phase 2: Storyboard ✅
-- [x] 8 scenes in `storyboard.md`
+- [x] 7 scenes + persistent header, half-circle, subtitles and audio in `storyboard.md`
 ### Phase 3: Visual design ✅
-- [x] Dutch flag colours + national orange, Inter, `NL`/`SAFE` in `src/scenes/dutch-election/ui.tsx`
+- [x] White palette from the Dutch flag + orange (`PALETTE`/`NL`), Netherlands outline from Natural Earth
+      (`scripts/country-outline.py` → `src/components/netherlands.ts`)
 ### Phase 4: Animation ✅
-- [x] Scenes in `src/scenes/dutch-election/`, reusable `src/components/Hemicycle.tsx`
-- [x] All visual and sound cues come from the voice-over timing via `cue()`
+- [x] Reusable explainer components: Paper, StepHeader, CaptionBox, NameCard, Character (king/princess/politician/candidate), icons, motion
+- [x] Scenes in `src/scenes/dutch-election/`, persistent `HouseLayer`; all cues from the voice-over timing
 ### Phase 4.5: Audio ✅
-- [x] Voice: Kokoro `bm_george`, speed 1.15 (`npm run voiceover -- src/voiceover/dutch-election.script.json`), 43.3 s
-- [x] Music: `npm run music -- src/voiceover/dutch-election.timing.json --transpose 2`, volume 0.11 (about 16 LU under the voice)
-- [x] Sound effects: shared `public/audio/sfx/` (whoosh, pop, scribble, thud, chime)
+- [x] Voice: `npm run voiceover -- src/voiceover/dutch-election.script.json`
+- [x] Music: `npm run music -- src/voiceover/dutch-election.timing.json --transpose 2`, volume 0.11
+- [x] Sound effects from `public/audio/sfx/`, tied to words
 ### Phase 5: QA ✅
 - [x] `npm run typecheck`
-- [x] 24 key frames reviewed (start/middle/end of every scene). Fixed: stray seat before the sweep, see-through stamp, lingering pencil, "0 DAYS" counter, cramped majority label, CTA spacing, dark idle seats, crown missing on frame 0
-- [x] Transition frames checked in the final MP4: clean fades, no empty frames
-- [x] ffprobe: h264 1080×1920, 30 fps, 1331 frames (44.37 s), AAC 48 kHz stereo. Loudness −13.9 LUFS, peak −2.4 dBFS
+- [x] 30 key frames reviewed. Fixed: map not filled on frame 0, stray majority-line dot, arrows over the Senate label,
+      last subtitle lingering into the closing question, title half-faded on frame 0, empty stage at the start of the
+      Parliament step (the seats now sweep in from "Together")
+- [x] Transition frames checked in the final MP4; ffprobe: h264 1080×1920, 30 fps, 1768 frames (58.94 s), AAC 48 kHz
+      stereo; loudness −13.9 LUFS, peak −2.6 dBFS
 ### Phase 6: Export ✅
-- [x] `out/dutch-election-system.mp4` sent to the user (render: `npm run render:final -- DutchElection dutch-election-system --browser-executable=...`)
+- [x] `out/dutch-election-system.mp4` sent to the user (`npm run render:final -- DutchElection dutch-election-system --browser-executable=...`)
 
 ## Decisions
 | Decision | Why |
 |---|---|
-| Dropped "two-thirds of a percent wins a seat" | User's choice: with the Senate line the script ran 52–55 s; this version measures 44.4 s |
-| "not the people directly" (Senate) | Accurate: people elect the provincial councils, which elect the Senate |
-| Neutral party colours (orange/white/blue tones), no party logos | Keeps the video party-neutral; only the closing question is meant to polarise |
-| Generic figures, no portraits | No likenesses of real people; names are given as text |
+| Coalition parties and Princess Amalia shown on screen, not spoken | Keeps the narration under 60 s |
+| "not you directly" for the Senate | Accurate: people elect the provincial councils, which elect the Senate |
+| Generic cartoon characters, no portraits | No likenesses of real people; names are given as text |
+| Example vote shares (List 1–3) on the ballot | Explains proportional seats without implying a real party's result |
 | Research via web search limited to official domains | The official sites are blocked for direct fetching in this environment |
 
-## Files Created
-- `src/compositions/DutchElection.tsx`; `src/scenes/dutch-election/{ui,HookScene,KingScene,RoleScene,VotersScene,SenateScene,ResultScene,CabinetScene,QuestionScene}.tsx`
-- `src/components/Hemicycle.tsx` (reusable), `src/components/Subtitles.tsx` (new `activeColor` prop)
+## Files Created / Changed
+- `src/compositions/DutchElection.tsx`; `src/scenes/dutch-election/{constants,HouseLayer,TitleScene,VoteScene,HouseScene,SenateScene,GovernmentScene,KingScene,QuestionScene}.ts(x)`
+- `src/components/explainer/{palette,motion,Paper,StepHeader,CaptionBox,NameCard,Character,icons}.ts(x)`, `src/components/netherlands.ts`
+- `scripts/country-outline.py`
 - `src/voiceover/dutch-election.{script,timing}.json`, `public/voiceover/dutch-election.wav`, `public/audio/dutch-election/music.mp3`
-- `briefs/dutch-election-system/{script,storyboard,PROGRESS}.md`
