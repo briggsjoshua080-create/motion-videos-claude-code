@@ -21,6 +21,11 @@ prompt says otherwise.
   government).
 - **Tell one clear, step-by-step story**, not a list of facts: e.g. Vote → Parliament → Government →
   Head of state, with a header that shows the steps (see `GermanElection`).
+- **Right after the hook, say who can vote** (in every video; it differs between countries): the
+  minimum age, which citizens/residents may vote, whether citizens abroad can vote, and any
+  speciality (e.g. compulsory voting, registering first, voting at 16, foreigners in local
+  elections). Say it in the narration and show it as a "Who can vote?" card at the start of the
+  Vote step. Research it on the official sites every time and put it in the fact sheet.
 - **Show exactly how people vote:** what the ballot looks like, how it is filled in, and how votes
   turn into seats. This is the heart of the video.
 - **Whenever an institution is named** (a parliament chamber, the senate, the head of state, ...),
