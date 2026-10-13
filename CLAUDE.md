@@ -84,3 +84,8 @@ out/                    render output (git-ignored)
 2. `npx remotion still ...` on a few key frames (first, middle, last) and look at them.
 3. Full render succeeds and `ffprobe` shows the expected size/fps/duration.
 4. No text clipped at the edges; every animation settles before its scene ends.
+
+## Delivering finished videos
+- After every successful render, send the MP4 to the user in the chat (e.g. with the `SendUserFile`
+  tool, `display: "render"`) — `out/` is git-ignored, so the file is otherwise unreachable from a
+  cloud session. Mention the file name, resolution, fps and duration.
