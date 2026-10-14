@@ -48,7 +48,9 @@
       "sign up first" (Austrians abroad renew every 10 years), "nearly 1 in 5" on screen as in the voice, "unless it
       wins one in a region" (the 4% rule's exception)
 ### Phase 6: Export ✅
-- [x] `npm run render:final -- AustrianElection austrian-election-system --browser-executable=...`
+- [x] `npm run render:final -- AustrianElection austrian-election-system --browser-executable=...`: h264 1080×1920,
+      30 fps, 1789 frames (59.6 s), AAC 48 kHz stereo; loudness −14.0 LUFS, true peak −2.3 dBFS
+- [x] Scene changes checked in the final MP4: clean fades, frame 0 not empty, the question holds to the end
 - [x] MP4 sent to the user, committed and pushed to `main`
 
 ## Decisions
