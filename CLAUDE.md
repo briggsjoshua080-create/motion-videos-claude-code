@@ -100,10 +100,12 @@ prompt says otherwise.
   `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
   (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments),
   `ItalianElection` ("Who runs Italy?", `briefs/italian-election-system/`; a mixed system with one cross for party and
-  local candidate, two equal houses, a new government without an election, a President elected by parliament) and
+  local candidate, two equal houses, a new government without an election, a President elected by parliament),
   `AustrianElection` ("Who runs Austria?", `briefs/austrian-election-system/`; proportional seats with preference
   votes and a 4% threshold, a second chamber sent by the states, 155 days of coalition talks, a directly elected
-  President with a run-off).
+  President with a run-off) and `PolishElection` ("Who runs Poland?", `briefs/polish-election-system/`; one cross for
+  a candidate on a party list, 5%/8% thresholds, a Senate of 100 district winners, the first party losing power to a
+  Sejm majority, a directly elected President with a run-off and a veto that takes three fifths to override).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
@@ -204,7 +206,7 @@ src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
                         Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts, europe.ts = EU-27,
-                        uk.ts, italy.ts, austria.ts)
+                        uk.ts, italy.ts, austria.ts, poland.ts)
 src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader,
                         NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()

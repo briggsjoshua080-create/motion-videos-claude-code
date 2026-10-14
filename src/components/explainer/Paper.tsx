@@ -76,7 +76,7 @@ export const Paper: React.FC<{ palette: ExplainerPalette }> = ({ palette: c }) =
         }}
       >
         {c.flag.map((color, i) => (
-          <div key={`${color}-${i}`} style={{ flex: 1, height: c.flagVertical ? undefined : 12, background: color }} />
+          <div key={`${color}-${i}`} style={{ flex: c.flagVertical ? 1 : "none", height: c.flagVertical ? undefined : 12, background: color }} />
         ))}
       </div>
       )}

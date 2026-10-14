@@ -1,0 +1,71 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "2023": "twenty twenty-three",
+    "18": "eighteen",
+    "5%": "five percent",
+    "460": "four hundred and sixty",
+    "2025": "twenty twenty-five"
+  },
+  "pronounce": {
+    "Sejm": "sˈeɪm",
+    "MPs": "ˌɛmpˈiːz",
+    "Karol": "kˈaɹɒl",
+    "Nawrocki": "navɹˈɒtski"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In 2023, Poland's ruling party won the most votes, and still lost power. How?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Polish citizens from 18, at home or abroad."
+    },
+    {
+      "id": "ballot",
+      "text": "For the Sejm, parliament's main house, you put one cross next to one candidate.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "seats",
+      "text": "Parties above 5% share the seats by votes, and their most popular candidates get them.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "sejm",
+      "text": "These 460 MPs make the laws and vote the government in."
+    },
+    {
+      "id": "senate",
+      "text": "The Senate, one winner per district, can amend laws, but the Sejm has the final say.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "result",
+      "text": "In 2023, Law and Justice came first, but without a majority."
+    },
+    {
+      "id": "govt",
+      "text": "The next three parties teamed up, voted down its prime minister, and elected Donald Tusk.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "president",
+      "text": "And the president? Elected by the people for five years, in two rounds if needed. Karol Nawrocki won in 2025."
+    },
+    {
+      "id": "veto",
+      "text": "He can veto laws, and overriding him takes three fifths of the Sejm, more than the government has.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "question",
+      "text": "Should the party with the most votes always get to govern?"
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+ "audio": "voiceover/polish-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.7,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In 2023, Poland's ruling party won the most votes, and still lost power. How?",
+   "start": 0.33,
+   "end": 5.84,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.33,
+     "end": 0.473
+    },
+    {
+     "text": "2023,",
+     "start": 0.473,
+     "end": 1.38
+    },
+    {
+     "text": "Poland's",
+     "start": 1.64,
+     "end": 2.146
+    },
+    {
+     "text": "ruling",
+     "start": 2.146,
+     "end": 2.54
+    },
+    {
+     "text": "party",
+     "start": 2.54,
+     "end": 2.877
+    },
+    {
+     "text": "won",
+     "start": 2.877,
+     "end": 3.103
+    },
+    {
+     "text": "the",
+     "start": 3.103,
+     "end": 3.215
+    },
+    {
+     "text": "most",
+     "start": 3.215,
+     "end": 3.552
+    },
+    {
+     "text": "votes,",
+     "start": 3.552,
+     "end": 3.89
+    },
+    {
+     "text": "and",
+     "start": 4.05,
+     "end": 4.228
+    },
+    {
+     "text": "still",
+     "start": 4.228,
+     "end": 4.526
+    },
+    {
+     "text": "lost",
+     "start": 4.526,
+     "end": 4.823
+    },
+    {
+     "text": "power.",
+     "start": 4.823,
+     "end": 5.12
+    },
+    {
+     "text": "How?",
+     "start": 5.55,
+     "end": 5.84
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Polish citizens from 18, at home or abroad.",
+   "start": 6.2,
+   "end": 9.89,
+   "words": [
+    {
+     "text": "Who",
+     "start": 6.2,
+     "end": 6.394
+    },
+    {
+     "text": "can",
+     "start": 6.394,
+     "end": 6.588
+    },
+    {
+     "text": "vote?",
+     "start": 6.588,
+     "end": 6.83
+    },
+    {
+     "text": "Polish",
+     "start": 7.11,
+     "end": 7.494
+    },
+    {
+     "text": "citizens",
+     "start": 7.494,
+     "end": 7.987
+    },
+    {
+     "text": "from",
+     "start": 7.987,
+     "end": 8.206
+    },
+    {
+     "text": "18,",
+     "start": 8.206,
+     "end": 8.59
+    },
+    {
+     "text": "at",
+     "start": 8.72,
+     "end": 8.866
+    },
+    {
+     "text": "home",
+     "start": 8.866,
+     "end": 9.232
+    },
+    {
+     "text": "or",
+     "start": 9.232,
+     "end": 9.378
+    },
+    {
+     "text": "abroad.",
+     "start": 9.378,
+     "end": 9.89
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "For the Sejm, parliament's main house, you put one cross next to one candidate.",
+   "start": 10.25,
+   "end": 14.67,
+   "words": [
+    {
+     "text": "For",
+     "start": 10.25,
+     "end": 10.436
+    },
+    {
+     "text": "the",
+     "start": 10.436,
+     "end": 10.56
+    },
+    {
+     "text": "Sejm,",
+     "start": 10.56,
+     "end": 10.87
+    },
+    {
+     "text": "parliament's",
+     "start": 10.98,
+     "end": 11.577
+    },
+    {
+     "text": "main",
+     "start": 11.577,
+     "end": 11.849
+    },
+    {
+     "text": "house,",
+     "start": 11.849,
+     "end": 12.12
+    },
+    {
+     "text": "you",
+     "start": 12.44,
+     "end": 12.607
+    },
+    {
+     "text": "put",
+     "start": 12.607,
+     "end": 12.83
+    },
+    {
+     "text": "one",
+     "start": 12.83,
+     "end": 13.053
+    },
+    {
+     "text": "cross",
+     "start": 13.053,
+     "end": 13.332
+    },
+    {
+     "text": "next",
+     "start": 13.332,
+     "end": 13.666
+    },
+    {
+     "text": "to",
+     "start": 13.666,
+     "end": 13.834
+    },
+    {
+     "text": "one",
+     "start": 13.834,
+     "end": 14.057
+    },
+    {
+     "text": "candidate.",
+     "start": 14.057,
+     "end": 14.67
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Parties above 5% share the seats by votes, and their most popular candidates get them.",
+   "start": 15.08,
+   "end": 20.62,
+   "words": [
+    {
+     "text": "Parties",
+     "start": 15.08,
+     "end": 15.555
+    },
+    {
+     "text": "above",
+     "start": 15.555,
+     "end": 15.894
+    },
+    {
+     "text": "5%",
+     "start": 15.894,
+     "end": 16.708
+    },
+    {
+     "text": "share",
+     "start": 16.708,
+     "end": 16.979
+    },
+    {
+     "text": "the",
+     "start": 16.979,
+     "end": 17.115
+    },
+    {
+     "text": "seats",
+     "start": 17.115,
+     "end": 17.522
+    },
+    {
+     "text": "by",
+     "start": 17.522,
+     "end": 17.793
+    },
+    {
+     "text": "votes,",
+     "start": 17.793,
+     "end": 18.2
+    },
+    {
+     "text": "and",
+     "start": 18.54,
+     "end": 18.696
+    },
+    {
+     "text": "their",
+     "start": 18.696,
+     "end": 18.852
+    },
+    {
+     "text": "most",
+     "start": 18.852,
+     "end": 19.164
+    },
+    {
+     "text": "popular",
+     "start": 19.164,
+     "end": 19.58
+    },
+    {
+     "text": "candidates",
+     "start": 19.58,
+     "end": 20.204
+    },
+    {
+     "text": "get",
+     "start": 20.204,
+     "end": 20.412
+    },
+    {
+     "text": "them.",
+     "start": 20.412,
+     "end": 20.62
+    }
+   ]
+  },
+  {
+   "id": "sejm",
+   "text": "These 460 MPs make the laws and vote the government in.",
+   "start": 21.03,
+   "end": 25.5,
+   "words": [
+    {
+     "text": "These",
+     "start": 21.03,
+     "end": 21.349
+    },
+    {
+     "text": "460",
+     "start": 21.349,
+     "end": 22.754
+    },
+    {
+     "text": "MPs",
+     "start": 22.754,
+     "end": 23.265
+    },
+    {
+     "text": "make",
+     "start": 23.265,
+     "end": 23.584
+    },
+    {
+     "text": "the",
+     "start": 23.584,
+     "end": 23.712
+    },
+    {
+     "text": "laws",
+     "start": 23.712,
+     "end": 24.031
+    },
+    {
+     "text": "and",
+     "start": 24.031,
+     "end": 24.223
+    },
+    {
+     "text": "vote",
+     "start": 24.223,
+     "end": 24.542
+    },
+    {
+     "text": "the",
+     "start": 24.542,
+     "end": 24.67
+    },
+    {
+     "text": "government",
+     "start": 24.67,
+     "end": 25.308
+    },
+    {
+     "text": "in.",
+     "start": 25.308,
+     "end": 25.5
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "The Senate, one winner per district, can amend laws, but the Sejm has the final say.",
+   "start": 25.86,
+   "end": 30.8,
+   "words": [
+    {
+     "text": "The",
+     "start": 25.86,
+     "end": 25.965
+    },
+    {
+     "text": "Senate,",
+     "start": 25.965,
+     "end": 26.28
+    },
+    {
+     "text": "one",
+     "start": 26.42,
+     "end": 26.633
+    },
+    {
+     "text": "winner",
+     "start": 26.633,
+     "end": 26.9
+    },
+    {
+     "text": "per",
+     "start": 26.9,
+     "end": 27.06
+    },
+    {
+     "text": "district,",
+     "start": 27.06,
+     "end": 27.54
+    },
+    {
+     "text": "can",
+     "start": 27.79,
+     "end": 28.033
+    },
+    {
+     "text": "amend",
+     "start": 28.033,
+     "end": 28.397
+    },
+    {
+     "text": "laws,",
+     "start": 28.397,
+     "end": 28.7
+    },
+    {
+     "text": "but",
+     "start": 29.03,
+     "end": 29.283
+    },
+    {
+     "text": "the",
+     "start": 29.283,
+     "end": 29.409
+    },
+    {
+     "text": "Sejm",
+     "start": 29.409,
+     "end": 29.725
+    },
+    {
+     "text": "has",
+     "start": 29.725,
+     "end": 29.978
+    },
+    {
+     "text": "the",
+     "start": 29.978,
+     "end": 30.105
+    },
+    {
+     "text": "final",
+     "start": 30.105,
+     "end": 30.547
+    },
+    {
+     "text": "say.",
+     "start": 30.547,
+     "end": 30.8
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2023, Law and Justice came first, but without a majority.",
+   "start": 31.26,
+   "end": 35.69,
+   "words": [
+    {
+     "text": "In",
+     "start": 31.26,
+     "end": 31.407
+    },
+    {
+     "text": "2023,",
+     "start": 31.407,
+     "end": 32.34
+    },
+    {
+     "text": "Law",
+     "start": 32.58,
+     "end": 32.832
+    },
+    {
+     "text": "and",
+     "start": 32.832,
+     "end": 33.022
+    },
+    {
+     "text": "Justice",
+     "start": 33.022,
+     "end": 33.526
+    },
+    {
+     "text": "came",
+     "start": 33.526,
+     "end": 33.842
+    },
+    {
+     "text": "first,",
+     "start": 33.842,
+     "end": 34.22
+    },
+    {
+     "text": "but",
+     "start": 34.55,
+     "end": 34.74
+    },
+    {
+     "text": "without",
+     "start": 34.74,
+     "end": 35.072
+    },
+    {
+     "text": "a",
+     "start": 35.072,
+     "end": 35.215
+    },
+    {
+     "text": "majority.",
+     "start": 35.215,
+     "end": 35.69
+    }
+   ]
+  },
+  {
+   "id": "govt",
+   "text": "The next three parties teamed up, voted down its prime minister, and elected Donald Tusk.",
+   "start": 36.05,
+   "end": 41.1,
+   "words": [
+    {
+     "text": "The",
+     "start": 36.05,
+     "end": 36.151
+    },
+    {
+     "text": "next",
+     "start": 36.151,
+     "end": 36.453
+    },
+    {
+     "text": "three",
+     "start": 36.453,
+     "end": 36.704
+    },
+    {
+     "text": "parties",
+     "start": 36.704,
+     "end": 37.057
+    },
+    {
+     "text": "teamed",
+     "start": 37.057,
+     "end": 37.359
+    },
+    {
+     "text": "up,",
+     "start": 37.359,
+     "end": 37.51
+    },
+    {
+     "text": "voted",
+     "start": 37.89,
+     "end": 38.283
+    },
+    {
+     "text": "down",
+     "start": 38.283,
+     "end": 38.564
+    },
+    {
+     "text": "its",
+     "start": 38.564,
+     "end": 38.733
+    },
+    {
+     "text": "prime",
+     "start": 38.733,
+     "end": 39.07
+    },
+    {
+     "text": "minister,",
+     "start": 39.07,
+     "end": 39.52
+    },
+    {
+     "text": "and",
+     "start": 39.82,
+     "end": 39.987
+    },
+    {
+     "text": "elected",
+     "start": 39.987,
+     "end": 40.432
+    },
+    {
+     "text": "Donald",
+     "start": 40.432,
+     "end": 40.822
+    },
+    {
+     "text": "Tusk.",
+     "start": 40.822,
+     "end": 41.1
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "And the president? Elected by the people for five years, in two rounds if needed. Karol Nawrocki won in 2025.",
+   "start": 41.55,
+   "end": 48.87,
+   "words": [
+    {
+     "text": "And",
+     "start": 41.55,
+     "end": 41.69
+    },
+    {
+     "text": "the",
+     "start": 41.69,
+     "end": 41.783
+    },
+    {
+     "text": "president?",
+     "start": 41.783,
+     "end": 42.25
+    },
+    {
+     "text": "Elected",
+     "start": 42.55,
+     "end": 43.004
+    },
+    {
+     "text": "by",
+     "start": 43.004,
+     "end": 43.231
+    },
+    {
+     "text": "the",
+     "start": 43.231,
+     "end": 43.345
+    },
+    {
+     "text": "people",
+     "start": 43.345,
+     "end": 43.742
+    },
+    {
+     "text": "for",
+     "start": 43.742,
+     "end": 43.912
+    },
+    {
+     "text": "five",
+     "start": 43.912,
+     "end": 44.196
+    },
+    {
+     "text": "years,",
+     "start": 44.196,
+     "end": 44.48
+    },
+    {
+     "text": "in",
+     "start": 44.73,
+     "end": 44.897
+    },
+    {
+     "text": "two",
+     "start": 44.897,
+     "end": 45.12
+    },
+    {
+     "text": "rounds",
+     "start": 45.12,
+     "end": 45.509
+    },
+    {
+     "text": "if",
+     "start": 45.509,
+     "end": 45.62
+    },
+    {
+     "text": "needed.",
+     "start": 45.62,
+     "end": 46.01
+    },
+    {
+     "text": "Karol",
+     "start": 46.44,
+     "end": 46.787
+    },
+    {
+     "text": "Nawrocki",
+     "start": 46.787,
+     "end": 47.366
+    },
+    {
+     "text": "won",
+     "start": 47.366,
+     "end": 47.597
+    },
+    {
+     "text": "in",
+     "start": 47.597,
+     "end": 47.771
+    },
+    {
+     "text": "2025.",
+     "start": 47.771,
+     "end": 48.87
+    }
+   ]
+  },
+  {
+   "id": "veto",
+   "text": "He can veto laws, and overriding him takes three fifths of the Sejm, more than the government has.",
+   "start": 49.23,
+   "end": 54.92,
+   "words": [
+    {
+     "text": "He",
+     "start": 49.23,
+     "end": 49.401
+    },
+    {
+     "text": "can",
+     "start": 49.401,
+     "end": 49.628
+    },
+    {
+     "text": "veto",
+     "start": 49.628,
+     "end": 50.026
+    },
+    {
+     "text": "laws,",
+     "start": 50.026,
+     "end": 50.31
+    },
+    {
+     "text": "and",
+     "start": 50.64,
+     "end": 50.816
+    },
+    {
+     "text": "overriding",
+     "start": 50.816,
+     "end": 51.52
+    },
+    {
+     "text": "him",
+     "start": 51.52,
+     "end": 51.755
+    },
+    {
+     "text": "takes",
+     "start": 51.755,
+     "end": 52.107
+    },
+    {
+     "text": "three",
+     "start": 52.107,
+     "end": 52.4
+    },
+    {
+     "text": "fifths",
+     "start": 52.4,
+     "end": 52.752
+    },
+    {
+     "text": "of",
+     "start": 52.752,
+     "end": 52.869
+    },
+    {
+     "text": "the",
+     "start": 52.869,
+     "end": 52.987
+    },
+    {
+     "text": "Sejm,",
+     "start": 52.987,
+     "end": 53.28
+    },
+    {
+     "text": "more",
+     "start": 53.61,
+     "end": 53.838
+    },
+    {
+     "text": "than",
+     "start": 53.838,
+     "end": 54.009
+    },
+    {
+     "text": "the",
+     "start": 54.009,
+     "end": 54.123
+    },
+    {
+     "text": "government",
+     "start": 54.123,
+     "end": 54.692
+    },
+    {
+     "text": "has.",
+     "start": 54.692,
+     "end": 54.92
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should the party with the most votes always get to govern?",
+   "start": 55.33,
+   "end": 58.37,
+   "words": [
+    {
+     "text": "Should",
+     "start": 55.33,
+     "end": 55.573
+    },
+    {
+     "text": "the",
+     "start": 55.573,
+     "end": 55.695
+    },
+    {
+     "text": "party",
+     "start": 55.695,
+     "end": 56.06
+    },
+    {
+     "text": "with",
+     "start": 56.06,
+     "end": 56.242
+    },
+    {
+     "text": "the",
+     "start": 56.242,
+     "end": 56.364
+    },
+    {
+     "text": "most",
+     "start": 56.364,
+     "end": 56.728
+    },
+    {
+     "text": "votes",
+     "start": 56.728,
+     "end": 57.093
+    },
+    {
+     "text": "always",
+     "start": 57.093,
+     "end": 57.58
+    },
+    {
+     "text": "get",
+     "start": 57.58,
+     "end": 57.823
+    },
+    {
+     "text": "to",
+     "start": 57.823,
+     "end": 58.005
+    },
+    {
+     "text": "govern?",
+     "start": 58.005,
+     "end": 58.37
+    }
+   ]
+  }
+ ]
+}
