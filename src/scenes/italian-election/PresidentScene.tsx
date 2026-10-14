@@ -37,7 +37,7 @@ const LAW_CARD = { top: 992, height: 236 } as const;
 export const PresidentScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
   const exit = sceneExit(frame, duration);
-  const president = pop(frame, cue("president", "President") - 8);
+  const president = pop(frame, cue("president", "And") - 4);
   const mps = progress(frame, cue("president", "MPs") - 4, cue("president", "and") + 4, Easing.inOut(Easing.cubic));
   const delegates = progress(frame, cue("president", "regional") - 2, cue("president", "delegates", "end"), Easing.inOut(Easing.cubic));
   const electorsLabel = rise(frame, cue("president", "MPs") - 2);

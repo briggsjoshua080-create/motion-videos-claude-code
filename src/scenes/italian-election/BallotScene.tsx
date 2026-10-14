@@ -152,7 +152,7 @@ const PENCIL_LENGTH = 300;
 export const BallotScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
   const exit = sceneExit(frame, duration);
-  const fanIn = pop(frame, cue("ballot", "two") - 6);
+  const fanIn = pop(frame, cue("ballot", "get") - 4);
   const labels = rise(frame, cue("ballot", "house") - 6);
   const zoom = progress(frame, cue("ballot", "A") - 14, cue("ballot", "A") + 4);
   const reach = progress(frame, cue("ballot", "A") - 6, cue("ballot", "cross") + 2);

@@ -1,8 +1,8 @@
 # Video Production Progress: Italian election system ("Who runs Italy?")
 
 ## Current State
-- **Current Phase**: 6 (Export)
-- **Current Step**: Rendering `out/italian-election-system.mp4`
+- **Current Phase**: Done
+- **Current Step**: Delivered `out/italian-election-system.mp4`; waiting for feedback
 - **Last Updated**: 2026-10-14
 
 ## Project Info
@@ -44,9 +44,13 @@
       houses sitting too high on the screen, map dots too big, a text wrapping beside the map, the result legend
       running past the safe area (now two rows), the 2018–2022 line running out of its card, and the Chamber
       half-circle overlapping the "68 governments" card (it now fades out first)
-### Phase 6: Export
-- [ ] `npm run render:final -- ItalianElection italian-election-system --browser-executable=...`
-- [ ] MP4 sent to the user, committed and pushed to `main`
+- [x] Scene changes checked in the final MP4: clean fades, frame 0 not empty, the question holds to the end. Fixed
+      after the first render: the ballots and the President now come in as their scenes start (no empty stage), and
+      the new-law card says single-member areas stay in 2 small regions (Valle d'Aosta, Trentino-Alto Adige)
+### Phase 6: Export ✅
+- [x] `npm run render:final -- ItalianElection italian-election-system --browser-executable=...`: h264 1080×1920,
+      30 fps, 1785 frames (59.5 s), AAC 48 kHz stereo; loudness −13.9 LUFS, peak −2.9 dBFS
+- [x] MP4 sent to the user, committed and pushed to `main`
 
 ## Decisions
 | Decision | Why |
