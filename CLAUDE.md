@@ -98,7 +98,9 @@ prompt says otherwise.
 - Reference videos: `GermanElection` (the look) and `DutchElection` (made to this brief:
   `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`). A two-part series made to this brief:
   `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
-  (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments).
+  (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments) and
+  `ItalianElection` ("Who runs Italy?", `briefs/italian-election-system/`; a mixed system with one cross for party and
+  local candidate, two equal houses, a new government without an election, a President elected by parliament).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building

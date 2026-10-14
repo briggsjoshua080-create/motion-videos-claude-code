@@ -1,0 +1,69 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "68": "sixty-eight",
+    "80": "eighty",
+    "18": "eighteen",
+    "400": "four hundred",
+    "200": "two hundred",
+    "2022": "twenty twenty-two",
+    "44%": "forty-four percent",
+    "2027": "twenty twenty-seven"
+  },
+  "pronounce": {
+    "Giorgia": "dʒˈɔːdʒə",
+    "Sergio": "sˈɛɹdʒəʊ",
+    "MPs": "ˌɛmpˈiːz"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Italy has had 68 governments in 80 years. Who picks them?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Italian citizens from 18, at home or abroad.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "ballot",
+      "text": "You get two ballots, one per house. A cross on a party also counts for its local candidate."
+    },
+    {
+      "id": "seats",
+      "text": "Each area's winner takes a seat. The rest are shared out by party votes.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "houses",
+      "text": "The Chamber of Deputies has 400 seats, the Senate 200, and every law must pass both.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "result",
+      "text": "In 2022, a centre-right alliance won both houses with 44% of the votes. The President named its leader, Giorgia Meloni, prime minister."
+    },
+    {
+      "id": "support",
+      "text": "Both houses must back her. If that breaks, the President can name a new one, with no new vote. That's how Italy got to 68.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "president",
+      "text": "And the President? MPs and regional delegates elect him, for seven years. Sergio Mattarella signs every law.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "newlaw",
+      "text": "From 2027, new rules apply."
+    },
+    {
+      "id": "question",
+      "text": "Is it democracy if the prime minister can change without an election?"
+    }
+  ]
+}

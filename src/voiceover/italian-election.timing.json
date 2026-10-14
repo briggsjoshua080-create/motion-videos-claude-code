@@ -1,0 +1,842 @@
+{
+ "audio": "voiceover/italian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.42,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Italy has had 68 governments in 80 years. Who picks them?",
+   "start": 0.33,
+   "end": 4.37,
+   "words": [
+    {
+     "text": "Italy",
+     "start": 0.33,
+     "end": 0.696
+    },
+    {
+     "text": "has",
+     "start": 0.696,
+     "end": 0.94
+    },
+    {
+     "text": "had",
+     "start": 0.94,
+     "end": 1.184
+    },
+    {
+     "text": "68",
+     "start": 1.184,
+     "end": 1.856
+    },
+    {
+     "text": "governments",
+     "start": 1.856,
+     "end": 2.527
+    },
+    {
+     "text": "in",
+     "start": 2.527,
+     "end": 2.71
+    },
+    {
+     "text": "80",
+     "start": 2.71,
+     "end": 3.015
+    },
+    {
+     "text": "years.",
+     "start": 3.015,
+     "end": 3.32
+    },
+    {
+     "text": "Who",
+     "start": 3.73,
+     "end": 3.927
+    },
+    {
+     "text": "picks",
+     "start": 3.927,
+     "end": 4.173
+    },
+    {
+     "text": "them?",
+     "start": 4.173,
+     "end": 4.37
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Italian citizens from 18, at home or abroad.",
+   "start": 4.73,
+   "end": 8.85,
+   "words": [
+    {
+     "text": "Who",
+     "start": 4.73,
+     "end": 4.933
+    },
+    {
+     "text": "can",
+     "start": 4.933,
+     "end": 5.136
+    },
+    {
+     "text": "vote?",
+     "start": 5.136,
+     "end": 5.39
+    },
+    {
+     "text": "Italian",
+     "start": 5.69,
+     "end": 6.184
+    },
+    {
+     "text": "citizens",
+     "start": 6.184,
+     "end": 6.74
+    },
+    {
+     "text": "from",
+     "start": 6.74,
+     "end": 6.987
+    },
+    {
+     "text": "18,",
+     "start": 6.987,
+     "end": 7.42
+    },
+    {
+     "text": "at",
+     "start": 7.61,
+     "end": 7.765
+    },
+    {
+     "text": "home",
+     "start": 7.765,
+     "end": 8.152
+    },
+    {
+     "text": "or",
+     "start": 8.152,
+     "end": 8.308
+    },
+    {
+     "text": "abroad.",
+     "start": 8.308,
+     "end": 8.85
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "You get two ballots, one per house. A cross on a party also counts for its local candidate.",
+   "start": 9.61,
+   "end": 14.97,
+   "words": [
+    {
+     "text": "You",
+     "start": 9.61,
+     "end": 9.78
+    },
+    {
+     "text": "get",
+     "start": 9.78,
+     "end": 10.007
+    },
+    {
+     "text": "two",
+     "start": 10.007,
+     "end": 10.233
+    },
+    {
+     "text": "ballots,",
+     "start": 10.233,
+     "end": 10.63
+    },
+    {
+     "text": "one",
+     "start": 10.85,
+     "end": 11.113
+    },
+    {
+     "text": "per",
+     "start": 11.113,
+     "end": 11.311
+    },
+    {
+     "text": "house.",
+     "start": 11.311,
+     "end": 11.64
+    },
+    {
+     "text": "A",
+     "start": 12.03,
+     "end": 12.182
+    },
+    {
+     "text": "cross",
+     "start": 12.182,
+     "end": 12.436
+    },
+    {
+     "text": "on",
+     "start": 12.436,
+     "end": 12.588
+    },
+    {
+     "text": "a",
+     "start": 12.588,
+     "end": 12.74
+    },
+    {
+     "text": "party",
+     "start": 12.74,
+     "end": 13.044
+    },
+    {
+     "text": "also",
+     "start": 13.044,
+     "end": 13.399
+    },
+    {
+     "text": "counts",
+     "start": 13.399,
+     "end": 13.753
+    },
+    {
+     "text": "for",
+     "start": 13.753,
+     "end": 13.906
+    },
+    {
+     "text": "its",
+     "start": 13.906,
+     "end": 14.058
+    },
+    {
+     "text": "local",
+     "start": 14.058,
+     "end": 14.412
+    },
+    {
+     "text": "candidate.",
+     "start": 14.412,
+     "end": 14.97
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Each area's winner takes a seat. The rest are shared out by party votes.",
+   "start": 15.33,
+   "end": 19.44,
+   "words": [
+    {
+     "text": "Each",
+     "start": 15.33,
+     "end": 15.611
+    },
+    {
+     "text": "area's",
+     "start": 15.611,
+     "end": 16.004
+    },
+    {
+     "text": "winner",
+     "start": 16.004,
+     "end": 16.284
+    },
+    {
+     "text": "takes",
+     "start": 16.284,
+     "end": 16.621
+    },
+    {
+     "text": "a",
+     "start": 16.621,
+     "end": 16.789
+    },
+    {
+     "text": "seat.",
+     "start": 16.789,
+     "end": 17.07
+    },
+    {
+     "text": "The",
+     "start": 17.47,
+     "end": 17.586
+    },
+    {
+     "text": "rest",
+     "start": 17.586,
+     "end": 17.876
+    },
+    {
+     "text": "are",
+     "start": 17.876,
+     "end": 17.991
+    },
+    {
+     "text": "shared",
+     "start": 17.991,
+     "end": 18.281
+    },
+    {
+     "text": "out",
+     "start": 18.281,
+     "end": 18.513
+    },
+    {
+     "text": "by",
+     "start": 18.513,
+     "end": 18.745
+    },
+    {
+     "text": "party",
+     "start": 18.745,
+     "end": 19.092
+    },
+    {
+     "text": "votes.",
+     "start": 19.092,
+     "end": 19.44
+    }
+   ]
+  },
+  {
+   "id": "houses",
+   "text": "The Chamber of Deputies has 400 seats, the Senate 200, and every law must pass both.",
+   "start": 19.9,
+   "end": 25.54,
+   "words": [
+    {
+     "text": "The",
+     "start": 19.9,
+     "end": 20.008
+    },
+    {
+     "text": "Chamber",
+     "start": 20.008,
+     "end": 20.441
+    },
+    {
+     "text": "of",
+     "start": 20.441,
+     "end": 20.549
+    },
+    {
+     "text": "Deputies",
+     "start": 20.549,
+     "end": 21.09
+    },
+    {
+     "text": "has",
+     "start": 21.09,
+     "end": 21.306
+    },
+    {
+     "text": "400",
+     "start": 21.306,
+     "end": 21.955
+    },
+    {
+     "text": "seats,",
+     "start": 21.955,
+     "end": 22.28
+    },
+    {
+     "text": "the",
+     "start": 22.59,
+     "end": 22.7
+    },
+    {
+     "text": "Senate",
+     "start": 22.7,
+     "end": 23.03
+    },
+    {
+     "text": "200,",
+     "start": 23.03,
+     "end": 23.69
+    },
+    {
+     "text": "and",
+     "start": 23.99,
+     "end": 24.169
+    },
+    {
+     "text": "every",
+     "start": 24.169,
+     "end": 24.467
+    },
+    {
+     "text": "law",
+     "start": 24.467,
+     "end": 24.705
+    },
+    {
+     "text": "must",
+     "start": 24.705,
+     "end": 25.003
+    },
+    {
+     "text": "pass",
+     "start": 25.003,
+     "end": 25.242
+    },
+    {
+     "text": "both.",
+     "start": 25.242,
+     "end": 25.54
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2022, a centre-right alliance won both houses with 44% of the votes. The President named its leader, Giorgia Meloni, prime minister.",
+   "start": 25.99,
+   "end": 35.64,
+   "words": [
+    {
+     "text": "In",
+     "start": 25.99,
+     "end": 26.134
+    },
+    {
+     "text": "2022,",
+     "start": 26.134,
+     "end": 27.0
+    },
+    {
+     "text": "a",
+     "start": 27.29,
+     "end": 27.478
+    },
+    {
+     "text": "centre-right",
+     "start": 27.478,
+     "end": 28.169
+    },
+    {
+     "text": "alliance",
+     "start": 28.169,
+     "end": 28.671
+    },
+    {
+     "text": "won",
+     "start": 28.671,
+     "end": 28.923
+    },
+    {
+     "text": "both",
+     "start": 28.923,
+     "end": 29.237
+    },
+    {
+     "text": "houses",
+     "start": 29.237,
+     "end": 29.676
+    },
+    {
+     "text": "with",
+     "start": 29.676,
+     "end": 29.865
+    },
+    {
+     "text": "44%",
+     "start": 29.865,
+     "end": 30.932
+    },
+    {
+     "text": "of",
+     "start": 30.932,
+     "end": 31.058
+    },
+    {
+     "text": "the",
+     "start": 31.058,
+     "end": 31.183
+    },
+    {
+     "text": "votes.",
+     "start": 31.183,
+     "end": 31.56
+    },
+    {
+     "text": "The",
+     "start": 32.02,
+     "end": 32.121
+    },
+    {
+     "text": "President",
+     "start": 32.121,
+     "end": 32.629
+    },
+    {
+     "text": "named",
+     "start": 32.629,
+     "end": 32.933
+    },
+    {
+     "text": "its",
+     "start": 32.933,
+     "end": 33.086
+    },
+    {
+     "text": "leader,",
+     "start": 33.086,
+     "end": 33.39
+    },
+    {
+     "text": "Giorgia",
+     "start": 33.68,
+     "end": 34.16
+    },
+    {
+     "text": "Meloni,",
+     "start": 34.16,
+     "end": 34.64
+    },
+    {
+     "text": "prime",
+     "start": 34.87,
+     "end": 35.2
+    },
+    {
+     "text": "minister.",
+     "start": 35.2,
+     "end": 35.64
+    }
+   ]
+  },
+  {
+   "id": "support",
+   "text": "Both houses must back her. If that breaks, the President can name a new one, with no new vote. That's how Italy got to 68.",
+   "start": 36.0,
+   "end": 43.34,
+   "words": [
+    {
+     "text": "Both",
+     "start": 36.0,
+     "end": 36.294
+    },
+    {
+     "text": "houses",
+     "start": 36.294,
+     "end": 36.705
+    },
+    {
+     "text": "must",
+     "start": 36.705,
+     "end": 36.999
+    },
+    {
+     "text": "back",
+     "start": 36.999,
+     "end": 37.234
+    },
+    {
+     "text": "her.",
+     "start": 37.234,
+     "end": 37.41
+    },
+    {
+     "text": "If",
+     "start": 37.76,
+     "end": 37.805
+    },
+    {
+     "text": "that",
+     "start": 37.805,
+     "end": 37.894
+    },
+    {
+     "text": "breaks,",
+     "start": 37.894,
+     "end": 38.05
+    },
+    {
+     "text": "the",
+     "start": 38.15,
+     "end": 38.275
+    },
+    {
+     "text": "President",
+     "start": 38.275,
+     "end": 38.899
+    },
+    {
+     "text": "can",
+     "start": 38.899,
+     "end": 39.149
+    },
+    {
+     "text": "name",
+     "start": 39.149,
+     "end": 39.461
+    },
+    {
+     "text": "a",
+     "start": 39.461,
+     "end": 39.648
+    },
+    {
+     "text": "new",
+     "start": 39.648,
+     "end": 39.96
+    },
+    {
+     "text": "one,",
+     "start": 39.96,
+     "end": 40.21
+    },
+    {
+     "text": "with",
+     "start": 40.38,
+     "end": 40.546
+    },
+    {
+     "text": "no",
+     "start": 40.546,
+     "end": 40.767
+    },
+    {
+     "text": "new",
+     "start": 40.767,
+     "end": 41.043
+    },
+    {
+     "text": "vote.",
+     "start": 41.043,
+     "end": 41.32
+    },
+    {
+     "text": "That's",
+     "start": 41.73,
+     "end": 41.974
+    },
+    {
+     "text": "how",
+     "start": 41.974,
+     "end": 42.169
+    },
+    {
+     "text": "Italy",
+     "start": 42.169,
+     "end": 42.462
+    },
+    {
+     "text": "got",
+     "start": 42.462,
+     "end": 42.657
+    },
+    {
+     "text": "to",
+     "start": 42.657,
+     "end": 42.803
+    },
+    {
+     "text": "68.",
+     "start": 42.803,
+     "end": 43.34
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "And the President? MPs and regional delegates elect him, for seven years. Sergio Mattarella signs every law.",
+   "start": 43.79,
+   "end": 50.8,
+   "words": [
+    {
+     "text": "And",
+     "start": 43.79,
+     "end": 43.928
+    },
+    {
+     "text": "the",
+     "start": 43.928,
+     "end": 44.02
+    },
+    {
+     "text": "President?",
+     "start": 44.02,
+     "end": 44.48
+    },
+    {
+     "text": "MPs",
+     "start": 44.81,
+     "end": 45.239
+    },
+    {
+     "text": "and",
+     "start": 45.239,
+     "end": 45.399
+    },
+    {
+     "text": "regional",
+     "start": 45.399,
+     "end": 45.935
+    },
+    {
+     "text": "delegates",
+     "start": 45.935,
+     "end": 46.524
+    },
+    {
+     "text": "elect",
+     "start": 46.524,
+     "end": 46.846
+    },
+    {
+     "text": "him,",
+     "start": 46.846,
+     "end": 47.06
+    },
+    {
+     "text": "for",
+     "start": 47.33,
+     "end": 47.521
+    },
+    {
+     "text": "seven",
+     "start": 47.521,
+     "end": 47.902
+    },
+    {
+     "text": "years.",
+     "start": 47.902,
+     "end": 48.22
+    },
+    {
+     "text": "Sergio",
+     "start": 48.62,
+     "end": 49.148
+    },
+    {
+     "text": "Mattarella",
+     "start": 49.148,
+     "end": 49.809
+    },
+    {
+     "text": "signs",
+     "start": 49.809,
+     "end": 50.205
+    },
+    {
+     "text": "every",
+     "start": 50.205,
+     "end": 50.536
+    },
+    {
+     "text": "law.",
+     "start": 50.536,
+     "end": 50.8
+    }
+   ]
+  },
+  {
+   "id": "newlaw",
+   "text": "From 2027, new rules apply.",
+   "start": 51.26,
+   "end": 53.72,
+   "words": [
+    {
+     "text": "From",
+     "start": 51.26,
+     "end": 51.452
+    },
+    {
+     "text": "2027,",
+     "start": 51.452,
+     "end": 52.41
+    },
+    {
+     "text": "new",
+     "start": 52.63,
+     "end": 52.951
+    },
+    {
+     "text": "rules",
+     "start": 52.951,
+     "end": 53.335
+    },
+    {
+     "text": "apply.",
+     "start": 53.335,
+     "end": 53.72
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Is it democracy if the prime minister can change without an election?",
+   "start": 54.08,
+   "end": 58.09,
+   "words": [
+    {
+     "text": "Is",
+     "start": 54.08,
+     "end": 54.211
+    },
+    {
+     "text": "it",
+     "start": 54.211,
+     "end": 54.343
+    },
+    {
+     "text": "democracy",
+     "start": 54.343,
+     "end": 55.0
+    },
+    {
+     "text": "if",
+     "start": 55.0,
+     "end": 55.132
+    },
+    {
+     "text": "the",
+     "start": 55.132,
+     "end": 55.263
+    },
+    {
+     "text": "prime",
+     "start": 55.263,
+     "end": 55.658
+    },
+    {
+     "text": "minister",
+     "start": 55.658,
+     "end": 56.184
+    },
+    {
+     "text": "can",
+     "start": 56.184,
+     "end": 56.446
+    },
+    {
+     "text": "change",
+     "start": 56.446,
+     "end": 56.972
+    },
+    {
+     "text": "without",
+     "start": 56.972,
+     "end": 57.433
+    },
+    {
+     "text": "an",
+     "start": 57.433,
+     "end": 57.564
+    },
+    {
+     "text": "election?",
+     "start": 57.564,
+     "end": 58.09
+    }
+   ]
+  }
+ ]
+}

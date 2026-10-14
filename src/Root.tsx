@@ -16,6 +16,7 @@ import { DutchElection, DUTCH_ELECTION_DURATION } from "./compositions/DutchElec
 import { EUElectionPart1, EU_ELECTION_PART1_DURATION } from "./compositions/EUElectionPart1";
 import { EUElectionPart2, EU_ELECTION_PART2_DURATION } from "./compositions/EUElectionPart2";
 import { UKElection, UK_ELECTION_DURATION } from "./compositions/UKElection";
+import { ItalianElection, ITALIAN_ELECTION_DURATION } from "./compositions/ItalianElection";
 
 /**
  * Register every composition here. To add one:
@@ -78,6 +79,14 @@ export const RemotionRoot: React.FC = () => (
       id="UKElection"
       component={UKElection}
       durationInFrames={UK_ELECTION_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="ItalianElection"
+      component={ItalianElection}
+      durationInFrames={ITALIAN_ELECTION_DURATION}
       fps={VERTICAL.fps}
       width={VERTICAL.width}
       height={VERTICAL.height}
