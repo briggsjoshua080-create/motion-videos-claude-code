@@ -1,0 +1,74 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "155": "a hundred and fifty-five",
+    "16": "sixteen",
+    "4%": "four percent",
+    "2024": "twenty twenty-four",
+    "29%": "twenty-nine percent"
+  },
+  "pronounce": {
+    "MPs": "ˌɛmpˈiːz",
+    "Stocker": "ʃtˈɒkə",
+    "Van": "fˌan",
+    "der": "dɛː",
+    "Bellen": "bˈɛlən"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "It took Austria 155 days to get a government. Why?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Austrian citizens from 16, at home or abroad."
+    },
+    {
+      "id": "noncitizens",
+      "text": "That leaves out nearly one in five residents over 16.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "ballot",
+      "text": "You cross one party, and can also back up to three of its candidates.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "seats",
+      "text": "Seats are shared out by votes, but a party needs 4% to get in.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "council",
+      "text": "MPs sit in the National Council, which makes the laws and can vote the government out."
+    },
+    {
+      "id": "federal",
+      "text": "The Federal Council, sent by the nine states, can mostly only delay laws.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "result",
+      "text": "In 2024, the Freedom Party came first with 29%, far from a majority.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "talks",
+      "text": "Two rounds of talks failed, then three other parties teamed up under Chancellor Christian Stocker.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "president",
+      "text": "And the President? Elected by the people for six years, with a run-off if needed. Alexander Van der Bellen appoints the Chancellor, and can even dismiss the government.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "question",
+      "text": "Should people who live in Austria but aren't citizens get a vote?"
+    }
+  ]
+}

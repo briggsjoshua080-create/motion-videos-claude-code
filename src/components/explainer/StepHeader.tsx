@@ -122,7 +122,7 @@ export const StepHeader: React.FC<{
                   height: 30,
                   borderRadius: 15,
                   background: done > 0.5 ? c.accent : interpolateColors(active, [0, 1], [c.line, c.accent]),
-                  color: c.ink,
+                  color: interpolateColors(active, [0, 1], [c.ink, c.onAccent ?? c.ink]),
                   fontSize: 19,
                   fontWeight: 800,
                   display: "flex",

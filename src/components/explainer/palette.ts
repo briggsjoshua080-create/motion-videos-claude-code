@@ -22,6 +22,8 @@ export type ExplainerPalette = {
   accent: string;
   /** A darker accent that stays readable as text on white. */
   accentDeep: string;
+  /** Text on accent fills, e.g. the header's step numbers and ticks (default: ink; use white on a dark accent). */
+  onAccent?: string;
   /** Strong colour for warnings, "no" and majority lines (usually the flag's red). */
   alert: string;
   /** Flag stripes, top to bottom (or left to right for vertical flags). */

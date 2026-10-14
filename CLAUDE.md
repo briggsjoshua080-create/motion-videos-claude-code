@@ -98,9 +98,12 @@ prompt says otherwise.
 - Reference videos: `GermanElection` (the look) and `DutchElection` (made to this brief:
   `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`). A two-part series made to this brief:
   `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
-  (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments) and
+  (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments),
   `ItalianElection` ("Who runs Italy?", `briefs/italian-election-system/`; a mixed system with one cross for party and
-  local candidate, two equal houses, a new government without an election, a President elected by parliament).
+  local candidate, two equal houses, a new government without an election, a President elected by parliament) and
+  `AustrianElection` ("Who runs Austria?", `briefs/austrian-election-system/`; proportional seats with preference
+  votes and a 4% threshold, a second chamber sent by the states, 155 days of coalition talks, a directly elected
+  President with a run-off).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
@@ -200,7 +203,8 @@ src/theme.ts            colours + font (Inter bundled locally)
 src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
-                        Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts, europe.ts = EU-27)
+                        Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts, europe.ts = EU-27,
+                        uk.ts, italy.ts, austria.ts)
 src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader,
                         NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()
