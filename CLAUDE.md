@@ -59,7 +59,7 @@ prompt says otherwise.
     budget, ...) and `motion` helpers, plus `Hemicycle`. Make the country map for the title scene with
     `scripts/country-outline.py` (it also makes multi-country maps, e.g. the EU in `src/components/europe.ts`,
     and splits a country into regions with `--cut`/`--assign`, e.g. the UK's four nations in `src/components/uk.ts`).
-    Copy `DutchElection` as the starting point. For a flag that is not stripes (the EU, the UK), set `emblem` in
+    Copy `DutchElection` as the starting point. For a flag that is not stripes (the EU, the UK, a Nordic cross), set `emblem` in
     the palette; for a series split into parts, mark the other part's steps `later` in `StepHeader` (see
     `EUElectionPart1`/`EUElectionPart2`, shared parts in `src/scenes/eu-election/`).
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
@@ -105,7 +105,9 @@ prompt says otherwise.
   votes and a 4% threshold, a second chamber sent by the states, 155 days of coalition talks, a directly elected
   President with a run-off) and `PolishElection` ("Who runs Poland?", `briefs/polish-election-system/`; one cross for
   a candidate on a party list, 5%/8% thresholds, a Senate of 100 district winners, the first party losing power to a
-  Sejm majority, a directly elected President with a run-off and a veto that takes three fifths to override).
+  Sejm majority, a directly elected President with a run-off and a veto that takes three fifths to override), and `DanishElection` ("Who runs Denmark?", `briefs/danish-election-system/`; one cross for a party or a
+  candidate, a 2% threshold with 40 top-up seats, one chamber, three King's rounds and a minority government that rules
+  because no majority votes against it, a King who signs every law but can't block one).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
@@ -206,7 +208,7 @@ src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
                         Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts, europe.ts = EU-27,
-                        uk.ts, italy.ts, austria.ts, poland.ts)
+                        uk.ts, italy.ts, austria.ts, poland.ts, denmark.ts)
 src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader,
                         NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()

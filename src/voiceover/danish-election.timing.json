@@ -1,0 +1,842 @@
+{
+ "audio": "voiceover/danish-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.59,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Denmark's government has just 82 of 179 seats. And that's normal. Why?",
+   "start": 0.33,
+   "end": 6.22,
+   "words": [
+    {
+     "text": "Denmark's",
+     "start": 0.33,
+     "end": 0.851
+    },
+    {
+     "text": "government",
+     "start": 0.851,
+     "end": 1.43
+    },
+    {
+     "text": "has",
+     "start": 1.43,
+     "end": 1.661
+    },
+    {
+     "text": "just",
+     "start": 1.661,
+     "end": 2.009
+    },
+    {
+     "text": "82",
+     "start": 2.009,
+     "end": 2.53
+    },
+    {
+     "text": "of",
+     "start": 2.53,
+     "end": 2.645
+    },
+    {
+     "text": "179",
+     "start": 2.645,
+     "end": 4.093
+    },
+    {
+     "text": "seats.",
+     "start": 4.093,
+     "end": 4.44
+    },
+    {
+     "text": "And",
+     "start": 4.78,
+     "end": 4.942
+    },
+    {
+     "text": "that's",
+     "start": 4.942,
+     "end": 5.212
+    },
+    {
+     "text": "normal.",
+     "start": 5.212,
+     "end": 5.59
+    },
+    {
+     "text": "Why?",
+     "start": 5.92,
+     "end": 6.22
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Danish citizens from 18 living in the Kingdom, but not Danes settled abroad.",
+   "start": 6.58,
+   "end": 12.11,
+   "words": [
+    {
+     "text": "Who",
+     "start": 6.58,
+     "end": 6.786
+    },
+    {
+     "text": "can",
+     "start": 6.786,
+     "end": 6.992
+    },
+    {
+     "text": "vote?",
+     "start": 6.992,
+     "end": 7.25
+    },
+    {
+     "text": "Danish",
+     "start": 7.58,
+     "end": 7.963
+    },
+    {
+     "text": "citizens",
+     "start": 7.963,
+     "end": 8.455
+    },
+    {
+     "text": "from",
+     "start": 8.455,
+     "end": 8.673
+    },
+    {
+     "text": "18",
+     "start": 8.673,
+     "end": 9.056
+    },
+    {
+     "text": "living",
+     "start": 9.056,
+     "end": 9.384
+    },
+    {
+     "text": "in",
+     "start": 9.384,
+     "end": 9.548
+    },
+    {
+     "text": "the",
+     "start": 9.548,
+     "end": 9.657
+    },
+    {
+     "text": "Kingdom,",
+     "start": 9.657,
+     "end": 10.04
+    },
+    {
+     "text": "but",
+     "start": 10.38,
+     "end": 10.627
+    },
+    {
+     "text": "not",
+     "start": 10.627,
+     "end": 10.874
+    },
+    {
+     "text": "Danes",
+     "start": 10.874,
+     "end": 11.245
+    },
+    {
+     "text": "settled",
+     "start": 11.245,
+     "end": 11.678
+    },
+    {
+     "text": "abroad.",
+     "start": 11.678,
+     "end": 12.11
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "On the ballot, you put one cross: next to a party, or next to one of its candidates.",
+   "start": 12.47,
+   "end": 17.16,
+   "words": [
+    {
+     "text": "On",
+     "start": 12.47,
+     "end": 12.625
+    },
+    {
+     "text": "the",
+     "start": 12.625,
+     "end": 12.729
+    },
+    {
+     "text": "ballot,",
+     "start": 12.729,
+     "end": 13.04
+    },
+    {
+     "text": "you",
+     "start": 13.23,
+     "end": 13.412
+    },
+    {
+     "text": "put",
+     "start": 13.412,
+     "end": 13.654
+    },
+    {
+     "text": "one",
+     "start": 13.654,
+     "end": 13.897
+    },
+    {
+     "text": "cross:",
+     "start": 13.897,
+     "end": 14.2
+    },
+    {
+     "text": "next",
+     "start": 14.52,
+     "end": 14.833
+    },
+    {
+     "text": "to",
+     "start": 14.833,
+     "end": 14.99
+    },
+    {
+     "text": "a",
+     "start": 14.99,
+     "end": 15.147
+    },
+    {
+     "text": "party,",
+     "start": 15.147,
+     "end": 15.46
+    },
+    {
+     "text": "or",
+     "start": 15.62,
+     "end": 15.716
+    },
+    {
+     "text": "next",
+     "start": 15.716,
+     "end": 16.005
+    },
+    {
+     "text": "to",
+     "start": 16.005,
+     "end": 16.149
+    },
+    {
+     "text": "one",
+     "start": 16.149,
+     "end": 16.342
+    },
+    {
+     "text": "of",
+     "start": 16.342,
+     "end": 16.438
+    },
+    {
+     "text": "its",
+     "start": 16.438,
+     "end": 16.582
+    },
+    {
+     "text": "candidates.",
+     "start": 16.582,
+     "end": 17.16
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Parties above 2% share the seats by votes nationwide.",
+   "start": 17.57,
+   "end": 21.23,
+   "words": [
+    {
+     "text": "Parties",
+     "start": 17.57,
+     "end": 18.019
+    },
+    {
+     "text": "above",
+     "start": 18.019,
+     "end": 18.341
+    },
+    {
+     "text": "2%",
+     "start": 18.341,
+     "end": 19.047
+    },
+    {
+     "text": "share",
+     "start": 19.047,
+     "end": 19.304
+    },
+    {
+     "text": "the",
+     "start": 19.304,
+     "end": 19.432
+    },
+    {
+     "text": "seats",
+     "start": 19.432,
+     "end": 19.817
+    },
+    {
+     "text": "by",
+     "start": 19.817,
+     "end": 20.074
+    },
+    {
+     "text": "votes",
+     "start": 20.074,
+     "end": 20.459
+    },
+    {
+     "text": "nationwide.",
+     "start": 20.459,
+     "end": 21.23
+    }
+   ]
+  },
+  {
+   "id": "folketing",
+   "text": "These 179 MPs form the Folketing, the only chamber. It makes the laws and checks the government.",
+   "start": 21.64,
+   "end": 28.58,
+   "words": [
+    {
+     "text": "These",
+     "start": 21.64,
+     "end": 21.921
+    },
+    {
+     "text": "179",
+     "start": 21.921,
+     "end": 23.323
+    },
+    {
+     "text": "MPs",
+     "start": 23.323,
+     "end": 23.772
+    },
+    {
+     "text": "form",
+     "start": 23.772,
+     "end": 24.053
+    },
+    {
+     "text": "the",
+     "start": 24.053,
+     "end": 24.165
+    },
+    {
+     "text": "Folketing,",
+     "start": 24.165,
+     "end": 24.67
+    },
+    {
+     "text": "the",
+     "start": 24.93,
+     "end": 25.045
+    },
+    {
+     "text": "only",
+     "start": 25.045,
+     "end": 25.39
+    },
+    {
+     "text": "chamber.",
+     "start": 25.39,
+     "end": 25.85
+    },
+    {
+     "text": "It",
+     "start": 26.27,
+     "end": 26.398
+    },
+    {
+     "text": "makes",
+     "start": 26.398,
+     "end": 26.783
+    },
+    {
+     "text": "the",
+     "start": 26.783,
+     "end": 26.912
+    },
+    {
+     "text": "laws",
+     "start": 26.912,
+     "end": 27.232
+    },
+    {
+     "text": "and",
+     "start": 27.232,
+     "end": 27.425
+    },
+    {
+     "text": "checks",
+     "start": 27.425,
+     "end": 27.81
+    },
+    {
+     "text": "the",
+     "start": 27.81,
+     "end": 27.938
+    },
+    {
+     "text": "government.",
+     "start": 27.938,
+     "end": 28.58
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2026, twelve parties got in. The Social Democrats came first, with 38 seats.",
+   "start": 29.04,
+   "end": 35.04,
+   "words": [
+    {
+     "text": "In",
+     "start": 29.04,
+     "end": 29.182
+    },
+    {
+     "text": "2026,",
+     "start": 29.182,
+     "end": 30.08
+    },
+    {
+     "text": "twelve",
+     "start": 30.29,
+     "end": 30.656
+    },
+    {
+     "text": "parties",
+     "start": 30.656,
+     "end": 31.083
+    },
+    {
+     "text": "got",
+     "start": 31.083,
+     "end": 31.327
+    },
+    {
+     "text": "in.",
+     "start": 31.327,
+     "end": 31.51
+    },
+    {
+     "text": "The",
+     "start": 31.87,
+     "end": 31.98
+    },
+    {
+     "text": "Social",
+     "start": 31.98,
+     "end": 32.366
+    },
+    {
+     "text": "Democrats",
+     "start": 32.366,
+     "end": 32.973
+    },
+    {
+     "text": "came",
+     "start": 32.973,
+     "end": 33.249
+    },
+    {
+     "text": "first,",
+     "start": 33.249,
+     "end": 33.58
+    },
+    {
+     "text": "with",
+     "start": 33.89,
+     "end": 34.072
+    },
+    {
+     "text": "38",
+     "start": 34.072,
+     "end": 34.677
+    },
+    {
+     "text": "seats.",
+     "start": 34.677,
+     "end": 35.04
+    }
+   ]
+  },
+  {
+   "id": "talks",
+   "text": "The parties went to the King three times to pick a negotiator. After a record 69 days, Mette Frederiksen formed a government.",
+   "start": 35.4,
+   "end": 43.19,
+   "words": [
+    {
+     "text": "The",
+     "start": 35.4,
+     "end": 35.516
+    },
+    {
+     "text": "parties",
+     "start": 35.516,
+     "end": 35.921
+    },
+    {
+     "text": "went",
+     "start": 35.921,
+     "end": 36.211
+    },
+    {
+     "text": "to",
+     "start": 36.211,
+     "end": 36.384
+    },
+    {
+     "text": "the",
+     "start": 36.384,
+     "end": 36.5
+    },
+    {
+     "text": "King",
+     "start": 36.5,
+     "end": 36.732
+    },
+    {
+     "text": "three",
+     "start": 36.732,
+     "end": 37.021
+    },
+    {
+     "text": "times",
+     "start": 37.021,
+     "end": 37.368
+    },
+    {
+     "text": "to",
+     "start": 37.368,
+     "end": 37.542
+    },
+    {
+     "text": "pick",
+     "start": 37.542,
+     "end": 37.774
+    },
+    {
+     "text": "a",
+     "start": 37.774,
+     "end": 37.947
+    },
+    {
+     "text": "negotiator.",
+     "start": 37.947,
+     "end": 38.7
+    },
+    {
+     "text": "After",
+     "start": 39.2,
+     "end": 39.489
+    },
+    {
+     "text": "a",
+     "start": 39.489,
+     "end": 39.662
+    },
+    {
+     "text": "record",
+     "start": 39.662,
+     "end": 40.067
+    },
+    {
+     "text": "69",
+     "start": 40.067,
+     "end": 40.761
+    },
+    {
+     "text": "days,",
+     "start": 40.761,
+     "end": 41.05
+    },
+    {
+     "text": "Mette",
+     "start": 41.36,
+     "end": 41.614
+    },
+    {
+     "text": "Frederiksen",
+     "start": 41.614,
+     "end": 42.224
+    },
+    {
+     "text": "formed",
+     "start": 42.224,
+     "end": 42.529
+    },
+    {
+     "text": "a",
+     "start": 42.529,
+     "end": 42.682
+    },
+    {
+     "text": "government.",
+     "start": 42.682,
+     "end": 43.19
+    }
+   ]
+  },
+  {
+   "id": "minority",
+   "text": "It runs the country without a majority behind it, as long as no majority votes against it.",
+   "start": 43.55,
+   "end": 49.11,
+   "words": [
+    {
+     "text": "It",
+     "start": 43.55,
+     "end": 43.675
+    },
+    {
+     "text": "runs",
+     "start": 43.675,
+     "end": 43.988
+    },
+    {
+     "text": "the",
+     "start": 43.988,
+     "end": 44.113
+    },
+    {
+     "text": "country",
+     "start": 44.113,
+     "end": 44.552
+    },
+    {
+     "text": "without",
+     "start": 44.552,
+     "end": 44.99
+    },
+    {
+     "text": "a",
+     "start": 44.99,
+     "end": 45.178
+    },
+    {
+     "text": "majority",
+     "start": 45.178,
+     "end": 45.804
+    },
+    {
+     "text": "behind",
+     "start": 45.804,
+     "end": 46.305
+    },
+    {
+     "text": "it,",
+     "start": 46.305,
+     "end": 46.43
+    },
+    {
+     "text": "as",
+     "start": 46.82,
+     "end": 46.944
+    },
+    {
+     "text": "long",
+     "start": 46.944,
+     "end": 47.191
+    },
+    {
+     "text": "as",
+     "start": 47.191,
+     "end": 47.315
+    },
+    {
+     "text": "no",
+     "start": 47.315,
+     "end": 47.563
+    },
+    {
+     "text": "majority",
+     "start": 47.563,
+     "end": 48.182
+    },
+    {
+     "text": "votes",
+     "start": 48.182,
+     "end": 48.553
+    },
+    {
+     "text": "against",
+     "start": 48.553,
+     "end": 48.986
+    },
+    {
+     "text": "it.",
+     "start": 48.986,
+     "end": 49.11
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "And the King? Frederik the Tenth inherited the throne. He signs every law, but can't block one.",
+   "start": 49.56,
+   "end": 54.9,
+   "words": [
+    {
+     "text": "And",
+     "start": 49.56,
+     "end": 49.743
+    },
+    {
+     "text": "the",
+     "start": 49.743,
+     "end": 49.866
+    },
+    {
+     "text": "King?",
+     "start": 49.866,
+     "end": 50.11
+    },
+    {
+     "text": "Frederik",
+     "start": 50.36,
+     "end": 50.931
+    },
+    {
+     "text": "the",
+     "start": 50.931,
+     "end": 51.046
+    },
+    {
+     "text": "Tenth",
+     "start": 51.046,
+     "end": 51.331
+    },
+    {
+     "text": "inherited",
+     "start": 51.331,
+     "end": 51.903
+    },
+    {
+     "text": "the",
+     "start": 51.903,
+     "end": 52.017
+    },
+    {
+     "text": "throne.",
+     "start": 52.017,
+     "end": 52.36
+    },
+    {
+     "text": "He",
+     "start": 52.74,
+     "end": 52.908
+    },
+    {
+     "text": "signs",
+     "start": 52.908,
+     "end": 53.245
+    },
+    {
+     "text": "every",
+     "start": 53.245,
+     "end": 53.525
+    },
+    {
+     "text": "law,",
+     "start": 53.525,
+     "end": 53.75
+    },
+    {
+     "text": "but",
+     "start": 53.834,
+     "end": 54.058
+    },
+    {
+     "text": "can't",
+     "start": 54.058,
+     "end": 54.395
+    },
+    {
+     "text": "block",
+     "start": 54.395,
+     "end": 54.676
+    },
+    {
+     "text": "one.",
+     "start": 54.676,
+     "end": 54.9
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should a government rule without a majority behind it?",
+   "start": 55.26,
+   "end": 58.26,
+   "words": [
+    {
+     "text": "Should",
+     "start": 55.26,
+     "end": 55.491
+    },
+    {
+     "text": "a",
+     "start": 55.491,
+     "end": 55.664
+    },
+    {
+     "text": "government",
+     "start": 55.664,
+     "end": 56.241
+    },
+    {
+     "text": "rule",
+     "start": 56.241,
+     "end": 56.529
+    },
+    {
+     "text": "without",
+     "start": 56.529,
+     "end": 56.933
+    },
+    {
+     "text": "a",
+     "start": 56.933,
+     "end": 57.106
+    },
+    {
+     "text": "majority",
+     "start": 57.106,
+     "end": 57.683
+    },
+    {
+     "text": "behind",
+     "start": 57.683,
+     "end": 58.145
+    },
+    {
+     "text": "it?",
+     "start": 58.145,
+     "end": 58.26
+    }
+   ]
+  }
+ ]
+}

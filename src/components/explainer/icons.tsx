@@ -64,6 +64,28 @@ export const UnionFlag: React.FC<{
   );
 };
 
+/**
+ * A Nordic cross flag (Denmark's Dannebrog by default: 3-1-3 high, 3-1-4.5 wide, i.e. 37 x 28).
+ * `x`/`y` place it inside a parent SVG.
+ */
+export const NordicFlag: React.FC<{ width: number; height?: number; field: string; cross: string; x?: number; y?: number }> = ({
+  width,
+  height = (width * 28) / 37,
+  field,
+  cross,
+  x,
+  y,
+}) => {
+  const k = height / 28;
+  return (
+    <svg x={x} y={y} width={width} height={height} viewBox={`0 0 ${width / k} 28`} preserveAspectRatio="none" style={{ display: "block" }}>
+      <rect width={width / k} height={28} fill={field} />
+      <rect x={12} width={4} height={28} fill={cross} />
+      <rect y={12} width={width / k} height={4} fill={cross} />
+    </svg>
+  );
+};
+
 /** Tiny flag for headers, with a hairline so white stripes stay visible on white. */
 export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = ({ width, palette: c }) =>
   c.emblem === "eu" ? (
@@ -73,6 +95,10 @@ export const FlagChip: React.FC<{ width: number; palette: ExplainerPalette }> = 
   ) : c.emblem === "uk" ? (
     <div style={{ borderRadius: 5, overflow: "hidden", boxShadow: `0 0 0 2px ${c.line}`, flexShrink: 0, lineHeight: 0 }}>
       <UnionFlag width={width} blue={c.flag[0]} white={c.flag[1]} red={c.flag[2]} id="flag-chip" />
+    </div>
+  ) : c.emblem === "nordic" ? (
+    <div style={{ borderRadius: 5, overflow: "hidden", boxShadow: `0 0 0 2px ${c.line}`, flexShrink: 0, lineHeight: 0 }}>
+      <NordicFlag width={width} height={width * 0.6} field={c.flag[0]} cross={c.flag[1]} />
     </div>
   ) : (
   <div
@@ -216,6 +242,8 @@ export const ParliamentIcon: React.FC<{ width: number; palette: ExplainerPalette
       </g>
     ) : c.emblem === "uk" ? (
       <UnionFlag x={123} y={6} width={30} height={18} blue={c.flag[0]} white={c.flag[1]} red={c.flag[2]} id="parliament-flag" />
+    ) : c.emblem === "nordic" ? (
+      <NordicFlag x={123} y={6} width={26} height={19} field={c.flag[0]} cross={c.flag[1]} />
     ) : (
       c.flag.map((color, i) => <rect key={`${color}-${i}`} x={123} y={6 + i * 6} width={26} height={6} fill={color} />)
     )}

@@ -1,0 +1,68 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "2026": "twenty twenty-six",
+    "18": "eighteen",
+    "2%": "two percent",
+    "179": "a hundred and seventy-nine",
+    "82": "eighty-two",
+    "38": "thirty-eight",
+    "69": "sixty-nine"
+  },
+  "pronounce": {
+    "MPs": "ˌɛmpˈiːz",
+    "Folketing": "fˈɒlkətɪŋ",
+    "Mette": "mˈɛtə",
+    "Frederiksen": "fɹˈɛðəɹɪksən"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Denmark's government has just 82 of 179 seats. And that's normal. Why?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Danish citizens from 18 living in the Kingdom, but not Danes settled abroad."
+    },
+    {
+      "id": "ballot",
+      "text": "On the ballot, you put one cross: next to a party, or next to one of its candidates.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "seats",
+      "text": "Parties above 2% share the seats by votes nationwide.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "folketing",
+      "text": "These 179 MPs form the Folketing, the only chamber. It makes the laws and checks the government.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "result",
+      "text": "In 2026, twelve parties got in. The Social Democrats came first, with 38 seats."
+    },
+    {
+      "id": "talks",
+      "text": "The parties went to the King three times to pick a negotiator. After a record 69 days, Mette Frederiksen formed a government."
+    },
+    {
+      "id": "minority",
+      "text": "It runs the country without a majority behind it, as long as no majority votes against it.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "king",
+      "text": "And the King? Frederik the Tenth inherited the throne. He signs every law, but can't block one."
+    },
+    {
+      "id": "question",
+      "text": "Should a government rule without a majority behind it?"
+    }
+  ]
+}

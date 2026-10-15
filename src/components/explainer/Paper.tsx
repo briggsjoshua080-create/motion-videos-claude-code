@@ -62,6 +62,13 @@ export const Paper: React.FC<{ palette: ExplainerPalette }> = ({ palette: c }) =
           <rect y={7} width={1080} height={10} fill={c.flag[1]} />
           <rect y={9} width={1080} height={6} fill={c.flag[2]} />
         </svg>
+      ) : c.emblem === "nordic" ? (
+        // A long Nordic cross: the field with a white stripe along it and the upright near the hoist.
+        <svg width={1080} height={24} style={{ position: "absolute", top: 0, left: 0, filter: "drop-shadow(0 2px 0 rgba(0,0,0,0.05))" }}>
+          <rect width={1080} height={24} fill={c.flag[0]} />
+          <rect y={10} width={1080} height={4} fill={c.flag[1]} />
+          <rect x={60} width={8} height={24} fill={c.flag[1]} />
+        </svg>
       ) : (
       <div
         style={{
