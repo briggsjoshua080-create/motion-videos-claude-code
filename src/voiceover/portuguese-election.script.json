@@ -1,0 +1,65 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "18": "eighteen",
+    "22": "twenty-two",
+    "230": "two hundred and thirty",
+    "2025": "twenty twenty-five",
+    "2026": "twenty twenty-six",
+    "91": "ninety-one",
+    "116": "a hundred and sixteen"
+  },
+  "pronounce": {
+    "Luís": "luːˈiːʃ",
+    "Seguro": "sɪɡˈuːɹuː",
+    "António": "antˈɔnjuː",
+    "José": "ʒuːzˈɛ"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Portugal held three general elections in just over three years. Who keeps calling them?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Portuguese citizens from 18, even abroad, plus Brazilians living here with equal rights."
+    },
+    {
+      "id": "ballot",
+      "text": "The ballot has no names, only parties. You put one cross next to the party you choose.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "seats",
+      "text": "Each of the 22 districts shares its seats by vote share. Lisbon 48, Portalegre just two.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "parliament",
+      "text": "The 230 members of the Assembly make the laws and can bring down the government. There is no second chamber.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "result",
+      "text": "In 2025, Prime Minister Montenegro's alliance won 91 seats, far short of a majority."
+    },
+    {
+      "id": "gov",
+      "text": "But he didn't need a majority. The President appointed him, and he governs until a majority votes him out.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "president",
+      "text": "And the President? Directly elected, he can veto laws and dissolve parliament. That's how Portugal got its last three elections.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "question",
+      "text": "Should one person be able to send a whole country back to the polls?"
+    }
+  ]
+}
