@@ -107,7 +107,9 @@ prompt says otherwise.
   a candidate on a party list, 5%/8% thresholds, a Senate of 100 district winners, the first party losing power to a
   Sejm majority, a directly elected President with a run-off and a veto that takes three fifths to override), and `DanishElection` ("Who runs Denmark?", `briefs/danish-election-system/`; one cross for a party or a
   candidate, a 2% threshold with 40 top-up seats, one chamber, three King's rounds and a minority government that rules
-  because no majority votes against it, a King who signs every law but can't block one).
+  because no majority votes against it, a King who signs every law but can't block one), and `SpanishElection` ("Who runs Spain?", `briefs/spanish-election-system/`; two ballots: a closed party list
+  for Congress and up to three people for the Senate, a 3% threshold per province, the first party losing the investiture vote, a
+  King who proposes the candidate and signs every law).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building
@@ -208,7 +210,7 @@ src/compositions/       one file per video (timeline of scenes)
 src/scenes/             one file per scene (a full-frame chunk of a video)
 src/components/         reusable building blocks (AnimatedText, Backdrop, ShapeCard, GradientText,
                         Subtitles, Hemicycle, FranceMap), country outlines (netherlands.ts, europe.ts = EU-27,
-                        uk.ts, italy.ts, austria.ts, poland.ts, denmark.ts)
+                        uk.ts, italy.ts, austria.ts, poland.ts, denmark.ts, spain.ts)
 src/components/explainer/  the standard white explainer look: palette, Paper, StepHeader,
                         NameCard, Character, icons, motion
 src/lib/animation.ts    helpers: enter() spring, ease(), fadeInOut(), float()

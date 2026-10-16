@@ -1,0 +1,68 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.3,
+  "pauseAfter": 0.3,
+  "say": {
+    "2023": "twenty twenty-three",
+    "18": "eighteen",
+    "3%": "three percent",
+    "350": "three hundred and fifty",
+    "137": "a hundred and thirty-seven",
+    "176": "a hundred and seventy-six"
+  },
+  "pronounce": {
+    "Feijóo": "fˌeɪhˈəʊ",
+    "Sánchez": "sˈænʧɛz",
+    "Sumar": "suːmˈɑː",
+    "Felipe": "fəlˈiːpeɪ"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In 2023, this party came first in Spain. But this man became prime minister. How?"
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Spaniards from 18, even those living abroad."
+    },
+    {
+      "id": "ballot",
+      "text": "You get two ballots. For Congress, you pick one party's list, with no changes, and drop it in the envelope.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "seats",
+      "text": "Each province shares its seats among parties above 3%.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "senate",
+      "text": "For the Senate, you tick up to three candidates.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "congress",
+      "text": "The 350 members of Congress make the laws and elect the prime minister. The Senate can amend them, but Congress has the last word.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "result",
+      "text": "The People's Party won 137 seats, short of the 176 needed."
+    },
+    {
+      "id": "talks",
+      "text": "Its leader, Feijóo, lost the vote. Pedro Sánchez of the Socialists won it, backed by Sumar and regional parties.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "king",
+      "text": "And the King? Felipe the Sixth inherited the throne. He proposes the candidate and signs every law, but can't block one."
+    },
+    {
+      "id": "question",
+      "text": "Should the party with the most votes always get to govern?"
+    }
+  ]
+}

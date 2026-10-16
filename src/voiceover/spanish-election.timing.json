@@ -1,0 +1,832 @@
+{
+ "audio": "voiceover/spanish-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.27,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In 2023, this party came first in Spain. But this man became prime minister. How?",
+   "start": 0.33,
+   "end": 6.32,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.33,
+     "end": 0.521
+    },
+    {
+     "text": "2023,",
+     "start": 0.521,
+     "end": 1.73
+    },
+    {
+     "text": "this",
+     "start": 1.82,
+     "end": 2.039
+    },
+    {
+     "text": "party",
+     "start": 2.039,
+     "end": 2.367
+    },
+    {
+     "text": "came",
+     "start": 2.367,
+     "end": 2.64
+    },
+    {
+     "text": "first",
+     "start": 2.64,
+     "end": 2.968
+    },
+    {
+     "text": "in",
+     "start": 2.968,
+     "end": 3.132
+    },
+    {
+     "text": "Spain.",
+     "start": 3.132,
+     "end": 3.46
+    },
+    {
+     "text": "But",
+     "start": 3.77,
+     "end": 3.997
+    },
+    {
+     "text": "this",
+     "start": 3.997,
+     "end": 4.223
+    },
+    {
+     "text": "man",
+     "start": 4.223,
+     "end": 4.45
+    },
+    {
+     "text": "became",
+     "start": 4.45,
+     "end": 4.847
+    },
+    {
+     "text": "prime",
+     "start": 4.847,
+     "end": 5.187
+    },
+    {
+     "text": "minister.",
+     "start": 5.187,
+     "end": 5.64
+    },
+    {
+     "text": "How?",
+     "start": 6.03,
+     "end": 6.32
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Spaniards from 18, even those living abroad.",
+   "start": 6.68,
+   "end": 10.44,
+   "words": [
+    {
+     "text": "Who",
+     "start": 6.68,
+     "end": 6.895
+    },
+    {
+     "text": "can",
+     "start": 6.895,
+     "end": 7.111
+    },
+    {
+     "text": "vote?",
+     "start": 7.111,
+     "end": 7.38
+    },
+    {
+     "text": "Spaniards",
+     "start": 7.62,
+     "end": 8.16
+    },
+    {
+     "text": "from",
+     "start": 8.16,
+     "end": 8.4
+    },
+    {
+     "text": "18,",
+     "start": 8.4,
+     "end": 8.82
+    },
+    {
+     "text": "even",
+     "start": 9.04,
+     "end": 9.39
+    },
+    {
+     "text": "those",
+     "start": 9.39,
+     "end": 9.682
+    },
+    {
+     "text": "living",
+     "start": 9.682,
+     "end": 10.032
+    },
+    {
+     "text": "abroad.",
+     "start": 10.032,
+     "end": 10.44
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "You get two ballots. For Congress, you pick one party's list, with no changes, and drop it in the envelope.",
+   "start": 10.8,
+   "end": 16.96,
+   "words": [
+    {
+     "text": "You",
+     "start": 10.8,
+     "end": 10.972
+    },
+    {
+     "text": "get",
+     "start": 10.972,
+     "end": 11.201
+    },
+    {
+     "text": "two",
+     "start": 11.201,
+     "end": 11.429
+    },
+    {
+     "text": "ballots.",
+     "start": 11.429,
+     "end": 11.83
+    },
+    {
+     "text": "For",
+     "start": 12.18,
+     "end": 12.349
+    },
+    {
+     "text": "Congress,",
+     "start": 12.349,
+     "end": 12.8
+    },
+    {
+     "text": "you",
+     "start": 12.97,
+     "end": 13.138
+    },
+    {
+     "text": "pick",
+     "start": 13.138,
+     "end": 13.363
+    },
+    {
+     "text": "one",
+     "start": 13.363,
+     "end": 13.587
+    },
+    {
+     "text": "party's",
+     "start": 13.587,
+     "end": 13.98
+    },
+    {
+     "text": "list,",
+     "start": 13.98,
+     "end": 14.26
+    },
+    {
+     "text": "with",
+     "start": 14.56,
+     "end": 14.724
+    },
+    {
+     "text": "no",
+     "start": 14.724,
+     "end": 14.943
+    },
+    {
+     "text": "changes,",
+     "start": 14.943,
+     "end": 15.49
+    },
+    {
+     "text": "and",
+     "start": 15.66,
+     "end": 15.816
+    },
+    {
+     "text": "drop",
+     "start": 15.816,
+     "end": 16.076
+    },
+    {
+     "text": "it",
+     "start": 16.076,
+     "end": 16.18
+    },
+    {
+     "text": "in",
+     "start": 16.18,
+     "end": 16.336
+    },
+    {
+     "text": "the",
+     "start": 16.336,
+     "end": 16.44
+    },
+    {
+     "text": "envelope.",
+     "start": 16.44,
+     "end": 16.96
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Each province shares its seats among parties above 3%.",
+   "start": 17.37,
+   "end": 20.98,
+   "words": [
+    {
+     "text": "Each",
+     "start": 17.37,
+     "end": 17.692
+    },
+    {
+     "text": "province",
+     "start": 17.692,
+     "end": 18.208
+    },
+    {
+     "text": "shares",
+     "start": 18.208,
+     "end": 18.53
+    },
+    {
+     "text": "its",
+     "start": 18.53,
+     "end": 18.724
+    },
+    {
+     "text": "seats",
+     "start": 18.724,
+     "end": 19.111
+    },
+    {
+     "text": "among",
+     "start": 19.111,
+     "end": 19.433
+    },
+    {
+     "text": "parties",
+     "start": 19.433,
+     "end": 19.884
+    },
+    {
+     "text": "above",
+     "start": 19.884,
+     "end": 20.206
+    },
+    {
+     "text": "3%.",
+     "start": 20.206,
+     "end": 20.98
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "For the Senate, you tick up to three candidates.",
+   "start": 21.39,
+   "end": 23.89,
+   "words": [
+    {
+     "text": "For",
+     "start": 21.39,
+     "end": 21.54
+    },
+    {
+     "text": "the",
+     "start": 21.54,
+     "end": 21.64
+    },
+    {
+     "text": "Senate,",
+     "start": 21.64,
+     "end": 21.94
+    },
+    {
+     "text": "you",
+     "start": 22.2,
+     "end": 22.369
+    },
+    {
+     "text": "tick",
+     "start": 22.369,
+     "end": 22.594
+    },
+    {
+     "text": "up",
+     "start": 22.594,
+     "end": 22.763
+    },
+    {
+     "text": "to",
+     "start": 22.763,
+     "end": 22.932
+    },
+    {
+     "text": "three",
+     "start": 22.932,
+     "end": 23.214
+    },
+    {
+     "text": "candidates.",
+     "start": 23.214,
+     "end": 23.89
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "The 350 members of Congress make the laws and elect the prime minister. The Senate can amend them, but Congress has the last word.",
+   "start": 24.3,
+   "end": 32.82,
+   "words": [
+    {
+     "text": "The",
+     "start": 24.3,
+     "end": 24.42
+    },
+    {
+     "text": "350",
+     "start": 24.42,
+     "end": 25.743
+    },
+    {
+     "text": "members",
+     "start": 25.743,
+     "end": 26.164
+    },
+    {
+     "text": "of",
+     "start": 26.164,
+     "end": 26.284
+    },
+    {
+     "text": "Congress",
+     "start": 26.284,
+     "end": 26.765
+    },
+    {
+     "text": "make",
+     "start": 26.765,
+     "end": 27.066
+    },
+    {
+     "text": "the",
+     "start": 27.066,
+     "end": 27.186
+    },
+    {
+     "text": "laws",
+     "start": 27.186,
+     "end": 27.487
+    },
+    {
+     "text": "and",
+     "start": 27.487,
+     "end": 27.667
+    },
+    {
+     "text": "elect",
+     "start": 27.667,
+     "end": 28.028
+    },
+    {
+     "text": "the",
+     "start": 28.028,
+     "end": 28.148
+    },
+    {
+     "text": "prime",
+     "start": 28.148,
+     "end": 28.509
+    },
+    {
+     "text": "minister.",
+     "start": 28.509,
+     "end": 28.99
+    },
+    {
+     "text": "The",
+     "start": 29.49,
+     "end": 29.597
+    },
+    {
+     "text": "Senate",
+     "start": 29.597,
+     "end": 29.919
+    },
+    {
+     "text": "can",
+     "start": 29.919,
+     "end": 30.134
+    },
+    {
+     "text": "amend",
+     "start": 30.134,
+     "end": 30.455
+    },
+    {
+     "text": "them,",
+     "start": 30.455,
+     "end": 30.67
+    },
+    {
+     "text": "but",
+     "start": 31.0,
+     "end": 31.26
+    },
+    {
+     "text": "Congress",
+     "start": 31.26,
+     "end": 31.78
+    },
+    {
+     "text": "has",
+     "start": 31.78,
+     "end": 32.04
+    },
+    {
+     "text": "the",
+     "start": 32.04,
+     "end": 32.17
+    },
+    {
+     "text": "last",
+     "start": 32.17,
+     "end": 32.495
+    },
+    {
+     "text": "word.",
+     "start": 32.495,
+     "end": 32.82
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "The People's Party won 137 seats, short of the 176 needed.",
+   "start": 33.28,
+   "end": 39.12,
+   "words": [
+    {
+     "text": "The",
+     "start": 33.28,
+     "end": 33.399
+    },
+    {
+     "text": "People's",
+     "start": 33.399,
+     "end": 33.876
+    },
+    {
+     "text": "Party",
+     "start": 33.876,
+     "end": 34.234
+    },
+    {
+     "text": "won",
+     "start": 34.234,
+     "end": 34.472
+    },
+    {
+     "text": "137",
+     "start": 34.472,
+     "end": 35.902
+    },
+    {
+     "text": "seats,",
+     "start": 35.902,
+     "end": 36.26
+    },
+    {
+     "text": "short",
+     "start": 36.61,
+     "end": 36.916
+    },
+    {
+     "text": "of",
+     "start": 36.916,
+     "end": 37.039
+    },
+    {
+     "text": "the",
+     "start": 37.039,
+     "end": 37.161
+    },
+    {
+     "text": "176",
+     "start": 37.161,
+     "end": 38.691
+    },
+    {
+     "text": "needed.",
+     "start": 38.691,
+     "end": 39.12
+    }
+   ]
+  },
+  {
+   "id": "talks",
+   "text": "Its leader, Feijóo, lost the vote. Pedro Sánchez of the Socialists won it, backed by Sumar and regional parties.",
+   "start": 39.48,
+   "end": 46.42,
+   "words": [
+    {
+     "text": "Its",
+     "start": 39.48,
+     "end": 39.81
+    },
+    {
+     "text": "leader,",
+     "start": 39.81,
+     "end": 40.47
+    },
+    {
+     "text": "Feijóo,",
+     "start": 40.6,
+     "end": 40.79
+    },
+    {
+     "text": "lost",
+     "start": 40.87,
+     "end": 41.012
+    },
+    {
+     "text": "the",
+     "start": 41.012,
+     "end": 41.068
+    },
+    {
+     "text": "vote.",
+     "start": 41.068,
+     "end": 41.21
+    },
+    {
+     "text": "Pedro",
+     "start": 41.74,
+     "end": 42.15
+    },
+    {
+     "text": "Sánchez",
+     "start": 42.15,
+     "end": 42.561
+    },
+    {
+     "text": "of",
+     "start": 42.561,
+     "end": 42.678
+    },
+    {
+     "text": "the",
+     "start": 42.678,
+     "end": 42.795
+    },
+    {
+     "text": "Socialists",
+     "start": 42.795,
+     "end": 43.498
+    },
+    {
+     "text": "won",
+     "start": 43.498,
+     "end": 43.733
+    },
+    {
+     "text": "it,",
+     "start": 43.733,
+     "end": 43.85
+    },
+    {
+     "text": "backed",
+     "start": 44.24,
+     "end": 44.543
+    },
+    {
+     "text": "by",
+     "start": 44.543,
+     "end": 44.785
+    },
+    {
+     "text": "Sumar",
+     "start": 44.785,
+     "end": 45.209
+    },
+    {
+     "text": "and",
+     "start": 45.209,
+     "end": 45.391
+    },
+    {
+     "text": "regional",
+     "start": 45.391,
+     "end": 45.996
+    },
+    {
+     "text": "parties.",
+     "start": 45.996,
+     "end": 46.42
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "And the King? Felipe the Sixth inherited the throne. He proposes the candidate and signs every law, but can't block one.",
+   "start": 47.17,
+   "end": 54.54,
+   "words": [
+    {
+     "text": "And",
+     "start": 47.17,
+     "end": 47.347
+    },
+    {
+     "text": "the",
+     "start": 47.347,
+     "end": 47.464
+    },
+    {
+     "text": "King?",
+     "start": 47.464,
+     "end": 47.7
+    },
+    {
+     "text": "Felipe",
+     "start": 47.95,
+     "end": 48.493
+    },
+    {
+     "text": "the",
+     "start": 48.493,
+     "end": 48.613
+    },
+    {
+     "text": "Sixth",
+     "start": 48.613,
+     "end": 48.975
+    },
+    {
+     "text": "inherited",
+     "start": 48.975,
+     "end": 49.578
+    },
+    {
+     "text": "the",
+     "start": 49.578,
+     "end": 49.698
+    },
+    {
+     "text": "throne.",
+     "start": 49.698,
+     "end": 50.06
+    },
+    {
+     "text": "He",
+     "start": 50.5,
+     "end": 50.692
+    },
+    {
+     "text": "proposes",
+     "start": 50.692,
+     "end": 51.33
+    },
+    {
+     "text": "the",
+     "start": 51.33,
+     "end": 51.458
+    },
+    {
+     "text": "candidate",
+     "start": 51.458,
+     "end": 52.16
+    },
+    {
+     "text": "and",
+     "start": 52.16,
+     "end": 52.352
+    },
+    {
+     "text": "signs",
+     "start": 52.352,
+     "end": 52.735
+    },
+    {
+     "text": "every",
+     "start": 52.735,
+     "end": 53.055
+    },
+    {
+     "text": "law,",
+     "start": 53.055,
+     "end": 53.31
+    },
+    {
+     "text": "but",
+     "start": 53.58,
+     "end": 53.782
+    },
+    {
+     "text": "can't",
+     "start": 53.782,
+     "end": 54.085
+    },
+    {
+     "text": "block",
+     "start": 54.085,
+     "end": 54.338
+    },
+    {
+     "text": "one.",
+     "start": 54.338,
+     "end": 54.54
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should the party with the most votes always get to govern?",
+   "start": 54.9,
+   "end": 57.94,
+   "words": [
+    {
+     "text": "Should",
+     "start": 54.9,
+     "end": 55.143
+    },
+    {
+     "text": "the",
+     "start": 55.143,
+     "end": 55.265
+    },
+    {
+     "text": "party",
+     "start": 55.265,
+     "end": 55.63
+    },
+    {
+     "text": "with",
+     "start": 55.63,
+     "end": 55.812
+    },
+    {
+     "text": "the",
+     "start": 55.812,
+     "end": 55.934
+    },
+    {
+     "text": "most",
+     "start": 55.934,
+     "end": 56.298
+    },
+    {
+     "text": "votes",
+     "start": 56.298,
+     "end": 56.663
+    },
+    {
+     "text": "always",
+     "start": 56.663,
+     "end": 57.15
+    },
+    {
+     "text": "get",
+     "start": 57.15,
+     "end": 57.393
+    },
+    {
+     "text": "to",
+     "start": 57.393,
+     "end": 57.575
+    },
+    {
+     "text": "govern?",
+     "start": 57.575,
+     "end": 57.94
+    }
+   ]
+  }
+ ]
+}
