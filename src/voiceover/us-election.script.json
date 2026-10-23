@@ -1,0 +1,71 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "US": "U S",
+    "18": "eighteen",
+    "435": "four hundred and thirty-five",
+    "100": "a hundred",
+    "538": "five hundred and thirty-eight",
+    "270": "two hundred and seventy",
+    "2024": "twenty twenty-four",
+    "312": "three hundred and twelve",
+    "226": "two hundred and twenty-six",
+    "3rd": "third"
+  },
+  "pronounce": {},
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In America, you don't vote for the president. Not directly."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? US citizens from 18, even abroad. But first, you have to register."
+    },
+    {
+      "id": "ballot",
+      "text": "One paper ballot lists every race, from president to sheriff. Fill in the oval next to your choice.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "congress",
+      "text": "You also elect Congress, which makes the laws and sets the budget: 435 members of the House, every two years,"
+    },
+    {
+      "id": "senate",
+      "text": "and 100 senators, two per state, for six years.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "electors",
+      "text": "Your vote for president really picks electors. Whoever wins a state usually takes all of them."
+    },
+    {
+      "id": "win",
+      "text": "538 in all. 270 wins the White House.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "president",
+      "text": "The president leads the government and the army, and can veto laws.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "result",
+      "text": "In 2024, Donald Trump won 312 electors to Kamala Harris's 226. Republicans also won Congress."
+    },
+    {
+      "id": "now",
+      "text": "On November 3rd, the midterms decide Congress again.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "question",
+      "text": "Should the candidate with the most votes always win?"
+    }
+  ]
+}

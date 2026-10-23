@@ -1,0 +1,795 @@
+{
+ "audio": "voiceover/us-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.03,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In America, you don't vote for the president. Not directly.",
+   "start": 0.23,
+   "end": 3.56,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.23,
+     "end": 0.421
+    },
+    {
+     "text": "America,",
+     "start": 0.421,
+     "end": 0.93
+    },
+    {
+     "text": "you",
+     "start": 1.06,
+     "end": 1.2
+    },
+    {
+     "text": "don't",
+     "start": 1.2,
+     "end": 1.479
+    },
+    {
+     "text": "vote",
+     "start": 1.479,
+     "end": 1.712
+    },
+    {
+     "text": "for",
+     "start": 1.712,
+     "end": 1.851
+    },
+    {
+     "text": "the",
+     "start": 1.851,
+     "end": 1.944
+    },
+    {
+     "text": "president.",
+     "start": 1.944,
+     "end": 2.41
+    },
+    {
+     "text": "Not",
+     "start": 2.71,
+     "end": 2.953
+    },
+    {
+     "text": "directly.",
+     "start": 2.953,
+     "end": 3.56
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? US citizens from 18, even abroad. But first, you have to register.",
+   "start": 3.9,
+   "end": 9.38,
+   "words": [
+    {
+     "text": "Who",
+     "start": 3.9,
+     "end": 4.094
+    },
+    {
+     "text": "can",
+     "start": 4.094,
+     "end": 4.288
+    },
+    {
+     "text": "vote?",
+     "start": 4.288,
+     "end": 4.53
+    },
+    {
+     "text": "US",
+     "start": 4.78,
+     "end": 5.195
+    },
+    {
+     "text": "citizens",
+     "start": 5.195,
+     "end": 5.728
+    },
+    {
+     "text": "from",
+     "start": 5.728,
+     "end": 5.965
+    },
+    {
+     "text": "18,",
+     "start": 5.965,
+     "end": 6.38
+    },
+    {
+     "text": "even",
+     "start": 6.48,
+     "end": 6.849
+    },
+    {
+     "text": "abroad.",
+     "start": 6.849,
+     "end": 7.28
+    },
+    {
+     "text": "But",
+     "start": 7.66,
+     "end": 7.876
+    },
+    {
+     "text": "first,",
+     "start": 7.876,
+     "end": 8.2
+    },
+    {
+     "text": "you",
+     "start": 8.41,
+     "end": 8.563
+    },
+    {
+     "text": "have",
+     "start": 8.563,
+     "end": 8.767
+    },
+    {
+     "text": "to",
+     "start": 8.767,
+     "end": 8.921
+    },
+    {
+     "text": "register.",
+     "start": 8.921,
+     "end": 9.38
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "One paper ballot lists every race, from president to sheriff. Fill in the oval next to your choice.",
+   "start": 9.72,
+   "end": 15.35,
+   "words": [
+    {
+     "text": "One",
+     "start": 9.72,
+     "end": 9.96
+    },
+    {
+     "text": "paper",
+     "start": 9.96,
+     "end": 10.32
+    },
+    {
+     "text": "ballot",
+     "start": 10.32,
+     "end": 10.68
+    },
+    {
+     "text": "lists",
+     "start": 10.68,
+     "end": 11.04
+    },
+    {
+     "text": "every",
+     "start": 11.04,
+     "end": 11.34
+    },
+    {
+     "text": "race,",
+     "start": 11.34,
+     "end": 11.64
+    },
+    {
+     "text": "from",
+     "start": 11.9,
+     "end": 12.098
+    },
+    {
+     "text": "president",
+     "start": 12.098,
+     "end": 12.594
+    },
+    {
+     "text": "to",
+     "start": 12.594,
+     "end": 12.743
+    },
+    {
+     "text": "sheriff.",
+     "start": 12.743,
+     "end": 13.04
+    },
+    {
+     "text": "Fill",
+     "start": 13.51,
+     "end": 13.733
+    },
+    {
+     "text": "in",
+     "start": 13.733,
+     "end": 13.9
+    },
+    {
+     "text": "the",
+     "start": 13.9,
+     "end": 14.012
+    },
+    {
+     "text": "oval",
+     "start": 14.012,
+     "end": 14.346
+    },
+    {
+     "text": "next",
+     "start": 14.346,
+     "end": 14.681
+    },
+    {
+     "text": "to",
+     "start": 14.681,
+     "end": 14.848
+    },
+    {
+     "text": "your",
+     "start": 14.848,
+     "end": 15.015
+    },
+    {
+     "text": "choice.",
+     "start": 15.015,
+     "end": 15.35
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "You also elect Congress, which makes the laws and sets the budget: 435 members of the House, every two years,",
+   "start": 15.71,
+   "end": 23.38,
+   "words": [
+    {
+     "text": "You",
+     "start": 15.71,
+     "end": 15.878
+    },
+    {
+     "text": "also",
+     "start": 15.878,
+     "end": 16.268
+    },
+    {
+     "text": "elect",
+     "start": 16.268,
+     "end": 16.603
+    },
+    {
+     "text": "Congress,",
+     "start": 16.603,
+     "end": 17.05
+    },
+    {
+     "text": "which",
+     "start": 17.35,
+     "end": 17.646
+    },
+    {
+     "text": "makes",
+     "start": 17.646,
+     "end": 18.001
+    },
+    {
+     "text": "the",
+     "start": 18.001,
+     "end": 18.119
+    },
+    {
+     "text": "laws",
+     "start": 18.119,
+     "end": 18.415
+    },
+    {
+     "text": "and",
+     "start": 18.415,
+     "end": 18.592
+    },
+    {
+     "text": "sets",
+     "start": 18.592,
+     "end": 18.888
+    },
+    {
+     "text": "the",
+     "start": 18.888,
+     "end": 19.006
+    },
+    {
+     "text": "budget:",
+     "start": 19.006,
+     "end": 19.42
+    },
+    {
+     "text": "435",
+     "start": 19.91,
+     "end": 21.34
+    },
+    {
+     "text": "members",
+     "start": 21.34,
+     "end": 21.725
+    },
+    {
+     "text": "of",
+     "start": 21.725,
+     "end": 21.835
+    },
+    {
+     "text": "the",
+     "start": 21.835,
+     "end": 21.945
+    },
+    {
+     "text": "House,",
+     "start": 21.945,
+     "end": 22.22
+    },
+    {
+     "text": "every",
+     "start": 22.44,
+     "end": 22.776
+    },
+    {
+     "text": "two",
+     "start": 22.776,
+     "end": 23.044
+    },
+    {
+     "text": "years,",
+     "start": 23.044,
+     "end": 23.38
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "and 100 senators, two per state, for six years.",
+   "start": 23.72,
+   "end": 26.93,
+   "words": [
+    {
+     "text": "and",
+     "start": 23.72,
+     "end": 23.894
+    },
+    {
+     "text": "100",
+     "start": 23.894,
+     "end": 24.416
+    },
+    {
+     "text": "senators,",
+     "start": 24.416,
+     "end": 24.88
+    },
+    {
+     "text": "two",
+     "start": 25.11,
+     "end": 25.328
+    },
+    {
+     "text": "per",
+     "start": 25.328,
+     "end": 25.492
+    },
+    {
+     "text": "state,",
+     "start": 25.492,
+     "end": 25.82
+    },
+    {
+     "text": "for",
+     "start": 26.1,
+     "end": 26.292
+    },
+    {
+     "text": "six",
+     "start": 26.292,
+     "end": 26.611
+    },
+    {
+     "text": "years.",
+     "start": 26.611,
+     "end": 26.93
+    }
+   ]
+  },
+  {
+   "id": "electors",
+   "text": "Your vote for president really picks electors. Whoever wins a state usually takes all of them.",
+   "start": 27.29,
+   "end": 32.71,
+   "words": [
+    {
+     "text": "Your",
+     "start": 27.29,
+     "end": 27.462
+    },
+    {
+     "text": "vote",
+     "start": 27.462,
+     "end": 27.748
+    },
+    {
+     "text": "for",
+     "start": 27.748,
+     "end": 27.92
+    },
+    {
+     "text": "president",
+     "start": 27.92,
+     "end": 28.492
+    },
+    {
+     "text": "really",
+     "start": 28.492,
+     "end": 28.836
+    },
+    {
+     "text": "picks",
+     "start": 28.836,
+     "end": 29.122
+    },
+    {
+     "text": "electors.",
+     "start": 29.122,
+     "end": 29.58
+    },
+    {
+     "text": "Whoever",
+     "start": 30.0,
+     "end": 30.404
+    },
+    {
+     "text": "wins",
+     "start": 30.404,
+     "end": 30.692
+    },
+    {
+     "text": "a",
+     "start": 30.692,
+     "end": 30.865
+    },
+    {
+     "text": "state",
+     "start": 30.865,
+     "end": 31.211
+    },
+    {
+     "text": "usually",
+     "start": 31.211,
+     "end": 31.787
+    },
+    {
+     "text": "takes",
+     "start": 31.787,
+     "end": 32.133
+    },
+    {
+     "text": "all",
+     "start": 32.133,
+     "end": 32.364
+    },
+    {
+     "text": "of",
+     "start": 32.364,
+     "end": 32.479
+    },
+    {
+     "text": "them.",
+     "start": 32.479,
+     "end": 32.71
+    }
+   ]
+  },
+  {
+   "id": "win",
+   "text": "538 in all. 270 wins the White House.",
+   "start": 33.05,
+   "end": 37.93,
+   "words": [
+    {
+     "text": "538",
+     "start": 33.05,
+     "end": 34.689
+    },
+    {
+     "text": "in",
+     "start": 34.689,
+     "end": 34.878
+    },
+    {
+     "text": "all.",
+     "start": 34.878,
+     "end": 35.13
+    },
+    {
+     "text": "270",
+     "start": 35.51,
+     "end": 36.902
+    },
+    {
+     "text": "wins",
+     "start": 36.902,
+     "end": 37.204
+    },
+    {
+     "text": "the",
+     "start": 37.204,
+     "end": 37.325
+    },
+    {
+     "text": "White",
+     "start": 37.325,
+     "end": 37.628
+    },
+    {
+     "text": "House.",
+     "start": 37.628,
+     "end": 37.93
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president leads the government and the army, and can veto laws.",
+   "start": 38.29,
+   "end": 42.16,
+   "words": [
+    {
+     "text": "The",
+     "start": 38.29,
+     "end": 38.406
+    },
+    {
+     "text": "president",
+     "start": 38.406,
+     "end": 38.986
+    },
+    {
+     "text": "leads",
+     "start": 38.986,
+     "end": 39.334
+    },
+    {
+     "text": "the",
+     "start": 39.334,
+     "end": 39.45
+    },
+    {
+     "text": "government",
+     "start": 39.45,
+     "end": 40.03
+    },
+    {
+     "text": "and",
+     "start": 40.03,
+     "end": 40.204
+    },
+    {
+     "text": "the",
+     "start": 40.204,
+     "end": 40.32
+    },
+    {
+     "text": "army,",
+     "start": 40.32,
+     "end": 40.61
+    },
+    {
+     "text": "and",
+     "start": 40.93,
+     "end": 41.124
+    },
+    {
+     "text": "can",
+     "start": 41.124,
+     "end": 41.383
+    },
+    {
+     "text": "veto",
+     "start": 41.383,
+     "end": 41.836
+    },
+    {
+     "text": "laws.",
+     "start": 41.836,
+     "end": 42.16
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2024, Donald Trump won 312 electors to Kamala Harris's 226. Republicans also won Congress.",
+   "start": 42.52,
+   "end": 51.82,
+   "words": [
+    {
+     "text": "In",
+     "start": 42.52,
+     "end": 42.663
+    },
+    {
+     "text": "2024,",
+     "start": 42.663,
+     "end": 43.52
+    },
+    {
+     "text": "Donald",
+     "start": 43.83,
+     "end": 44.256
+    },
+    {
+     "text": "Trump",
+     "start": 44.256,
+     "end": 44.621
+    },
+    {
+     "text": "won",
+     "start": 44.621,
+     "end": 44.865
+    },
+    {
+     "text": "312",
+     "start": 44.865,
+     "end": 46.204
+    },
+    {
+     "text": "electors",
+     "start": 46.204,
+     "end": 46.69
+    },
+    {
+     "text": "to",
+     "start": 46.69,
+     "end": 46.873
+    },
+    {
+     "text": "Kamala",
+     "start": 46.873,
+     "end": 47.36
+    },
+    {
+     "text": "Harris's",
+     "start": 47.36,
+     "end": 47.847
+    },
+    {
+     "text": "226.",
+     "start": 47.847,
+     "end": 49.49
+    },
+    {
+     "text": "Republicans",
+     "start": 49.91,
+     "end": 50.649
+    },
+    {
+     "text": "also",
+     "start": 50.649,
+     "end": 51.081
+    },
+    {
+     "text": "won",
+     "start": 51.081,
+     "end": 51.327
+    },
+    {
+     "text": "Congress.",
+     "start": 51.327,
+     "end": 51.82
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "text": "On November 3rd, the midterms decide Congress again.",
+   "start": 52.16,
+   "end": 55.46,
+   "words": [
+    {
+     "text": "On",
+     "start": 52.16,
+     "end": 52.338
+    },
+    {
+     "text": "November",
+     "start": 52.338,
+     "end": 52.873
+    },
+    {
+     "text": "3rd,",
+     "start": 52.873,
+     "end": 53.17
+    },
+    {
+     "text": "the",
+     "start": 53.49,
+     "end": 53.613
+    },
+    {
+     "text": "midterms",
+     "start": 53.613,
+     "end": 54.229
+    },
+    {
+     "text": "decide",
+     "start": 54.229,
+     "end": 54.66
+    },
+    {
+     "text": "Congress",
+     "start": 54.66,
+     "end": 55.152
+    },
+    {
+     "text": "again.",
+     "start": 55.152,
+     "end": 55.46
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should the candidate with the most votes always win?",
+   "start": 55.92,
+   "end": 58.72,
+   "words": [
+    {
+     "text": "Should",
+     "start": 55.92,
+     "end": 56.163
+    },
+    {
+     "text": "the",
+     "start": 56.163,
+     "end": 56.285
+    },
+    {
+     "text": "candidate",
+     "start": 56.285,
+     "end": 56.955
+    },
+    {
+     "text": "with",
+     "start": 56.955,
+     "end": 57.137
+    },
+    {
+     "text": "the",
+     "start": 57.137,
+     "end": 57.259
+    },
+    {
+     "text": "most",
+     "start": 57.259,
+     "end": 57.624
+    },
+    {
+     "text": "votes",
+     "start": 57.624,
+     "end": 57.99
+    },
+    {
+     "text": "always",
+     "start": 57.99,
+     "end": 58.476
+    },
+    {
+     "text": "win?",
+     "start": 58.476,
+     "end": 58.72
+    }
+   ]
+  }
+ ]
+}

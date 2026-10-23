@@ -116,7 +116,11 @@ prompt says otherwise.
   party, colour-coded by election, with an optional cross for one candidate, a 4% threshold with 39 top-up seats, a prime
   minister who only needs fewer than 175 "no" votes, a King with no political power, 2022 as the worked example plus a
   dated 2026 note) follows the brief's content but, at the user's request, the look of their Belgian reference video
-  (see "Reference videos in another style").
+  (see "Reference videos in another style"). `USElection` ("How the US votes.", `briefs/us-election-system/`) redoes
+  the Swedish look in US colours (navy background, red accents, standard red subtitle pill): who can vote and
+  registration, one paper ballot with every race (fill the oval), Congress as two half-circles (House 435, Senate 100),
+  the Electoral College on a tile map of the 50 states + DC (`src/scenes/us-election/TileMap.tsx`, with 2024 winners
+  and electoral votes in `constants.ts`), the president, 2024 as the worked example plus a dated 2026 midterms note.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -214,7 +218,8 @@ or cue a neighbouring word.
 If Chrome cannot be auto-downloaded (offline/sandbox), add
 `--browser-executable=/path/to/chrome-or-headless_shell` to any command. In Claude cloud sessions
 the download host is blocked; use the pre-installed
-`/opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell`.
+`/opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell` (newer images:
+`/opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell`; check with `ls`).
 
 ## Layout
 ```
@@ -322,7 +327,7 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 4. Voice and timing: write `src/voiceover/<name>.script.json`, then `npm run voiceover -- src/voiceover/<name>.script.json` (setup once: `npm run voice:setup`). Check the measured length against the length limit before building.
 5. Music: `npm run music -- src/voiceover/<name>.timing.json`. Sound effects are shared in `public/audio/sfx/`.
 6. Build the composition (scenes start at their sentence, `<Subtitles timing={...} />`, music under the voice), then run `npm run typecheck`.
-7. QA: render stills with `npx remotion still src/index.ts <Id> out/stills/f060.png --frame=60 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`. Check scene starts, scene ends, transitions, and that frame 0 is not empty.
+7. QA: render stills with `npx remotion still src/index.ts <Id> out/stills/f060.png --frame=60 --browser-executable=<headless shell, see Commands>`. Check scene starts, scene ends, transitions, and that frame 0 is not empty.
 8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
 9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
 
