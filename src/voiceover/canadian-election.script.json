@@ -1,0 +1,71 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "343": "three hundred and forty-three",
+    "172": "a hundred and seventy-two",
+    "105": "a hundred and five",
+    "2025": "twenty twenty-five",
+    "2026": "twenty twenty-six",
+    "169": "a hundred and sixty-nine",
+    "MP": "M P",
+    "MPs": "M Ps"
+  },
+  "pronounce": {},
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In Canada, nobody votes for the prime minister, or the King."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Canadian citizens from 18, even abroad, and you can register at the polls."
+    },
+    {
+      "id": "ballot",
+      "text": "Your ballot lists only your local candidates. Mark the circle next to one.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "riding",
+      "text": "The most votes wins the riding, even without half."
+    },
+    {
+      "id": "commons",
+      "text": "Each riding's winner joins the House of Commons, which makes the laws and controls the money.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "The leader the House backs becomes prime minister. 172 seats is a majority.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "senate",
+      "text": "The 105 senators aren't elected. The prime minister picks them, to review every law.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "crown",
+      "text": "The head of state is King Charles. The Governor General stands in for him and signs the laws.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "result",
+      "text": "In 2025, Mark Carney's Liberals won 169 seats, three short of a majority."
+    },
+    {
+      "id": "twist",
+      "text": "Then five MPs switched to them, and by-elections did the rest: a majority, with no new election.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "question",
+      "text": "Should an MP who switches parties have to face the voters again?"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+ "audio": "voiceover/canadian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.04,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In Canada, nobody votes for the prime minister, or the King.",
+   "start": 0.23,
+   "end": 3.58,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.23,
+     "end": 0.401
+    },
+    {
+     "text": "Canada,",
+     "start": 0.401,
+     "end": 0.8
+    },
+    {
+     "text": "nobody",
+     "start": 1.02,
+     "end": 1.439
+    },
+    {
+     "text": "votes",
+     "start": 1.439,
+     "end": 1.754
+    },
+    {
+     "text": "for",
+     "start": 1.754,
+     "end": 1.911
+    },
+    {
+     "text": "the",
+     "start": 1.911,
+     "end": 2.016
+    },
+    {
+     "text": "prime",
+     "start": 2.016,
+     "end": 2.331
+    },
+    {
+     "text": "minister,",
+     "start": 2.331,
+     "end": 2.75
+    },
+    {
+     "text": "or",
+     "start": 2.99,
+     "end": 3.138
+    },
+    {
+     "text": "the",
+     "start": 3.138,
+     "end": 3.285
+    },
+    {
+     "text": "King.",
+     "start": 3.285,
+     "end": 3.58
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Canadian citizens from 18, even abroad, and you can register at the polls.",
+   "start": 3.92,
+   "end": 9.73,
+   "words": [
+    {
+     "text": "Who",
+     "start": 3.92,
+     "end": 4.132
+    },
+    {
+     "text": "can",
+     "start": 4.132,
+     "end": 4.345
+    },
+    {
+     "text": "vote?",
+     "start": 4.345,
+     "end": 4.61
+    },
+    {
+     "text": "Canadian",
+     "start": 4.94,
+     "end": 5.547
+    },
+    {
+     "text": "citizens",
+     "start": 5.547,
+     "end": 6.093
+    },
+    {
+     "text": "from",
+     "start": 6.093,
+     "end": 6.335
+    },
+    {
+     "text": "18,",
+     "start": 6.335,
+     "end": 6.76
+    },
+    {
+     "text": "even",
+     "start": 7.01,
+     "end": 7.375
+    },
+    {
+     "text": "abroad,",
+     "start": 7.375,
+     "end": 7.8
+    },
+    {
+     "text": "and",
+     "start": 8.13,
+     "end": 8.296
+    },
+    {
+     "text": "you",
+     "start": 8.296,
+     "end": 8.461
+    },
+    {
+     "text": "can",
+     "start": 8.461,
+     "end": 8.682
+    },
+    {
+     "text": "register",
+     "start": 8.682,
+     "end": 9.178
+    },
+    {
+     "text": "at",
+     "start": 9.178,
+     "end": 9.289
+    },
+    {
+     "text": "the",
+     "start": 9.289,
+     "end": 9.399
+    },
+    {
+     "text": "polls.",
+     "start": 9.399,
+     "end": 9.73
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Your ballot lists only your local candidates. Mark the circle next to one.",
+   "start": 10.07,
+   "end": 14.35,
+   "words": [
+    {
+     "text": "Your",
+     "start": 10.07,
+     "end": 10.244
+    },
+    {
+     "text": "ballot",
+     "start": 10.244,
+     "end": 10.591
+    },
+    {
+     "text": "lists",
+     "start": 10.591,
+     "end": 10.939
+    },
+    {
+     "text": "only",
+     "start": 10.939,
+     "end": 11.286
+    },
+    {
+     "text": "your",
+     "start": 11.286,
+     "end": 11.46
+    },
+    {
+     "text": "local",
+     "start": 11.46,
+     "end": 11.865
+    },
+    {
+     "text": "candidates.",
+     "start": 11.865,
+     "end": 12.56
+    },
+    {
+     "text": "Mark",
+     "start": 12.89,
+     "end": 13.16
+    },
+    {
+     "text": "the",
+     "start": 13.16,
+     "end": 13.269
+    },
+    {
+     "text": "circle",
+     "start": 13.269,
+     "end": 13.647
+    },
+    {
+     "text": "next",
+     "start": 13.647,
+     "end": 13.971
+    },
+    {
+     "text": "to",
+     "start": 13.971,
+     "end": 14.134
+    },
+    {
+     "text": "one.",
+     "start": 14.134,
+     "end": 14.35
+    }
+   ]
+  },
+  {
+   "id": "riding",
+   "text": "The most votes wins the riding, even without half.",
+   "start": 14.71,
+   "end": 17.71,
+   "words": [
+    {
+     "text": "The",
+     "start": 14.71,
+     "end": 14.827
+    },
+    {
+     "text": "most",
+     "start": 14.827,
+     "end": 15.179
+    },
+    {
+     "text": "votes",
+     "start": 15.179,
+     "end": 15.53
+    },
+    {
+     "text": "wins",
+     "start": 15.53,
+     "end": 15.823
+    },
+    {
+     "text": "the",
+     "start": 15.823,
+     "end": 15.94
+    },
+    {
+     "text": "riding,",
+     "start": 15.94,
+     "end": 16.35
+    },
+    {
+     "text": "even",
+     "start": 16.63,
+     "end": 16.99
+    },
+    {
+     "text": "without",
+     "start": 16.99,
+     "end": 17.41
+    },
+    {
+     "text": "half.",
+     "start": 17.41,
+     "end": 17.71
+    }
+   ]
+  },
+  {
+   "id": "commons",
+   "text": "Each riding's winner joins the House of Commons, which makes the laws and controls the money.",
+   "start": 18.04,
+   "end": 23.28,
+   "words": [
+    {
+     "text": "Each",
+     "start": 18.04,
+     "end": 18.347
+    },
+    {
+     "text": "riding's",
+     "start": 18.347,
+     "end": 18.839
+    },
+    {
+     "text": "winner",
+     "start": 18.839,
+     "end": 19.146
+    },
+    {
+     "text": "joins",
+     "start": 19.146,
+     "end": 19.577
+    },
+    {
+     "text": "the",
+     "start": 19.577,
+     "end": 19.7
+    },
+    {
+     "text": "House",
+     "start": 19.7,
+     "end": 20.007
+    },
+    {
+     "text": "of",
+     "start": 20.007,
+     "end": 20.13
+    },
+    {
+     "text": "Commons,",
+     "start": 20.13,
+     "end": 20.56
+    },
+    {
+     "text": "which",
+     "start": 20.92,
+     "end": 21.231
+    },
+    {
+     "text": "makes",
+     "start": 21.231,
+     "end": 21.603
+    },
+    {
+     "text": "the",
+     "start": 21.603,
+     "end": 21.727
+    },
+    {
+     "text": "laws",
+     "start": 21.727,
+     "end": 22.038
+    },
+    {
+     "text": "and",
+     "start": 22.038,
+     "end": 22.224
+    },
+    {
+     "text": "controls",
+     "start": 22.224,
+     "end": 22.845
+    },
+    {
+     "text": "the",
+     "start": 22.845,
+     "end": 22.969
+    },
+    {
+     "text": "money.",
+     "start": 22.969,
+     "end": 23.28
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "The leader the House backs becomes prime minister. 172 seats is a majority.",
+   "start": 23.64,
+   "end": 29.45,
+   "words": [
+    {
+     "text": "The",
+     "start": 23.64,
+     "end": 23.769
+    },
+    {
+     "text": "leader",
+     "start": 23.769,
+     "end": 24.155
+    },
+    {
+     "text": "the",
+     "start": 24.155,
+     "end": 24.284
+    },
+    {
+     "text": "House",
+     "start": 24.284,
+     "end": 24.606
+    },
+    {
+     "text": "backs",
+     "start": 24.606,
+     "end": 24.928
+    },
+    {
+     "text": "becomes",
+     "start": 24.928,
+     "end": 25.379
+    },
+    {
+     "text": "prime",
+     "start": 25.379,
+     "end": 25.765
+    },
+    {
+     "text": "minister.",
+     "start": 25.765,
+     "end": 26.28
+    },
+    {
+     "text": "172",
+     "start": 26.7,
+     "end": 28.167
+    },
+    {
+     "text": "seats",
+     "start": 28.167,
+     "end": 28.533
+    },
+    {
+     "text": "is",
+     "start": 28.533,
+     "end": 28.656
+    },
+    {
+     "text": "a",
+     "start": 28.656,
+     "end": 28.839
+    },
+    {
+     "text": "majority.",
+     "start": 28.839,
+     "end": 29.45
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "The 105 senators aren't elected. The prime minister picks them, to review every law.",
+   "start": 29.81,
+   "end": 35.4,
+   "words": [
+    {
+     "text": "The",
+     "start": 29.81,
+     "end": 29.928
+    },
+    {
+     "text": "105",
+     "start": 29.928,
+     "end": 30.926
+    },
+    {
+     "text": "senators",
+     "start": 30.926,
+     "end": 31.396
+    },
+    {
+     "text": "aren't",
+     "start": 31.396,
+     "end": 31.69
+    },
+    {
+     "text": "elected.",
+     "start": 31.69,
+     "end": 32.16
+    },
+    {
+     "text": "The",
+     "start": 32.59,
+     "end": 32.7
+    },
+    {
+     "text": "prime",
+     "start": 32.7,
+     "end": 33.032
+    },
+    {
+     "text": "minister",
+     "start": 33.032,
+     "end": 33.473
+    },
+    {
+     "text": "picks",
+     "start": 33.473,
+     "end": 33.749
+    },
+    {
+     "text": "them,",
+     "start": 33.749,
+     "end": 33.97
+    },
+    {
+     "text": "to",
+     "start": 34.24,
+     "end": 34.423
+    },
+    {
+     "text": "review",
+     "start": 34.423,
+     "end": 34.851
+    },
+    {
+     "text": "every",
+     "start": 34.851,
+     "end": 35.156
+    },
+    {
+     "text": "law.",
+     "start": 35.156,
+     "end": 35.4
+    }
+   ]
+  },
+  {
+   "id": "crown",
+   "text": "The head of state is King Charles. The Governor General stands in for him and signs the laws.",
+   "start": 35.76,
+   "end": 41.09,
+   "words": [
+    {
+     "text": "The",
+     "start": 35.76,
+     "end": 35.894
+    },
+    {
+     "text": "head",
+     "start": 35.894,
+     "end": 36.162
+    },
+    {
+     "text": "of",
+     "start": 36.162,
+     "end": 36.296
+    },
+    {
+     "text": "state",
+     "start": 36.296,
+     "end": 36.699
+    },
+    {
+     "text": "is",
+     "start": 36.699,
+     "end": 36.833
+    },
+    {
+     "text": "King",
+     "start": 36.833,
+     "end": 37.101
+    },
+    {
+     "text": "Charles.",
+     "start": 37.101,
+     "end": 37.57
+    },
+    {
+     "text": "The",
+     "start": 37.98,
+     "end": 38.102
+    },
+    {
+     "text": "Governor",
+     "start": 38.102,
+     "end": 38.529
+    },
+    {
+     "text": "General",
+     "start": 38.529,
+     "end": 39.078
+    },
+    {
+     "text": "stands",
+     "start": 39.078,
+     "end": 39.505
+    },
+    {
+     "text": "in",
+     "start": 39.505,
+     "end": 39.687
+    },
+    {
+     "text": "for",
+     "start": 39.687,
+     "end": 39.87
+    },
+    {
+     "text": "him",
+     "start": 39.87,
+     "end": 40.114
+    },
+    {
+     "text": "and",
+     "start": 40.114,
+     "end": 40.297
+    },
+    {
+     "text": "signs",
+     "start": 40.297,
+     "end": 40.663
+    },
+    {
+     "text": "the",
+     "start": 40.663,
+     "end": 40.785
+    },
+    {
+     "text": "laws.",
+     "start": 40.785,
+     "end": 41.09
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2025, Mark Carney's Liberals won 169 seats, three short of a majority.",
+   "start": 41.44,
+   "end": 47.84,
+   "words": [
+    {
+     "text": "In",
+     "start": 41.44,
+     "end": 41.582
+    },
+    {
+     "text": "2025,",
+     "start": 41.582,
+     "end": 42.48
+    },
+    {
+     "text": "Mark",
+     "start": 42.81,
+     "end": 43.09
+    },
+    {
+     "text": "Carney's",
+     "start": 43.09,
+     "end": 43.482
+    },
+    {
+     "text": "Liberals",
+     "start": 43.482,
+     "end": 43.986
+    },
+    {
+     "text": "won",
+     "start": 43.986,
+     "end": 44.21
+    },
+    {
+     "text": "169",
+     "start": 44.21,
+     "end": 45.554
+    },
+    {
+     "text": "seats,",
+     "start": 45.554,
+     "end": 45.89
+    },
+    {
+     "text": "three",
+     "start": 46.25,
+     "end": 46.568
+    },
+    {
+     "text": "short",
+     "start": 46.568,
+     "end": 46.886
+    },
+    {
+     "text": "of",
+     "start": 46.886,
+     "end": 47.013
+    },
+    {
+     "text": "a",
+     "start": 47.013,
+     "end": 47.204
+    },
+    {
+     "text": "majority.",
+     "start": 47.204,
+     "end": 47.84
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "Then five MPs switched to them, and by-elections did the rest: a majority, with no new election.",
+   "start": 48.18,
+   "end": 54.43,
+   "words": [
+    {
+     "text": "Then",
+     "start": 48.18,
+     "end": 48.432
+    },
+    {
+     "text": "five",
+     "start": 48.432,
+     "end": 48.747
+    },
+    {
+     "text": "MPs",
+     "start": 48.747,
+     "end": 49.378
+    },
+    {
+     "text": "switched",
+     "start": 49.378,
+     "end": 49.819
+    },
+    {
+     "text": "to",
+     "start": 49.819,
+     "end": 50.008
+    },
+    {
+     "text": "them,",
+     "start": 50.008,
+     "end": 50.26
+    },
+    {
+     "text": "and",
+     "start": 50.54,
+     "end": 50.708
+    },
+    {
+     "text": "by-elections",
+     "start": 50.708,
+     "end": 51.382
+    },
+    {
+     "text": "did",
+     "start": 51.382,
+     "end": 51.607
+    },
+    {
+     "text": "the",
+     "start": 51.607,
+     "end": 51.719
+    },
+    {
+     "text": "rest:",
+     "start": 51.719,
+     "end": 52.0
+    },
+    {
+     "text": "a",
+     "start": 52.47,
+     "end": 52.645
+    },
+    {
+     "text": "majority,",
+     "start": 52.645,
+     "end": 53.23
+    },
+    {
+     "text": "with",
+     "start": 53.4,
+     "end": 53.555
+    },
+    {
+     "text": "no",
+     "start": 53.555,
+     "end": 53.761
+    },
+    {
+     "text": "new",
+     "start": 53.761,
+     "end": 54.018
+    },
+    {
+     "text": "election.",
+     "start": 54.018,
+     "end": 54.43
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should an MP who switches parties have to face the voters again?",
+   "start": 54.89,
+   "end": 58.73,
+   "words": [
+    {
+     "text": "Should",
+     "start": 54.89,
+     "end": 55.155
+    },
+    {
+     "text": "an",
+     "start": 55.155,
+     "end": 55.287
+    },
+    {
+     "text": "MP",
+     "start": 55.287,
+     "end": 55.751
+    },
+    {
+     "text": "who",
+     "start": 55.751,
+     "end": 56.016
+    },
+    {
+     "text": "switches",
+     "start": 56.016,
+     "end": 56.545
+    },
+    {
+     "text": "parties",
+     "start": 56.545,
+     "end": 57.009
+    },
+    {
+     "text": "have",
+     "start": 57.009,
+     "end": 57.273
+    },
+    {
+     "text": "to",
+     "start": 57.273,
+     "end": 57.472
+    },
+    {
+     "text": "face",
+     "start": 57.472,
+     "end": 57.803
+    },
+    {
+     "text": "the",
+     "start": 57.803,
+     "end": 57.936
+    },
+    {
+     "text": "voters",
+     "start": 57.936,
+     "end": 58.399
+    },
+    {
+     "text": "again?",
+     "start": 58.399,
+     "end": 58.73
+    }
+   ]
+  }
+ ]
+}

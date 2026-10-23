@@ -120,7 +120,11 @@ prompt says otherwise.
   the Swedish look in US colours (navy background, red accents, standard red subtitle pill): who can vote and
   registration, one paper ballot with every race (fill the oval), Congress as two half-circles (House 435, Senate 100),
   the Electoral College on a tile map of the 50 states + DC (`src/scenes/us-election/TileMap.tsx`, with 2024 winners
-  and electoral votes in `constants.ts`), the president, 2024 as the worked example plus a dated 2026 midterms note.
+  and electoral votes in `constants.ts`), the president, 2024 as the worked example plus a dated 2026 midterms note. `CanadianElection` ("How Canada votes.",
+  `briefs/canadian-election-system/`) redoes the Swedish look in Canadian red (deep red background, accent words in white
+  blocks with red letters, a **white subtitle pill with red text**): who can vote, a one-riding ballot (mark one circle),
+  first past the post, the House of Commons (343) and the PM (172), an appointed Senate, the King and Governor General,
+  2025 as the worked example plus the 2026 floor-crossing majority.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
