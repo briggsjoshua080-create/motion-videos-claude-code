@@ -1,0 +1,70 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "349": "three hundred and forty-nine",
+    "4%": "four percent",
+    "39": "thirty-nine",
+    "175": "a hundred and seventy-five",
+    "2022": "twenty twenty-two",
+    "176": "a hundred and seventy-six",
+    "2026": "twenty twenty-six"
+  },
+  "pronounce": {
+    "Riksdag": "ɹˈɪksdɑːɡ",
+    "Kristersson": "kɹˈɪstəʃɒn",
+    "Andersson": "ˈandəʃɒn",
+    "Magdalena": "mˌaɡdəlˈeɪnə"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In Sweden, you can become prime minister without a single yes vote."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Swedish citizens from 18, even abroad. Foreign residents vote locally, not for parliament."
+    },
+    {
+      "id": "ballot",
+      "text": "Each party has its own ballot paper, yellow for parliament. Pick yours, mark one candidate if you like, and seal it in an envelope.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "riksdag",
+      "text": "Votes fill the Riksdag, the parliament: 349 members who make laws and set the budget."
+    },
+    {
+      "id": "seats",
+      "text": "A party needs 4% nationwide, and 39 top-up seats make seats match votes.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "Then parliament's Speaker, not the King, picks a prime minister, who's in unless 175 members vote no.",
+      "pauseAfter": 0.32
+    },
+    {
+      "id": "king",
+      "text": "The King is head of state, but has no political power. He doesn't even sign laws.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "result",
+      "text": "In 2022, four parties on the right won 176 seats, and Ulf Kristersson got the job."
+    },
+    {
+      "id": "now",
+      "text": "In 2026, the Speaker's first pick was voted down.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "question",
+      "text": "Should a prime minister need a yes vote, not just avoid a no?"
+    }
+  ]
+}

@@ -112,7 +112,20 @@ prompt says otherwise.
   King who proposes the candidate and signs every law), and `PortugueseElection` ("Who runs Portugal?",
   `briefs/portuguese-election-system/`; one cross for a party on a ballot with no names, 22 districts with no threshold,
   one chamber, a minority government that needs no vote to take office, a directly elected President who can veto laws
-  and dissolve parliament).
+  and dissolve parliament). `SwedishElection` ("How Sweden votes.", `briefs/swedish-election-system/`; one paper per
+  party, colour-coded by election, with an optional cross for one candidate, a 4% threshold with 39 top-up seats, a prime
+  minister who only needs fewer than 175 "no" votes, a King with no political power, 2022 as the worked example plus a
+  dated 2026 note) follows the brief's content but, at the user's request, the look of their Belgian reference video
+  (see "Reference videos in another style").
+- **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
+  format details, but theme it in **the country's flag colours**. The user's Belgian reference
+  (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
+  `SwedishElection` redoes that look in Swedish blue and yellow (blue background, yellow accents, light "paper" scenes
+  for the ballot and the result, a broadcast frame with timecode and section ruler; reusable parts in
+  `src/scenes/swedish-election/ui.tsx`; its fonts Archivo Black, Instrument Serif and JetBrains Mono are bundled from
+  `@fontsource` in `src/scenes/swedish-election/fonts.ts`). Still ask about format, voice and length: the user chose vertical with the AI
+  narrator, unlike the landscape, music-only reference. If red is not in the flag, ask whether the subtitle pill should
+  use a flag colour instead (`<Subtitles highlight=... activeColor=... />`; Sweden: yellow with dark text).
 
 ## Ask the user first (required before building)
 The user wants to decide what each video looks like before any code is written. **Before building

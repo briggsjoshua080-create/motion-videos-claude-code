@@ -1,0 +1,842 @@
+{
+ "audio": "voiceover/swedish-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.88,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In Sweden, you can become prime minister without a single yes vote.",
+   "start": 0.22,
+   "end": 4.18,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.22,
+     "end": 0.378
+    },
+    {
+     "text": "Sweden,",
+     "start": 0.378,
+     "end": 0.8
+    },
+    {
+     "text": "you",
+     "start": 0.95,
+     "end": 1.133
+    },
+    {
+     "text": "can",
+     "start": 1.133,
+     "end": 1.377
+    },
+    {
+     "text": "become",
+     "start": 1.377,
+     "end": 1.742
+    },
+    {
+     "text": "prime",
+     "start": 1.742,
+     "end": 2.108
+    },
+    {
+     "text": "minister",
+     "start": 2.108,
+     "end": 2.595
+    },
+    {
+     "text": "without",
+     "start": 2.595,
+     "end": 3.022
+    },
+    {
+     "text": "a",
+     "start": 3.022,
+     "end": 3.205
+    },
+    {
+     "text": "single",
+     "start": 3.205,
+     "end": 3.632
+    },
+    {
+     "text": "yes",
+     "start": 3.632,
+     "end": 3.875
+    },
+    {
+     "text": "vote.",
+     "start": 3.875,
+     "end": 4.18
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Swedish citizens from 18, even abroad. Foreign residents vote locally, not for parliament.",
+   "start": 4.52,
+   "end": 11.06,
+   "words": [
+    {
+     "text": "Who",
+     "start": 4.52,
+     "end": 4.717
+    },
+    {
+     "text": "can",
+     "start": 4.717,
+     "end": 4.914
+    },
+    {
+     "text": "vote?",
+     "start": 4.914,
+     "end": 5.16
+    },
+    {
+     "text": "Swedish",
+     "start": 5.38,
+     "end": 5.849
+    },
+    {
+     "text": "citizens",
+     "start": 5.849,
+     "end": 6.376
+    },
+    {
+     "text": "from",
+     "start": 6.376,
+     "end": 6.61
+    },
+    {
+     "text": "18,",
+     "start": 6.61,
+     "end": 7.02
+    },
+    {
+     "text": "even",
+     "start": 7.18,
+     "end": 7.535
+    },
+    {
+     "text": "abroad.",
+     "start": 7.535,
+     "end": 7.95
+    },
+    {
+     "text": "Foreign",
+     "start": 8.43,
+     "end": 8.753
+    },
+    {
+     "text": "residents",
+     "start": 8.753,
+     "end": 9.291
+    },
+    {
+     "text": "vote",
+     "start": 9.291,
+     "end": 9.56
+    },
+    {
+     "text": "locally,",
+     "start": 9.56,
+     "end": 9.99
+    },
+    {
+     "text": "not",
+     "start": 10.19,
+     "end": 10.395
+    },
+    {
+     "text": "for",
+     "start": 10.395,
+     "end": 10.548
+    },
+    {
+     "text": "parliament.",
+     "start": 10.548,
+     "end": 11.06
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Each party has its own ballot paper, yellow for parliament. Pick yours, mark one candidate if you like, and seal it in an envelope.",
+   "start": 11.39,
+   "end": 18.97,
+   "words": [
+    {
+     "text": "Each",
+     "start": 11.39,
+     "end": 11.681
+    },
+    {
+     "text": "party",
+     "start": 11.681,
+     "end": 12.031
+    },
+    {
+     "text": "has",
+     "start": 12.031,
+     "end": 12.264
+    },
+    {
+     "text": "its",
+     "start": 12.264,
+     "end": 12.438
+    },
+    {
+     "text": "own",
+     "start": 12.438,
+     "end": 12.671
+    },
+    {
+     "text": "ballot",
+     "start": 12.671,
+     "end": 13.021
+    },
+    {
+     "text": "paper,",
+     "start": 13.021,
+     "end": 13.37
+    },
+    {
+     "text": "yellow",
+     "start": 13.56,
+     "end": 13.888
+    },
+    {
+     "text": "for",
+     "start": 13.888,
+     "end": 14.053
+    },
+    {
+     "text": "parliament.",
+     "start": 14.053,
+     "end": 14.6
+    },
+    {
+     "text": "Pick",
+     "start": 15.05,
+     "end": 15.33
+    },
+    {
+     "text": "yours,",
+     "start": 15.33,
+     "end": 15.68
+    },
+    {
+     "text": "mark",
+     "start": 15.94,
+     "end": 16.185
+    },
+    {
+     "text": "one",
+     "start": 16.185,
+     "end": 16.381
+    },
+    {
+     "text": "candidate",
+     "start": 16.381,
+     "end": 16.92
+    },
+    {
+     "text": "if",
+     "start": 16.92,
+     "end": 17.018
+    },
+    {
+     "text": "you",
+     "start": 17.018,
+     "end": 17.165
+    },
+    {
+     "text": "like,",
+     "start": 17.165,
+     "end": 17.41
+    },
+    {
+     "text": "and",
+     "start": 17.76,
+     "end": 17.905
+    },
+    {
+     "text": "seal",
+     "start": 17.905,
+     "end": 18.147
+    },
+    {
+     "text": "it",
+     "start": 18.147,
+     "end": 18.244
+    },
+    {
+     "text": "in",
+     "start": 18.244,
+     "end": 18.389
+    },
+    {
+     "text": "an",
+     "start": 18.389,
+     "end": 18.486
+    },
+    {
+     "text": "envelope.",
+     "start": 18.486,
+     "end": 18.97
+    }
+   ]
+  },
+  {
+   "id": "riksdag",
+   "text": "Votes fill the Riksdag, the parliament: 349 members who make laws and set the budget.",
+   "start": 19.33,
+   "end": 25.49,
+   "words": [
+    {
+     "text": "Votes",
+     "start": 19.33,
+     "end": 19.69
+    },
+    {
+     "text": "fill",
+     "start": 19.69,
+     "end": 19.93
+    },
+    {
+     "text": "the",
+     "start": 19.93,
+     "end": 20.05
+    },
+    {
+     "text": "Riksdag,",
+     "start": 20.05,
+     "end": 20.59
+    },
+    {
+     "text": "the",
+     "start": 20.86,
+     "end": 20.96
+    },
+    {
+     "text": "parliament:",
+     "start": 20.96,
+     "end": 21.46
+    },
+    {
+     "text": "349",
+     "start": 21.84,
+     "end": 23.38
+    },
+    {
+     "text": "members",
+     "start": 23.38,
+     "end": 23.779
+    },
+    {
+     "text": "who",
+     "start": 23.779,
+     "end": 24.007
+    },
+    {
+     "text": "make",
+     "start": 24.007,
+     "end": 24.292
+    },
+    {
+     "text": "laws",
+     "start": 24.292,
+     "end": 24.578
+    },
+    {
+     "text": "and",
+     "start": 24.578,
+     "end": 24.749
+    },
+    {
+     "text": "set",
+     "start": 24.749,
+     "end": 24.977
+    },
+    {
+     "text": "the",
+     "start": 24.977,
+     "end": 25.091
+    },
+    {
+     "text": "budget.",
+     "start": 25.091,
+     "end": 25.49
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "A party needs 4% nationwide, and 39 top-up seats make seats match votes.",
+   "start": 25.83,
+   "end": 31.22,
+   "words": [
+    {
+     "text": "A",
+     "start": 25.83,
+     "end": 26.004
+    },
+    {
+     "text": "party",
+     "start": 26.004,
+     "end": 26.353
+    },
+    {
+     "text": "needs",
+     "start": 26.353,
+     "end": 26.702
+    },
+    {
+     "text": "4%",
+     "start": 26.702,
+     "end": 27.342
+    },
+    {
+     "text": "nationwide,",
+     "start": 27.342,
+     "end": 28.04
+    },
+    {
+     "text": "and",
+     "start": 28.41,
+     "end": 28.582
+    },
+    {
+     "text": "39",
+     "start": 28.582,
+     "end": 29.213
+    },
+    {
+     "text": "top-up",
+     "start": 29.213,
+     "end": 29.614
+    },
+    {
+     "text": "seats",
+     "start": 29.614,
+     "end": 29.958
+    },
+    {
+     "text": "make",
+     "start": 29.958,
+     "end": 30.245
+    },
+    {
+     "text": "seats",
+     "start": 30.245,
+     "end": 30.589
+    },
+    {
+     "text": "match",
+     "start": 30.589,
+     "end": 30.876
+    },
+    {
+     "text": "votes.",
+     "start": 30.876,
+     "end": 31.22
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "Then parliament's Speaker, not the King, picks a prime minister, who's in unless 175 members vote no.",
+   "start": 31.58,
+   "end": 38.51,
+   "words": [
+    {
+     "text": "Then",
+     "start": 31.58,
+     "end": 31.784
+    },
+    {
+     "text": "parliament's",
+     "start": 31.784,
+     "end": 32.344
+    },
+    {
+     "text": "Speaker,",
+     "start": 32.344,
+     "end": 32.7
+    },
+    {
+     "text": "not",
+     "start": 32.96,
+     "end": 33.208
+    },
+    {
+     "text": "the",
+     "start": 33.208,
+     "end": 33.332
+    },
+    {
+     "text": "King,",
+     "start": 33.332,
+     "end": 33.58
+    },
+    {
+     "text": "picks",
+     "start": 33.89,
+     "end": 34.135
+    },
+    {
+     "text": "a",
+     "start": 34.135,
+     "end": 34.283
+    },
+    {
+     "text": "prime",
+     "start": 34.283,
+     "end": 34.577
+    },
+    {
+     "text": "minister,",
+     "start": 34.577,
+     "end": 34.97
+    },
+    {
+     "text": "who's",
+     "start": 35.35,
+     "end": 35.637
+    },
+    {
+     "text": "in",
+     "start": 35.637,
+     "end": 35.81
+    },
+    {
+     "text": "unless",
+     "start": 35.81,
+     "end": 36.154
+    },
+    {
+     "text": "175",
+     "start": 36.154,
+     "end": 37.591
+    },
+    {
+     "text": "members",
+     "start": 37.591,
+     "end": 37.993
+    },
+    {
+     "text": "vote",
+     "start": 37.993,
+     "end": 38.28
+    },
+    {
+     "text": "no.",
+     "start": 38.28,
+     "end": 38.51
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "The King is head of state, but has no political power. He doesn't even sign laws.",
+   "start": 38.89,
+   "end": 43.58,
+   "words": [
+    {
+     "text": "The",
+     "start": 38.89,
+     "end": 39.008
+    },
+    {
+     "text": "King",
+     "start": 39.008,
+     "end": 39.244
+    },
+    {
+     "text": "is",
+     "start": 39.244,
+     "end": 39.362
+    },
+    {
+     "text": "head",
+     "start": 39.362,
+     "end": 39.598
+    },
+    {
+     "text": "of",
+     "start": 39.598,
+     "end": 39.716
+    },
+    {
+     "text": "state,",
+     "start": 39.716,
+     "end": 40.07
+    },
+    {
+     "text": "but",
+     "start": 40.37,
+     "end": 40.585
+    },
+    {
+     "text": "has",
+     "start": 40.585,
+     "end": 40.8
+    },
+    {
+     "text": "no",
+     "start": 40.8,
+     "end": 41.014
+    },
+    {
+     "text": "political",
+     "start": 41.014,
+     "end": 41.551
+    },
+    {
+     "text": "power.",
+     "start": 41.551,
+     "end": 41.82
+    },
+    {
+     "text": "He",
+     "start": 42.19,
+     "end": 42.35
+    },
+    {
+     "text": "doesn't",
+     "start": 42.35,
+     "end": 42.725
+    },
+    {
+     "text": "even",
+     "start": 42.725,
+     "end": 43.045
+    },
+    {
+     "text": "sign",
+     "start": 43.045,
+     "end": 43.313
+    },
+    {
+     "text": "laws.",
+     "start": 43.313,
+     "end": 43.58
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2022, four parties on the right won 176 seats, and Ulf Kristersson got the job.",
+   "start": 43.93,
+   "end": 50.81,
+   "words": [
+    {
+     "text": "In",
+     "start": 43.93,
+     "end": 44.079
+    },
+    {
+     "text": "2022,",
+     "start": 44.079,
+     "end": 44.97
+    },
+    {
+     "text": "four",
+     "start": 45.31,
+     "end": 45.547
+    },
+    {
+     "text": "parties",
+     "start": 45.547,
+     "end": 45.962
+    },
+    {
+     "text": "on",
+     "start": 45.962,
+     "end": 46.14
+    },
+    {
+     "text": "the",
+     "start": 46.14,
+     "end": 46.259
+    },
+    {
+     "text": "right",
+     "start": 46.259,
+     "end": 46.555
+    },
+    {
+     "text": "won",
+     "start": 46.555,
+     "end": 46.792
+    },
+    {
+     "text": "176",
+     "start": 46.792,
+     "end": 48.274
+    },
+    {
+     "text": "seats,",
+     "start": 48.274,
+     "end": 48.63
+    },
+    {
+     "text": "and",
+     "start": 48.98,
+     "end": 49.176
+    },
+    {
+     "text": "Ulf",
+     "start": 49.176,
+     "end": 49.438
+    },
+    {
+     "text": "Kristersson",
+     "start": 49.438,
+     "end": 50.091
+    },
+    {
+     "text": "got",
+     "start": 50.091,
+     "end": 50.352
+    },
+    {
+     "text": "the",
+     "start": 50.352,
+     "end": 50.483
+    },
+    {
+     "text": "job.",
+     "start": 50.483,
+     "end": 50.81
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "text": "In 2026, the Speaker's first pick was voted down.",
+   "start": 51.15,
+   "end": 54.74,
+   "words": [
+    {
+     "text": "In",
+     "start": 51.15,
+     "end": 51.301
+    },
+    {
+     "text": "2026,",
+     "start": 51.301,
+     "end": 52.26
+    },
+    {
+     "text": "the",
+     "start": 52.55,
+     "end": 52.675
+    },
+    {
+     "text": "Speaker's",
+     "start": 52.675,
+     "end": 53.176
+    },
+    {
+     "text": "first",
+     "start": 53.176,
+     "end": 53.551
+    },
+    {
+     "text": "pick",
+     "start": 53.551,
+     "end": 53.801
+    },
+    {
+     "text": "was",
+     "start": 53.801,
+     "end": 53.989
+    },
+    {
+     "text": "voted",
+     "start": 53.989,
+     "end": 54.427
+    },
+    {
+     "text": "down.",
+     "start": 54.427,
+     "end": 54.74
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should a prime minister need a yes vote, not just avoid a no?",
+   "start": 55.2,
+   "end": 58.57,
+   "words": [
+    {
+     "text": "Should",
+     "start": 55.2,
+     "end": 55.4
+    },
+    {
+     "text": "a",
+     "start": 55.4,
+     "end": 55.55
+    },
+    {
+     "text": "prime",
+     "start": 55.55,
+     "end": 55.85
+    },
+    {
+     "text": "minister",
+     "start": 55.85,
+     "end": 56.25
+    },
+    {
+     "text": "need",
+     "start": 56.25,
+     "end": 56.5
+    },
+    {
+     "text": "a",
+     "start": 56.5,
+     "end": 56.65
+    },
+    {
+     "text": "yes",
+     "start": 56.65,
+     "end": 56.85
+    },
+    {
+     "text": "vote,",
+     "start": 56.85,
+     "end": 57.1
+    },
+    {
+     "text": "not",
+     "start": 57.39,
+     "end": 57.595
+    },
+    {
+     "text": "just",
+     "start": 57.595,
+     "end": 57.903
+    },
+    {
+     "text": "avoid",
+     "start": 57.903,
+     "end": 58.211
+    },
+    {
+     "text": "a",
+     "start": 58.211,
+     "end": 58.365
+    },
+    {
+     "text": "no?",
+     "start": 58.365,
+     "end": 58.57
+    }
+   ]
+  }
+ ]
+}
