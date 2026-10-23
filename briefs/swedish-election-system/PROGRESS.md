@@ -9,4 +9,4 @@
 - [x] Composition `SwedishElection` + scenes in `src/scenes/swedish-election/`, typecheck passes
 - [x] Stills checked (frame 0 shows the title and frame; every scene's key moment); fixed a green tint from a yellow glow on blue, the hook line wrapping into the strip, the bottom label running into the ruler, ballot step text past x 960, the Riksdag aside touching the half-circle, the "175 NO = OUT" label under the stamp, and the 2026 note showing too late
 - [x] First full render checked frame by frame (1080×1920, 30 fps, 59.78 s, −13.9 LUFS): fixed the 2022 party list not fading (it showed through Ulf Kristersson's card and during the wipe out) and made the paper wipes' yellow band enter at once
-- [ ] Final render: `out/swedish-election-system.mp4`, checked (size, fps, duration, loudness) and sent to the user
+- [x] Final render: `out/swedish-election-system.mp4`, 1080×1920, 30 fps, 59.8 s, −13.9 LUFS (peak −2.8 dBFS), checked frame by frame and sent to the user (23 Oct 2026)
