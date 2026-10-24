@@ -20,7 +20,7 @@ prompt says otherwise.
 - The **most recent national election** as the worked example (date, result, who formed the
   government).
 - **Tell one clear, step-by-step story**, not a list of facts: e.g. Vote → Parliament → Government →
-  Head of state, with a header that shows the steps (see `GermanElection`).
+  Head of state, shown as numbered sections in the broadcast frame (see `SwedishElection`).
 - **Right after the hook, say who can vote** (in every video; it differs between countries): the
   minimum age, which citizens/residents may vote, whether citizens abroad can vote, and any
   speciality (e.g. compulsory voting, registering first, voting at 16, foreigners in local
@@ -44,24 +44,29 @@ prompt says otherwise.
   voice-over first and measure it. If it runs too long, propose cuts to the user (with measured
   lengths) before building.
 - **Language:** always English (voice, subtitles, on-screen text).
-- **Look (standard for every video):** like the `GermanElection` video, in the country's colours:
-  - a **white background** (faint dot grid, soft colour glows, the flag as a thin bar on the top edge);
-  - a **header** with the video title and numbered step pills (e.g. Vote · Parliament · Government ·
-    King) that tick off as the story moves on;
-  - white cards with soft shadows, a **ballot card** that shows how to vote, and **one parliament
-    half-circle** (hemicycle) that carries through the steps (it fills up for majorities);
-  - **flat cartoon characters** instead of plain silhouettes (no real likenesses): royals wear a
-    crown or tiara and royal clothes, politicians wear suits, candidates wear a rosette;
-  - dark text on light backgrounds; one national colour as the accent.
-  - Build it from the reusable parts in `src/components/explainer/` (take one `ExplainerPalette` per
-    country): `Paper`, `StepHeader`, `NameCard`, `Character` (king/queen with crown and
-    robe, princess with tiara, politician, candidate), icons (ballot box, red pencil, parliament, law,
-    budget, ...) and `motion` helpers, plus `Hemicycle`. Make the country map for the title scene with
-    `scripts/country-outline.py` (it also makes multi-country maps, e.g. the EU in `src/components/europe.ts`,
-    and splits a country into regions with `--cut`/`--assign`, e.g. the UK's four nations in `src/components/uk.ts`).
-    Copy `DutchElection` as the starting point. For a flag that is not stripes (the EU, the UK, a Nordic cross), set `emblem` in
-    the palette; for a series split into parts, mark the other part's steps `later` in `StepHeader` (see
-    `EUElectionPart1`/`EUElectionPart2`, shared parts in `src/scenes/eu-election/`).
+- **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
+  Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
+  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`.
+  - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
+    text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
+  - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
+    section label, a progress ruler with a tick per section and beat dots at the bottom;
+  - **numbered sections** ("03 — THE BALLOT"), huge heavy uppercase headlines (Archivo Black) with one
+    italic serif line per scene (Instrument Serif), small mono labels (JetBrains Mono), glass-like stat
+    cards, stamps, a **dot hemicycle**, a ballot close-up, colour sweeps that open the video and the
+    closing question; the title "HOW <COUNTRY> VOTES." style;
+  - fonts bundled in `src/scenes/swedish-election/fonts.ts`; reusable parts in
+    `src/scenes/swedish-election/ui.tsx` (each later video keeps its own copy of `ui.tsx`/`constants.ts`,
+    e.g. `src/scenes/canadian-election/`). Copy the newest such video as the starting point.
+  - Subtitle pill: the standard red pill if red is in the flag and reads on the background; otherwise ask
+    (`<Subtitles highlight=... activeColor=... />`; Sweden: yellow with dark text, Canada: white with red text).
+- **Older look (only on request):** the white `GermanElection`/`DutchElection` explainer look: white
+  background with a dot grid, a header with numbered step pills, white cards, flat cartoon characters
+  (`Character`), one hemicycle, built from `src/components/explainer/` (`Paper`, `StepHeader`, `NameCard`,
+  icons, `motion`) with one `ExplainerPalette` per country. Country maps for any title scene come from
+  `scripts/country-outline.py` (multi-country maps, e.g. the EU in `src/components/europe.ts`; regions with
+  `--cut`/`--assign`, e.g. `src/components/uk.ts`). For a series split into parts, see
+  `EUElectionPart1`/`EUElectionPart2`.
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
   e.g. Dutch orange), collected in one colour object for the video.
 - **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
@@ -95,7 +100,7 @@ prompt says otherwise.
 - Use the project skills and pipeline in "Motion videos" below.
 - After rendering, send the MP4 in the chat, then **commit and push straight to `main`** (the
   user's standing instruction), so new chats see the video and any rule changes.
-- Reference videos: `GermanElection` (the look) and `DutchElection` (made to this brief:
+- Reference videos: `SwedishElection` (the default look, see "Look" above), `GermanElection` (the older white look) and `DutchElection` (made to this brief:
   `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`). A two-part series made to this brief:
   `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
   (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments),
@@ -335,4 +340,4 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
 9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
 
-For a new video, copy the newest similar video (e.g. `DutchElection.tsx` + `src/scenes/dutch-election/`) and change the scenes, colours, composition id and file names.
+For a new video, copy the newest video in the default look (e.g. `CanadianElection.tsx` + `src/scenes/canadian-election/`) and change the scenes, colours, composition id and file names.
