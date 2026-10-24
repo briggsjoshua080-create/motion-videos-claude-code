@@ -130,6 +130,10 @@ prompt says otherwise.
   blocks with red letters, a **white subtitle pill with red text**): who can vote, a one-riding ballot (mark one circle),
   first past the post, the House of Commons (343) and the PM (172), an appointed Senate, the King and Governor General,
   2025 as the worked example plus the 2026 floor-crossing majority.
+  `RomanianElection` ("How Romania votes.", `briefs/romanian-election-system/`) is the first video made with the Swedish
+  look as the default, in Romanian blue (yellow accents, standard red subtitle pill): the cancelled 2024 presidential
+  election as the hook, two ballot booklets and the round VOTAT stamp, the 5% line, two chambers (331 + 134), a PM who
+  needs 233 votes in a joint sitting, a directly elected President, the 2024 result plus the 2026 change of PM.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;

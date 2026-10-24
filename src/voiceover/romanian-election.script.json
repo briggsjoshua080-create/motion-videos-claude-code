@@ -1,0 +1,71 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "2024": "twenty twenty-four",
+    "2025": "twenty twenty-five",
+    "2026": "twenty twenty-six",
+    "5%": "five percent",
+    "22%": "twenty-two percent",
+    "331": "three hundred and thirty-one",
+    "134": "a hundred and thirty-four",
+    "233": "two hundred and thirty-three",
+    "280": "two hundred and eighty",
+    "VOTED": "voted"
+  },
+  "pronounce": {
+    "Nicușor": "nˌikuʃˈɔɹ",
+    "Niculescu": "nˌikulˈɛsku"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In 2024, Romania's top court cancelled a presidential election."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Romanians from 18 with an ID card, even abroad or by post."
+    },
+    {
+      "id": "ballot",
+      "text": "You get two ballots, each a booklet of party lists. Stamp VOTED in one party's box.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Parties need 5%, then seats follow the vote."
+    },
+    {
+      "id": "parliament",
+      "text": "They fill two chambers, 331 deputies and 134 senators, who pass the laws.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "The president names a prime minister, who needs 233 votes in parliament."
+    },
+    {
+      "id": "president",
+      "text": "The president, elected directly, leads defence and foreign policy. The court cited foreign interference, and Nicușor Dan won the rerun.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "result",
+      "text": "In 2024, the Social Democrats came first with 22%, and seven parties got in."
+    },
+    {
+      "id": "now",
+      "text": "In 2026, parliament ousted the prime minister. The president's fourth pick, Luca Niculescu, won 280 votes.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "question",
+      "text": "Should a court ever be allowed to cancel an election?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

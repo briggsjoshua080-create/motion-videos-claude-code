@@ -1,0 +1,752 @@
+{
+ "audio": "voiceover/romanian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.81,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In 2024, Romania's top court cancelled a presidential election.",
+   "start": 0.22,
+   "end": 4.74,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.22,
+     "end": 0.369
+    },
+    {
+     "text": "2024,",
+     "start": 0.369,
+     "end": 1.26
+    },
+    {
+     "text": "Romania's",
+     "start": 1.58,
+     "end": 2.248
+    },
+    {
+     "text": "top",
+     "start": 2.248,
+     "end": 2.492
+    },
+    {
+     "text": "court",
+     "start": 2.492,
+     "end": 2.795
+    },
+    {
+     "text": "cancelled",
+     "start": 2.795,
+     "end": 3.282
+    },
+    {
+     "text": "a",
+     "start": 3.282,
+     "end": 3.464
+    },
+    {
+     "text": "presidential",
+     "start": 3.464,
+     "end": 4.254
+    },
+    {
+     "text": "election.",
+     "start": 4.254,
+     "end": 4.74
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Romanians from 18 with an ID card, even abroad or by post.",
+   "start": 5.08,
+   "end": 10.35,
+   "words": [
+    {
+     "text": "Who",
+     "start": 5.08,
+     "end": 5.28
+    },
+    {
+     "text": "can",
+     "start": 5.28,
+     "end": 5.48
+    },
+    {
+     "text": "vote?",
+     "start": 5.48,
+     "end": 5.73
+    },
+    {
+     "text": "Romanians",
+     "start": 6.03,
+     "end": 6.787
+    },
+    {
+     "text": "from",
+     "start": 6.787,
+     "end": 7.039
+    },
+    {
+     "text": "18",
+     "start": 7.039,
+     "end": 7.481
+    },
+    {
+     "text": "with",
+     "start": 7.481,
+     "end": 7.67
+    },
+    {
+     "text": "an",
+     "start": 7.67,
+     "end": 7.796
+    },
+    {
+     "text": "ID",
+     "start": 7.796,
+     "end": 8.175
+    },
+    {
+     "text": "card,",
+     "start": 8.175,
+     "end": 8.49
+    },
+    {
+     "text": "even",
+     "start": 8.79,
+     "end": 9.164
+    },
+    {
+     "text": "abroad",
+     "start": 9.164,
+     "end": 9.601
+    },
+    {
+     "text": "or",
+     "start": 9.601,
+     "end": 9.726
+    },
+    {
+     "text": "by",
+     "start": 9.726,
+     "end": 9.976
+    },
+    {
+     "text": "post.",
+     "start": 9.976,
+     "end": 10.35
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "You get two ballots, each a booklet of party lists. Stamp VOTED in one party's box.",
+   "start": 10.69,
+   "end": 15.87,
+   "words": [
+    {
+     "text": "You",
+     "start": 10.69,
+     "end": 10.857
+    },
+    {
+     "text": "get",
+     "start": 10.857,
+     "end": 11.079
+    },
+    {
+     "text": "two",
+     "start": 11.079,
+     "end": 11.301
+    },
+    {
+     "text": "ballots,",
+     "start": 11.301,
+     "end": 11.69
+    },
+    {
+     "text": "each",
+     "start": 11.94,
+     "end": 12.199
+    },
+    {
+     "text": "a",
+     "start": 12.199,
+     "end": 12.354
+    },
+    {
+     "text": "booklet",
+     "start": 12.354,
+     "end": 12.716
+    },
+    {
+     "text": "of",
+     "start": 12.716,
+     "end": 12.819
+    },
+    {
+     "text": "party",
+     "start": 12.819,
+     "end": 13.13
+    },
+    {
+     "text": "lists.",
+     "start": 13.13,
+     "end": 13.44
+    },
+    {
+     "text": "Stamp",
+     "start": 13.84,
+     "end": 14.221
+    },
+    {
+     "text": "VOTED",
+     "start": 14.221,
+     "end": 14.665
+    },
+    {
+     "text": "in",
+     "start": 14.665,
+     "end": 14.855
+    },
+    {
+     "text": "one",
+     "start": 14.855,
+     "end": 15.109
+    },
+    {
+     "text": "party's",
+     "start": 15.109,
+     "end": 15.553
+    },
+    {
+     "text": "box.",
+     "start": 15.553,
+     "end": 15.87
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Parties need 5%, then seats follow the vote.",
+   "start": 16.23,
+   "end": 19.28,
+   "words": [
+    {
+     "text": "Parties",
+     "start": 16.23,
+     "end": 16.65
+    },
+    {
+     "text": "need",
+     "start": 16.65,
+     "end": 16.95
+    },
+    {
+     "text": "5%,",
+     "start": 16.95,
+     "end": 17.67
+    },
+    {
+     "text": "then",
+     "start": 18.01,
+     "end": 18.231
+    },
+    {
+     "text": "seats",
+     "start": 18.231,
+     "end": 18.562
+    },
+    {
+     "text": "follow",
+     "start": 18.562,
+     "end": 18.893
+    },
+    {
+     "text": "the",
+     "start": 18.893,
+     "end": 19.004
+    },
+    {
+     "text": "vote.",
+     "start": 19.004,
+     "end": 19.28
+    }
+   ]
+  },
+  {
+   "id": "parliament",
+   "text": "They fill two chambers, 331 deputies and 134 senators, who pass the laws.",
+   "start": 19.62,
+   "end": 26.28,
+   "words": [
+    {
+     "text": "They",
+     "start": 19.62,
+     "end": 19.798
+    },
+    {
+     "text": "fill",
+     "start": 19.798,
+     "end": 20.036
+    },
+    {
+     "text": "two",
+     "start": 20.036,
+     "end": 20.274
+    },
+    {
+     "text": "chambers,",
+     "start": 20.274,
+     "end": 20.81
+    },
+    {
+     "text": "331",
+     "start": 21.12,
+     "end": 22.559
+    },
+    {
+     "text": "deputies",
+     "start": 22.559,
+     "end": 23.113
+    },
+    {
+     "text": "and",
+     "start": 23.113,
+     "end": 23.279
+    },
+    {
+     "text": "134",
+     "start": 23.279,
+     "end": 24.497
+    },
+    {
+     "text": "senators,",
+     "start": 24.497,
+     "end": 24.94
+    },
+    {
+     "text": "who",
+     "start": 25.27,
+     "end": 25.539
+    },
+    {
+     "text": "pass",
+     "start": 25.539,
+     "end": 25.809
+    },
+    {
+     "text": "the",
+     "start": 25.809,
+     "end": 25.943
+    },
+    {
+     "text": "laws.",
+     "start": 25.943,
+     "end": 26.28
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "The president names a prime minister, who needs 233 votes in parliament.",
+   "start": 26.64,
+   "end": 31.74,
+   "words": [
+    {
+     "text": "The",
+     "start": 26.64,
+     "end": 26.748
+    },
+    {
+     "text": "president",
+     "start": 26.748,
+     "end": 27.288
+    },
+    {
+     "text": "names",
+     "start": 27.288,
+     "end": 27.612
+    },
+    {
+     "text": "a",
+     "start": 27.612,
+     "end": 27.774
+    },
+    {
+     "text": "prime",
+     "start": 27.774,
+     "end": 28.098
+    },
+    {
+     "text": "minister,",
+     "start": 28.098,
+     "end": 28.53
+    },
+    {
+     "text": "who",
+     "start": 28.9,
+     "end": 29.107
+    },
+    {
+     "text": "needs",
+     "start": 29.107,
+     "end": 29.416
+    },
+    {
+     "text": "233",
+     "start": 29.416,
+     "end": 30.759
+    },
+    {
+     "text": "votes",
+     "start": 30.759,
+     "end": 31.069
+    },
+    {
+     "text": "in",
+     "start": 31.069,
+     "end": 31.224
+    },
+    {
+     "text": "parliament.",
+     "start": 31.224,
+     "end": 31.74
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president, elected directly, leads defence and foreign policy. The court cited foreign interference, and Nicușor Dan won the rerun.",
+   "start": 32.08,
+   "end": 40.44,
+   "words": [
+    {
+     "text": "The",
+     "start": 32.08,
+     "end": 32.235
+    },
+    {
+     "text": "president,",
+     "start": 32.235,
+     "end": 33.01
+    },
+    {
+     "text": "elected",
+     "start": 33.1,
+     "end": 33.433
+    },
+    {
+     "text": "directly,",
+     "start": 33.433,
+     "end": 33.85
+    },
+    {
+     "text": "leads",
+     "start": 34.1,
+     "end": 34.503
+    },
+    {
+     "text": "defence",
+     "start": 34.503,
+     "end": 34.974
+    },
+    {
+     "text": "and",
+     "start": 34.974,
+     "end": 35.176
+    },
+    {
+     "text": "foreign",
+     "start": 35.176,
+     "end": 35.579
+    },
+    {
+     "text": "policy.",
+     "start": 35.579,
+     "end": 36.05
+    },
+    {
+     "text": "The",
+     "start": 36.53,
+     "end": 36.642
+    },
+    {
+     "text": "court",
+     "start": 36.642,
+     "end": 36.922
+    },
+    {
+     "text": "cited",
+     "start": 36.922,
+     "end": 37.315
+    },
+    {
+     "text": "foreign",
+     "start": 37.315,
+     "end": 37.651
+    },
+    {
+     "text": "interference,",
+     "start": 37.651,
+     "end": 38.38
+    },
+    {
+     "text": "and",
+     "start": 38.67,
+     "end": 38.86
+    },
+    {
+     "text": "Nicușor",
+     "start": 38.86,
+     "end": 39.429
+    },
+    {
+     "text": "Dan",
+     "start": 39.429,
+     "end": 39.681
+    },
+    {
+     "text": "won",
+     "start": 39.681,
+     "end": 39.934
+    },
+    {
+     "text": "the",
+     "start": 39.934,
+     "end": 40.061
+    },
+    {
+     "text": "rerun.",
+     "start": 40.061,
+     "end": 40.44
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2024, the Social Democrats came first with 22%, and seven parties got in.",
+   "start": 40.79,
+   "end": 46.96,
+   "words": [
+    {
+     "text": "In",
+     "start": 40.79,
+     "end": 40.936
+    },
+    {
+     "text": "2024,",
+     "start": 40.936,
+     "end": 41.81
+    },
+    {
+     "text": "the",
+     "start": 42.12,
+     "end": 42.238
+    },
+    {
+     "text": "Social",
+     "start": 42.238,
+     "end": 42.65
+    },
+    {
+     "text": "Democrats",
+     "start": 42.65,
+     "end": 43.297
+    },
+    {
+     "text": "came",
+     "start": 43.297,
+     "end": 43.591
+    },
+    {
+     "text": "first",
+     "start": 43.591,
+     "end": 43.944
+    },
+    {
+     "text": "with",
+     "start": 43.944,
+     "end": 44.121
+    },
+    {
+     "text": "22%,",
+     "start": 44.121,
+     "end": 45.18
+    },
+    {
+     "text": "and",
+     "start": 45.56,
+     "end": 45.743
+    },
+    {
+     "text": "seven",
+     "start": 45.743,
+     "end": 46.108
+    },
+    {
+     "text": "parties",
+     "start": 46.108,
+     "end": 46.534
+    },
+    {
+     "text": "got",
+     "start": 46.534,
+     "end": 46.777
+    },
+    {
+     "text": "in.",
+     "start": 46.777,
+     "end": 46.96
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "text": "In 2026, parliament ousted the prime minister. The president's fourth pick, Luca Niculescu, won 280 votes.",
+   "start": 47.29,
+   "end": 55.58,
+   "words": [
+    {
+     "text": "In",
+     "start": 47.29,
+     "end": 47.443
+    },
+    {
+     "text": "2026,",
+     "start": 47.443,
+     "end": 48.41
+    },
+    {
+     "text": "parliament",
+     "start": 48.69,
+     "end": 49.263
+    },
+    {
+     "text": "ousted",
+     "start": 49.263,
+     "end": 49.664
+    },
+    {
+     "text": "the",
+     "start": 49.664,
+     "end": 49.778
+    },
+    {
+     "text": "prime",
+     "start": 49.778,
+     "end": 50.122
+    },
+    {
+     "text": "minister.",
+     "start": 50.122,
+     "end": 50.58
+    },
+    {
+     "text": "The",
+     "start": 51.04,
+     "end": 51.143
+    },
+    {
+     "text": "president's",
+     "start": 51.143,
+     "end": 51.708
+    },
+    {
+     "text": "fourth",
+     "start": 51.708,
+     "end": 51.965
+    },
+    {
+     "text": "pick,",
+     "start": 51.965,
+     "end": 52.17
+    },
+    {
+     "text": "Luca",
+     "start": 52.53,
+     "end": 52.893
+    },
+    {
+     "text": "Niculescu,",
+     "start": 52.893,
+     "end": 53.56
+    },
+    {
+     "text": "won",
+     "start": 53.77,
+     "end": 54.011
+    },
+    {
+     "text": "280",
+     "start": 54.011,
+     "end": 55.218
+    },
+    {
+     "text": "votes.",
+     "start": 55.218,
+     "end": 55.58
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should a court ever be allowed to cancel an election?",
+   "start": 55.99,
+   "end": 58.78,
+   "words": [
+    {
+     "text": "Should",
+     "start": 55.99,
+     "end": 56.233
+    },
+    {
+     "text": "a",
+     "start": 56.233,
+     "end": 56.415
+    },
+    {
+     "text": "court",
+     "start": 56.415,
+     "end": 56.718
+    },
+    {
+     "text": "ever",
+     "start": 56.718,
+     "end": 56.96
+    },
+    {
+     "text": "be",
+     "start": 56.96,
+     "end": 57.203
+    },
+    {
+     "text": "allowed",
+     "start": 57.203,
+     "end": 57.567
+    },
+    {
+     "text": "to",
+     "start": 57.567,
+     "end": 57.749
+    },
+    {
+     "text": "cancel",
+     "start": 57.749,
+     "end": 58.173
+    },
+    {
+     "text": "an",
+     "start": 58.173,
+     "end": 58.295
+    },
+    {
+     "text": "election?",
+     "start": 58.295,
+     "end": 58.78
+    }
+   ]
+  }
+ ]
+}
