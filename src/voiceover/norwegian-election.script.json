@@ -1,0 +1,72 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "19": "nineteen",
+    "14,000": "fourteen thousand",
+    "26,000": "twenty-six thousand",
+    "4%": "four percent",
+    "169": "a hundred and sixty-nine",
+    "2025": "twenty twenty-five",
+    "53": "fifty-three",
+    "47": "forty-seven",
+    "VIII": "the Eighth"
+  },
+  "pronounce": {
+    "Storting": "stˈɔːtɪŋ",
+    "Finnmark": "fˈɪnmɑːk",
+    "Haakon": "hˈɔːkɒn",
+    "Støre": "stˈøːɹə",
+    "Gahr": "ɡˈɑː"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In Norway, a vote in the far north counts almost twice as much as a vote in Oslo."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Norwegians who turn 18 in the election year, even abroad."
+    },
+    {
+      "id": "ballot",
+      "text": "One ballot paper per party: pick one, fold it, get it stamped, drop it in the box.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Seats go to 19 districts by people and land: Finnmark gets a seat per 14,000 voters, Oslo per 26,000."
+    },
+    {
+      "id": "topup",
+      "text": "Parties above 4% get top-up seats to match the national vote."
+    },
+    {
+      "id": "storting",
+      "text": "That's 169 seats in the Storting, which makes the laws and sets taxes.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "A prime minister needs no vote to take office, just no majority against them."
+    },
+    {
+      "id": "king",
+      "text": "The King appoints the government and signs every law. Since August: Haakon VIII."
+    },
+    {
+      "id": "result",
+      "text": "In 2025, Labour won 53 seats, Progress 47, and Jonas Gahr Støre stayed on, governing alone.",
+      "pauseAfter": 0.35
+    },
+    {
+      "id": "question",
+      "text": "And Norway's parliament can never be dissolved. No early elections. Stability, or democracy on pause?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

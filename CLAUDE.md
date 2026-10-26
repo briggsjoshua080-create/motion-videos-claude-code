@@ -134,6 +134,12 @@ prompt says otherwise.
   look as the default, in Romanian blue (yellow accents, standard red subtitle pill): the cancelled 2024 presidential
   election as the hook, two ballot booklets and the round VOTAT stamp, the 5% line, two chambers (331 + 134), a PM who
   needs 233 votes in a joint sitting, a directly elected President, the 2024 result plus the 2026 change of PM.
+  `NorwegianElection` ("How Norway votes.", `briefs/norwegian-election-system/`) was made with no questions asked (the
+  user's wish): the Swedish look in Norwegian red with navy-and-white accents (accent words in navy blocks with a white
+  rim, like the flag's cross; a **navy subtitle pill with white text**, since red doesn't read on the red background);
+  a controversial hook (a vote in Finnmark weighs 1.9× one in Oslo, because seats follow area too), one paper per party
+  (fold, stamp, box; closed lists since 2025), 4% top-up seats, one chamber (169), a PM who needs no vote, King Haakon
+  VIII (since 28 Aug 2026), the 2025 result, and an equally controversial ending (the Storting can never be dissolved).
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
