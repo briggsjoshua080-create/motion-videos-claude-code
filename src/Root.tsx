@@ -27,6 +27,7 @@ import { USElection, US_ELECTION_DURATION } from "./compositions/USElection";
 import { CanadianElection, CANADIAN_ELECTION_DURATION } from "./compositions/CanadianElection";
 import { RomanianElection, ROMANIAN_ELECTION_DURATION } from "./compositions/RomanianElection";
 import { NorwegianElection, NORWEGIAN_ELECTION_DURATION } from "./compositions/NorwegianElection";
+import { SerbianElection, SERBIAN_ELECTION_DURATION } from "./compositions/SerbianElection";
 
 /**
  * Register every composition here. To add one:
@@ -177,6 +178,14 @@ export const RemotionRoot: React.FC = () => (
       id="NorwegianElection"
       component={NorwegianElection}
       durationInFrames={NORWEGIAN_ELECTION_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="SerbianElection"
+      component={SerbianElection}
+      durationInFrames={SERBIAN_ELECTION_DURATION}
       fps={VERTICAL.fps}
       width={VERTICAL.width}
       height={VERTICAL.height}

@@ -140,6 +140,13 @@ prompt says otherwise.
   a controversial hook (a vote in Finnmark weighs 1.9× one in Oslo, because seats follow area too), one paper per party
   (fold, stamp, box; closed lists since 2025), 4% top-up seats, one chamber (169), a PM who needs no vote, King Haakon
   VIII (since 28 Aug 2026), the 2025 result, and an equally controversial ending (the Storting can never be dissolved).
+  `SerbianElection` ("How Serbia votes.", `briefs/serbian-election-system/`) was also made with no questions asked: the
+  Swedish look in Serbian blue with red accents (accent words in red blocks, the standard red subtitle pill, the
+  tricolour as the title bar); the President who quit to run for PM and lost as the hook, one ballot (circle one
+  number) plus invisible UV ink on the finger, one nationwide district with a 3% line (minority lists exempt), the
+  National Assembly (250), a PM who needs 126, a directly elected President with a run-off who can return but not block
+  laws, the 25 Oct 2026 snap election (preliminary RIK count, made two days later) and "Can a movement with no clear
+  leader run a country?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;

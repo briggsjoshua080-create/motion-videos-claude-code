@@ -1,0 +1,61 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "3%": "three percent",
+    "126": "a hundred and twenty-six",
+    "2026": "twenty twenty-six",
+    "140": "a hundred and forty",
+    "104": "a hundred and four",
+    "250": "two hundred and fifty"
+  },
+  "pronounce": {
+    "Vučić's": "vˈuːtʃɪtʃɪz"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Serbia's president quit to run for prime minister. Weeks later, he lost to a list backed by students."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Citizens aged 18 who live in Serbia. Living abroad? Sign up first."
+    },
+    {
+      "id": "ballot",
+      "text": "Circle the number of one party list. And your finger gets invisible ink, so no one votes twice.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "The whole country is one district: lists above 3% share 250 seats. Minority parties don't need the 3%."
+    },
+    {
+      "id": "assembly",
+      "text": "That's the National Assembly: it makes laws, passes the budget and elects the government.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "The prime minister, proposed by the president, needs 126 votes: a majority."
+    },
+    {
+      "id": "president",
+      "text": "The president is elected directly, with a run-off if no one gets half, and can send laws back, but not block them."
+    },
+    {
+      "id": "result",
+      "text": "In October 2026, the Student List won 140 seats, and Vučić's list 104.",
+      "pauseAfter": 0.8
+    },
+    {
+      "id": "question",
+      "text": "And a new president is due by December. Can a movement with no clear leader run a country?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

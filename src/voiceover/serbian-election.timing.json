@@ -1,0 +1,819 @@
+{
+ "audio": "voiceover/serbian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.29,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Serbia's president quit to run for prime minister. Weeks later, he lost to a list backed by students.",
+   "start": 0.23,
+   "end": 6.25,
+   "words": [
+    {
+     "text": "Serbia's",
+     "start": 0.23,
+     "end": 0.674
+    },
+    {
+     "text": "president",
+     "start": 0.674,
+     "end": 1.23
+    },
+    {
+     "text": "quit",
+     "start": 1.23,
+     "end": 1.507
+    },
+    {
+     "text": "to",
+     "start": 1.507,
+     "end": 1.674
+    },
+    {
+     "text": "run",
+     "start": 1.674,
+     "end": 1.896
+    },
+    {
+     "text": "for",
+     "start": 1.896,
+     "end": 2.063
+    },
+    {
+     "text": "prime",
+     "start": 2.063,
+     "end": 2.396
+    },
+    {
+     "text": "minister.",
+     "start": 2.396,
+     "end": 2.84
+    },
+    {
+     "text": "Weeks",
+     "start": 3.26,
+     "end": 3.61
+    },
+    {
+     "text": "later,",
+     "start": 3.61,
+     "end": 3.96
+    },
+    {
+     "text": "he",
+     "start": 4.25,
+     "end": 4.404
+    },
+    {
+     "text": "lost",
+     "start": 4.404,
+     "end": 4.66
+    },
+    {
+     "text": "to",
+     "start": 4.66,
+     "end": 4.814
+    },
+    {
+     "text": "a",
+     "start": 4.814,
+     "end": 4.968
+    },
+    {
+     "text": "list",
+     "start": 4.968,
+     "end": 5.224
+    },
+    {
+     "text": "backed",
+     "start": 5.224,
+     "end": 5.481
+    },
+    {
+     "text": "by",
+     "start": 5.481,
+     "end": 5.686
+    },
+    {
+     "text": "students.",
+     "start": 5.686,
+     "end": 6.25
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Citizens aged 18 who live in Serbia. Living abroad? Sign up first.",
+   "start": 6.59,
+   "end": 11.96,
+   "words": [
+    {
+     "text": "Who",
+     "start": 6.59,
+     "end": 6.781
+    },
+    {
+     "text": "can",
+     "start": 6.781,
+     "end": 6.972
+    },
+    {
+     "text": "vote?",
+     "start": 6.972,
+     "end": 7.21
+    },
+    {
+     "text": "Citizens",
+     "start": 7.47,
+     "end": 7.981
+    },
+    {
+     "text": "aged",
+     "start": 7.981,
+     "end": 8.322
+    },
+    {
+     "text": "18",
+     "start": 8.322,
+     "end": 8.72
+    },
+    {
+     "text": "who",
+     "start": 8.72,
+     "end": 8.948
+    },
+    {
+     "text": "live",
+     "start": 8.948,
+     "end": 9.232
+    },
+    {
+     "text": "in",
+     "start": 9.232,
+     "end": 9.402
+    },
+    {
+     "text": "Serbia.",
+     "start": 9.402,
+     "end": 9.8
+    },
+    {
+     "text": "Living",
+     "start": 10.13,
+     "end": 10.476
+    },
+    {
+     "text": "abroad?",
+     "start": 10.476,
+     "end": 10.88
+    },
+    {
+     "text": "Sign",
+     "start": 11.05,
+     "end": 11.375
+    },
+    {
+     "text": "up",
+     "start": 11.375,
+     "end": 11.57
+    },
+    {
+     "text": "first.",
+     "start": 11.57,
+     "end": 11.96
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Circle the number of one party list. And your finger gets invisible ink, so no one votes twice.",
+   "start": 12.3,
+   "end": 18.15,
+   "words": [
+    {
+     "text": "Circle",
+     "start": 12.3,
+     "end": 12.72
+    },
+    {
+     "text": "the",
+     "start": 12.72,
+     "end": 12.84
+    },
+    {
+     "text": "number",
+     "start": 12.84,
+     "end": 13.2
+    },
+    {
+     "text": "of",
+     "start": 13.2,
+     "end": 13.32
+    },
+    {
+     "text": "one",
+     "start": 13.32,
+     "end": 13.56
+    },
+    {
+     "text": "party",
+     "start": 13.56,
+     "end": 13.92
+    },
+    {
+     "text": "list.",
+     "start": 13.92,
+     "end": 14.22
+    },
+    {
+     "text": "And",
+     "start": 14.69,
+     "end": 14.85
+    },
+    {
+     "text": "your",
+     "start": 14.85,
+     "end": 15.009
+    },
+    {
+     "text": "finger",
+     "start": 15.009,
+     "end": 15.329
+    },
+    {
+     "text": "gets",
+     "start": 15.329,
+     "end": 15.595
+    },
+    {
+     "text": "invisible",
+     "start": 15.595,
+     "end": 16.127
+    },
+    {
+     "text": "ink,",
+     "start": 16.127,
+     "end": 16.34
+    },
+    {
+     "text": "so",
+     "start": 16.7,
+     "end": 16.942
+    },
+    {
+     "text": "no",
+     "start": 16.942,
+     "end": 17.183
+    },
+    {
+     "text": "one",
+     "start": 17.183,
+     "end": 17.425
+    },
+    {
+     "text": "votes",
+     "start": 17.425,
+     "end": 17.787
+    },
+    {
+     "text": "twice.",
+     "start": 17.787,
+     "end": 18.15
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "The whole country is one district: lists above 3% share 250 seats. Minority parties don't need the 3%.",
+   "start": 18.51,
+   "end": 26.61,
+   "words": [
+    {
+     "text": "The",
+     "start": 18.51,
+     "end": 18.627
+    },
+    {
+     "text": "whole",
+     "start": 18.627,
+     "end": 18.918
+    },
+    {
+     "text": "country",
+     "start": 18.918,
+     "end": 19.326
+    },
+    {
+     "text": "is",
+     "start": 19.326,
+     "end": 19.442
+    },
+    {
+     "text": "one",
+     "start": 19.442,
+     "end": 19.676
+    },
+    {
+     "text": "district:",
+     "start": 19.676,
+     "end": 20.2
+    },
+    {
+     "text": "lists",
+     "start": 20.68,
+     "end": 21.027
+    },
+    {
+     "text": "above",
+     "start": 21.027,
+     "end": 21.316
+    },
+    {
+     "text": "3%",
+     "start": 21.316,
+     "end": 22.009
+    },
+    {
+     "text": "share",
+     "start": 22.009,
+     "end": 22.24
+    },
+    {
+     "text": "250",
+     "start": 22.24,
+     "end": 23.453
+    },
+    {
+     "text": "seats.",
+     "start": 23.453,
+     "end": 23.8
+    },
+    {
+     "text": "Minority",
+     "start": 24.18,
+     "end": 24.759
+    },
+    {
+     "text": "parties",
+     "start": 24.759,
+     "end": 25.164
+    },
+    {
+     "text": "don't",
+     "start": 25.164,
+     "end": 25.511
+    },
+    {
+     "text": "need",
+     "start": 25.511,
+     "end": 25.8
+    },
+    {
+     "text": "the",
+     "start": 25.8,
+     "end": 25.916
+    },
+    {
+     "text": "3%.",
+     "start": 25.916,
+     "end": 26.61
+    }
+   ]
+  },
+  {
+   "id": "assembly",
+   "text": "That's the National Assembly: it makes laws, passes the budget and elects the government.",
+   "start": 26.95,
+   "end": 31.92,
+   "words": [
+    {
+     "text": "That's",
+     "start": 26.95,
+     "end": 27.248
+    },
+    {
+     "text": "the",
+     "start": 27.248,
+     "end": 27.367
+    },
+    {
+     "text": "National",
+     "start": 27.367,
+     "end": 27.843
+    },
+    {
+     "text": "Assembly:",
+     "start": 27.843,
+     "end": 28.32
+    },
+    {
+     "text": "it",
+     "start": 28.62,
+     "end": 28.751
+    },
+    {
+     "text": "makes",
+     "start": 28.751,
+     "end": 29.143
+    },
+    {
+     "text": "laws,",
+     "start": 29.143,
+     "end": 29.47
+    },
+    {
+     "text": "passes",
+     "start": 29.69,
+     "end": 30.052
+    },
+    {
+     "text": "the",
+     "start": 30.052,
+     "end": 30.172
+    },
+    {
+     "text": "budget",
+     "start": 30.172,
+     "end": 30.594
+    },
+    {
+     "text": "and",
+     "start": 30.594,
+     "end": 30.775
+    },
+    {
+     "text": "elects",
+     "start": 30.775,
+     "end": 31.197
+    },
+    {
+     "text": "the",
+     "start": 31.197,
+     "end": 31.317
+    },
+    {
+     "text": "government.",
+     "start": 31.317,
+     "end": 31.92
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "The prime minister, proposed by the president, needs 126 votes: a majority.",
+   "start": 32.28,
+   "end": 37.93,
+   "words": [
+    {
+     "text": "The",
+     "start": 32.28,
+     "end": 32.392
+    },
+    {
+     "text": "prime",
+     "start": 32.392,
+     "end": 32.73
+    },
+    {
+     "text": "minister,",
+     "start": 32.73,
+     "end": 33.18
+    },
+    {
+     "text": "proposed",
+     "start": 33.38,
+     "end": 33.79
+    },
+    {
+     "text": "by",
+     "start": 33.79,
+     "end": 33.973
+    },
+    {
+     "text": "the",
+     "start": 33.973,
+     "end": 34.064
+    },
+    {
+     "text": "president,",
+     "start": 34.064,
+     "end": 34.52
+    },
+    {
+     "text": "needs",
+     "start": 34.81,
+     "end": 35.143
+    },
+    {
+     "text": "126",
+     "start": 35.143,
+     "end": 36.477
+    },
+    {
+     "text": "votes:",
+     "start": 36.477,
+     "end": 36.81
+    },
+    {
+     "text": "a",
+     "start": 37.17,
+     "end": 37.345
+    },
+    {
+     "text": "majority.",
+     "start": 37.345,
+     "end": 37.93
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president is elected directly, with a run-off if no one gets half, and can send laws back, but not block them.",
+   "start": 38.27,
+   "end": 44.9,
+   "words": [
+    {
+     "text": "The",
+     "start": 38.27,
+     "end": 38.383
+    },
+    {
+     "text": "president",
+     "start": 38.383,
+     "end": 38.949
+    },
+    {
+     "text": "is",
+     "start": 38.949,
+     "end": 39.062
+    },
+    {
+     "text": "elected",
+     "start": 39.062,
+     "end": 39.514
+    },
+    {
+     "text": "directly,",
+     "start": 39.514,
+     "end": 40.08
+    },
+    {
+     "text": "with",
+     "start": 40.38,
+     "end": 40.55
+    },
+    {
+     "text": "a",
+     "start": 40.55,
+     "end": 40.72
+    },
+    {
+     "text": "run-off",
+     "start": 40.72,
+     "end": 41.117
+    },
+    {
+     "text": "if",
+     "start": 41.117,
+     "end": 41.23
+    },
+    {
+     "text": "no",
+     "start": 41.23,
+     "end": 41.457
+    },
+    {
+     "text": "one",
+     "start": 41.457,
+     "end": 41.683
+    },
+    {
+     "text": "gets",
+     "start": 41.683,
+     "end": 41.967
+    },
+    {
+     "text": "half,",
+     "start": 41.967,
+     "end": 42.25
+    },
+    {
+     "text": "and",
+     "start": 42.59,
+     "end": 42.753
+    },
+    {
+     "text": "can",
+     "start": 42.753,
+     "end": 42.97
+    },
+    {
+     "text": "send",
+     "start": 42.97,
+     "end": 43.241
+    },
+    {
+     "text": "laws",
+     "start": 43.241,
+     "end": 43.513
+    },
+    {
+     "text": "back,",
+     "start": 43.513,
+     "end": 43.73
+    },
+    {
+     "text": "but",
+     "start": 44.1,
+     "end": 44.288
+    },
+    {
+     "text": "not",
+     "start": 44.288,
+     "end": 44.476
+    },
+    {
+     "text": "block",
+     "start": 44.476,
+     "end": 44.712
+    },
+    {
+     "text": "them.",
+     "start": 44.712,
+     "end": 44.9
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In October 2026, the Student List won 140 seats, and Vučić's list 104.",
+   "start": 45.23,
+   "end": 52.03,
+   "words": [
+    {
+     "text": "In",
+     "start": 45.23,
+     "end": 45.391
+    },
+    {
+     "text": "October",
+     "start": 45.391,
+     "end": 45.82
+    },
+    {
+     "text": "2026,",
+     "start": 45.82,
+     "end": 46.84
+    },
+    {
+     "text": "the",
+     "start": 47.16,
+     "end": 47.268
+    },
+    {
+     "text": "Student",
+     "start": 47.268,
+     "end": 47.808
+    },
+    {
+     "text": "List",
+     "start": 47.808,
+     "end": 48.078
+    },
+    {
+     "text": "won",
+     "start": 48.078,
+     "end": 48.294
+    },
+    {
+     "text": "140",
+     "start": 48.294,
+     "end": 49.266
+    },
+    {
+     "text": "seats,",
+     "start": 49.266,
+     "end": 49.59
+    },
+    {
+     "text": "and",
+     "start": 49.95,
+     "end": 50.128
+    },
+    {
+     "text": "Vučić's",
+     "start": 50.128,
+     "end": 50.782
+    },
+    {
+     "text": "list",
+     "start": 50.782,
+     "end": 51.079
+    },
+    {
+     "text": "104.",
+     "start": 51.079,
+     "end": 52.03
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "And a new president is due by December. Can a movement with no clear leader run a country?",
+   "start": 52.88,
+   "end": 58.26,
+   "words": [
+    {
+     "text": "And",
+     "start": 52.88,
+     "end": 53.053
+    },
+    {
+     "text": "a",
+     "start": 53.053,
+     "end": 53.227
+    },
+    {
+     "text": "new",
+     "start": 53.227,
+     "end": 53.515
+    },
+    {
+     "text": "president",
+     "start": 53.515,
+     "end": 54.093
+    },
+    {
+     "text": "is",
+     "start": 54.093,
+     "end": 54.208
+    },
+    {
+     "text": "due",
+     "start": 54.208,
+     "end": 54.497
+    },
+    {
+     "text": "by",
+     "start": 54.497,
+     "end": 54.728
+    },
+    {
+     "text": "December.",
+     "start": 54.728,
+     "end": 55.19
+    },
+    {
+     "text": "Can",
+     "start": 55.6,
+     "end": 55.822
+    },
+    {
+     "text": "a",
+     "start": 55.822,
+     "end": 55.988
+    },
+    {
+     "text": "movement",
+     "start": 55.988,
+     "end": 56.487
+    },
+    {
+     "text": "with",
+     "start": 56.487,
+     "end": 56.653
+    },
+    {
+     "text": "no",
+     "start": 56.653,
+     "end": 56.875
+    },
+    {
+     "text": "clear",
+     "start": 56.875,
+     "end": 57.152
+    },
+    {
+     "text": "leader",
+     "start": 57.152,
+     "end": 57.484
+    },
+    {
+     "text": "run",
+     "start": 57.484,
+     "end": 57.706
+    },
+    {
+     "text": "a",
+     "start": 57.706,
+     "end": 57.872
+    },
+    {
+     "text": "country?",
+     "start": 57.872,
+     "end": 58.26
+    }
+   ]
+  }
+ ]
+}
