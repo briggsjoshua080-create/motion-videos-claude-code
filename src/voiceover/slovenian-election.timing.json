@@ -1,0 +1,789 @@
+{
+ "audio": "voiceover/slovenian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 57.4,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Slovenia's biggest party won the election, and still ended up in opposition.",
+   "start": 0.23,
+   "end": 4.77,
+   "words": [
+    {
+     "text": "Slovenia's",
+     "start": 0.23,
+     "end": 0.959
+    },
+    {
+     "text": "biggest",
+     "start": 0.959,
+     "end": 1.385
+    },
+    {
+     "text": "party",
+     "start": 1.385,
+     "end": 1.749
+    },
+    {
+     "text": "won",
+     "start": 1.749,
+     "end": 1.992
+    },
+    {
+     "text": "the",
+     "start": 1.992,
+     "end": 2.114
+    },
+    {
+     "text": "election,",
+     "start": 2.114,
+     "end": 2.6
+    },
+    {
+     "text": "and",
+     "start": 2.95,
+     "end": 3.132
+    },
+    {
+     "text": "still",
+     "start": 3.132,
+     "end": 3.435
+    },
+    {
+     "text": "ended",
+     "start": 3.435,
+     "end": 3.799
+    },
+    {
+     "text": "up",
+     "start": 3.799,
+     "end": 3.981
+    },
+    {
+     "text": "in",
+     "start": 3.981,
+     "end": 4.163
+    },
+    {
+     "text": "opposition.",
+     "start": 4.163,
+     "end": 4.77
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Citizens aged 18, also by post from abroad. And Italian and Hungarian minority voters get a second vote.",
+   "start": 5.11,
+   "end": 13.38,
+   "words": [
+    {
+     "text": "Who",
+     "start": 5.11,
+     "end": 5.31
+    },
+    {
+     "text": "can",
+     "start": 5.31,
+     "end": 5.51
+    },
+    {
+     "text": "vote?",
+     "start": 5.51,
+     "end": 5.76
+    },
+    {
+     "text": "Citizens",
+     "start": 6.05,
+     "end": 6.647
+    },
+    {
+     "text": "aged",
+     "start": 6.647,
+     "end": 7.045
+    },
+    {
+     "text": "18,",
+     "start": 7.045,
+     "end": 7.51
+    },
+    {
+     "text": "also",
+     "start": 7.74,
+     "end": 8.125
+    },
+    {
+     "text": "by",
+     "start": 8.125,
+     "end": 8.345
+    },
+    {
+     "text": "post",
+     "start": 8.345,
+     "end": 8.675
+    },
+    {
+     "text": "from",
+     "start": 8.675,
+     "end": 8.895
+    },
+    {
+     "text": "abroad.",
+     "start": 8.895,
+     "end": 9.28
+    },
+    {
+     "text": "And",
+     "start": 9.76,
+     "end": 9.938
+    },
+    {
+     "text": "Italian",
+     "start": 9.938,
+     "end": 10.413
+    },
+    {
+     "text": "and",
+     "start": 10.413,
+     "end": 10.591
+    },
+    {
+     "text": "Hungarian",
+     "start": 10.591,
+     "end": 11.244
+    },
+    {
+     "text": "minority",
+     "start": 11.244,
+     "end": 11.837
+    },
+    {
+     "text": "voters",
+     "start": 11.837,
+     "end": 12.252
+    },
+    {
+     "text": "get",
+     "start": 12.252,
+     "end": 12.49
+    },
+    {
+     "text": "a",
+     "start": 12.49,
+     "end": 12.668
+    },
+    {
+     "text": "second",
+     "start": 12.668,
+     "end": 13.083
+    },
+    {
+     "text": "vote.",
+     "start": 13.083,
+     "end": 13.38
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "The ballot shows one candidate per party. Circle one number, and it counts for the whole party.",
+   "start": 13.72,
+   "end": 19.16,
+   "words": [
+    {
+     "text": "The",
+     "start": 13.72,
+     "end": 13.844
+    },
+    {
+     "text": "ballot",
+     "start": 13.844,
+     "end": 14.215
+    },
+    {
+     "text": "shows",
+     "start": 14.215,
+     "end": 14.525
+    },
+    {
+     "text": "one",
+     "start": 14.525,
+     "end": 14.772
+    },
+    {
+     "text": "candidate",
+     "start": 14.772,
+     "end": 15.453
+    },
+    {
+     "text": "per",
+     "start": 15.453,
+     "end": 15.639
+    },
+    {
+     "text": "party.",
+     "start": 15.639,
+     "end": 16.01
+    },
+    {
+     "text": "Circle",
+     "start": 16.41,
+     "end": 16.809
+    },
+    {
+     "text": "one",
+     "start": 16.809,
+     "end": 17.038
+    },
+    {
+     "text": "number,",
+     "start": 17.038,
+     "end": 17.38
+    },
+    {
+     "text": "and",
+     "start": 17.64,
+     "end": 17.803
+    },
+    {
+     "text": "it",
+     "start": 17.803,
+     "end": 17.911
+    },
+    {
+     "text": "counts",
+     "start": 17.911,
+     "end": 18.291
+    },
+    {
+     "text": "for",
+     "start": 18.291,
+     "end": 18.454
+    },
+    {
+     "text": "the",
+     "start": 18.454,
+     "end": 18.563
+    },
+    {
+     "text": "whole",
+     "start": 18.563,
+     "end": 18.834
+    },
+    {
+     "text": "party.",
+     "start": 18.834,
+     "end": 19.16
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Parties above 4% share 88 seats. Two more are kept for the minorities.",
+   "start": 19.52,
+   "end": 24.44,
+   "words": [
+    {
+     "text": "Parties",
+     "start": 19.52,
+     "end": 19.988
+    },
+    {
+     "text": "above",
+     "start": 19.988,
+     "end": 20.323
+    },
+    {
+     "text": "4%",
+     "start": 20.323,
+     "end": 21.059
+    },
+    {
+     "text": "share",
+     "start": 21.059,
+     "end": 21.326
+    },
+    {
+     "text": "88",
+     "start": 21.326,
+     "end": 21.929
+    },
+    {
+     "text": "seats.",
+     "start": 21.929,
+     "end": 22.33
+    },
+    {
+     "text": "Two",
+     "start": 22.69,
+     "end": 22.916
+    },
+    {
+     "text": "more",
+     "start": 22.916,
+     "end": 23.142
+    },
+    {
+     "text": "are",
+     "start": 23.142,
+     "end": 23.255
+    },
+    {
+     "text": "kept",
+     "start": 23.255,
+     "end": 23.537
+    },
+    {
+     "text": "for",
+     "start": 23.537,
+     "end": 23.706
+    },
+    {
+     "text": "the",
+     "start": 23.706,
+     "end": 23.819
+    },
+    {
+     "text": "minorities.",
+     "start": 23.819,
+     "end": 24.44
+    }
+   ]
+  },
+  {
+   "id": "assembly",
+   "text": "That's the National Assembly: it makes laws and picks the government. A second chamber, the National Council, can only make it vote again.",
+   "start": 24.78,
+   "end": 32.67,
+   "words": [
+    {
+     "text": "That's",
+     "start": 24.78,
+     "end": 25.065
+    },
+    {
+     "text": "the",
+     "start": 25.065,
+     "end": 25.179
+    },
+    {
+     "text": "National",
+     "start": 25.179,
+     "end": 25.634
+    },
+    {
+     "text": "Assembly:",
+     "start": 25.634,
+     "end": 26.09
+    },
+    {
+     "text": "it",
+     "start": 26.36,
+     "end": 26.481
+    },
+    {
+     "text": "makes",
+     "start": 26.481,
+     "end": 26.842
+    },
+    {
+     "text": "laws",
+     "start": 26.842,
+     "end": 27.144
+    },
+    {
+     "text": "and",
+     "start": 27.144,
+     "end": 27.325
+    },
+    {
+     "text": "picks",
+     "start": 27.325,
+     "end": 27.626
+    },
+    {
+     "text": "the",
+     "start": 27.626,
+     "end": 27.747
+    },
+    {
+     "text": "government.",
+     "start": 27.747,
+     "end": 28.35
+    },
+    {
+     "text": "A",
+     "start": 28.83,
+     "end": 28.988
+    },
+    {
+     "text": "second",
+     "start": 28.988,
+     "end": 29.358
+    },
+    {
+     "text": "chamber,",
+     "start": 29.358,
+     "end": 29.78
+    },
+    {
+     "text": "the",
+     "start": 29.98,
+     "end": 30.088
+    },
+    {
+     "text": "National",
+     "start": 30.088,
+     "end": 30.519
+    },
+    {
+     "text": "Council,",
+     "start": 30.519,
+     "end": 30.95
+    },
+    {
+     "text": "can",
+     "start": 31.23,
+     "end": 31.443
+    },
+    {
+     "text": "only",
+     "start": 31.443,
+     "end": 31.763
+    },
+    {
+     "text": "make",
+     "start": 31.763,
+     "end": 32.03
+    },
+    {
+     "text": "it",
+     "start": 32.03,
+     "end": 32.137
+    },
+    {
+     "text": "vote",
+     "start": 32.137,
+     "end": 32.403
+    },
+    {
+     "text": "again.",
+     "start": 32.403,
+     "end": 32.67
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "The prime minister needs 46 of 90 votes, proposed by the president or by MPs.",
+   "start": 33.03,
+   "end": 38.92,
+   "words": [
+    {
+     "text": "The",
+     "start": 33.03,
+     "end": 33.15
+    },
+    {
+     "text": "prime",
+     "start": 33.15,
+     "end": 33.51
+    },
+    {
+     "text": "minister",
+     "start": 33.51,
+     "end": 33.99
+    },
+    {
+     "text": "needs",
+     "start": 33.99,
+     "end": 34.35
+    },
+    {
+     "text": "46",
+     "start": 34.35,
+     "end": 35.01
+    },
+    {
+     "text": "of",
+     "start": 35.01,
+     "end": 35.13
+    },
+    {
+     "text": "90",
+     "start": 35.13,
+     "end": 35.55
+    },
+    {
+     "text": "votes,",
+     "start": 35.55,
+     "end": 35.91
+    },
+    {
+     "text": "proposed",
+     "start": 36.26,
+     "end": 36.844
+    },
+    {
+     "text": "by",
+     "start": 36.844,
+     "end": 37.103
+    },
+    {
+     "text": "the",
+     "start": 37.103,
+     "end": 37.233
+    },
+    {
+     "text": "president",
+     "start": 37.233,
+     "end": 37.882
+    },
+    {
+     "text": "or",
+     "start": 37.882,
+     "end": 38.012
+    },
+    {
+     "text": "by",
+     "start": 38.012,
+     "end": 38.271
+    },
+    {
+     "text": "MPs.",
+     "start": 38.271,
+     "end": 38.92
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president is elected directly, with a run-off, but can't veto laws.",
+   "start": 39.26,
+   "end": 43.71,
+   "words": [
+    {
+     "text": "The",
+     "start": 39.26,
+     "end": 39.376
+    },
+    {
+     "text": "president",
+     "start": 39.376,
+     "end": 39.958
+    },
+    {
+     "text": "is",
+     "start": 39.958,
+     "end": 40.074
+    },
+    {
+     "text": "elected",
+     "start": 40.074,
+     "end": 40.539
+    },
+    {
+     "text": "directly,",
+     "start": 40.539,
+     "end": 41.12
+    },
+    {
+     "text": "with",
+     "start": 41.36,
+     "end": 41.517
+    },
+    {
+     "text": "a",
+     "start": 41.517,
+     "end": 41.674
+    },
+    {
+     "text": "run-off,",
+     "start": 41.674,
+     "end": 42.04
+    },
+    {
+     "text": "but",
+     "start": 42.38,
+     "end": 42.622
+    },
+    {
+     "text": "can't",
+     "start": 42.622,
+     "end": 42.985
+    },
+    {
+     "text": "veto",
+     "start": 42.985,
+     "end": 43.408
+    },
+    {
+     "text": "laws.",
+     "start": 43.408,
+     "end": 43.71
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In March 2026, Golob's party won 29 seats, Janša's 28. But Janša built a coalition and became prime minister.",
+   "start": 44.04,
+   "end": 52.72,
+   "words": [
+    {
+     "text": "In",
+     "start": 44.04,
+     "end": 44.192
+    },
+    {
+     "text": "March",
+     "start": 44.192,
+     "end": 44.496
+    },
+    {
+     "text": "2026,",
+     "start": 44.496,
+     "end": 45.46
+    },
+    {
+     "text": "Golob's",
+     "start": 45.77,
+     "end": 46.186
+    },
+    {
+     "text": "party",
+     "start": 46.186,
+     "end": 46.543
+    },
+    {
+     "text": "won",
+     "start": 46.543,
+     "end": 46.78
+    },
+    {
+     "text": "29",
+     "start": 46.78,
+     "end": 47.493
+    },
+    {
+     "text": "seats,",
+     "start": 47.493,
+     "end": 47.85
+    },
+    {
+     "text": "Janša's",
+     "start": 48.11,
+     "end": 48.544
+    },
+    {
+     "text": "28.",
+     "start": 48.544,
+     "end": 49.14
+    },
+    {
+     "text": "But",
+     "start": 49.63,
+     "end": 49.859
+    },
+    {
+     "text": "Janša",
+     "start": 49.859,
+     "end": 50.259
+    },
+    {
+     "text": "built",
+     "start": 50.259,
+     "end": 50.546
+    },
+    {
+     "text": "a",
+     "start": 50.546,
+     "end": 50.717
+    },
+    {
+     "text": "coalition",
+     "start": 50.717,
+     "end": 51.347
+    },
+    {
+     "text": "and",
+     "start": 51.347,
+     "end": 51.518
+    },
+    {
+     "text": "became",
+     "start": 51.518,
+     "end": 51.919
+    },
+    {
+     "text": "prime",
+     "start": 51.919,
+     "end": 52.262
+    },
+    {
+     "text": "minister.",
+     "start": 52.262,
+     "end": 52.72
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, is it fair that some citizens get two votes?",
+   "start": 53.38,
+   "end": 56.37,
+   "words": [
+    {
+     "text": "So,",
+     "start": 53.38,
+     "end": 53.92
+    },
+    {
+     "text": "is",
+     "start": 54.02,
+     "end": 54.141
+    },
+    {
+     "text": "it",
+     "start": 54.141,
+     "end": 54.261
+    },
+    {
+     "text": "fair",
+     "start": 54.261,
+     "end": 54.502
+    },
+    {
+     "text": "that",
+     "start": 54.502,
+     "end": 54.743
+    },
+    {
+     "text": "some",
+     "start": 54.743,
+     "end": 54.984
+    },
+    {
+     "text": "citizens",
+     "start": 54.984,
+     "end": 55.526
+    },
+    {
+     "text": "get",
+     "start": 55.526,
+     "end": 55.767
+    },
+    {
+     "text": "two",
+     "start": 55.767,
+     "end": 56.008
+    },
+    {
+     "text": "votes?",
+     "start": 56.008,
+     "end": 56.37
+    }
+   ]
+  }
+ ]
+}

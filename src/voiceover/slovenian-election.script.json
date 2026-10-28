@@ -1,0 +1,65 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "4%": "four percent",
+    "88": "eighty-eight",
+    "46": "forty-six",
+    "90": "ninety",
+    "2026": "twenty twenty-six",
+    "29": "twenty-nine",
+    "28": "twenty-eight",
+    "MPs": "M Ps"
+  },
+  "pronounce": {
+    "Janša's": "jˈɑːnʃəz",
+    "Janša": "jˈɑːnʃə",
+    "Golob's": "ɡˈɔlɔbz"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Slovenia's biggest party won the election, and still ended up in opposition."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Citizens aged 18, also by post from abroad. And Italian and Hungarian minority voters get a second vote."
+    },
+    {
+      "id": "ballot",
+      "text": "The ballot shows one candidate per party. Circle one number, and it counts for the whole party.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Parties above 4% share 88 seats. Two more are kept for the minorities."
+    },
+    {
+      "id": "assembly",
+      "text": "That's the National Assembly: it makes laws and picks the government. A second chamber, the National Council, can only make it vote again.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "pm",
+      "text": "The prime minister needs 46 of 90 votes, proposed by the president or by MPs."
+    },
+    {
+      "id": "president",
+      "text": "The president is elected directly, with a run-off, but can't veto laws."
+    },
+    {
+      "id": "result",
+      "text": "In March 2026, Golob's party won 29 seats, Janša's 28. But Janša built a coalition and became prime minister.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "question",
+      "text": "So, is it fair that some citizens get two votes?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

@@ -46,7 +46,7 @@ prompt says otherwise.
 - **Language:** always English (voice, subtitles, on-screen text).
 - **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
   Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
-  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`.
+  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`.
   - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
     text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
   - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
@@ -93,10 +93,12 @@ prompt says otherwise.
   date they were checked. Flag facts that will go stale (e.g. who is in office).
 
 **Process**
-- **Ask the user whenever anything is unclear.** The user wants questions, not guesses. Use
-  `AskUserQuestion` with plain-language options.
-- Everything above is already decided, so don't ask about it again. Do show the exact narration
-  and get it approved before building (see "Ask the user first").
+- **No questions (the user's standing instruction since 28 Oct 2026):** make every video entirely on your
+  own, based on this brief and the decisions recorded here. Do not ask questions, do not wait for the
+  narration to be approved, and do not stop to propose cuts: research, write, measure, trim to ≤ 60 s,
+  build, render, send and push in one go. Record the choices you made in `briefs/<video>/script.md`
+  (as in `NorwegianElection`, `SerbianElection`, `SlovenianElection`). This overrides "Ask the user
+  first" below and the "ask" points in this brief, unless the user asks for questions again.
 - Use the project skills and pipeline in "Motion videos" below.
 - After rendering, send the MP4 in the chat, then **commit and push straight to `main`** (the
   user's standing instruction), so new chats see the video and any rule changes.
@@ -147,6 +149,13 @@ prompt says otherwise.
   National Assembly (250), a PM who needs 126, a directly elected President with a run-off who can return but not block
   laws, the 25 Oct 2026 snap election (preliminary RIK count, made two days later) and "Can a movement with no clear
   leader run a country?" as the ending.
+  `SlovenianElection` ("How Slovenia votes.", `briefs/slovenian-election-system/`) was the first video made under the
+  standing "no questions" rule: the Swedish look in Slovenian blue with red accents and a simplified coat of arms
+  (`Triglav` in `src/scenes/slovenian-election/ui.tsx`), the standard red subtitle pill; the biggest party ending up in
+  opposition as the hook, a second vote for Italian and Hungarian community voters, one name per party on the district
+  ballot (circle one number, it counts for the party), the 4% line (88 seats + 2 minority seats), the National Assembly
+  (90) and the weak National Council, a PM who needs 46, a directly elected President with no veto, the 22 Mar 2026
+  result and Janša's coalition, and "Is it fair that some citizens get two votes?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -158,6 +167,9 @@ prompt says otherwise.
   use a flag colour instead (`<Subtitles highlight=... activeColor=... />`; Sweden: yellow with dark text).
 
 ## Ask the user first (required before building)
+**Overridden since 28 Oct 2026:** the user wants every video made without questions (see "Process" in the
+standing brief). Use this section only if the user asks to be asked again.
+
 The user wants to decide what each video looks like before any code is written. **Before building
 a new video, or making a big change to one (new scenes, new format, new style), ask the user many
 questions, step by step, and wait for the answers.** Do not write code, render, commit or push
@@ -357,4 +369,4 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
 9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
 
-For a new video, copy the newest video in the default look (e.g. `CanadianElection.tsx` + `src/scenes/canadian-election/`) and change the scenes, colours, composition id and file names.
+For a new video, copy the newest video in the default look (e.g. `SlovenianElection.tsx` + `src/scenes/slovenian-election/`) and change the scenes, colours, composition id and file names.
