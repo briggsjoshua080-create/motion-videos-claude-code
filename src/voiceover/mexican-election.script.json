@@ -1,0 +1,64 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.15,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "300": "three hundred",
+    "200": "two hundred",
+    "3%": "three percent",
+    "32": "thirty-two",
+    "2025": "twenty twenty-five",
+    "2024": "twenty twenty-four",
+    "54%": "fifty-four percent",
+    "73%": "seventy-three percent",
+    "128-member": "hundred-and-twenty-eight-member"
+  },
+  "pronounce": {
+    "Sheinbaum": "ʃˈeɪnbaʊm"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Mexico's president gets one term. Six years. Then never again."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Citizens aged 18 with a photo voter card, even online from abroad. Voting is a duty, but there's no fine."
+    },
+    {
+      "id": "ballot",
+      "text": "Each race gets its own ballot. Mark one party's logo, or two, if they're in the same alliance.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "300 deputies win a district. 200 more are shared by votes, for parties above 3%."
+    },
+    {
+      "id": "congress",
+      "text": "That's the Chamber of Deputies: it makes laws and sets the budget. The 128-member Senate must pass every law too.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "president",
+      "text": "There's no prime minister. The president runs the government, and wins with the most votes, no run-off."
+    },
+    {
+      "id": "judges",
+      "text": "And since 2025, Mexicans even elect their judges."
+    },
+    {
+      "id": "result",
+      "text": "In 2024, Claudia Sheinbaum became the first woman president. Her alliance won 54% of the votes, but 73% of the deputies.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "question",
+      "text": "So, should 54% of the votes win 73% of the seats?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

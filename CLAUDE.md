@@ -46,7 +46,7 @@ prompt says otherwise.
 - **Language:** always English (voice, subtitles, on-screen text).
 - **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
   Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
-  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`.
+  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`.
   - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
     text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
   - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
@@ -156,6 +156,13 @@ prompt says otherwise.
   ballot (circle one number, it counts for the party), the 4% line (88 seats + 2 minority seats), the National Assembly
   (90) and the weak National Council, a PM who needs 46, a directly elected President with no veto, the 22 Mar 2026
   result and Janša's coalition, and "Is it fair that some citizens get two votes?" as the ending.
+  `MexicanElection` ("How Mexico votes.", `briefs/mexican-election-system/`) was also made with no questions asked: the
+  Swedish look in Mexican green with red accents and a simplified coat of arms (`Emblem` in
+  `src/scenes/mexican-election/ui.tsx`), the standard red subtitle pill; the one six-year presidential term as the hook,
+  a photo voter card and online voting from abroad, one ballot per race (mark a party logo, or two in one alliance),
+  300 district + 200 list deputies with a 3% line and an 8-point cap, the Chamber (500) and Senate (128), a president
+  with no PM and no run-off, elected judges since 2025, the 2024 result (Sheinbaum; the alliance's 54.7% of the votes
+  but 364 of 500 seats), and "Should 54% of the votes win 73% of the seats?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -369,4 +376,4 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
 9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
 
-For a new video, copy the newest video in the default look (e.g. `SlovenianElection.tsx` + `src/scenes/slovenian-election/`) and change the scenes, colours, composition id and file names.
+For a new video, copy the newest video in the default look (e.g. `MexicanElection.tsx` + `src/scenes/mexican-election/`) and change the scenes, colours, composition id and file names.

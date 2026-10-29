@@ -1,0 +1,794 @@
+{
+ "audio": "voiceover/mexican-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.13,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Mexico's president gets one term. Six years. Then never again.",
+   "start": 0.23,
+   "end": 4.35,
+   "words": [
+    {
+     "text": "Mexico's",
+     "start": 0.23,
+     "end": 0.868
+    },
+    {
+     "text": "president",
+     "start": 0.868,
+     "end": 1.448
+    },
+    {
+     "text": "gets",
+     "start": 1.448,
+     "end": 1.738
+    },
+    {
+     "text": "one",
+     "start": 1.738,
+     "end": 1.97
+    },
+    {
+     "text": "term.",
+     "start": 1.97,
+     "end": 2.26
+    },
+    {
+     "text": "Six",
+     "start": 2.48,
+     "end": 2.835
+    },
+    {
+     "text": "years.",
+     "start": 2.835,
+     "end": 3.19
+    },
+    {
+     "text": "Then",
+     "start": 3.51,
+     "end": 3.75
+    },
+    {
+     "text": "never",
+     "start": 3.75,
+     "end": 4.05
+    },
+    {
+     "text": "again.",
+     "start": 4.05,
+     "end": 4.35
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Citizens aged 18 with a photo voter card, even online from abroad. Voting is a duty, but there's no fine.",
+   "start": 4.69,
+   "end": 13.03,
+   "words": [
+    {
+     "text": "Who",
+     "start": 4.69,
+     "end": 4.89
+    },
+    {
+     "text": "can",
+     "start": 4.89,
+     "end": 5.09
+    },
+    {
+     "text": "vote?",
+     "start": 5.09,
+     "end": 5.34
+    },
+    {
+     "text": "Citizens",
+     "start": 5.57,
+     "end": 6.116
+    },
+    {
+     "text": "aged",
+     "start": 6.116,
+     "end": 6.48
+    },
+    {
+     "text": "18",
+     "start": 6.48,
+     "end": 6.904
+    },
+    {
+     "text": "with",
+     "start": 6.904,
+     "end": 7.086
+    },
+    {
+     "text": "a",
+     "start": 7.086,
+     "end": 7.268
+    },
+    {
+     "text": "photo",
+     "start": 7.268,
+     "end": 7.693
+    },
+    {
+     "text": "voter",
+     "start": 7.693,
+     "end": 8.057
+    },
+    {
+     "text": "card,",
+     "start": 8.057,
+     "end": 8.36
+    },
+    {
+     "text": "even",
+     "start": 8.64,
+     "end": 9.008
+    },
+    {
+     "text": "online",
+     "start": 9.008,
+     "end": 9.436
+    },
+    {
+     "text": "from",
+     "start": 9.436,
+     "end": 9.681
+    },
+    {
+     "text": "abroad.",
+     "start": 9.681,
+     "end": 10.11
+    },
+    {
+     "text": "Voting",
+     "start": 10.61,
+     "end": 11.023
+    },
+    {
+     "text": "is",
+     "start": 11.023,
+     "end": 11.141
+    },
+    {
+     "text": "a",
+     "start": 11.141,
+     "end": 11.317
+    },
+    {
+     "text": "duty,",
+     "start": 11.317,
+     "end": 11.73
+    },
+    {
+     "text": "but",
+     "start": 12.04,
+     "end": 12.26
+    },
+    {
+     "text": "there's",
+     "start": 12.26,
+     "end": 12.535
+    },
+    {
+     "text": "no",
+     "start": 12.535,
+     "end": 12.755
+    },
+    {
+     "text": "fine.",
+     "start": 12.755,
+     "end": 13.03
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Each race gets its own ballot. Mark one party's logo, or two, if they're in the same alliance.",
+   "start": 13.37,
+   "end": 18.99,
+   "words": [
+    {
+     "text": "Each",
+     "start": 13.37,
+     "end": 13.64
+    },
+    {
+     "text": "race",
+     "start": 13.64,
+     "end": 13.909
+    },
+    {
+     "text": "gets",
+     "start": 13.909,
+     "end": 14.179
+    },
+    {
+     "text": "its",
+     "start": 14.179,
+     "end": 14.341
+    },
+    {
+     "text": "own",
+     "start": 14.341,
+     "end": 14.556
+    },
+    {
+     "text": "ballot.",
+     "start": 14.556,
+     "end": 14.88
+    },
+    {
+     "text": "Mark",
+     "start": 15.33,
+     "end": 15.626
+    },
+    {
+     "text": "one",
+     "start": 15.626,
+     "end": 15.862
+    },
+    {
+     "text": "party's",
+     "start": 15.862,
+     "end": 16.276
+    },
+    {
+     "text": "logo,",
+     "start": 16.276,
+     "end": 16.69
+    },
+    {
+     "text": "or",
+     "start": 16.78,
+     "end": 16.933
+    },
+    {
+     "text": "two,",
+     "start": 16.933,
+     "end": 17.24
+    },
+    {
+     "text": "if",
+     "start": 17.5,
+     "end": 17.624
+    },
+    {
+     "text": "they're",
+     "start": 17.624,
+     "end": 17.872
+    },
+    {
+     "text": "in",
+     "start": 17.872,
+     "end": 18.059
+    },
+    {
+     "text": "the",
+     "start": 18.059,
+     "end": 18.183
+    },
+    {
+     "text": "same",
+     "start": 18.183,
+     "end": 18.493
+    },
+    {
+     "text": "alliance.",
+     "start": 18.493,
+     "end": 18.99
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "300 deputies win a district. 200 more are shared by votes, for parties above 3%.",
+   "start": 19.35,
+   "end": 25.36,
+   "words": [
+    {
+     "text": "300",
+     "start": 19.35,
+     "end": 19.903
+    },
+    {
+     "text": "deputies",
+     "start": 19.903,
+     "end": 20.329
+    },
+    {
+     "text": "win",
+     "start": 20.329,
+     "end": 20.499
+    },
+    {
+     "text": "a",
+     "start": 20.499,
+     "end": 20.627
+    },
+    {
+     "text": "district.",
+     "start": 20.627,
+     "end": 21.01
+    },
+    {
+     "text": "200",
+     "start": 21.5,
+     "end": 22.202
+    },
+    {
+     "text": "more",
+     "start": 22.202,
+     "end": 22.436
+    },
+    {
+     "text": "are",
+     "start": 22.436,
+     "end": 22.553
+    },
+    {
+     "text": "shared",
+     "start": 22.553,
+     "end": 22.845
+    },
+    {
+     "text": "by",
+     "start": 22.845,
+     "end": 23.079
+    },
+    {
+     "text": "votes,",
+     "start": 23.079,
+     "end": 23.43
+    },
+    {
+     "text": "for",
+     "start": 23.71,
+     "end": 23.893
+    },
+    {
+     "text": "parties",
+     "start": 23.893,
+     "end": 24.321
+    },
+    {
+     "text": "above",
+     "start": 24.321,
+     "end": 24.627
+    },
+    {
+     "text": "3%.",
+     "start": 24.627,
+     "end": 25.36
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "That's the Chamber of Deputies: it makes laws and sets the budget. The 128-member Senate must pass every law too.",
+   "start": 25.7,
+   "end": 33.46,
+   "words": [
+    {
+     "text": "That's",
+     "start": 25.7,
+     "end": 25.965
+    },
+    {
+     "text": "the",
+     "start": 25.965,
+     "end": 26.071
+    },
+    {
+     "text": "Chamber",
+     "start": 26.071,
+     "end": 26.494
+    },
+    {
+     "text": "of",
+     "start": 26.494,
+     "end": 26.6
+    },
+    {
+     "text": "Deputies:",
+     "start": 26.6,
+     "end": 27.13
+    },
+    {
+     "text": "it",
+     "start": 27.42,
+     "end": 27.551
+    },
+    {
+     "text": "makes",
+     "start": 27.551,
+     "end": 27.943
+    },
+    {
+     "text": "laws",
+     "start": 27.943,
+     "end": 28.269
+    },
+    {
+     "text": "and",
+     "start": 28.269,
+     "end": 28.465
+    },
+    {
+     "text": "sets",
+     "start": 28.465,
+     "end": 28.792
+    },
+    {
+     "text": "the",
+     "start": 28.792,
+     "end": 28.923
+    },
+    {
+     "text": "budget.",
+     "start": 28.923,
+     "end": 29.38
+    },
+    {
+     "text": "The",
+     "start": 29.89,
+     "end": 30.013
+    },
+    {
+     "text": "128-member",
+     "start": 30.013,
+     "end": 31.737
+    },
+    {
+     "text": "Senate",
+     "start": 31.737,
+     "end": 32.106
+    },
+    {
+     "text": "must",
+     "start": 32.106,
+     "end": 32.414
+    },
+    {
+     "text": "pass",
+     "start": 32.414,
+     "end": 32.66
+    },
+    {
+     "text": "every",
+     "start": 32.66,
+     "end": 32.968
+    },
+    {
+     "text": "law",
+     "start": 32.968,
+     "end": 33.214
+    },
+    {
+     "text": "too.",
+     "start": 33.214,
+     "end": 33.46
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "There's no prime minister. The president runs the government, and wins with the most votes, no run-off.",
+   "start": 33.82,
+   "end": 39.58,
+   "words": [
+    {
+     "text": "There's",
+     "start": 33.82,
+     "end": 34.107
+    },
+    {
+     "text": "no",
+     "start": 34.107,
+     "end": 34.337
+    },
+    {
+     "text": "prime",
+     "start": 34.337,
+     "end": 34.681
+    },
+    {
+     "text": "minister.",
+     "start": 34.681,
+     "end": 35.14
+    },
+    {
+     "text": "The",
+     "start": 35.53,
+     "end": 35.633
+    },
+    {
+     "text": "president",
+     "start": 35.633,
+     "end": 36.147
+    },
+    {
+     "text": "runs",
+     "start": 36.147,
+     "end": 36.403
+    },
+    {
+     "text": "the",
+     "start": 36.403,
+     "end": 36.506
+    },
+    {
+     "text": "government,",
+     "start": 36.506,
+     "end": 37.02
+    },
+    {
+     "text": "and",
+     "start": 37.28,
+     "end": 37.465
+    },
+    {
+     "text": "wins",
+     "start": 37.465,
+     "end": 37.773
+    },
+    {
+     "text": "with",
+     "start": 37.773,
+     "end": 37.958
+    },
+    {
+     "text": "the",
+     "start": 37.958,
+     "end": 38.081
+    },
+    {
+     "text": "most",
+     "start": 38.081,
+     "end": 38.45
+    },
+    {
+     "text": "votes,",
+     "start": 38.45,
+     "end": 38.82
+    },
+    {
+     "text": "no",
+     "start": 38.99,
+     "end": 39.205
+    },
+    {
+     "text": "run-off.",
+     "start": 39.205,
+     "end": 39.58
+    }
+   ]
+  },
+  {
+   "id": "judges",
+   "text": "And since 2025, Mexicans even elect their judges.",
+   "start": 39.91,
+   "end": 43.61,
+   "words": [
+    {
+     "text": "And",
+     "start": 39.91,
+     "end": 40.059
+    },
+    {
+     "text": "since",
+     "start": 40.059,
+     "end": 40.307
+    },
+    {
+     "text": "2025,",
+     "start": 40.307,
+     "end": 41.25
+    },
+    {
+     "text": "Mexicans",
+     "start": 41.56,
+     "end": 42.181
+    },
+    {
+     "text": "even",
+     "start": 42.181,
+     "end": 42.554
+    },
+    {
+     "text": "elect",
+     "start": 42.554,
+     "end": 42.927
+    },
+    {
+     "text": "their",
+     "start": 42.927,
+     "end": 43.113
+    },
+    {
+     "text": "judges.",
+     "start": 43.113,
+     "end": 43.61
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2024, Claudia Sheinbaum became the first woman president. Her alliance won 54% of the votes, but 73% of the deputies.",
+   "start": 43.94,
+   "end": 53.46,
+   "words": [
+    {
+     "text": "In",
+     "start": 43.94,
+     "end": 44.086
+    },
+    {
+     "text": "2024,",
+     "start": 44.086,
+     "end": 44.96
+    },
+    {
+     "text": "Claudia",
+     "start": 45.24,
+     "end": 45.688
+    },
+    {
+     "text": "Sheinbaum",
+     "start": 45.688,
+     "end": 46.193
+    },
+    {
+     "text": "became",
+     "start": 46.193,
+     "end": 46.585
+    },
+    {
+     "text": "the",
+     "start": 46.585,
+     "end": 46.697
+    },
+    {
+     "text": "first",
+     "start": 46.697,
+     "end": 47.033
+    },
+    {
+     "text": "woman",
+     "start": 47.033,
+     "end": 47.37
+    },
+    {
+     "text": "president.",
+     "start": 47.37,
+     "end": 47.93
+    },
+    {
+     "text": "Her",
+     "start": 48.47,
+     "end": 48.647
+    },
+    {
+     "text": "alliance",
+     "start": 48.647,
+     "end": 49.12
+    },
+    {
+     "text": "won",
+     "start": 49.12,
+     "end": 49.356
+    },
+    {
+     "text": "54%",
+     "start": 49.356,
+     "end": 50.36
+    },
+    {
+     "text": "of",
+     "start": 50.36,
+     "end": 50.478
+    },
+    {
+     "text": "the",
+     "start": 50.478,
+     "end": 50.596
+    },
+    {
+     "text": "votes,",
+     "start": 50.596,
+     "end": 50.95
+    },
+    {
+     "text": "but",
+     "start": 51.27,
+     "end": 51.501
+    },
+    {
+     "text": "73%",
+     "start": 51.501,
+     "end": 52.653
+    },
+    {
+     "text": "of",
+     "start": 52.653,
+     "end": 52.768
+    },
+    {
+     "text": "the",
+     "start": 52.768,
+     "end": 52.884
+    },
+    {
+     "text": "deputies.",
+     "start": 52.884,
+     "end": 53.46
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should 54% of the votes win 73% of the seats?",
+   "start": 54.12,
+   "end": 58.1,
+   "words": [
+    {
+     "text": "So,",
+     "start": 54.12,
+     "end": 54.346
+    },
+    {
+     "text": "should",
+     "start": 54.43,
+     "end": 54.656
+    },
+    {
+     "text": "54%",
+     "start": 54.656,
+     "end": 55.616
+    },
+    {
+     "text": "of",
+     "start": 55.616,
+     "end": 55.729
+    },
+    {
+     "text": "the",
+     "start": 55.729,
+     "end": 55.842
+    },
+    {
+     "text": "votes",
+     "start": 55.842,
+     "end": 56.181
+    },
+    {
+     "text": "win",
+     "start": 56.181,
+     "end": 56.406
+    },
+    {
+     "text": "73%",
+     "start": 56.406,
+     "end": 57.535
+    },
+    {
+     "text": "of",
+     "start": 57.535,
+     "end": 57.648
+    },
+    {
+     "text": "the",
+     "start": 57.648,
+     "end": 57.761
+    },
+    {
+     "text": "seats?",
+     "start": 57.761,
+     "end": 58.1
+    }
+   ]
+  }
+ ]
+}
