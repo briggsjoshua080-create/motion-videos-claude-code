@@ -1,0 +1,846 @@
+{
+ "audio": "voiceover/brazilian-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.08,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In Brazil, skipping the vote can cost you your passport.",
+   "start": 0.23,
+   "end": 3.1,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.23,
+     "end": 0.413
+    },
+    {
+     "text": "Brazil,",
+     "start": 0.413,
+     "end": 0.84
+    },
+    {
+     "text": "skipping",
+     "start": 1.05,
+     "end": 1.438
+    },
+    {
+     "text": "the",
+     "start": 1.438,
+     "end": 1.549
+    },
+    {
+     "text": "vote",
+     "start": 1.549,
+     "end": 1.826
+    },
+    {
+     "text": "can",
+     "start": 1.826,
+     "end": 2.047
+    },
+    {
+     "text": "cost",
+     "start": 2.047,
+     "end": 2.324
+    },
+    {
+     "text": "you",
+     "start": 2.324,
+     "end": 2.491
+    },
+    {
+     "text": "your",
+     "start": 2.491,
+     "end": 2.657
+    },
+    {
+     "text": "passport.",
+     "start": 2.657,
+     "end": 3.1
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Voting is a must from 18 to 70. It's optional at 16 and 17, over 70, and if you can't read. Citizens abroad only vote for president.",
+   "start": 3.44,
+   "end": 13.76,
+   "words": [
+    {
+     "text": "Who",
+     "start": 3.44,
+     "end": 3.625
+    },
+    {
+     "text": "can",
+     "start": 3.625,
+     "end": 3.809
+    },
+    {
+     "text": "vote?",
+     "start": 3.809,
+     "end": 4.04
+    },
+    {
+     "text": "Voting",
+     "start": 4.32,
+     "end": 4.711
+    },
+    {
+     "text": "is",
+     "start": 4.711,
+     "end": 4.823
+    },
+    {
+     "text": "a",
+     "start": 4.823,
+     "end": 4.991
+    },
+    {
+     "text": "must",
+     "start": 4.991,
+     "end": 5.27
+    },
+    {
+     "text": "from",
+     "start": 5.27,
+     "end": 5.494
+    },
+    {
+     "text": "18",
+     "start": 5.494,
+     "end": 5.885
+    },
+    {
+     "text": "to",
+     "start": 5.885,
+     "end": 6.053
+    },
+    {
+     "text": "70.",
+     "start": 6.053,
+     "end": 6.5
+    },
+    {
+     "text": "It's",
+     "start": 6.89,
+     "end": 7.061
+    },
+    {
+     "text": "optional",
+     "start": 7.061,
+     "end": 7.516
+    },
+    {
+     "text": "at",
+     "start": 7.516,
+     "end": 7.63
+    },
+    {
+     "text": "16",
+     "start": 7.63,
+     "end": 8.143
+    },
+    {
+     "text": "and",
+     "start": 8.143,
+     "end": 8.314
+    },
+    {
+     "text": "17,",
+     "start": 8.314,
+     "end": 8.94
+    },
+    {
+     "text": "over",
+     "start": 9.11,
+     "end": 9.41
+    },
+    {
+     "text": "70,",
+     "start": 9.41,
+     "end": 9.89
+    },
+    {
+     "text": "and",
+     "start": 10.19,
+     "end": 10.331
+    },
+    {
+     "text": "if",
+     "start": 10.331,
+     "end": 10.424
+    },
+    {
+     "text": "you",
+     "start": 10.424,
+     "end": 10.565
+    },
+    {
+     "text": "can't",
+     "start": 10.565,
+     "end": 10.846
+    },
+    {
+     "text": "read.",
+     "start": 10.846,
+     "end": 11.08
+    },
+    {
+     "text": "Citizens",
+     "start": 11.54,
+     "end": 12.04
+    },
+    {
+     "text": "abroad",
+     "start": 12.04,
+     "end": 12.428
+    },
+    {
+     "text": "only",
+     "start": 12.428,
+     "end": 12.761
+    },
+    {
+     "text": "vote",
+     "start": 12.761,
+     "end": 13.039
+    },
+    {
+     "text": "for",
+     "start": 13.039,
+     "end": 13.205
+    },
+    {
+     "text": "president.",
+     "start": 13.205,
+     "end": 13.76
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "There's no paper ballot. You type each candidate's number into a machine, check the photo, and press green. Six votes in a row.",
+   "start": 14.1,
+   "end": 21.71,
+   "words": [
+    {
+     "text": "There's",
+     "start": 14.1,
+     "end": 14.376
+    },
+    {
+     "text": "no",
+     "start": 14.376,
+     "end": 14.597
+    },
+    {
+     "text": "paper",
+     "start": 14.597,
+     "end": 14.929
+    },
+    {
+     "text": "ballot.",
+     "start": 14.929,
+     "end": 15.26
+    },
+    {
+     "text": "You",
+     "start": 15.57,
+     "end": 15.751
+    },
+    {
+     "text": "type",
+     "start": 15.751,
+     "end": 16.053
+    },
+    {
+     "text": "each",
+     "start": 16.053,
+     "end": 16.356
+    },
+    {
+     "text": "candidate's",
+     "start": 16.356,
+     "end": 17.081
+    },
+    {
+     "text": "number",
+     "start": 17.081,
+     "end": 17.443
+    },
+    {
+     "text": "into",
+     "start": 17.443,
+     "end": 17.746
+    },
+    {
+     "text": "a",
+     "start": 17.746,
+     "end": 17.927
+    },
+    {
+     "text": "machine,",
+     "start": 17.927,
+     "end": 18.35
+    },
+    {
+     "text": "check",
+     "start": 18.47,
+     "end": 18.677
+    },
+    {
+     "text": "the",
+     "start": 18.677,
+     "end": 18.76
+    },
+    {
+     "text": "photo,",
+     "start": 18.76,
+     "end": 19.05
+    },
+    {
+     "text": "and",
+     "start": 19.23,
+     "end": 19.416
+    },
+    {
+     "text": "press",
+     "start": 19.416,
+     "end": 19.727
+    },
+    {
+     "text": "green.",
+     "start": 19.727,
+     "end": 20.1
+    },
+    {
+     "text": "Six",
+     "start": 20.48,
+     "end": 20.773
+    },
+    {
+     "text": "votes",
+     "start": 20.773,
+     "end": 21.124
+    },
+    {
+     "text": "in",
+     "start": 21.124,
+     "end": 21.3
+    },
+    {
+     "text": "a",
+     "start": 21.3,
+     "end": 21.476
+    },
+    {
+     "text": "row.",
+     "start": 21.476,
+     "end": 21.71
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Deputies' seats are shared by party votes in each state. So one star candidate can pull others in with them.",
+   "start": 22.07,
+   "end": 28.29,
+   "words": [
+    {
+     "text": "Deputies'",
+     "start": 22.07,
+     "end": 22.645
+    },
+    {
+     "text": "seats",
+     "start": 22.645,
+     "end": 22.991
+    },
+    {
+     "text": "are",
+     "start": 22.991,
+     "end": 23.106
+    },
+    {
+     "text": "shared",
+     "start": 23.106,
+     "end": 23.394
+    },
+    {
+     "text": "by",
+     "start": 23.394,
+     "end": 23.624
+    },
+    {
+     "text": "party",
+     "start": 23.624,
+     "end": 23.969
+    },
+    {
+     "text": "votes",
+     "start": 23.969,
+     "end": 24.314
+    },
+    {
+     "text": "in",
+     "start": 24.314,
+     "end": 24.487
+    },
+    {
+     "text": "each",
+     "start": 24.487,
+     "end": 24.775
+    },
+    {
+     "text": "state.",
+     "start": 24.775,
+     "end": 25.12
+    },
+    {
+     "text": "So",
+     "start": 25.58,
+     "end": 25.811
+    },
+    {
+     "text": "one",
+     "start": 25.811,
+     "end": 26.041
+    },
+    {
+     "text": "star",
+     "start": 26.041,
+     "end": 26.33
+    },
+    {
+     "text": "candidate",
+     "start": 26.33,
+     "end": 26.964
+    },
+    {
+     "text": "can",
+     "start": 26.964,
+     "end": 27.194
+    },
+    {
+     "text": "pull",
+     "start": 27.194,
+     "end": 27.425
+    },
+    {
+     "text": "others",
+     "start": 27.425,
+     "end": 27.713
+    },
+    {
+     "text": "in",
+     "start": 27.713,
+     "end": 27.886
+    },
+    {
+     "text": "with",
+     "start": 27.886,
+     "end": 28.059
+    },
+    {
+     "text": "them.",
+     "start": 28.059,
+     "end": 28.29
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "That's the 513-member Chamber of Deputies. It makes the laws. The Senate, three per state, must approve them too.",
+   "start": 28.63,
+   "end": 36.17,
+   "words": [
+    {
+     "text": "That's",
+     "start": 28.63,
+     "end": 28.893
+    },
+    {
+     "text": "the",
+     "start": 28.893,
+     "end": 28.998
+    },
+    {
+     "text": "513-member",
+     "start": 28.998,
+     "end": 30.577
+    },
+    {
+     "text": "Chamber",
+     "start": 30.577,
+     "end": 30.998
+    },
+    {
+     "text": "of",
+     "start": 30.998,
+     "end": 31.104
+    },
+    {
+     "text": "Deputies.",
+     "start": 31.104,
+     "end": 31.63
+    },
+    {
+     "text": "It",
+     "start": 31.96,
+     "end": 32.089
+    },
+    {
+     "text": "makes",
+     "start": 32.089,
+     "end": 32.477
+    },
+    {
+     "text": "the",
+     "start": 32.477,
+     "end": 32.607
+    },
+    {
+     "text": "laws.",
+     "start": 32.607,
+     "end": 32.93
+    },
+    {
+     "text": "The",
+     "start": 33.34,
+     "end": 33.442
+    },
+    {
+     "text": "Senate,",
+     "start": 33.442,
+     "end": 33.75
+    },
+    {
+     "text": "three",
+     "start": 34.03,
+     "end": 34.312
+    },
+    {
+     "text": "per",
+     "start": 34.312,
+     "end": 34.481
+    },
+    {
+     "text": "state,",
+     "start": 34.481,
+     "end": 34.82
+    },
+    {
+     "text": "must",
+     "start": 35.06,
+     "end": 35.337
+    },
+    {
+     "text": "approve",
+     "start": 35.337,
+     "end": 35.726
+    },
+    {
+     "text": "them",
+     "start": 35.726,
+     "end": 35.948
+    },
+    {
+     "text": "too.",
+     "start": 35.948,
+     "end": 36.17
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president runs the government, with no prime minister. If nobody gets over half, the top two meet in a run-off.",
+   "start": 36.53,
+   "end": 43.2,
+   "words": [
+    {
+     "text": "The",
+     "start": 36.53,
+     "end": 36.634
+    },
+    {
+     "text": "president",
+     "start": 36.634,
+     "end": 37.155
+    },
+    {
+     "text": "runs",
+     "start": 37.155,
+     "end": 37.415
+    },
+    {
+     "text": "the",
+     "start": 37.415,
+     "end": 37.519
+    },
+    {
+     "text": "government,",
+     "start": 37.519,
+     "end": 38.04
+    },
+    {
+     "text": "with",
+     "start": 38.28,
+     "end": 38.464
+    },
+    {
+     "text": "no",
+     "start": 38.464,
+     "end": 38.71
+    },
+    {
+     "text": "prime",
+     "start": 38.71,
+     "end": 39.079
+    },
+    {
+     "text": "minister.",
+     "start": 39.079,
+     "end": 39.57
+    },
+    {
+     "text": "If",
+     "start": 40.01,
+     "end": 40.116
+    },
+    {
+     "text": "nobody",
+     "start": 40.116,
+     "end": 40.538
+    },
+    {
+     "text": "gets",
+     "start": 40.538,
+     "end": 40.802
+    },
+    {
+     "text": "over",
+     "start": 40.802,
+     "end": 41.066
+    },
+    {
+     "text": "half,",
+     "start": 41.066,
+     "end": 41.33
+    },
+    {
+     "text": "the",
+     "start": 41.64,
+     "end": 41.751
+    },
+    {
+     "text": "top",
+     "start": 41.751,
+     "end": 41.974
+    },
+    {
+     "text": "two",
+     "start": 41.974,
+     "end": 42.197
+    },
+    {
+     "text": "meet",
+     "start": 42.197,
+     "end": 42.476
+    },
+    {
+     "text": "in",
+     "start": 42.476,
+     "end": 42.643
+    },
+    {
+     "text": "a",
+     "start": 42.643,
+     "end": 42.81
+    },
+    {
+     "text": "run-off.",
+     "start": 42.81,
+     "end": 43.2
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2026, Lula trailed Flávio Bolsonaro in round one, then won the run-off with 51.8%. But Bolsonaro's party won the most seats in both houses.",
+   "start": 43.54,
+   "end": 54.57,
+   "words": [
+    {
+     "text": "In",
+     "start": 43.54,
+     "end": 43.682
+    },
+    {
+     "text": "2026,",
+     "start": 43.682,
+     "end": 44.58
+    },
+    {
+     "text": "Lula",
+     "start": 44.86,
+     "end": 45.179
+    },
+    {
+     "text": "trailed",
+     "start": 45.179,
+     "end": 45.551
+    },
+    {
+     "text": "Flávio",
+     "start": 45.551,
+     "end": 46.029
+    },
+    {
+     "text": "Bolsonaro",
+     "start": 46.029,
+     "end": 46.719
+    },
+    {
+     "text": "in",
+     "start": 46.719,
+     "end": 46.879
+    },
+    {
+     "text": "round",
+     "start": 46.879,
+     "end": 47.197
+    },
+    {
+     "text": "one,",
+     "start": 47.197,
+     "end": 47.41
+    },
+    {
+     "text": "then",
+     "start": 47.76,
+     "end": 47.997
+    },
+    {
+     "text": "won",
+     "start": 47.997,
+     "end": 48.233
+    },
+    {
+     "text": "the",
+     "start": 48.233,
+     "end": 48.351
+    },
+    {
+     "text": "run-off",
+     "start": 48.351,
+     "end": 48.765
+    },
+    {
+     "text": "with",
+     "start": 48.765,
+     "end": 48.943
+    },
+    {
+     "text": "51.8%.",
+     "start": 48.943,
+     "end": 50.54
+    },
+    {
+     "text": "But",
+     "start": 51.07,
+     "end": 51.316
+    },
+    {
+     "text": "Bolsonaro's",
+     "start": 51.316,
+     "end": 52.175
+    },
+    {
+     "text": "party",
+     "start": 52.175,
+     "end": 52.544
+    },
+    {
+     "text": "won",
+     "start": 52.544,
+     "end": 52.789
+    },
+    {
+     "text": "the",
+     "start": 52.789,
+     "end": 52.912
+    },
+    {
+     "text": "most",
+     "start": 52.912,
+     "end": 53.28
+    },
+    {
+     "text": "seats",
+     "start": 53.28,
+     "end": 53.649
+    },
+    {
+     "text": "in",
+     "start": 53.649,
+     "end": 53.833
+    },
+    {
+     "text": "both",
+     "start": 53.833,
+     "end": 54.14
+    },
+    {
+     "text": "houses.",
+     "start": 54.14,
+     "end": 54.57
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should anyone be forced to vote?",
+   "start": 55.23,
+   "end": 57.05,
+   "words": [
+    {
+     "text": "So,",
+     "start": 55.23,
+     "end": 55.435
+    },
+    {
+     "text": "should",
+     "start": 55.512,
+     "end": 55.717
+    },
+    {
+     "text": "anyone",
+     "start": 55.717,
+     "end": 56.127
+    },
+    {
+     "text": "be",
+     "start": 56.127,
+     "end": 56.332
+    },
+    {
+     "text": "forced",
+     "start": 56.332,
+     "end": 56.64
+    },
+    {
+     "text": "to",
+     "start": 56.64,
+     "end": 56.794
+    },
+    {
+     "text": "vote?",
+     "start": 56.794,
+     "end": 57.05
+    }
+   ]
+  }
+ ]
+}

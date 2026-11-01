@@ -1,0 +1,60 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.17,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "16": "sixteen",
+    "17": "seventeen",
+    "18": "eighteen",
+    "70": "seventy",
+    "2026": "twenty twenty-six",
+    "51.8%": "fifty-one point eight percent",
+    "513-member": "five-hundred-and-thirteen-member"
+  },
+  "pronounce": {
+    "Flávio": "flˈɑːviəʊ",
+    "Lula": "lˈuːlə",
+    "Bolsonaro": "bˌɒlsənˈɑːɹəʊ",
+    "Bolsonaro's": "bˌɒlsənˈɑːɹəʊz"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In Brazil, skipping the vote can cost you your passport."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Voting is a must from 18 to 70. It's optional at 16 and 17, over 70, and if you can't read. Citizens abroad only vote for president."
+    },
+    {
+      "id": "ballot",
+      "text": "There's no paper ballot. You type each candidate's number into a machine, check the photo, and press green. Six votes in a row.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Deputies' seats are shared by party votes in each state. So one star candidate can pull others in with them."
+    },
+    {
+      "id": "congress",
+      "text": "That's the 513-member Chamber of Deputies. It makes the laws. The Senate, three per state, must approve them too.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "president",
+      "text": "The president runs the government, with no prime minister. If nobody gets over half, the top two meet in a run-off."
+    },
+    {
+      "id": "result",
+      "text": "In 2026, Lula trailed Flávio Bolsonaro in round one, then won the run-off with 51.8%. But Bolsonaro's party won the most seats in both houses.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "question",
+      "text": "So, should anyone be forced to vote?",
+      "pauseAfter": 1.0
+    }
+  ]
+}
