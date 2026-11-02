@@ -1,0 +1,62 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.17,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "16": "sixteen",
+    "18": "eighteen",
+    "70": "seventy",
+    "40%": "forty percent",
+    "45%": "forty-five percent",
+    "3%": "three percent",
+    "55.7%": "fifty-five point seven percent",
+    "2023": "twenty twenty-three",
+    "2025": "twenty twenty-five",
+    "16-year-olds": "sixteen-year-olds",
+    "257-member": "two-hundred-and-fifty-seven-member"
+  },
+  "pronounce": {
+    "Milei": "mɪlˈeɪ",
+    "Javier": "hˌæviˈɛə"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "In Argentina, 40% of the vote can make you president."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Every citizen from 16, and it's a must from 18 to 70. Citizens abroad can vote too."
+    },
+    {
+      "id": "ballot",
+      "text": "Since 2025, there's one paper ballot: a row per race, a column per party. Tick one box per row, fold it, and drop it in.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Deputies are shared out by vote share in each province, above a 3% line. Half are elected every two years."
+    },
+    {
+      "id": "congress",
+      "text": "That's the 257-member Chamber of Deputies, which makes the laws. The Senate must pass them too: three per province, one for the runner-up.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "president",
+      "text": "The president runs the government. 45% wins in round one, or 40% with a ten-point lead. If not, there's a run-off."
+    },
+    {
+      "id": "result",
+      "text": "In 2023, Javier Milei won the run-off with 55.7%. In 2025, his party won the midterms, but still has no majority.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "question",
+      "text": "So, should 16-year-olds help choose who runs a country?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

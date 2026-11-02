@@ -46,7 +46,7 @@ prompt says otherwise.
 - **Language:** always English (voice, subtitles, on-screen text).
 - **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
   Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
-  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`.
+  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`, `ArgentineElection`.
   - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
     text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
   - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
@@ -171,6 +171,13 @@ prompt says otherwise.
   press green, six votes), open lists where a star candidate pulls others in, the Chamber (513) and Senate (3 per state),
   a two-round presidency, the 2026 result (Lula's run-off comeback, Bolsonaro's PL the biggest party in both houses),
   and "Should anyone be forced to vote?" as the ending.
+  `ArgentineElection` ("How Argentina votes.", `briefs/argentine-election-system/`) was also made with no questions
+  asked: the Swedish look in a deep celeste with white accent blocks (deep-blue letters, gold rim), a turning Sun of May
+  (`Emblem` in `src/scenes/argentine-election/ui.tsx`) and, since red is not in the flag, a **gold subtitle pill with navy
+  text**; "40% of the vote can make you president" as the hook, voting from 16 (a must 18–70), the single paper ballot
+  (one box per row, since 2025), D'Hondt by province above 3% with half the Chamber every two years, the Chamber (257) and
+  a Senate with 2 seats for the winner and 1 for the runner-up, the 45% / 40%+10 rule, Milei's 2023 win and the 2025
+  midterms (biggest bloc, no majority), and "Should 16-year-olds help choose who runs a country?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;

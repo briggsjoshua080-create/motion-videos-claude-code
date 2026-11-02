@@ -1,0 +1,816 @@
+{
+ "audio": "voiceover/argentine-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.45,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "In Argentina, 40% of the vote can make you president.",
+   "start": 0.23,
+   "end": 3.8,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.23,
+     "end": 0.388
+    },
+    {
+     "text": "Argentina,",
+     "start": 0.388,
+     "end": 1.07
+    },
+    {
+     "text": "40%",
+     "start": 1.34,
+     "end": 2.067
+    },
+    {
+     "text": "of",
+     "start": 2.067,
+     "end": 2.179
+    },
+    {
+     "text": "the",
+     "start": 2.179,
+     "end": 2.29
+    },
+    {
+     "text": "vote",
+     "start": 2.29,
+     "end": 2.57
+    },
+    {
+     "text": "can",
+     "start": 2.57,
+     "end": 2.794
+    },
+    {
+     "text": "make",
+     "start": 2.794,
+     "end": 3.073
+    },
+    {
+     "text": "you",
+     "start": 3.073,
+     "end": 3.241
+    },
+    {
+     "text": "president.",
+     "start": 3.241,
+     "end": 3.8
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Who can vote? Every citizen from 16, and it's a must from 18 to 70. Citizens abroad can vote too.",
+   "start": 4.14,
+   "end": 10.89,
+   "words": [
+    {
+     "text": "Who",
+     "start": 4.14,
+     "end": 4.312
+    },
+    {
+     "text": "can",
+     "start": 4.312,
+     "end": 4.485
+    },
+    {
+     "text": "vote?",
+     "start": 4.485,
+     "end": 4.7
+    },
+    {
+     "text": "Every",
+     "start": 5.03,
+     "end": 5.316
+    },
+    {
+     "text": "citizen",
+     "start": 5.316,
+     "end": 5.775
+    },
+    {
+     "text": "from",
+     "start": 5.775,
+     "end": 6.004
+    },
+    {
+     "text": "16,",
+     "start": 6.004,
+     "end": 6.52
+    },
+    {
+     "text": "and",
+     "start": 6.8,
+     "end": 6.961
+    },
+    {
+     "text": "it's",
+     "start": 6.961,
+     "end": 7.122
+    },
+    {
+     "text": "a",
+     "start": 7.122,
+     "end": 7.282
+    },
+    {
+     "text": "must",
+     "start": 7.282,
+     "end": 7.551
+    },
+    {
+     "text": "from",
+     "start": 7.551,
+     "end": 7.765
+    },
+    {
+     "text": "18",
+     "start": 7.765,
+     "end": 8.14
+    },
+    {
+     "text": "to",
+     "start": 8.14,
+     "end": 8.301
+    },
+    {
+     "text": "70.",
+     "start": 8.301,
+     "end": 8.73
+    },
+    {
+     "text": "Citizens",
+     "start": 9.13,
+     "end": 9.676
+    },
+    {
+     "text": "abroad",
+     "start": 9.676,
+     "end": 10.101
+    },
+    {
+     "text": "can",
+     "start": 10.101,
+     "end": 10.344
+    },
+    {
+     "text": "vote",
+     "start": 10.344,
+     "end": 10.647
+    },
+    {
+     "text": "too.",
+     "start": 10.647,
+     "end": 10.89
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Since 2025, there's one paper ballot: a row per race, a column per party. Tick one box per row, fold it, and drop it in.",
+   "start": 11.23,
+   "end": 19.31,
+   "words": [
+    {
+     "text": "Since",
+     "start": 11.23,
+     "end": 11.465
+    },
+    {
+     "text": "2025,",
+     "start": 11.465,
+     "end": 12.36
+    },
+    {
+     "text": "there's",
+     "start": 12.65,
+     "end": 12.912
+    },
+    {
+     "text": "one",
+     "start": 12.912,
+     "end": 13.121
+    },
+    {
+     "text": "paper",
+     "start": 13.121,
+     "end": 13.436
+    },
+    {
+     "text": "ballot:",
+     "start": 13.436,
+     "end": 13.75
+    },
+    {
+     "text": "a",
+     "start": 14.07,
+     "end": 14.27
+    },
+    {
+     "text": "row",
+     "start": 14.27,
+     "end": 14.537
+    },
+    {
+     "text": "per",
+     "start": 14.537,
+     "end": 14.737
+    },
+    {
+     "text": "race,",
+     "start": 14.737,
+     "end": 15.07
+    },
+    {
+     "text": "a",
+     "start": 15.21,
+     "end": 15.392
+    },
+    {
+     "text": "column",
+     "start": 15.392,
+     "end": 15.755
+    },
+    {
+     "text": "per",
+     "start": 15.755,
+     "end": 15.937
+    },
+    {
+     "text": "party.",
+     "start": 15.937,
+     "end": 16.3
+    },
+    {
+     "text": "Tick",
+     "start": 16.7,
+     "end": 16.834
+    },
+    {
+     "text": "one",
+     "start": 16.834,
+     "end": 16.968
+    },
+    {
+     "text": "box",
+     "start": 16.968,
+     "end": 17.135
+    },
+    {
+     "text": "per",
+     "start": 17.135,
+     "end": 17.236
+    },
+    {
+     "text": "row,",
+     "start": 17.236,
+     "end": 17.37
+    },
+    {
+     "text": "fold",
+     "start": 17.46,
+     "end": 18.195
+    },
+    {
+     "text": "it,",
+     "start": 18.195,
+     "end": 18.44
+    },
+    {
+     "text": "and",
+     "start": 18.64,
+     "end": 18.795
+    },
+    {
+     "text": "drop",
+     "start": 18.795,
+     "end": 19.052
+    },
+    {
+     "text": "it",
+     "start": 19.052,
+     "end": 19.155
+    },
+    {
+     "text": "in.",
+     "start": 19.155,
+     "end": 19.31
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Deputies are shared out by vote share in each province, above a 3% line. Half are elected every two years.",
+   "start": 19.67,
+   "end": 26.57,
+   "words": [
+    {
+     "text": "Deputies",
+     "start": 19.67,
+     "end": 20.248
+    },
+    {
+     "text": "are",
+     "start": 20.248,
+     "end": 20.364
+    },
+    {
+     "text": "shared",
+     "start": 20.364,
+     "end": 20.653
+    },
+    {
+     "text": "out",
+     "start": 20.653,
+     "end": 20.884
+    },
+    {
+     "text": "by",
+     "start": 20.884,
+     "end": 21.115
+    },
+    {
+     "text": "vote",
+     "start": 21.115,
+     "end": 21.404
+    },
+    {
+     "text": "share",
+     "start": 21.404,
+     "end": 21.635
+    },
+    {
+     "text": "in",
+     "start": 21.635,
+     "end": 21.809
+    },
+    {
+     "text": "each",
+     "start": 21.809,
+     "end": 22.098
+    },
+    {
+     "text": "province,",
+     "start": 22.098,
+     "end": 22.56
+    },
+    {
+     "text": "above",
+     "start": 22.88,
+     "end": 23.162
+    },
+    {
+     "text": "a",
+     "start": 23.162,
+     "end": 23.331
+    },
+    {
+     "text": "3%",
+     "start": 23.331,
+     "end": 24.008
+    },
+    {
+     "text": "line.",
+     "start": 24.008,
+     "end": 24.29
+    },
+    {
+     "text": "Half",
+     "start": 24.68,
+     "end": 25.006
+    },
+    {
+     "text": "are",
+     "start": 25.006,
+     "end": 25.136
+    },
+    {
+     "text": "elected",
+     "start": 25.136,
+     "end": 25.658
+    },
+    {
+     "text": "every",
+     "start": 25.658,
+     "end": 25.983
+    },
+    {
+     "text": "two",
+     "start": 25.983,
+     "end": 26.244
+    },
+    {
+     "text": "years.",
+     "start": 26.244,
+     "end": 26.57
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "That's the 257-member Chamber of Deputies, which makes the laws. The Senate must pass them too: three per province, one for the runner-up.",
+   "start": 26.91,
+   "end": 35.79,
+   "words": [
+    {
+     "text": "That's",
+     "start": 26.91,
+     "end": 27.17
+    },
+    {
+     "text": "the",
+     "start": 27.17,
+     "end": 27.274
+    },
+    {
+     "text": "257-member",
+     "start": 27.274,
+     "end": 28.99
+    },
+    {
+     "text": "Chamber",
+     "start": 28.99,
+     "end": 29.406
+    },
+    {
+     "text": "of",
+     "start": 29.406,
+     "end": 29.51
+    },
+    {
+     "text": "Deputies,",
+     "start": 29.51,
+     "end": 30.03
+    },
+    {
+     "text": "which",
+     "start": 30.34,
+     "end": 30.629
+    },
+    {
+     "text": "makes",
+     "start": 30.629,
+     "end": 30.975
+    },
+    {
+     "text": "the",
+     "start": 30.975,
+     "end": 31.091
+    },
+    {
+     "text": "laws.",
+     "start": 31.091,
+     "end": 31.38
+    },
+    {
+     "text": "The",
+     "start": 31.85,
+     "end": 31.97
+    },
+    {
+     "text": "Senate",
+     "start": 31.97,
+     "end": 32.33
+    },
+    {
+     "text": "must",
+     "start": 32.33,
+     "end": 32.63
+    },
+    {
+     "text": "pass",
+     "start": 32.63,
+     "end": 32.87
+    },
+    {
+     "text": "them",
+     "start": 32.87,
+     "end": 33.11
+    },
+    {
+     "text": "too:",
+     "start": 33.11,
+     "end": 33.35
+    },
+    {
+     "text": "three",
+     "start": 33.62,
+     "end": 33.907
+    },
+    {
+     "text": "per",
+     "start": 33.907,
+     "end": 34.08
+    },
+    {
+     "text": "province,",
+     "start": 34.08,
+     "end": 34.54
+    },
+    {
+     "text": "one",
+     "start": 34.81,
+     "end": 35.028
+    },
+    {
+     "text": "for",
+     "start": 35.028,
+     "end": 35.191
+    },
+    {
+     "text": "the",
+     "start": 35.191,
+     "end": 35.3
+    },
+    {
+     "text": "runner-up.",
+     "start": 35.3,
+     "end": 35.79
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president runs the government. 45% wins in round one, or 40% with a ten-point lead. If not, there's a run-off.",
+   "start": 36.15,
+   "end": 44.38,
+   "words": [
+    {
+     "text": "The",
+     "start": 36.15,
+     "end": 36.257
+    },
+    {
+     "text": "president",
+     "start": 36.257,
+     "end": 36.795
+    },
+    {
+     "text": "runs",
+     "start": 36.795,
+     "end": 37.064
+    },
+    {
+     "text": "the",
+     "start": 37.064,
+     "end": 37.172
+    },
+    {
+     "text": "government.",
+     "start": 37.172,
+     "end": 37.71
+    },
+    {
+     "text": "45%",
+     "start": 38.13,
+     "end": 39.17
+    },
+    {
+     "text": "wins",
+     "start": 39.17,
+     "end": 39.459
+    },
+    {
+     "text": "in",
+     "start": 39.459,
+     "end": 39.632
+    },
+    {
+     "text": "round",
+     "start": 39.632,
+     "end": 39.979
+    },
+    {
+     "text": "one,",
+     "start": 39.979,
+     "end": 40.21
+    },
+    {
+     "text": "or",
+     "start": 40.39,
+     "end": 40.509
+    },
+    {
+     "text": "40%",
+     "start": 40.509,
+     "end": 41.286
+    },
+    {
+     "text": "with",
+     "start": 41.286,
+     "end": 41.465
+    },
+    {
+     "text": "a",
+     "start": 41.465,
+     "end": 41.644
+    },
+    {
+     "text": "ten-point",
+     "start": 41.644,
+     "end": 42.241
+    },
+    {
+     "text": "lead.",
+     "start": 42.241,
+     "end": 42.54
+    },
+    {
+     "text": "If",
+     "start": 42.98,
+     "end": 43.11
+    },
+    {
+     "text": "not,",
+     "start": 43.11,
+     "end": 43.37
+    },
+    {
+     "text": "there's",
+     "start": 43.67,
+     "end": 43.907
+    },
+    {
+     "text": "a",
+     "start": 43.907,
+     "end": 44.049
+    },
+    {
+     "text": "run-off.",
+     "start": 44.049,
+     "end": 44.38
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2023, Javier Milei won the run-off with 55.7%. In 2025, his party won the midterms, but still has no majority.",
+   "start": 44.72,
+   "end": 54.79,
+   "words": [
+    {
+     "text": "In",
+     "start": 44.72,
+     "end": 44.86
+    },
+    {
+     "text": "2023,",
+     "start": 44.86,
+     "end": 45.75
+    },
+    {
+     "text": "Javier",
+     "start": 46.0,
+     "end": 46.486
+    },
+    {
+     "text": "Milei",
+     "start": 46.486,
+     "end": 46.852
+    },
+    {
+     "text": "won",
+     "start": 46.852,
+     "end": 47.095
+    },
+    {
+     "text": "the",
+     "start": 47.095,
+     "end": 47.216
+    },
+    {
+     "text": "run-off",
+     "start": 47.216,
+     "end": 47.642
+    },
+    {
+     "text": "with",
+     "start": 47.642,
+     "end": 47.825
+    },
+    {
+     "text": "55.7%.",
+     "start": 47.825,
+     "end": 49.65
+    },
+    {
+     "text": "In",
+     "start": 50.15,
+     "end": 50.289
+    },
+    {
+     "text": "2025,",
+     "start": 50.289,
+     "end": 51.17
+    },
+    {
+     "text": "his",
+     "start": 51.49,
+     "end": 51.704
+    },
+    {
+     "text": "party",
+     "start": 51.704,
+     "end": 52.024
+    },
+    {
+     "text": "won",
+     "start": 52.024,
+     "end": 52.238
+    },
+    {
+     "text": "the",
+     "start": 52.238,
+     "end": 52.345
+    },
+    {
+     "text": "midterms,",
+     "start": 52.345,
+     "end": 52.88
+    },
+    {
+     "text": "but",
+     "start": 53.19,
+     "end": 53.427
+    },
+    {
+     "text": "still",
+     "start": 53.427,
+     "end": 53.723
+    },
+    {
+     "text": "has",
+     "start": 53.723,
+     "end": 53.96
+    },
+    {
+     "text": "no",
+     "start": 53.96,
+     "end": 54.197
+    },
+    {
+     "text": "majority.",
+     "start": 54.197,
+     "end": 54.79
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should 16-year-olds help choose who runs a country?",
+   "start": 55.45,
+   "end": 58.42,
+   "words": [
+    {
+     "text": "So,",
+     "start": 55.45,
+     "end": 55.649
+    },
+    {
+     "text": "should",
+     "start": 55.724,
+     "end": 55.924
+    },
+    {
+     "text": "16-year-olds",
+     "start": 55.924,
+     "end": 56.922
+    },
+    {
+     "text": "help",
+     "start": 56.922,
+     "end": 57.172
+    },
+    {
+     "text": "choose",
+     "start": 57.172,
+     "end": 57.471
+    },
+    {
+     "text": "who",
+     "start": 57.471,
+     "end": 57.671
+    },
+    {
+     "text": "runs",
+     "start": 57.671,
+     "end": 57.921
+    },
+    {
+     "text": "a",
+     "start": 57.921,
+     "end": 58.07
+    },
+    {
+     "text": "country?",
+     "start": 58.07,
+     "end": 58.42
+    }
+   ]
+  }
+ ]
+}
