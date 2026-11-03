@@ -1,0 +1,983 @@
+{
+ "audio": "voiceover/russian-election-2036.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.69,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Putin can legally rule until 2036.",
+   "start": 0.13,
+   "end": 2.94,
+   "words": [
+    {
+     "text": "Putin",
+     "start": 0.13,
+     "end": 0.54
+    },
+    {
+     "text": "can",
+     "start": 0.54,
+     "end": 0.774
+    },
+    {
+     "text": "legally",
+     "start": 0.774,
+     "end": 1.242
+    },
+    {
+     "text": "rule",
+     "start": 1.242,
+     "end": 1.535
+    },
+    {
+     "text": "until",
+     "start": 1.535,
+     "end": 1.886
+    },
+    {
+     "text": "2036.",
+     "start": 1.886,
+     "end": 2.94
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "How? Who else has power? And did the last vote matter?",
+   "start": 3.16,
+   "end": 5.91,
+   "words": [
+    {
+     "text": "How?",
+     "start": 3.16,
+     "end": 3.373
+    },
+    {
+     "text": "Who",
+     "start": 3.453,
+     "end": 3.667
+    },
+    {
+     "text": "else",
+     "start": 3.667,
+     "end": 3.88
+    },
+    {
+     "text": "has",
+     "start": 3.88,
+     "end": 4.093
+    },
+    {
+     "text": "power?",
+     "start": 4.093,
+     "end": 4.36
+    },
+    {
+     "text": "And",
+     "start": 4.63,
+     "end": 4.79
+    },
+    {
+     "text": "did",
+     "start": 4.79,
+     "end": 5.003
+    },
+    {
+     "text": "the",
+     "start": 5.003,
+     "end": 5.11
+    },
+    {
+     "text": "last",
+     "start": 5.11,
+     "end": 5.377
+    },
+    {
+     "text": "vote",
+     "start": 5.377,
+     "end": 5.643
+    },
+    {
+     "text": "matter?",
+     "start": 5.643,
+     "end": 5.91
+    }
+   ]
+  },
+  {
+   "id": "reset",
+   "text": "In 2020, a rule change reset his terms to zero.",
+   "start": 6.19,
+   "end": 9.49,
+   "words": [
+    {
+     "text": "In",
+     "start": 6.19,
+     "end": 6.329
+    },
+    {
+     "text": "2020,",
+     "start": 6.329,
+     "end": 6.98
+    },
+    {
+     "text": "a",
+     "start": 7.24,
+     "end": 7.401
+    },
+    {
+     "text": "rule",
+     "start": 7.401,
+     "end": 7.669
+    },
+    {
+     "text": "change",
+     "start": 7.669,
+     "end": 8.097
+    },
+    {
+     "text": "reset",
+     "start": 8.097,
+     "end": 8.419
+    },
+    {
+     "text": "his",
+     "start": 8.419,
+     "end": 8.633
+    },
+    {
+     "text": "terms",
+     "start": 8.633,
+     "end": 8.954
+    },
+    {
+     "text": "to",
+     "start": 8.954,
+     "end": 9.115
+    },
+    {
+     "text": "zero.",
+     "start": 9.115,
+     "end": 9.49
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Every citizen from 18 can vote, even abroad.",
+   "start": 9.71,
+   "end": 12.51,
+   "words": [
+    {
+     "text": "Every",
+     "start": 9.71,
+     "end": 9.986
+    },
+    {
+     "text": "citizen",
+     "start": 9.986,
+     "end": 10.427
+    },
+    {
+     "text": "from",
+     "start": 10.427,
+     "end": 10.648
+    },
+    {
+     "text": "18",
+     "start": 10.648,
+     "end": 11.034
+    },
+    {
+     "text": "can",
+     "start": 11.034,
+     "end": 11.254
+    },
+    {
+     "text": "vote,",
+     "start": 11.254,
+     "end": 11.53
+    },
+    {
+     "text": "even",
+     "start": 11.78,
+     "end": 12.117
+    },
+    {
+     "text": "abroad.",
+     "start": 12.117,
+     "end": 12.51
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the weird part: you vote twice.",
+   "start": 12.73,
+   "end": 14.92,
+   "words": [
+    {
+     "text": "But",
+     "start": 12.73,
+     "end": 12.939
+    },
+    {
+     "text": "here's",
+     "start": 12.939,
+     "end": 13.201
+    },
+    {
+     "text": "the",
+     "start": 13.201,
+     "end": 13.306
+    },
+    {
+     "text": "weird",
+     "start": 13.306,
+     "end": 13.568
+    },
+    {
+     "text": "part:",
+     "start": 13.568,
+     "end": 13.83
+    },
+    {
+     "text": "you",
+     "start": 14.06,
+     "end": 14.244
+    },
+    {
+     "text": "vote",
+     "start": 14.244,
+     "end": 14.551
+    },
+    {
+     "text": "twice.",
+     "start": 14.551,
+     "end": 14.92
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Two ballots: one for a party, one for a local candidate.",
+   "start": 15.22,
+   "end": 18.53,
+   "words": [
+    {
+     "text": "Two",
+     "start": 15.22,
+     "end": 15.464
+    },
+    {
+     "text": "ballots:",
+     "start": 15.464,
+     "end": 15.89
+    },
+    {
+     "text": "one",
+     "start": 16.07,
+     "end": 16.29
+    },
+    {
+     "text": "for",
+     "start": 16.29,
+     "end": 16.455
+    },
+    {
+     "text": "a",
+     "start": 16.455,
+     "end": 16.62
+    },
+    {
+     "text": "party,",
+     "start": 16.62,
+     "end": 16.95
+    },
+    {
+     "text": "one",
+     "start": 17.18,
+     "end": 17.373
+    },
+    {
+     "text": "for",
+     "start": 17.373,
+     "end": 17.517
+    },
+    {
+     "text": "a",
+     "start": 17.517,
+     "end": 17.662
+    },
+    {
+     "text": "local",
+     "start": 17.662,
+     "end": 18.0
+    },
+    {
+     "text": "candidate.",
+     "start": 18.0,
+     "end": 18.53
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Half the seats go to parties over 5%, half to district winners.",
+   "start": 18.89,
+   "end": 22.81,
+   "words": [
+    {
+     "text": "Half",
+     "start": 18.89,
+     "end": 19.164
+    },
+    {
+     "text": "the",
+     "start": 19.164,
+     "end": 19.273
+    },
+    {
+     "text": "seats",
+     "start": 19.273,
+     "end": 19.602
+    },
+    {
+     "text": "go",
+     "start": 19.602,
+     "end": 19.821
+    },
+    {
+     "text": "to",
+     "start": 19.821,
+     "end": 19.985
+    },
+    {
+     "text": "parties",
+     "start": 19.985,
+     "end": 20.369
+    },
+    {
+     "text": "over",
+     "start": 20.369,
+     "end": 20.643
+    },
+    {
+     "text": "5%,",
+     "start": 20.643,
+     "end": 21.3
+    },
+    {
+     "text": "half",
+     "start": 21.64,
+     "end": 21.894
+    },
+    {
+     "text": "to",
+     "start": 21.894,
+     "end": 22.047
+    },
+    {
+     "text": "district",
+     "start": 22.047,
+     "end": 22.505
+    },
+    {
+     "text": "winners.",
+     "start": 22.505,
+     "end": 22.81
+    }
+   ]
+  },
+  {
+   "id": "duma",
+   "text": "That's the State Duma. It makes the laws.",
+   "start": 23.03,
+   "end": 25.19,
+   "words": [
+    {
+     "text": "That's",
+     "start": 23.03,
+     "end": 23.293
+    },
+    {
+     "text": "the",
+     "start": 23.293,
+     "end": 23.398
+    },
+    {
+     "text": "State",
+     "start": 23.398,
+     "end": 23.714
+    },
+    {
+     "text": "Duma.",
+     "start": 23.714,
+     "end": 24.03
+    },
+    {
+     "text": "It",
+     "start": 24.22,
+     "end": 24.349
+    },
+    {
+     "text": "makes",
+     "start": 24.349,
+     "end": 24.737
+    },
+    {
+     "text": "the",
+     "start": 24.737,
+     "end": 24.867
+    },
+    {
+     "text": "laws.",
+     "start": 24.867,
+     "end": 25.19
+    }
+   ]
+  },
+  {
+   "id": "stranger",
+   "text": "Now it gets strange: the upper house isn't elected.",
+   "start": 25.41,
+   "end": 28.17,
+   "words": [
+    {
+     "text": "Now",
+     "start": 25.41,
+     "end": 25.628
+    },
+    {
+     "text": "it",
+     "start": 25.628,
+     "end": 25.737
+    },
+    {
+     "text": "gets",
+     "start": 25.737,
+     "end": 26.009
+    },
+    {
+     "text": "strange:",
+     "start": 26.009,
+     "end": 26.5
+    },
+    {
+     "text": "the",
+     "start": 26.77,
+     "end": 26.882
+    },
+    {
+     "text": "upper",
+     "start": 26.882,
+     "end": 27.106
+    },
+    {
+     "text": "house",
+     "start": 27.106,
+     "end": 27.386
+    },
+    {
+     "text": "isn't",
+     "start": 27.386,
+     "end": 27.722
+    },
+    {
+     "text": "elected.",
+     "start": 27.722,
+     "end": 28.17
+    }
+   ]
+  },
+  {
+   "id": "council",
+   "text": "Regions send two each, the president adds 30, and it approves every law.",
+   "start": 28.46,
+   "end": 32.76,
+   "words": [
+    {
+     "text": "Regions",
+     "start": 28.46,
+     "end": 28.953
+    },
+    {
+     "text": "send",
+     "start": 28.953,
+     "end": 29.227
+    },
+    {
+     "text": "two",
+     "start": 29.227,
+     "end": 29.446
+    },
+    {
+     "text": "each,",
+     "start": 29.446,
+     "end": 29.72
+    },
+    {
+     "text": "the",
+     "start": 29.99,
+     "end": 30.107
+    },
+    {
+     "text": "president",
+     "start": 30.107,
+     "end": 30.694
+    },
+    {
+     "text": "adds",
+     "start": 30.694,
+     "end": 30.928
+    },
+    {
+     "text": "30,",
+     "start": 30.928,
+     "end": 31.28
+    },
+    {
+     "text": "and",
+     "start": 31.51,
+     "end": 31.68
+    },
+    {
+     "text": "it",
+     "start": 31.68,
+     "end": 31.794
+    },
+    {
+     "text": "approves",
+     "start": 31.794,
+     "end": 32.249
+    },
+    {
+     "text": "every",
+     "start": 32.249,
+     "end": 32.533
+    },
+    {
+     "text": "law.",
+     "start": 32.533,
+     "end": 32.76
+    }
+   ]
+  },
+  {
+   "id": "pm",
+   "text": "The president picks the PM; the Duma says yes.",
+   "start": 32.98,
+   "end": 35.77,
+   "words": [
+    {
+     "text": "The",
+     "start": 32.98,
+     "end": 33.095
+    },
+    {
+     "text": "president",
+     "start": 33.095,
+     "end": 33.672
+    },
+    {
+     "text": "picks",
+     "start": 33.672,
+     "end": 33.961
+    },
+    {
+     "text": "the",
+     "start": 33.961,
+     "end": 34.076
+    },
+    {
+     "text": "PM;",
+     "start": 34.076,
+     "end": 34.48
+    },
+    {
+     "text": "the",
+     "start": 34.75,
+     "end": 34.877
+    },
+    {
+     "text": "Duma",
+     "start": 34.877,
+     "end": 35.26
+    },
+    {
+     "text": "says",
+     "start": 35.26,
+     "end": 35.515
+    },
+    {
+     "text": "yes.",
+     "start": 35.515,
+     "end": 35.77
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "He's elected for six years: over half wins, or a run-off.",
+   "start": 35.99,
+   "end": 39.3,
+   "words": [
+    {
+     "text": "He's",
+     "start": 35.99,
+     "end": 36.207
+    },
+    {
+     "text": "elected",
+     "start": 36.207,
+     "end": 36.643
+    },
+    {
+     "text": "for",
+     "start": 36.643,
+     "end": 36.806
+    },
+    {
+     "text": "six",
+     "start": 36.806,
+     "end": 37.078
+    },
+    {
+     "text": "years:",
+     "start": 37.078,
+     "end": 37.35
+    },
+    {
+     "text": "over",
+     "start": 37.64,
+     "end": 37.937
+    },
+    {
+     "text": "half",
+     "start": 37.937,
+     "end": 38.233
+    },
+    {
+     "text": "wins,",
+     "start": 38.233,
+     "end": 38.53
+    },
+    {
+     "text": "or",
+     "start": 38.7,
+     "end": 38.8
+    },
+    {
+     "text": "a",
+     "start": 38.8,
+     "end": 38.95
+    },
+    {
+     "text": "run-off.",
+     "start": 38.95,
+     "end": 39.3
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "In 2024, he won 87%.",
+   "start": 39.52,
+   "end": 42.35,
+   "words": [
+    {
+     "text": "In",
+     "start": 39.52,
+     "end": 39.668
+    },
+    {
+     "text": "2024,",
+     "start": 39.668,
+     "end": 40.56
+    },
+    {
+     "text": "he",
+     "start": 40.83,
+     "end": 41.012
+    },
+    {
+     "text": "won",
+     "start": 41.012,
+     "end": 41.255
+    },
+    {
+     "text": "87%.",
+     "start": 41.255,
+     "end": 42.35
+    }
+   ]
+  },
+  {
+   "id": "duma2026",
+   "text": "In 2026, his party won 349 seats. A liberal rival was barred.",
+   "start": 42.57,
+   "end": 48.17,
+   "words": [
+    {
+     "text": "In",
+     "start": 42.57,
+     "end": 42.708
+    },
+    {
+     "text": "2026,",
+     "start": 42.708,
+     "end": 43.58
+    },
+    {
+     "text": "his",
+     "start": 43.86,
+     "end": 44.071
+    },
+    {
+     "text": "party",
+     "start": 44.071,
+     "end": 44.387
+    },
+    {
+     "text": "won",
+     "start": 44.387,
+     "end": 44.599
+    },
+    {
+     "text": "349",
+     "start": 44.599,
+     "end": 46.023
+    },
+    {
+     "text": "seats.",
+     "start": 46.023,
+     "end": 46.34
+    },
+    {
+     "text": "A",
+     "start": 46.71,
+     "end": 46.878
+    },
+    {
+     "text": "liberal",
+     "start": 46.878,
+     "end": 47.327
+    },
+    {
+     "text": "rival",
+     "start": 47.327,
+     "end": 47.721
+    },
+    {
+     "text": "was",
+     "start": 47.721,
+     "end": 47.889
+    },
+    {
+     "text": "barred.",
+     "start": 47.889,
+     "end": 48.17
+    }
+   ]
+  },
+  {
+   "id": "save",
+   "text": "Save this for election day.",
+   "start": 48.39,
+   "end": 49.96,
+   "words": [
+    {
+     "text": "Save",
+     "start": 48.39,
+     "end": 48.717
+    },
+    {
+     "text": "this",
+     "start": 48.717,
+     "end": 48.979
+    },
+    {
+     "text": "for",
+     "start": 48.979,
+     "end": 49.175
+    },
+    {
+     "text": "election",
+     "start": 49.175,
+     "end": 49.698
+    },
+    {
+     "text": "day.",
+     "start": 49.698,
+     "end": 49.96
+    }
+   ]
+  },
+  {
+   "id": "gap",
+   "text": "And the gap in the timeline? Two terms in a row was the limit, so in 2008 he became PM.",
+   "start": 50.32,
+   "end": 56.02,
+   "words": [
+    {
+     "text": "And",
+     "start": 50.32,
+     "end": 50.479
+    },
+    {
+     "text": "the",
+     "start": 50.479,
+     "end": 50.585
+    },
+    {
+     "text": "gap",
+     "start": 50.585,
+     "end": 50.797
+    },
+    {
+     "text": "in",
+     "start": 50.797,
+     "end": 50.956
+    },
+    {
+     "text": "the",
+     "start": 50.956,
+     "end": 51.062
+    },
+    {
+     "text": "timeline?",
+     "start": 51.062,
+     "end": 51.54
+    },
+    {
+     "text": "Two",
+     "start": 51.86,
+     "end": 52.057
+    },
+    {
+     "text": "terms",
+     "start": 52.057,
+     "end": 52.353
+    },
+    {
+     "text": "in",
+     "start": 52.353,
+     "end": 52.501
+    },
+    {
+     "text": "a",
+     "start": 52.501,
+     "end": 52.649
+    },
+    {
+     "text": "row",
+     "start": 52.649,
+     "end": 52.847
+    },
+    {
+     "text": "was",
+     "start": 52.847,
+     "end": 52.995
+    },
+    {
+     "text": "the",
+     "start": 52.995,
+     "end": 53.094
+    },
+    {
+     "text": "limit,",
+     "start": 53.094,
+     "end": 53.39
+    },
+    {
+     "text": "so",
+     "start": 53.71,
+     "end": 53.925
+    },
+    {
+     "text": "in",
+     "start": 53.925,
+     "end": 54.086
+    },
+    {
+     "text": "2008",
+     "start": 54.086,
+     "end": 55.107
+    },
+    {
+     "text": "he",
+     "start": 55.107,
+     "end": 55.268
+    },
+    {
+     "text": "became",
+     "start": 55.268,
+     "end": 55.644
+    },
+    {
+     "text": "PM.",
+     "start": 55.644,
+     "end": 56.02
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Can a vote be fair if you know who wins?",
+   "start": 56.24,
+   "end": 58.5,
+   "words": [
+    {
+     "text": "Can",
+     "start": 56.24,
+     "end": 56.478
+    },
+    {
+     "text": "a",
+     "start": 56.478,
+     "end": 56.656
+    },
+    {
+     "text": "vote",
+     "start": 56.656,
+     "end": 56.953
+    },
+    {
+     "text": "be",
+     "start": 56.953,
+     "end": 57.191
+    },
+    {
+     "text": "fair",
+     "start": 57.191,
+     "end": 57.429
+    },
+    {
+     "text": "if",
+     "start": 57.429,
+     "end": 57.548
+    },
+    {
+     "text": "you",
+     "start": 57.548,
+     "end": 57.727
+    },
+    {
+     "text": "know",
+     "start": 57.727,
+     "end": 57.965
+    },
+    {
+     "text": "who",
+     "start": 57.965,
+     "end": 58.202
+    },
+    {
+     "text": "wins?",
+     "start": 58.202,
+     "end": 58.5
+    }
+   ]
+  }
+ ]
+}

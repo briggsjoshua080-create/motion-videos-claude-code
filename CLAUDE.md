@@ -268,6 +268,13 @@ prompt says otherwise.
   write in a candidate's number, 5% line), 26 grey seats as the rewatch detail (districts under occupation in 2019),
   and "Should Ukraine vote before the war ends?" on a last frame that mirrors the first. Its `retention-plan.md` and
   `posting.md` are the examples for the new planning files.
+  `RussianElection2036` ("Putin can legally rule until 2036.", `briefs/russian-election-2036/`) is the second Russia
+  video, the first remake of an older video in the standard look, with no questions asked: deep Russian blue with red
+  accent blocks (white letters, white rim), red full-screen flashes for the re-hooks, the standard red subtitle pill
+  (white pill with red text on the flashes); a 2000–2036 timeline on frame 0 whose hollow 2008–12 stretch is the rewatch
+  detail (the old two-in-a-row limit, so he was PM), the 2020 reset (4 terms → 0), two Duma ballots, half the seats by
+  party above 5% and half district winners, an unelected upper house, a PM the Duma just approves, the 2024 (87%) and
+  2026 (349 of 450, a liberal rival barred) results, and "Can a vote be fair if you know who wins?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;

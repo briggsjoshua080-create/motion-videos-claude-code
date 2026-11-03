@@ -1,0 +1,99 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.22,
+  "leadIn": 0.1,
+  "pauseAfter": 0.16,
+  "say": {
+    "18": "eighteen",
+    "87%": "eighty-seven percent",
+    "349": "three hundred and forty-nine",
+    "5%": "five percent",
+    "2008": "two thousand and eight",
+    "2020": "twenty twenty",
+    "2024": "twenty twenty-four",
+    "2026": "twenty twenty-six",
+    "2036": "twenty thirty-six",
+    "30": "thirty",
+    "PM": "P M"
+  },
+  "pronounce": {
+    "Putin": "pˈuːtɪn",
+    "Duma": "dˈuːmə"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Putin can legally rule until 2036."
+    },
+    {
+      "id": "loops",
+      "text": "How? Who else has power? And did the last vote matter?",
+      "pauseAfter": 0.22
+    },
+    {
+      "id": "reset",
+      "text": "In 2020, a rule change reset his terms to zero."
+    },
+    {
+      "id": "who",
+      "text": "Every citizen from 18 can vote, even abroad."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: you vote twice.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "ballot",
+      "text": "Two ballots: one for a party, one for a local candidate.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Half the seats go to parties over 5%, half to district winners."
+    },
+    {
+      "id": "duma",
+      "text": "That's the State Duma. It makes the laws."
+    },
+    {
+      "id": "stranger",
+      "text": "Now it gets strange: the upper house isn't elected.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "council",
+      "text": "Regions send two each, the president adds 30, and it approves every law."
+    },
+    {
+      "id": "pm",
+      "text": "The president picks the PM; the Duma says yes."
+    },
+    {
+      "id": "president",
+      "text": "He's elected for six years: over half wins, or a run-off."
+    },
+    {
+      "id": "result",
+      "text": "In 2024, he won 87%."
+    },
+    {
+      "id": "duma2026",
+      "text": "In 2026, his party won 349 seats. A liberal rival was barred."
+    },
+    {
+      "id": "save",
+      "text": "Save this for election day.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "gap",
+      "text": "And the gap in the timeline? Two terms in a row was the limit, so in 2008 he became PM."
+    },
+    {
+      "id": "question",
+      "text": "Can a vote be fair if you know who wins?"
+    }
+  ]
+}
