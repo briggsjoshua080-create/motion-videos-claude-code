@@ -1,0 +1,94 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.2,
+  "leadIn": 0.1,
+  "pauseAfter": 0.16,
+  "say": {
+    "18": "eighteen",
+    "26": "twenty-six",
+    "2019": "twenty nineteen",
+    "5%": "five percent",
+    "73%": "seventy-three percent"
+  },
+  "pronounce": {
+    "Volodymyr": "vˌɒlədˈɪmɪə",
+    "Zelensky": "zəlˈɛnski",
+    "Rada": "ɹˈɑːdə"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Elections are banned in Ukraine."
+    },
+    {
+      "id": "loops",
+      "text": "Why? Who's in charge? And what comes next?",
+      "pauseAfter": 0.22
+    },
+    {
+      "id": "still",
+      "text": "Its president and parliament were elected in 2019, and they're still there."
+    },
+    {
+      "id": "why",
+      "text": "Why? Martial law. Since Russia's full-scale invasion, it bans every vote."
+    },
+    {
+      "id": "rehook",
+      "text": "How they got there sounds made up.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "who",
+      "text": "Every citizen from 18 can vote, even from abroad."
+    },
+    {
+      "id": "role",
+      "text": "The president leads the army.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "ballot",
+      "text": "You tick one name. Over half wins, or the top two face a run-off.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "comedian",
+      "text": "In 2019, TV comedian Volodymyr Zelensky won the run-off with 73%."
+    },
+    {
+      "id": "stranger",
+      "text": "Then it got stranger: his party, named after his TV show, won parliament outright."
+    },
+    {
+      "id": "rada",
+      "text": "The Rada makes the laws and picks who runs the government."
+    },
+    {
+      "id": "pm",
+      "text": "In July, it chose a new prime minister."
+    },
+    {
+      "id": "next",
+      "text": "When martial law ends, you'll tick a party and can write in a candidate's number."
+    },
+    {
+      "id": "threshold",
+      "text": "Parties need 5% to win seats."
+    },
+    {
+      "id": "save",
+      "text": "Save this for election day.",
+      "pauseAfter": 0.42
+    },
+    {
+      "id": "empty",
+      "text": "And the 26 grey seats? Occupied districts, where no vote could be held."
+    },
+    {
+      "id": "question",
+      "text": "Should Ukraine vote before the war ends?"
+    }
+  ]
+}
