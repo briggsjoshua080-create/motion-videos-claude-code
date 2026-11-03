@@ -1,0 +1,62 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.18,
+  "leadIn": 0.2,
+  "pauseAfter": 0.28,
+  "say": {
+    "18": "eighteen",
+    "30": "thirty",
+    "50%": "fifty percent",
+    "5%": "five percent",
+    "87%": "eighty-seven percent",
+    "450": "four hundred and fifty",
+    "349": "three hundred and forty-nine",
+    "2020": "twenty twenty",
+    "2024": "twenty twenty-four",
+    "2026": "twenty twenty-six",
+    "2036": "twenty thirty-six"
+  },
+  "pronounce": {
+    "Duma": "dˈuːmə",
+    "Putin": "pˈuːtɪn"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Russia's president can legally rule until 2036."
+    },
+    {
+      "id": "who",
+      "text": "Who can vote? Every citizen from 18, also from abroad. Not prisoners, and voting is optional."
+    },
+    {
+      "id": "ballot",
+      "text": "For parliament, you get two ballots: one with parties, one with local candidates. Tick one box on each.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "seats",
+      "text": "Half of the 450 seats go to parties above 5%. The other half go to district winners."
+    },
+    {
+      "id": "congress",
+      "text": "That's the State Duma, which makes the laws. The Federation Council must approve them, but nobody elects it: regions send two each, the president adds up to 30.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "president",
+      "text": "The president is elected for six years, with a run-off if no one gets half. He picks the prime minister; the Duma approves. In 2020, Putin's terms were reset to zero."
+    },
+    {
+      "id": "result",
+      "text": "In 2024, Putin won with 87%. In 2026, United Russia took 349 of 450 seats, with the main liberal party barred.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "question",
+      "text": "So, can an election be fair if you already know who'll win?",
+      "pauseAfter": 1.0
+    }
+  ]
+}

@@ -46,7 +46,7 @@ prompt says otherwise.
 - **Language:** always English (voice, subtitles, on-screen text).
 - **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
   Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
-  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`, `ArgentineElection`.
+  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`, `ArgentineElection`, `RussianElection`.
   - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
     text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
   - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
@@ -178,6 +178,14 @@ prompt says otherwise.
   (one box per row, since 2025), D'Hondt by province above 3% with half the Chamber every two years, the Chamber (257) and
   a Senate with 2 seats for the winner and 1 for the runner-up, the 45% / 40%+10 rule, Milei's 2023 win and the 2025
   midterms (biggest bloc, no majority), and "Should 16-year-olds help choose who runs a country?" as the ending.
+  `RussianElection` ("How Russia votes.", `briefs/russian-election-system/`) was also made with no questions asked: the
+  Swedish look in deep Russian blue with red accent blocks (white letters, white rim), white-blue-red wipe bands, the
+  tricolour as the title bar (no coat of arms) and the standard red subtitle pill; "Russia's president can legally rule
+  until 2036" (a 1999–2036 timeline) as the hook, voting from 18 (not prisoners, optional, abroad at embassies), two
+  ballots (party list + district candidate), 225 list seats above 5% + 225 district winners, the State Duma (450) and the
+  unelected Federation Council, a president with a run-off who picks the PM and whose terms were reset in 2020, the 2024
+  result (Putin 87%) and the 2026 Duma election (United Russia 349 of 450, Yabloko barred; criticism attributed), and
+  "Can an election be fair if you already know who'll win?" as the ending.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
