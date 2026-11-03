@@ -36,6 +36,11 @@ const buildPages = (timing: VoiceTiming, hide: string[], maxWords: number, maxCh
 /** "officials," -> "OFFICIALS" (keeps ? and %). */
 const label = (text: string) => text.replace(/[,.;:!]+$/, "").toUpperCase();
 
+const DARK_SHADOW = "0 4px 0 rgba(0,0,0,0.35), 0 0 22px rgba(0,0,0,0.55)";
+
+/** Colours a page can switch to over a light background (see `styleAt`). */
+export type SubtitleStyle = { color?: string; shadow?: string; highlight?: string; activeColor?: string };
+
 /**
  * TikTok-style burned-in subtitles: big bold words, a few at a time, with the word
  * being spoken highlighted. Driven by a voice-over timing file.
@@ -52,6 +57,10 @@ export const Subtitles: React.FC<{
   highlight?: string;
   /** Text colour of the highlighted word (use a dark colour on light highlights). */
   activeColor?: string;
+  /** How much the highlighted word grows (1 = not at all, for very large text). */
+  activeScale?: number;
+  /** Optional colour overrides by time (seconds), e.g. dark words while the background is light. */
+  styleAt?: (seconds: number) => SubtitleStyle | undefined;
 }> = ({
   timing,
   hide = [],
@@ -61,6 +70,8 @@ export const Subtitles: React.FC<{
   maxChars = 16,
   highlight = "#ef4135",
   activeColor = "#ffffff",
+  activeScale = 1.06,
+  styleAt,
 }) => {
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
@@ -80,6 +91,11 @@ export const Subtitles: React.FC<{
   });
   const active = page.words.reduce((current, w, i) => (t >= w.start ? i : current), 0);
   const boxWidth = Math.min(820, width - 240);
+  const override = styleAt?.(t) ?? {};
+  const color = override.color ?? "#ffffff";
+  const shadow = override.shadow ?? DARK_SHADOW;
+  const pill = override.highlight ?? highlight;
+  const activeText = override.activeColor ?? activeColor;
 
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -108,10 +124,10 @@ export const Subtitles: React.FC<{
               display: "inline-block",
               padding: `0 ${fontSize * 0.16}px`,
               borderRadius: fontSize * 0.2,
-              color: i === active ? activeColor : "#ffffff",
-              background: i === active ? highlight : "transparent",
-              transform: `scale(${i === active ? 1.06 : 1})`,
-              textShadow: i === active ? "none" : "0 4px 0 rgba(0,0,0,0.35), 0 0 22px rgba(0,0,0,0.55)",
+              color: i === active ? activeText : color,
+              background: i === active ? pill : "transparent",
+              transform: `scale(${i === active ? activeScale : 1})`,
+              textShadow: i === active ? "none" : shadow,
             }}
           >
             {label(w.text)}

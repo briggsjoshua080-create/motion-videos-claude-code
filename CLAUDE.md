@@ -4,6 +4,63 @@ Stack: **Remotion 4.0.535** (all `@remotion/*` packages pinned to the same exact
 version — never mix versions), React 19, TypeScript, npm. Default format
 **1920×1080 @ 30 fps**.
 
+## TikTok Retention Rules
+The user's rules (3 Nov 2026) for **every short-form video** (target **45–60 s, 9:16**) that is planned, scripted or
+built in this project. Where they conflict with the standing brief below, these rules win. `UkrainianElection`
+(`briefs/ukrainian-election-system/`) is the first video made to them and the template for new ones.
+
+1. **HOOK (0–3 s):** the first frame must show one huge, high-contrast line (max 8 words) with a bold, surprising or
+   contrarian claim, a specific question, or the result first. No title cards, no topic labels like "How X works", no
+   intro, no logo. It must work on mute. Never put the key hook in small text.
+2. **OPEN LOOPS:** in the first 5 s, raise at least 2–3 curiosity gaps (what, why, what happens next). Answer the first
+   only partly at about 10–15 s and pay off the others later. Every loop must be closed by the end with a real answer.
+3. **EARLY PAYOFF:** deliver the first surprising insight by 12–15 s. Put the strongest or most surprising fact in the
+   first 5 s, never only at the end. Simple, well-known background must be at most 8 s total.
+4. **PACING:** something must visibly change every 3–5 s (cut, zoom, background switch, number counter, map build,
+   text change). No static block over 5 s. Rotate the change types. Remove pauses over 0.5 s.
+5. **RE-HOOKS:** add a new tease at about 15 s and 30 s ("But here's the weird part", "Now it gets strange") so viewers
+   have a reason to stay for the next section.
+6. **TEXT:** keyword captions, large, with at least 2 s on screen. Minimum font size readable on a phone: nothing
+   smaller than about 6% of screen height. Remove tiny grey subtext or enlarge it. Max one key idea per screen.
+7. **DENSITY:** max one number or concept per beat. Do not show complex charts or detailed numbers (like exact seat
+   counts) unless the number is the point.
+8. **ENDING:** close all loops, hold the last frame 1–2 s, and make the ending flow back into the first frame (e.g.
+   the final question becomes the opening line) so the video loops and gets rewatched.
+9. **ENGAGEMENT:** end with ONE easy opinion question answerable in one word (like YES/NO) to drive comments, plus ONE
+   share or save reason ("Send this to someone who...", "Save this for election day", "Part 2: ..."). Also write a
+   pinned-comment text that adds a take of its own and invites debate.
+10. **REWATCH:** hide at least one small detail or fact that is only explained at the end, so viewers rewatch.
+11. **OUTPUT:** with every video, also deliver 3 alternative hook lines to A/B test, a caption with 3–5 hashtags, and
+    the pinned comment text.
+
+**Do not write word-for-word scripts unless the user asks.** Plan with a beat-by-beat timeline (second ranges, what is
+on screen, which technique is used, which loop is open or closed). The narration lines only live in
+`src/voiceover/<name>.script.json`, because the voice tool needs them.
+
+**How to apply them here**
+- **Before building:** write the retention plan in `briefs/<video>/retention-plan.md` (the beat table above plus a
+  check against each rule, with second marks) and show it in the chat. Under the "no questions" rule, carry on
+  building straight away; re-time the table once the voice-over is measured.
+- **After building:** score the video **out of 10 per rule** in the same file (honestly, from stills and the timing),
+  fix anything **below 7**, render again and re-score.
+- **Deliverables** (in `briefs/<video>/posting.md` and in the chat, next to the MP4): 3 A/B hook lines, the caption
+  with 3–5 hashtags, the pinned comment.
+- **Sizes on 1080×1920** (rule 6): nothing under **110 px** (≈ 6% of 1920; `MIN_TEXT` in
+  `src/scenes/ukrainian-election/constants.ts`). Keyword captions 115–340 px; an Archivo Black line holds about 9
+  letters at 130 px and 6 at 175 px inside x 120–960 (check widths before building, e.g. with fontTools on the
+  `@fontsource` files); italic serif lines at 118–125 px; subtitles at `fontSize={110} maxChars={12} activeScale={1}`
+  (110 px is the largest size at which "GOVERNMENT" still fits the safe width, and 12 characters keep every page to
+  two lines). The broadcast frame keeps its corner marks, ruler and beat dots but **no small text** (no mono label,
+  timecode or section label); the section number is a huge outlined numeral behind the content. Props such as
+  ballots draw their small print as grey bars, not text.
+- **Subtitles on light backgrounds:** pass `styleAt` to `Subtitles` so the words turn dark (dark pill, light text)
+  while a paper scene or a colour flash is on screen (see `subtitleStyle` in `UkrainianElection.tsx`).
+- **Hook frame:** frame 0 already shows the complete hook line (nothing fades in from empty); no subtitles under it.
+  No "HOW <COUNTRY> VOTES." title any more.
+- **Re-hooks:** the line sits on a full-screen flash in the flag's second colour, so the pattern break is visible.
+- **Timing:** `pauseAfter` about 0.2 s (never over 0.5 s), `leadIn` about 0.1 s; hold the last frame 1–2 s; the last
+  frame mirrors frame 0 (same background, same text block position), so the loop back to the hook is seamless.
+
 ## Standing brief: "educational motion graphics video, political system"
 When the user's prompt contains **"educational motion graphics video, political system"**, this
 section is the brief. The user does not want to repeat it, so apply every point below unless the
@@ -20,12 +77,15 @@ prompt says otherwise.
 - The **most recent national election** as the worked example (date, result, who formed the
   government).
 - **Tell one clear, step-by-step story**, not a list of facts: e.g. Vote → Parliament → Government →
-  Head of state, shown as numbered sections in the broadcast frame (see `SwedishElection`).
-- **Right after the hook, say who can vote** (in every video; it differs between countries): the
-  minimum age, which citizens/residents may vote, whether citizens abroad can vote, and any
-  speciality (e.g. compulsory voting, registering first, voting at 16, foreigners in local
-  elections). Say it in the narration and show it as a "Who can vote?" card at the start of the
-  Vote step. Research it on the official sites every time and put it in the fact sheet.
+  Head of state, shown as numbered sections (see `UkrainianElection`), wrapped in the open loops and
+  re-hooks of the TikTok Retention Rules.
+- **Say who can vote** (in every video; it differs between countries) **at the start of the Vote step**,
+  after the hook, the open loops and the first payoff: the minimum age, which citizens/residents may vote,
+  whether citizens abroad can vote, and any speciality (e.g. compulsory voting, registering first,
+  voting at 16, foreigners in local elections). Say it in the narration and show it as a "Who can vote?"
+  card. Keep it to about 3 s: it counts toward the ≤ 8 s of simple background (Retention Rule 3), so pick
+  the one or two points that matter most and put the rest in the fact sheet. Research it on the official
+  sites every time.
 - **Show exactly how people vote:** what the ballot looks like, how it is filled in, and how votes
   turn into seats. This is the heart of the video.
 - **Whenever an institution is named** (a parliament chamber, the senate, the head of state, ...),
@@ -36,30 +96,34 @@ prompt says otherwise.
   spark debate.
 
 **Format and style**
-- TikTok style: vertical **1080×1920 @ 30 fps** (`VERTICAL` in `src/config.ts`), with a hook in the
-  first 2 seconds. Keep key content inside x 120–960 and y 170–1480 (TikTok's buttons sit on the
-  right, its caption at the bottom).
-- **Length:** 25–60 s, depending on how long it takes to explain the system briefly but so that
-  it is understood. **Never more than 60 s** unless the user explicitly says so. Generate the
-  voice-over first and measure it. If it runs too long, propose cuts to the user (with measured
-  lengths) before building.
+- TikTok style: vertical **1080×1920 @ 30 fps** (`VERTICAL` in `src/config.ts`), with the hook line
+  complete on frame 0 (Retention Rule 1). Keep key content inside x 120–960 and y 170–1480 (TikTok's
+  buttons sit on the right, its caption at the bottom).
+- **Length:** **45–60 s** (Retention Rules). **Never more than 60 s** unless the user explicitly says
+  so. Generate the voice-over first and measure it; if it runs too long, trim it yourself (see "No
+  questions") and note the measured lengths in the brief.
 - **Language:** always English (voice, subtitles, on-screen text).
-- **Look (standard for every video, since 24 Oct 2026): the `SwedishElection` look** (the user's
-  Belgian reference style), themed in **the country's flag colours**. Use it for every new video unless
-  the user asks for another style. Newest examples: `SwedishElection`, `USElection`, `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`, `ArgentineElection`, `RussianElection`.
+- **Look (standard for every video, since 3 Nov 2026): the `UkrainianElection` look**, which is the
+  `SwedishElection` look (the user's Belgian reference style) adapted to the TikTok Retention Rules, themed in
+  **the country's flag colours**. Use it for every new video unless the user asks for another style, and
+  **copy `UkrainianElection.tsx` + `src/scenes/ukrainian-election/` as the starting point** (each video keeps its
+  own copy of `ui.tsx`/`constants.ts`). Earlier videos in the Swedish look (`SwedishElection`, `USElection`,
+  `CanadianElection`, `SerbianElection`, `SlovenianElection`, `MexicanElection`, `BrazilianElection`,
+  `ArgentineElection`, `RussianElection`) predate the rules: they have a title card and small labels, so don't copy those parts.
   - a **dark-ish background in a strong flag colour** (deeper at the edges, soft glows, film grain), white
-    text, a second flag colour for accents; light **"paper" scenes** for the ballot and the result;
-  - a **broadcast frame** (`Hud`): corner marks, a mono label top left, a running timecode top right, a
-    section label, a progress ruler with a tick per section and beat dots at the bottom;
-  - **numbered sections** ("03 — THE BALLOT"), huge heavy uppercase headlines (Archivo Black) with one
-    italic serif line per scene (Instrument Serif), small mono labels (JetBrains Mono), glass-like stat
-    cards, stamps, a **dot hemicycle**, a ballot close-up, colour sweeps that open the video and the
-    closing question; the title "HOW <COUNTRY> VOTES." style;
-  - fonts bundled in `src/scenes/swedish-election/fonts.ts`; reusable parts in
-    `src/scenes/swedish-election/ui.tsx` (each later video keeps its own copy of `ui.tsx`/`constants.ts`,
-    e.g. `src/scenes/canadian-election/`). Copy the newest such video as the starting point.
-  - Subtitle pill: the standard red pill if red is in the flag and reads on the background; otherwise ask
-    (`<Subtitles highlight=... activeColor=... />`; Sweden: yellow with dark text, Canada: white with red text).
+    text, a second flag colour for accents; light **"paper" scenes** for the ballots; a **full-screen flash in
+    the second flag colour** for each re-hook;
+  - a **broadcast frame** (`Hud`): corner marks, a progress ruler with a tick per section and beat dots at the
+    bottom, **no small text** (the old mono label, timecode and section label are gone, per rule 6);
+  - **numbered sections** shown as a huge outlined numeral behind the content, huge heavy uppercase keyword
+    captions (Archivo Black, 115–340 px) with one italic serif line (Instrument Serif, ≥ 110 px), stamps, number
+    counters, a **dot hemicycle** (empty seats as hollow rings), a ballot close-up, colour sweeps; **no title card**:
+    frame 0 is the hook line; the last frame mirrors it;
+  - fonts bundled in `src/scenes/swedish-election/fonts.ts` (Archivo Black, Instrument Serif, JetBrains Mono);
+    reusable parts in `src/scenes/ukrainian-election/ui.tsx`.
+  - Subtitle pill: the standard red pill if red is in the flag and reads on the background; otherwise pick a flag
+    colour yourself (no questions) (`<Subtitles highlight=... activeColor=... />`; Sweden and Ukraine: yellow with
+    dark blue text, Canada: white with red text).
 - **Older look (only on request):** the white `GermanElection`/`DutchElection` explainer look: white
   background with a dot grid, a header with numbered step pills, white cards, flat cartoon characters
   (`Character`), one hemicycle, built from `src/components/explainer/` (`Paper`, `StepHeader`, `NameCard`,
@@ -69,19 +133,22 @@ prompt says otherwise.
   `EUElectionPart1`/`EUElectionPart2`.
 - **Colours:** the country's national colours (its flag, plus a national colour if it has one,
   e.g. Dutch orange), collected in one colour object for the video.
-- **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.1–1.15),
+- **AI voice-over:** Kokoro, British male `bm_george` (`"lang": "en-gb"`, speed about 1.15–1.2),
   made with `scripts/voiceover.py` (see "Making the voice-over"). Fix names the voice gets wrong with
   `pronounce`.
-- **Subtitles:** TikTok style, as in `WhyFranceVotesTwice` (the default `Subtitles` in
-  `src/components/Subtitles.tsx`, used with `<Subtitles timing={timing} />`; no extra settings).
-  Big, bold, **UPPERCASE** white words with a dark drop shadow, **no box behind them**, centred at
-  y ≈ 1330, 1–3 words at a time. The word being spoken gets a solid **red pill** (`#ef4135`) behind
-  it. Do not use the dark rounded box (`CaptionBox`) for new videos; existing videos keep theirs.
+- **Subtitles:** TikTok style, as in `WhyFranceVotesTwice` (the `Subtitles` in
+  `src/components/Subtitles.tsx`), now at **`fontSize={110}`** (Retention Rule 6; see `UkrainianElection.tsx`
+  for the exact props). Big, bold, **UPPERCASE** white words with a dark drop shadow, **no box behind them**,
+  centred at y ≈ 1330, 1–3 words at a time. The word being spoken gets a solid **red pill** (`#ef4135`) behind
+  it. Keep visuals above y ≈ 1180 so the subtitles never cover them; hide subtitles for lines already big on
+  screen (the hook, the question). Do not use the dark rounded box (`CaptionBox`) for new videos; existing
+  videos keep theirs.
 - **Audio:** soft background music under the voice (`npm run music`), plus light, subtle sound
   effects (`public/audio/sfx/`). Master to −14 LUFS with `npm run render:final`.
-- **Ending:** a closing question, spoken and shown big on screen, that is polarising and invites
-  many different answers in the comments, e.g. "Is it really democracy if you don't vote for your
-  head of state?"
+- **Ending (Retention Rules 8–9):** one save/share line ("Save this for election day"), then one easy,
+  polarising **YES/NO question**, spoken and shown big on a last frame that mirrors frame 0, held 1–2 s, e.g.
+  "Should Ukraine vote before the war ends?". Every open loop is closed before it; the hidden detail (rule 10)
+  is explained just before it.
 
 **Research (every time)**
 - Research thoroughly before writing. Prefer official sources: the government's own sites, the
@@ -99,10 +166,15 @@ prompt says otherwise.
   build, render, send and push in one go. Record the choices you made in `briefs/<video>/script.md`
   (as in `NorwegianElection`, `SerbianElection`, `SlovenianElection`). This overrides "Ask the user
   first" below and the "ask" points in this brief, unless the user asks for questions again.
+- **TikTok Retention Rules (since 3 Nov 2026):** before building, write the retention plan
+  (`briefs/<video>/retention-plan.md`, beat by beat with second marks, checked against each rule) and show it
+  in the chat; after the render, score each rule out of 10, fix anything below 7, and deliver the 3 A/B hooks,
+  the caption and the pinned comment (`briefs/<video>/posting.md`). See "TikTok Retention Rules" above.
 - Use the project skills and pipeline in "Motion videos" below.
 - After rendering, send the MP4 in the chat, then **commit and push straight to `main`** (the
   user's standing instruction), so new chats see the video and any rule changes.
-- Reference videos: `SwedishElection` (the default look, see "Look" above), `GermanElection` (the older white look) and `DutchElection` (made to this brief:
+- Reference videos: `UkrainianElection` (the current standard: the Retention Rules in the default look, see the
+  end of this list), `SwedishElection` (where the look comes from), `GermanElection` (the older white look) and `DutchElection` (made to this brief:
   `src/compositions/DutchElection.tsx`, `briefs/dutch-election-system/`). A two-part series made to this brief:
   `EUElectionPart1` + `EUElectionPart2` (`briefs/eu-election-system/`). Also made to this brief: `UKElection`
   (`briefs/uk-election-system/`; first past the post, a 650-dot constituency map, devolved parliaments),
@@ -186,6 +258,16 @@ prompt says otherwise.
   unelected Federation Council, a president with a run-off who picks the PM and whose terms were reset in 2020, the 2024
   result (Putin 87%) and the 2026 Duma election (United Russia 349 of 450, Yabloko barred; criticism attributed), and
   "Can an election be fair if you already know who'll win?" as the ending.
+  `UkrainianElection` ("Elections are banned in Ukraine.", `briefs/ukrainian-election-system/`) is **the current
+  standard**: the first video made to the TikTok Retention Rules, with no questions asked. The look is the Swedish look
+  in deep Ukrainian blue with yellow accents (accent words in yellow blocks with dark blue letters, a **yellow subtitle
+  pill with dark blue text** at 110 px), yellow full-screen flashes for the two re-hooks, and no title card. The story:
+  the hook line on frame 0, three open loops (why / who rules / what's next), martial law banning every vote, who can
+  vote, the presidential ballot (tick one name, a run-off), the 2019 result (Zelensky's 73%, his party named after his
+  TV show winning parliament alone), the Rada and the July 2026 change of PM, the never-used Rada ballot (tick a party,
+  write in a candidate's number, 5% line), 26 grey seats as the rewatch detail (districts under occupation in 2019),
+  and "Should Ukraine vote before the war ends?" on a last frame that mirrors the first. Its `retention-plan.md` and
+  `posting.md` are the examples for the new planning files.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -231,8 +313,9 @@ until the user has approved the plan.
 ## Voice-over and subtitles (default for every video)
 Every video gets an **AI voice-over** and **subtitles burned into the video**, unless the user says
 otherwise.
-- Write the narration script first and put it in the plan the user approves. The voice-over sets
-  the pace: scene lengths follow the narration.
+- Plan the narration beat by beat in the retention plan (not as a word-for-word script, unless the
+  user asks; see "TikTok Retention Rules"), then write the lines straight into the voice-over JSON.
+  The voice-over sets the pace: scene lengths follow the narration. Keep pauses ≤ 0.5 s.
 - Subtitles show the narration word for word, in sync with the voice, in the TikTok style above
   (`<Subtitles timing={timing} />`). Use `hide={["sentence-id"]}` for lines that are already big on
   screen. On vertical videos keep them out of the bottom ~20% and the right edge, where the
@@ -309,7 +392,9 @@ scripts/music.py        soft background music from a voice-over timing file
 scripts/sfx.py          shared sound effects (public/audio/sfx/)
 scripts/render.sh       render any composition + master the audio to -14 LUFS
 scripts/country-outline.py  country outline (SVG path) from Natural Earth for title maps
-briefs/<video>/         script.md (narration + fact sheet + sources), storyboard.md, PROGRESS.md
+briefs/<video>/         script.md (choices + fact sheet + sources), retention-plan.md (beat timeline, rule
+                        check, scores out of 10), posting.md (A/B hooks, caption, pinned comment),
+                        storyboard.md, PROGRESS.md
 public/audio|images|fonts   static assets, referenced with staticFile("audio/x.mp3")
 public/audio/<name>/    per-video music; public/audio/sfx/ shared sound effects
 public/voiceover/       generated voice-over WAVs
@@ -390,13 +475,16 @@ When the user asks for a motion video, explainer or any Remotion video, use the 
 
 ### Steps, in order
 1. Check the answers in `briefs/motion-video-brief.xlsx` (sheet "Blank Brief"). Ask the user for anything missing.
-2. Write `briefs/<video>/script.md`. Get the user's approval before building.
+2. Write `briefs/<video>/script.md` (choices + fact sheet) and the retention plan
+   `briefs/<video>/retention-plan.md` (see "TikTok Retention Rules"); show the plan in the chat.
 3. Write `briefs/<video>/storyboard.md` with scene timings.
 4. Voice and timing: write `src/voiceover/<name>.script.json`, then `npm run voiceover -- src/voiceover/<name>.script.json` (setup once: `npm run voice:setup`). Check the measured length against the length limit before building.
 5. Music: `npm run music -- src/voiceover/<name>.timing.json`. Sound effects are shared in `public/audio/sfx/`.
 6. Build the composition (scenes start at their sentence, `<Subtitles timing={...} />`, music under the voice), then run `npm run typecheck`.
 7. QA: render stills with `npx remotion still src/index.ts <Id> out/stills/f060.png --frame=60 --browser-executable=<headless shell, see Commands>`. Check scene starts, scene ends, transitions, and that frame 0 is not empty.
 8. Render: `npm run render:final -- <Id> <output-name> --browser-executable=<same path>`. Check with ffprobe (size, fps, duration) and loudness (−14 LUFS).
-9. Send the MP4 with `SendUserFile` (`display: "render"`), update `PROGRESS.md`, then commit and push to `main`.
+9. Score each Retention Rule out of 10 in `retention-plan.md`; fix anything below 7 and render again.
+10. Send the MP4 with `SendUserFile` (`display: "render"`) together with the scores, the 3 A/B hooks, the caption
+    and the pinned comment (`posting.md`), update `PROGRESS.md`, then commit and push to `main`.
 
-For a new video, copy the newest video in the default look (e.g. `BrazilianElection.tsx` + `src/scenes/brazilian-election/`) and change the scenes, colours, composition id and file names.
+For a new video, copy the standard video (`UkrainianElection.tsx` + `src/scenes/ukrainian-election/`) and change the scenes, colours, composition id and file names.
