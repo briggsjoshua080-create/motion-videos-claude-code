@@ -61,6 +61,24 @@ on screen, which technique is used, which loop is open or closed). The narration
 - **Timing:** `pauseAfter` about 0.2 s (never over 0.5 s), `leadIn` about 0.1 s; hold the last frame 1–2 s; the last
   frame mirrors frame 0 (same background, same text block position), so the loop back to the hook is seamless.
 
+## Comedy explainers (on request, since 4 Nov 2026)
+When the prompt asks for a **funny, comedic or entertaining** video, follow
+[`briefs/comedy-explainer-formula.md`](briefs/comedy-explainer-formula.md) on top of the Retention Rules (and of the
+standing brief, if it applies). It is the user's reusable "general script": the research behind it, seven house rules,
+a toolbox of comic devices, a fill-in beat template (0–60 s) and six comedy checks. `USMidterms` is the worked example.
+The short version:
+- **The punchline is the fact** (delete test: a joke that carries no information gets cut). Never a joke inside the
+  hardest explanation (the ballot, the seat maths); put the button right after it.
+- **One comic premise** for the whole video, set by 10 s and called back at the end (midterms → the president's exam).
+- **Punch at the system, never at people** (both-sides test), so the video stays neutral; exaggerate only what is
+  literally true, and keep the exact numbers in the fact sheet.
+- **Straight setup, twist on the cut**, with a visual gag (stamp, sign, prop) and a sound effect; the narrator stays
+  deadpan. About one laugh every 5–8 s.
+- **Plant, repeat, pay off:** the rewatch detail (rule 10) doubles as the comic plant (a horse sticker in frame 0,
+  explained at the end).
+- **One sincere "why it matters" line.**
+- Score **C1–C6** (the comedy checks) out of 10 next to the eleven rules in `retention-plan.md`; fix anything below 7.
+
 ## Standing brief: "educational motion graphics video, political system"
 When the user's prompt contains **"educational motion graphics video, political system"**, this
 section is the brief. The user does not want to repeat it, so apply every point below unless the
@@ -275,6 +293,19 @@ prompt says otherwise.
   detail (the old two-in-a-row limit, so he was PM), the 2020 reset (4 terms → 0), two Duma ballots, half the seats by
   party above 5% and half district winners, an unelected upper house, a PM the Duma just approves, the 2024 (87%) and
   2026 (349 of 450, a liberal rival barred) results, and "Can a vote be fair if you know who wins?" as the ending.
+  `USMidterms` ("The president just failed his midterm.", `briefs/us-midterm-elections/`) is the first **comedy
+  explainer** (see "Comedy explainers"), made the day after the 3 Nov 2026 vote with no questions asked: the standard
+  look in Old Glory blue with red accent blocks (white letters, white rim), red re-hook flashes and the standard red
+  subtitle pill (white pill with red text on the flashes, dark words on paper). The premise: the midterm is the
+  president's mid-term exam, graded by voters electing Congress. A report card with a red F on frame 0 (its gold horse
+  sticker is the rewatch detail), a wall of 21 report cards (only two passed since 1946), "the whole House reapplies for
+  its job" (NOW HIRING sign), 435 seats every two years and senators six, what Congress does, the graders (citizens from
+  18 who registered; North Dakota skips that), "Americans even elect their sheriffs", one oval per race, most votes
+  wins a district and 218 the House, the 2026 result (Democrats won both, AP projections of 4 Nov 2026) as the report
+  card's callback, "Hello, gridlock", angry voters show up and happy ones stay on the couch, the horse (1845, never on
+  Sundays, hence Tuesday) and "So, should America scrap midterms?" as the ending. Its props (`ReportCard`,
+  `GradeStamp`, `HorseSticker`, `Horse`, `HangingSign`, `SheriffStar`, `Car`, `Couch`, …) are in
+  `src/scenes/us-midterms/ui.tsx`.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -402,6 +433,7 @@ scripts/country-outline.py  country outline (SVG path) from Natural Earth for ti
 briefs/<video>/         script.md (choices + fact sheet + sources), retention-plan.md (beat timeline, rule
                         check, scores out of 10), posting.md (A/B hooks, caption, pinned comment),
                         storyboard.md, PROGRESS.md
+briefs/comedy-explainer-formula.md  the reusable comedy + information script (see "Comedy explainers")
 public/audio|images|fonts   static assets, referenced with staticFile("audio/x.mp3")
 public/audio/<name>/    per-video music; public/audio/sfx/ shared sound effects
 public/voiceover/       generated voice-over WAVs

@@ -1,0 +1,938 @@
+{
+ "audio": "voiceover/us-midterms.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.92,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "The president just failed his midterm.",
+   "start": 0.13,
+   "end": 2.18,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.13,
+     "end": 0.241
+    },
+    {
+     "text": "president",
+     "start": 0.241,
+     "end": 0.795
+    },
+    {
+     "text": "just",
+     "start": 0.795,
+     "end": 1.127
+    },
+    {
+     "text": "failed",
+     "start": 1.127,
+     "end": 1.46
+    },
+    {
+     "text": "his",
+     "start": 1.46,
+     "end": 1.681
+    },
+    {
+     "text": "midterm.",
+     "start": 1.681,
+     "end": 2.18
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "What midterm? Who grades him? Why do they almost always fail?",
+   "start": 2.37,
+   "end": 5.65,
+   "words": [
+    {
+     "text": "What",
+     "start": 2.37,
+     "end": 2.585
+    },
+    {
+     "text": "midterm?",
+     "start": 2.585,
+     "end": 3.07
+    },
+    {
+     "text": "Who",
+     "start": 3.24,
+     "end": 3.411
+    },
+    {
+     "text": "grades",
+     "start": 3.411,
+     "end": 3.709
+    },
+    {
+     "text": "him?",
+     "start": 3.709,
+     "end": 3.88
+    },
+    {
+     "text": "Why",
+     "start": 4.15,
+     "end": 4.332
+    },
+    {
+     "text": "do",
+     "start": 4.332,
+     "end": 4.514
+    },
+    {
+     "text": "they",
+     "start": 4.514,
+     "end": 4.65
+    },
+    {
+     "text": "almost",
+     "start": 4.65,
+     "end": 5.059
+    },
+    {
+     "text": "always",
+     "start": 5.059,
+     "end": 5.423
+    },
+    {
+     "text": "fail?",
+     "start": 5.423,
+     "end": 5.65
+    }
+   ]
+  },
+  {
+   "id": "exam",
+   "text": "Halfway through his term, America elects Congress. Lose seats, and he fails.",
+   "start": 5.91,
+   "end": 10.37,
+   "words": [
+    {
+     "text": "Halfway",
+     "start": 5.91,
+     "end": 6.314
+    },
+    {
+     "text": "through",
+     "start": 6.314,
+     "end": 6.566
+    },
+    {
+     "text": "his",
+     "start": 6.566,
+     "end": 6.768
+    },
+    {
+     "text": "term,",
+     "start": 6.768,
+     "end": 7.02
+    },
+    {
+     "text": "America",
+     "start": 7.14,
+     "end": 7.616
+    },
+    {
+     "text": "elects",
+     "start": 7.616,
+     "end": 8.033
+    },
+    {
+     "text": "Congress.",
+     "start": 8.033,
+     "end": 8.51
+    },
+    {
+     "text": "Lose",
+     "start": 8.87,
+     "end": 9.165
+    },
+    {
+     "text": "seats,",
+     "start": 9.165,
+     "end": 9.52
+    },
+    {
+     "text": "and",
+     "start": 9.67,
+     "end": 9.845
+    },
+    {
+     "text": "he",
+     "start": 9.845,
+     "end": 10.02
+    },
+    {
+     "text": "fails.",
+     "start": 10.02,
+     "end": 10.37
+    }
+   ]
+  },
+  {
+   "id": "passed",
+   "text": "Since World War Two, only two presidents passed.",
+   "start": 10.56,
+   "end": 13.25,
+   "words": [
+    {
+     "text": "Since",
+     "start": 10.56,
+     "end": 10.852
+    },
+    {
+     "text": "World",
+     "start": 10.852,
+     "end": 11.203
+    },
+    {
+     "text": "War",
+     "start": 11.203,
+     "end": 11.436
+    },
+    {
+     "text": "Two,",
+     "start": 11.436,
+     "end": 11.67
+    },
+    {
+     "text": "only",
+     "start": 11.89,
+     "end": 12.204
+    },
+    {
+     "text": "two",
+     "start": 12.204,
+     "end": 12.413
+    },
+    {
+     "text": "presidents",
+     "start": 12.413,
+     "end": 12.988
+    },
+    {
+     "text": "passed.",
+     "start": 12.988,
+     "end": 13.25
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the weird part: the whole House reapplies for its job.",
+   "start": 13.44,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "But",
+     "start": 13.44,
+     "end": 13.651
+    },
+    {
+     "text": "here's",
+     "start": 13.651,
+     "end": 13.916
+    },
+    {
+     "text": "the",
+     "start": 13.916,
+     "end": 14.021
+    },
+    {
+     "text": "weird",
+     "start": 14.021,
+     "end": 14.286
+    },
+    {
+     "text": "part:",
+     "start": 14.286,
+     "end": 14.55
+    },
+    {
+     "text": "the",
+     "start": 14.84,
+     "end": 14.953
+    },
+    {
+     "text": "whole",
+     "start": 14.953,
+     "end": 15.235
+    },
+    {
+     "text": "House",
+     "start": 15.235,
+     "end": 15.518
+    },
+    {
+     "text": "reapplies",
+     "start": 15.518,
+     "end": 16.139
+    },
+    {
+     "text": "for",
+     "start": 16.139,
+     "end": 16.308
+    },
+    {
+     "text": "its",
+     "start": 16.308,
+     "end": 16.478
+    },
+    {
+     "text": "job.",
+     "start": 16.478,
+     "end": 16.76
+    }
+   ]
+  },
+  {
+   "id": "house",
+   "text": "All 435 seats, every two years. Senators get six.",
+   "start": 16.95,
+   "end": 21.3,
+   "words": [
+    {
+     "text": "All",
+     "start": 16.95,
+     "end": 17.154
+    },
+    {
+     "text": "435",
+     "start": 17.154,
+     "end": 18.483
+    },
+    {
+     "text": "seats,",
+     "start": 18.483,
+     "end": 18.79
+    },
+    {
+     "text": "every",
+     "start": 19.0,
+     "end": 19.318
+    },
+    {
+     "text": "two",
+     "start": 19.318,
+     "end": 19.572
+    },
+    {
+     "text": "years.",
+     "start": 19.572,
+     "end": 19.89
+    },
+    {
+     "text": "Senators",
+     "start": 20.27,
+     "end": 20.755
+    },
+    {
+     "text": "get",
+     "start": 20.755,
+     "end": 20.997
+    },
+    {
+     "text": "six.",
+     "start": 20.997,
+     "end": 21.3
+    }
+   ]
+  },
+  {
+   "id": "congress",
+   "text": "Together, they write the laws and control the money.",
+   "start": 21.49,
+   "end": 24.23,
+   "words": [
+    {
+     "text": "Together,",
+     "start": 21.49,
+     "end": 21.92
+    },
+    {
+     "text": "they",
+     "start": 22.12,
+     "end": 22.306
+    },
+    {
+     "text": "write",
+     "start": 22.306,
+     "end": 22.616
+    },
+    {
+     "text": "the",
+     "start": 22.616,
+     "end": 22.741
+    },
+    {
+     "text": "laws",
+     "start": 22.741,
+     "end": 23.051
+    },
+    {
+     "text": "and",
+     "start": 23.051,
+     "end": 23.237
+    },
+    {
+     "text": "control",
+     "start": 23.237,
+     "end": 23.796
+    },
+    {
+     "text": "the",
+     "start": 23.796,
+     "end": 23.92
+    },
+    {
+     "text": "money.",
+     "start": 23.92,
+     "end": 24.23
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "The graders: citizens from 18 who registered. North Dakota skips that.",
+   "start": 24.42,
+   "end": 28.65,
+   "words": [
+    {
+     "text": "The",
+     "start": 24.42,
+     "end": 24.528
+    },
+    {
+     "text": "graders:",
+     "start": 24.528,
+     "end": 24.96
+    },
+    {
+     "text": "citizens",
+     "start": 25.16,
+     "end": 25.644
+    },
+    {
+     "text": "from",
+     "start": 25.644,
+     "end": 25.86
+    },
+    {
+     "text": "18",
+     "start": 25.86,
+     "end": 26.236
+    },
+    {
+     "text": "who",
+     "start": 26.236,
+     "end": 26.452
+    },
+    {
+     "text": "registered.",
+     "start": 26.452,
+     "end": 26.99
+    },
+    {
+     "text": "North",
+     "start": 27.34,
+     "end": 27.625
+    },
+    {
+     "text": "Dakota",
+     "start": 27.625,
+     "end": 28.08
+    },
+    {
+     "text": "skips",
+     "start": 28.08,
+     "end": 28.422
+    },
+    {
+     "text": "that.",
+     "start": 28.422,
+     "end": 28.65
+    }
+   ]
+  },
+  {
+   "id": "strange",
+   "text": "Now it gets strange: Americans even elect their sheriffs.",
+   "start": 29.01,
+   "end": 32.25,
+   "words": [
+    {
+     "text": "Now",
+     "start": 29.01,
+     "end": 29.224
+    },
+    {
+     "text": "it",
+     "start": 29.224,
+     "end": 29.331
+    },
+    {
+     "text": "gets",
+     "start": 29.331,
+     "end": 29.598
+    },
+    {
+     "text": "strange:",
+     "start": 29.598,
+     "end": 30.08
+    },
+    {
+     "text": "Americans",
+     "start": 30.39,
+     "end": 30.971
+    },
+    {
+     "text": "even",
+     "start": 30.971,
+     "end": 31.32
+    },
+    {
+     "text": "elect",
+     "start": 31.32,
+     "end": 31.669
+    },
+    {
+     "text": "their",
+     "start": 31.669,
+     "end": 31.843
+    },
+    {
+     "text": "sheriffs.",
+     "start": 31.843,
+     "end": 32.25
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "It's all one ballot: one oval per race.",
+   "start": 32.44,
+   "end": 34.87,
+   "words": [
+    {
+     "text": "It's",
+     "start": 32.44,
+     "end": 32.613
+    },
+    {
+     "text": "all",
+     "start": 32.613,
+     "end": 32.843
+    },
+    {
+     "text": "one",
+     "start": 32.843,
+     "end": 33.074
+    },
+    {
+     "text": "ballot:",
+     "start": 33.074,
+     "end": 33.42
+    },
+    {
+     "text": "one",
+     "start": 33.67,
+     "end": 33.937
+    },
+    {
+     "text": "oval",
+     "start": 33.937,
+     "end": 34.337
+    },
+    {
+     "text": "per",
+     "start": 34.337,
+     "end": 34.537
+    },
+    {
+     "text": "race.",
+     "start": 34.537,
+     "end": 34.87
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "Most votes wins each district. 218 wins the House.",
+   "start": 35.06,
+   "end": 39.05,
+   "words": [
+    {
+     "text": "Most",
+     "start": 35.06,
+     "end": 35.375
+    },
+    {
+     "text": "votes",
+     "start": 35.375,
+     "end": 35.691
+    },
+    {
+     "text": "wins",
+     "start": 35.691,
+     "end": 35.954
+    },
+    {
+     "text": "each",
+     "start": 35.954,
+     "end": 36.217
+    },
+    {
+     "text": "district.",
+     "start": 36.217,
+     "end": 36.69
+    },
+    {
+     "text": "218",
+     "start": 37.11,
+     "end": 38.365
+    },
+    {
+     "text": "wins",
+     "start": 38.365,
+     "end": 38.651
+    },
+    {
+     "text": "the",
+     "start": 38.651,
+     "end": 38.765
+    },
+    {
+     "text": "House.",
+     "start": 38.765,
+     "end": 39.05
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "On Tuesday, Democrats won the House and the Senate.",
+   "start": 39.24,
+   "end": 41.95,
+   "words": [
+    {
+     "text": "On",
+     "start": 39.24,
+     "end": 39.41
+    },
+    {
+     "text": "Tuesday,",
+     "start": 39.41,
+     "end": 39.92
+    },
+    {
+     "text": "Democrats",
+     "start": 40.12,
+     "end": 40.73
+    },
+    {
+     "text": "won",
+     "start": 40.73,
+     "end": 40.952
+    },
+    {
+     "text": "the",
+     "start": 40.952,
+     "end": 41.063
+    },
+    {
+     "text": "House",
+     "start": 41.063,
+     "end": 41.34
+    },
+    {
+     "text": "and",
+     "start": 41.34,
+     "end": 41.506
+    },
+    {
+     "text": "the",
+     "start": 41.506,
+     "end": 41.617
+    },
+    {
+     "text": "Senate.",
+     "start": 41.617,
+     "end": 41.95
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "text": "From January, every law needs both parties. Hello, gridlock.",
+   "start": 42.14,
+   "end": 45.82,
+   "words": [
+    {
+     "text": "From",
+     "start": 42.14,
+     "end": 42.321
+    },
+    {
+     "text": "January,",
+     "start": 42.321,
+     "end": 42.82
+    },
+    {
+     "text": "every",
+     "start": 42.98,
+     "end": 43.28
+    },
+    {
+     "text": "law",
+     "start": 43.28,
+     "end": 43.52
+    },
+    {
+     "text": "needs",
+     "start": 43.52,
+     "end": 43.88
+    },
+    {
+     "text": "both",
+     "start": 43.88,
+     "end": 44.18
+    },
+    {
+     "text": "parties.",
+     "start": 44.18,
+     "end": 44.6
+    },
+    {
+     "text": "Hello,",
+     "start": 44.94,
+     "end": 45.281
+    },
+    {
+     "text": "gridlock.",
+     "start": 45.366,
+     "end": 45.82
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "text": "Why? Angry voters show up. Happy ones stay on the couch.",
+   "start": 46.27,
+   "end": 49.43,
+   "words": [
+    {
+     "text": "Why?",
+     "start": 46.27,
+     "end": 46.496
+    },
+    {
+     "text": "Angry",
+     "start": 46.581,
+     "end": 46.919
+    },
+    {
+     "text": "voters",
+     "start": 46.919,
+     "end": 47.315
+    },
+    {
+     "text": "show",
+     "start": 47.315,
+     "end": 47.541
+    },
+    {
+     "text": "up.",
+     "start": 47.541,
+     "end": 47.71
+    },
+    {
+     "text": "Happy",
+     "start": 48.07,
+     "end": 48.331
+    },
+    {
+     "text": "ones",
+     "start": 48.331,
+     "end": 48.593
+    },
+    {
+     "text": "stay",
+     "start": 48.593,
+     "end": 48.855
+    },
+    {
+     "text": "on",
+     "start": 48.855,
+     "end": 49.011
+    },
+    {
+     "text": "the",
+     "start": 49.011,
+     "end": 49.116
+    },
+    {
+     "text": "couch.",
+     "start": 49.116,
+     "end": 49.43
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "text": "Send this to someone who skipped it.",
+   "start": 49.62,
+   "end": 51.35,
+   "words": [
+    {
+     "text": "Send",
+     "start": 49.62,
+     "end": 49.899
+    },
+    {
+     "text": "this",
+     "start": 49.899,
+     "end": 50.122
+    },
+    {
+     "text": "to",
+     "start": 50.122,
+     "end": 50.29
+    },
+    {
+     "text": "someone",
+     "start": 50.29,
+     "end": 50.68
+    },
+    {
+     "text": "who",
+     "start": 50.68,
+     "end": 50.903
+    },
+    {
+     "text": "skipped",
+     "start": 50.903,
+     "end": 51.238
+    },
+    {
+     "text": "it.",
+     "start": 51.238,
+     "end": 51.35
+    }
+   ]
+  },
+  {
+   "id": "horse",
+   "text": "And the horse? In 1845, farmers rode to vote, never on Sundays. Hence, Tuesday.",
+   "start": 51.53,
+   "end": 56.66,
+   "words": [
+    {
+     "text": "And",
+     "start": 51.53,
+     "end": 51.692
+    },
+    {
+     "text": "the",
+     "start": 51.692,
+     "end": 51.8
+    },
+    {
+     "text": "horse?",
+     "start": 51.8,
+     "end": 52.07
+    },
+    {
+     "text": "In",
+     "start": 52.26,
+     "end": 52.406
+    },
+    {
+     "text": "1845,",
+     "start": 52.406,
+     "end": 53.28
+    },
+    {
+     "text": "farmers",
+     "start": 53.45,
+     "end": 53.768
+    },
+    {
+     "text": "rode",
+     "start": 53.768,
+     "end": 53.996
+    },
+    {
+     "text": "to",
+     "start": 53.996,
+     "end": 54.132
+    },
+    {
+     "text": "vote,",
+     "start": 54.132,
+     "end": 54.36
+    },
+    {
+     "text": "never",
+     "start": 54.5,
+     "end": 54.812
+    },
+    {
+     "text": "on",
+     "start": 54.812,
+     "end": 55.0
+    },
+    {
+     "text": "Sundays.",
+     "start": 55.0,
+     "end": 55.5
+    },
+    {
+     "text": "Hence,",
+     "start": 55.86,
+     "end": 56.118
+    },
+    {
+     "text": "Tuesday.",
+     "start": 56.195,
+     "end": 56.66
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should America scrap midterms?",
+   "start": 56.85,
+   "end": 58.76,
+   "words": [
+    {
+     "text": "So,",
+     "start": 56.85,
+     "end": 57.078
+    },
+    {
+     "text": "should",
+     "start": 57.163,
+     "end": 57.392
+    },
+    {
+     "text": "America",
+     "start": 57.392,
+     "end": 57.848
+    },
+    {
+     "text": "scrap",
+     "start": 57.848,
+     "end": 58.19
+    },
+    {
+     "text": "midterms?",
+     "start": 58.19,
+     "end": 58.76
+    }
+   ]
+  }
+ ]
+}

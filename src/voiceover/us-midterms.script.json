@@ -1,0 +1,87 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.21,
+  "leadIn": 0.1,
+  "pauseAfter": 0.13,
+  "say": {
+    "18": "eighteen",
+    "218": "two hundred and eighteen",
+    "435": "four hundred and thirty-five",
+    "1845": "eighteen forty-five"
+  },
+  "pronounce": {},
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "The president just failed his midterm."
+    },
+    {
+      "id": "loops",
+      "text": "What midterm? Who grades him? Why do they almost always fail?",
+      "pauseAfter": 0.2
+    },
+    {
+      "id": "exam",
+      "text": "Halfway through his term, America elects Congress. Lose seats, and he fails."
+    },
+    {
+      "id": "passed",
+      "text": "Since World War Two, only two presidents passed."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: the whole House reapplies for its job."
+    },
+    {
+      "id": "house",
+      "text": "All 435 seats, every two years. Senators get six."
+    },
+    {
+      "id": "congress",
+      "text": "Together, they write the laws and control the money."
+    },
+    {
+      "id": "who",
+      "text": "The graders: citizens from 18 who registered. North Dakota skips that.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "strange",
+      "text": "Now it gets strange: Americans even elect their sheriffs."
+    },
+    {
+      "id": "ballot",
+      "text": "It's all one ballot: one oval per race."
+    },
+    {
+      "id": "seats",
+      "text": "Most votes wins each district. 218 wins the House."
+    },
+    {
+      "id": "result",
+      "text": "On Tuesday, Democrats won the House and the Senate."
+    },
+    {
+      "id": "next",
+      "text": "From January, every law needs both parties. Hello, gridlock.",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "why",
+      "text": "Why? Angry voters show up. Happy ones stay on the couch."
+    },
+    {
+      "id": "share",
+      "text": "Send this to someone who skipped it."
+    },
+    {
+      "id": "horse",
+      "text": "And the horse? In 1845, farmers rode to vote, never on Sundays. Hence, Tuesday."
+    },
+    {
+      "id": "question",
+      "text": "So, should America scrap midterms?"
+    }
+  ]
+}
