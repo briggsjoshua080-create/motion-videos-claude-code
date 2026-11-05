@@ -1,0 +1,98 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.25,
+  "leadIn": 0.1,
+  "pauseAfter": 0.16,
+  "say": {
+    "18": "eighteen",
+    "2,952": "two thousand, nine hundred and fifty-two",
+    "3,000": "three thousand",
+    "205": "two hundred and five",
+    "2018": "twenty eighteen",
+    "2023": "twenty twenty-three",
+    "2027": "twenty twenty-seven"
+  },
+  "pronounce": {
+    "Xi": "ʃˈiː"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Xi won 2,952 votes to zero."
+    },
+    {
+      "id": "loops",
+      "text": "Who voted? Why did nobody say no? And who really runs China?",
+      "pauseAfter": 0.22
+    },
+    {
+      "id": "few",
+      "text": "Not the public: just under 3,000 lawmakers."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: this year, a billion people vote.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "who",
+      "text": "Every citizen from 18 can, but only for a local congress."
+    },
+    {
+      "id": "ballot",
+      "text": "You back or reject each name, or write in someone else.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "seats",
+      "text": "There are more names than seats, so some lose."
+    },
+    {
+      "id": "only",
+      "text": "Now it gets strange: that's the only vote you get.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "ladder",
+      "text": "Each congress elects the one above: county, city, province, nation."
+    },
+    {
+      "id": "npc",
+      "text": "At the top, the National People's Congress passes the laws."
+    },
+    {
+      "id": "week",
+      "text": "It meets for about a week a year."
+    },
+    {
+      "id": "president",
+      "text": "It elects the president, with one name on the ballot."
+    },
+    {
+      "id": "limit",
+      "text": "In 2018, it scrapped his two-term limit."
+    },
+    {
+      "id": "premier",
+      "text": "He names the premier, who runs the government."
+    },
+    {
+      "id": "result",
+      "text": "That's how Xi got a third term in 2023."
+    },
+    {
+      "id": "save",
+      "text": "Save this for 2027.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "star",
+      "text": "And the star above the pyramid? The Communist Party. Its top 205 members pick the real boss: Xi."
+    },
+    {
+      "id": "question",
+      "text": "Is one name on a ballot a real choice?"
+    }
+  ]
+}

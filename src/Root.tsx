@@ -35,6 +35,7 @@ import { ArgentineElection, ARGENTINE_ELECTION_DURATION } from "./compositions/A
 import { RussianElection, RUSSIAN_ELECTION_DURATION } from "./compositions/RussianElection";
 import { UkrainianElection, UKRAINIAN_ELECTION_DURATION } from "./compositions/UkrainianElection";
 import { RussianElection2036, RUSSIAN_ELECTION_2036_DURATION } from "./compositions/RussianElection2036";
+import { ChineseElection, CHINESE_ELECTION_DURATION } from "./compositions/ChineseElection";
 import { USMidterms, US_MIDTERMS_DURATION } from "./compositions/USMidterms";
 import { BurnhamPM, BURNHAM_PM_DURATION } from "./compositions/BurnhamPM";
 
@@ -251,6 +252,14 @@ export const RemotionRoot: React.FC = () => (
       id="RussianElection2036"
       component={RussianElection2036}
       durationInFrames={RUSSIAN_ELECTION_2036_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="ChineseElection"
+      component={ChineseElection}
+      durationInFrames={CHINESE_ELECTION_DURATION}
       fps={VERTICAL.fps}
       width={VERTICAL.width}
       height={VERTICAL.height}

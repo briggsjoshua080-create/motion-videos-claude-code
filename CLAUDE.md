@@ -306,6 +306,16 @@ prompt says otherwise.
   Sundays, hence Tuesday) and "So, should America scrap midterms?" as the ending. Its props (`ReportCard`,
   `GradeStamp`, `HorseSticker`, `Horse`, `HangingSign`, `SheriffStar`, `Car`, `Couch`, …) are in
   `src/scenes/us-midterms/ui.tsx`.
+  `ChineseElection` ("Xi won 2,952 votes to zero.", `briefs/chinese-election-system/`) was made "in the same style as
+  the Russian one" (5 Nov 2026) with no questions asked: the `RussianElection2036` standard look in deep Chinese red
+  with yellow accent blocks (red letters, white rim), yellow re-hook flashes and, since red doesn't read on the red
+  background, a **yellow subtitle pill with dark red text**. A pyramid of people's congresses on frame 0 whose small
+  floating star is the rewatch detail (the Communist Party above the ladder); not the public but just under 3,000
+  lawmakers; a billion people voting in the 2026 local round; 18+ but only for a local congress; back, reject or write
+  in a name; more names than seats; each congress elects the one above; the NPC (laws, a week a year); a president with
+  one name on the ballot, the 2018 end of the term limit, the premier; Xi's 2023 third term; the party's 205 top members
+  pick the real boss; and "Is one name on a ballot a real choice?" as the ending. Props (`Pyramid`, `LocalBallot`,
+  `CongressSeats`, `Star`) are in `src/scenes/chinese-election/`.
   `BurnhamPM` ("Britain's new PM won under 25,000 votes.", `briefs/burnham-prime-minister/`) is the second **comedy
   explainer**, made "in the same style as US midterms" (5 Nov 2026) with no questions asked: how and why Andy Burnham
   became UK prime minister (20 July 2026). The `USMidterms` look in Union flag blue with red accent blocks, red re-hook

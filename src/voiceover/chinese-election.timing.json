@@ -1,0 +1,1001 @@
+{
+ "audio": "voiceover/chinese-election.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 57.65,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Xi won 2,952 votes to zero.",
+   "start": 0.13,
+   "end": 3.62,
+   "words": [
+    {
+     "text": "Xi",
+     "start": 0.13,
+     "end": 0.355
+    },
+    {
+     "text": "won",
+     "start": 0.355,
+     "end": 0.58
+    },
+    {
+     "text": "2,952",
+     "start": 0.58,
+     "end": 2.719
+    },
+    {
+     "text": "votes",
+     "start": 2.719,
+     "end": 3.057
+    },
+    {
+     "text": "to",
+     "start": 3.057,
+     "end": 3.226
+    },
+    {
+     "text": "zero.",
+     "start": 3.226,
+     "end": 3.62
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "Who voted? Why did nobody say no? And who really runs China?",
+   "start": 3.84,
+   "end": 7.28,
+   "words": [
+    {
+     "text": "Who",
+     "start": 3.84,
+     "end": 4.018
+    },
+    {
+     "text": "voted?",
+     "start": 4.018,
+     "end": 4.33
+    },
+    {
+     "text": "Why",
+     "start": 4.55,
+     "end": 4.752
+    },
+    {
+     "text": "did",
+     "start": 4.752,
+     "end": 4.953
+    },
+    {
+     "text": "nobody",
+     "start": 4.953,
+     "end": 5.357
+    },
+    {
+     "text": "say",
+     "start": 5.357,
+     "end": 5.558
+    },
+    {
+     "text": "no?",
+     "start": 5.558,
+     "end": 5.76
+    },
+    {
+     "text": "And",
+     "start": 6.04,
+     "end": 6.189
+    },
+    {
+     "text": "who",
+     "start": 6.189,
+     "end": 6.387
+    },
+    {
+     "text": "really",
+     "start": 6.387,
+     "end": 6.685
+    },
+    {
+     "text": "runs",
+     "start": 6.685,
+     "end": 6.933
+    },
+    {
+     "text": "China?",
+     "start": 6.933,
+     "end": 7.28
+    }
+   ]
+  },
+  {
+   "id": "few",
+   "text": "Not the public: just under 3,000 lawmakers.",
+   "start": 7.56,
+   "end": 10.18,
+   "words": [
+    {
+     "text": "Not",
+     "start": 7.56,
+     "end": 7.742
+    },
+    {
+     "text": "the",
+     "start": 7.742,
+     "end": 7.832
+    },
+    {
+     "text": "public:",
+     "start": 7.832,
+     "end": 8.15
+    },
+    {
+     "text": "just",
+     "start": 8.47,
+     "end": 8.772
+    },
+    {
+     "text": "under",
+     "start": 8.772,
+     "end": 9.023
+    },
+    {
+     "text": "3,000",
+     "start": 9.023,
+     "end": 9.677
+    },
+    {
+     "text": "lawmakers.",
+     "start": 9.677,
+     "end": 10.18
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the weird part: this year, a billion people vote.",
+   "start": 10.4,
+   "end": 13.56,
+   "words": [
+    {
+     "text": "But",
+     "start": 10.4,
+     "end": 10.609
+    },
+    {
+     "text": "here's",
+     "start": 10.609,
+     "end": 10.871
+    },
+    {
+     "text": "the",
+     "start": 10.871,
+     "end": 10.976
+    },
+    {
+     "text": "weird",
+     "start": 10.976,
+     "end": 11.238
+    },
+    {
+     "text": "part:",
+     "start": 11.238,
+     "end": 11.5
+    },
+    {
+     "text": "this",
+     "start": 11.77,
+     "end": 12.02
+    },
+    {
+     "text": "year,",
+     "start": 12.02,
+     "end": 12.27
+    },
+    {
+     "text": "a",
+     "start": 12.39,
+     "end": 12.55
+    },
+    {
+     "text": "billion",
+     "start": 12.55,
+     "end": 12.922
+    },
+    {
+     "text": "people",
+     "start": 12.922,
+     "end": 13.294
+    },
+    {
+     "text": "vote.",
+     "start": 13.294,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "text": "Every citizen from 18 can, but only for a local congress.",
+   "start": 13.86,
+   "end": 17.42,
+   "words": [
+    {
+     "text": "Every",
+     "start": 13.86,
+     "end": 14.155
+    },
+    {
+     "text": "citizen",
+     "start": 14.155,
+     "end": 14.626
+    },
+    {
+     "text": "from",
+     "start": 14.626,
+     "end": 14.862
+    },
+    {
+     "text": "18",
+     "start": 14.862,
+     "end": 15.274
+    },
+    {
+     "text": "can,",
+     "start": 15.274,
+     "end": 15.51
+    },
+    {
+     "text": "but",
+     "start": 15.8,
+     "end": 16.009
+    },
+    {
+     "text": "only",
+     "start": 16.009,
+     "end": 16.323
+    },
+    {
+     "text": "for",
+     "start": 16.323,
+     "end": 16.479
+    },
+    {
+     "text": "a",
+     "start": 16.479,
+     "end": 16.636
+    },
+    {
+     "text": "local",
+     "start": 16.636,
+     "end": 17.002
+    },
+    {
+     "text": "congress.",
+     "start": 17.002,
+     "end": 17.42
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "You back or reject each name, or write in someone else.",
+   "start": 17.64,
+   "end": 20.73,
+   "words": [
+    {
+     "text": "You",
+     "start": 17.64,
+     "end": 17.817
+    },
+    {
+     "text": "back",
+     "start": 17.817,
+     "end": 18.052
+    },
+    {
+     "text": "or",
+     "start": 18.052,
+     "end": 18.17
+    },
+    {
+     "text": "reject",
+     "start": 18.17,
+     "end": 18.641
+    },
+    {
+     "text": "each",
+     "start": 18.641,
+     "end": 18.936
+    },
+    {
+     "text": "name,",
+     "start": 18.936,
+     "end": 19.23
+    },
+    {
+     "text": "or",
+     "start": 19.48,
+     "end": 19.599
+    },
+    {
+     "text": "write",
+     "start": 19.599,
+     "end": 19.897
+    },
+    {
+     "text": "in",
+     "start": 19.897,
+     "end": 20.075
+    },
+    {
+     "text": "someone",
+     "start": 20.075,
+     "end": 20.492
+    },
+    {
+     "text": "else.",
+     "start": 20.492,
+     "end": 20.73
+    }
+   ]
+  },
+  {
+   "id": "seats",
+   "text": "There are more names than seats, so some lose.",
+   "start": 21.03,
+   "end": 23.23,
+   "words": [
+    {
+     "text": "There",
+     "start": 21.03,
+     "end": 21.235
+    },
+    {
+     "text": "are",
+     "start": 21.235,
+     "end": 21.337
+    },
+    {
+     "text": "more",
+     "start": 21.337,
+     "end": 21.542
+    },
+    {
+     "text": "names",
+     "start": 21.542,
+     "end": 21.849
+    },
+    {
+     "text": "than",
+     "start": 21.849,
+     "end": 22.003
+    },
+    {
+     "text": "seats,",
+     "start": 22.003,
+     "end": 22.31
+    },
+    {
+     "text": "so",
+     "start": 22.5,
+     "end": 22.725
+    },
+    {
+     "text": "some",
+     "start": 22.725,
+     "end": 22.949
+    },
+    {
+     "text": "lose.",
+     "start": 22.949,
+     "end": 23.23
+    }
+   ]
+  },
+  {
+   "id": "only",
+   "text": "Now it gets strange: that's the only vote you get.",
+   "start": 23.44,
+   "end": 26.12,
+   "words": [
+    {
+     "text": "Now",
+     "start": 23.44,
+     "end": 23.656
+    },
+    {
+     "text": "it",
+     "start": 23.656,
+     "end": 23.764
+    },
+    {
+     "text": "gets",
+     "start": 23.764,
+     "end": 24.034
+    },
+    {
+     "text": "strange:",
+     "start": 24.034,
+     "end": 24.52
+    },
+    {
+     "text": "that's",
+     "start": 24.79,
+     "end": 25.056
+    },
+    {
+     "text": "the",
+     "start": 25.056,
+     "end": 25.162
+    },
+    {
+     "text": "only",
+     "start": 25.162,
+     "end": 25.482
+    },
+    {
+     "text": "vote",
+     "start": 25.482,
+     "end": 25.748
+    },
+    {
+     "text": "you",
+     "start": 25.748,
+     "end": 25.907
+    },
+    {
+     "text": "get.",
+     "start": 25.907,
+     "end": 26.12
+    }
+   ]
+  },
+  {
+   "id": "ladder",
+   "text": "Each congress elects the one above: county, city, province, nation.",
+   "start": 26.42,
+   "end": 30.35,
+   "words": [
+    {
+     "text": "Each",
+     "start": 26.42,
+     "end": 26.688
+    },
+    {
+     "text": "congress",
+     "start": 26.688,
+     "end": 27.116
+    },
+    {
+     "text": "elects",
+     "start": 27.116,
+     "end": 27.491
+    },
+    {
+     "text": "the",
+     "start": 27.491,
+     "end": 27.598
+    },
+    {
+     "text": "one",
+     "start": 27.598,
+     "end": 27.812
+    },
+    {
+     "text": "above:",
+     "start": 27.812,
+     "end": 28.08
+    },
+    {
+     "text": "county,",
+     "start": 28.44,
+     "end": 28.938
+    },
+    {
+     "text": "city,",
+     "start": 29.044,
+     "end": 29.4
+    },
+    {
+     "text": "province,",
+     "start": 29.5,
+     "end": 29.912
+    },
+    {
+     "text": "nation.",
+     "start": 29.989,
+     "end": 30.35
+    }
+   ]
+  },
+  {
+   "id": "npc",
+   "text": "At the top, the National People's Congress passes the laws.",
+   "start": 30.57,
+   "end": 33.63,
+   "words": [
+    {
+     "text": "At",
+     "start": 30.57,
+     "end": 30.665
+    },
+    {
+     "text": "the",
+     "start": 30.665,
+     "end": 30.76
+    },
+    {
+     "text": "top,",
+     "start": 30.76,
+     "end": 30.95
+    },
+    {
+     "text": "the",
+     "start": 31.21,
+     "end": 31.334
+    },
+    {
+     "text": "National",
+     "start": 31.334,
+     "end": 31.83
+    },
+    {
+     "text": "People's",
+     "start": 31.83,
+     "end": 32.327
+    },
+    {
+     "text": "Congress",
+     "start": 32.327,
+     "end": 32.823
+    },
+    {
+     "text": "passes",
+     "start": 32.823,
+     "end": 33.196
+    },
+    {
+     "text": "the",
+     "start": 33.196,
+     "end": 33.32
+    },
+    {
+     "text": "laws.",
+     "start": 33.32,
+     "end": 33.63
+    }
+   ]
+  },
+  {
+   "id": "week",
+   "text": "It meets for about a week a year.",
+   "start": 33.85,
+   "end": 35.5,
+   "words": [
+    {
+     "text": "It",
+     "start": 33.85,
+     "end": 33.953
+    },
+    {
+     "text": "meets",
+     "start": 33.953,
+     "end": 34.262
+    },
+    {
+     "text": "for",
+     "start": 34.262,
+     "end": 34.417
+    },
+    {
+     "text": "about",
+     "start": 34.417,
+     "end": 34.727
+    },
+    {
+     "text": "a",
+     "start": 34.727,
+     "end": 34.881
+    },
+    {
+     "text": "week",
+     "start": 34.881,
+     "end": 35.139
+    },
+    {
+     "text": "a",
+     "start": 35.139,
+     "end": 35.294
+    },
+    {
+     "text": "year.",
+     "start": 35.294,
+     "end": 35.5
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "It elects the president, with one name on the ballot.",
+   "start": 35.72,
+   "end": 38.41,
+   "words": [
+    {
+     "text": "It",
+     "start": 35.72,
+     "end": 35.819
+    },
+    {
+     "text": "elects",
+     "start": 35.819,
+     "end": 36.166
+    },
+    {
+     "text": "the",
+     "start": 36.166,
+     "end": 36.265
+    },
+    {
+     "text": "president,",
+     "start": 36.265,
+     "end": 36.76
+    },
+    {
+     "text": "with",
+     "start": 37.03,
+     "end": 37.21
+    },
+    {
+     "text": "one",
+     "start": 37.21,
+     "end": 37.45
+    },
+    {
+     "text": "name",
+     "start": 37.45,
+     "end": 37.75
+    },
+    {
+     "text": "on",
+     "start": 37.75,
+     "end": 37.93
+    },
+    {
+     "text": "the",
+     "start": 37.93,
+     "end": 38.05
+    },
+    {
+     "text": "ballot.",
+     "start": 38.05,
+     "end": 38.41
+    }
+   ]
+  },
+  {
+   "id": "limit",
+   "text": "In 2018, it scrapped his two-term limit.",
+   "start": 38.63,
+   "end": 41.09,
+   "words": [
+    {
+     "text": "In",
+     "start": 38.63,
+     "end": 38.776
+    },
+    {
+     "text": "2018,",
+     "start": 38.776,
+     "end": 39.46
+    },
+    {
+     "text": "it",
+     "start": 39.7,
+     "end": 39.799
+    },
+    {
+     "text": "scrapped",
+     "start": 39.799,
+     "end": 40.147
+    },
+    {
+     "text": "his",
+     "start": 40.147,
+     "end": 40.345
+    },
+    {
+     "text": "two-term",
+     "start": 40.345,
+     "end": 40.792
+    },
+    {
+     "text": "limit.",
+     "start": 40.792,
+     "end": 41.09
+    }
+   ]
+  },
+  {
+   "id": "premier",
+   "text": "He names the premier, who runs the government.",
+   "start": 41.31,
+   "end": 43.58,
+   "words": [
+    {
+     "text": "He",
+     "start": 41.31,
+     "end": 41.462
+    },
+    {
+     "text": "names",
+     "start": 41.462,
+     "end": 41.765
+    },
+    {
+     "text": "the",
+     "start": 41.765,
+     "end": 41.866
+    },
+    {
+     "text": "premier,",
+     "start": 41.866,
+     "end": 42.22
+    },
+    {
+     "text": "who",
+     "start": 42.46,
+     "end": 42.673
+    },
+    {
+     "text": "runs",
+     "start": 42.673,
+     "end": 42.94
+    },
+    {
+     "text": "the",
+     "start": 42.94,
+     "end": 43.047
+    },
+    {
+     "text": "government.",
+     "start": 43.047,
+     "end": 43.58
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "That's how Xi got a third term in 2023.",
+   "start": 43.8,
+   "end": 46.58,
+   "words": [
+    {
+     "text": "That's",
+     "start": 43.8,
+     "end": 44.067
+    },
+    {
+     "text": "how",
+     "start": 44.067,
+     "end": 44.281
+    },
+    {
+     "text": "Xi",
+     "start": 44.281,
+     "end": 44.495
+    },
+    {
+     "text": "got",
+     "start": 44.495,
+     "end": 44.709
+    },
+    {
+     "text": "a",
+     "start": 44.709,
+     "end": 44.869
+    },
+    {
+     "text": "third",
+     "start": 44.869,
+     "end": 45.136
+    },
+    {
+     "text": "term",
+     "start": 45.136,
+     "end": 45.404
+    },
+    {
+     "text": "in",
+     "start": 45.404,
+     "end": 45.564
+    },
+    {
+     "text": "2023.",
+     "start": 45.564,
+     "end": 46.58
+    }
+   ]
+  },
+  {
+   "id": "save",
+   "text": "Save this for 2027.",
+   "start": 46.8,
+   "end": 48.51,
+   "words": [
+    {
+     "text": "Save",
+     "start": 46.8,
+     "end": 47.067
+    },
+    {
+     "text": "this",
+     "start": 47.067,
+     "end": 47.281
+    },
+    {
+     "text": "for",
+     "start": 47.281,
+     "end": 47.441
+    },
+    {
+     "text": "2027.",
+     "start": 47.441,
+     "end": 48.51
+    }
+   ]
+  },
+  {
+   "id": "star",
+   "text": "And the star above the pyramid? The Communist Party. Its top 205 members pick the real boss: Xi.",
+   "start": 48.87,
+   "end": 54.98,
+   "words": [
+    {
+     "text": "And",
+     "start": 48.87,
+     "end": 49.021
+    },
+    {
+     "text": "the",
+     "start": 49.021,
+     "end": 49.122
+    },
+    {
+     "text": "star",
+     "start": 49.122,
+     "end": 49.374
+    },
+    {
+     "text": "above",
+     "start": 49.374,
+     "end": 49.626
+    },
+    {
+     "text": "the",
+     "start": 49.626,
+     "end": 49.726
+    },
+    {
+     "text": "pyramid?",
+     "start": 49.726,
+     "end": 50.18
+    },
+    {
+     "text": "The",
+     "start": 50.5,
+     "end": 50.604
+    },
+    {
+     "text": "Communist",
+     "start": 50.604,
+     "end": 51.228
+    },
+    {
+     "text": "Party.",
+     "start": 51.228,
+     "end": 51.54
+    },
+    {
+     "text": "Its",
+     "start": 51.86,
+     "end": 52.026
+    },
+    {
+     "text": "top",
+     "start": 52.026,
+     "end": 52.247
+    },
+    {
+     "text": "205",
+     "start": 52.247,
+     "end": 53.353
+    },
+    {
+     "text": "members",
+     "start": 53.353,
+     "end": 53.74
+    },
+    {
+     "text": "pick",
+     "start": 53.74,
+     "end": 53.962
+    },
+    {
+     "text": "the",
+     "start": 53.962,
+     "end": 54.072
+    },
+    {
+     "text": "real",
+     "start": 54.072,
+     "end": 54.349
+    },
+    {
+     "text": "boss:",
+     "start": 54.349,
+     "end": 54.57
+    },
+    {
+     "text": "Xi.",
+     "start": 54.72,
+     "end": 54.98
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Is one name on a ballot a real choice?",
+   "start": 55.2,
+   "end": 57.46,
+   "words": [
+    {
+     "text": "Is",
+     "start": 55.2,
+     "end": 55.322
+    },
+    {
+     "text": "one",
+     "start": 55.322,
+     "end": 55.566
+    },
+    {
+     "text": "name",
+     "start": 55.566,
+     "end": 55.872
+    },
+    {
+     "text": "on",
+     "start": 55.872,
+     "end": 56.055
+    },
+    {
+     "text": "a",
+     "start": 56.055,
+     "end": 56.238
+    },
+    {
+     "text": "ballot",
+     "start": 56.238,
+     "end": 56.605
+    },
+    {
+     "text": "a",
+     "start": 56.605,
+     "end": 56.788
+    },
+    {
+     "text": "real",
+     "start": 56.788,
+     "end": 57.093
+    },
+    {
+     "text": "choice?",
+     "start": 57.093,
+     "end": 57.46
+    }
+   ]
+  }
+ ]
+}
