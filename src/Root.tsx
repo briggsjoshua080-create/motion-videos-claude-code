@@ -36,6 +36,7 @@ import { RussianElection, RUSSIAN_ELECTION_DURATION } from "./compositions/Russi
 import { UkrainianElection, UKRAINIAN_ELECTION_DURATION } from "./compositions/UkrainianElection";
 import { RussianElection2036, RUSSIAN_ELECTION_2036_DURATION } from "./compositions/RussianElection2036";
 import { USMidterms, US_MIDTERMS_DURATION } from "./compositions/USMidterms";
+import { BurnhamPM, BURNHAM_PM_DURATION } from "./compositions/BurnhamPM";
 
 /**
  * Register every composition here. To add one:
@@ -258,6 +259,14 @@ export const RemotionRoot: React.FC = () => (
       id="USMidterms"
       component={USMidterms}
       durationInFrames={US_MIDTERMS_DURATION}
+      fps={VERTICAL.fps}
+      width={VERTICAL.width}
+      height={VERTICAL.height}
+    />
+    <Composition
+      id="BurnhamPM"
+      component={BurnhamPM}
+      durationInFrames={BURNHAM_PM_DURATION}
       fps={VERTICAL.fps}
       width={VERTICAL.width}
       height={VERTICAL.height}

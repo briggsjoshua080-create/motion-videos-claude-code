@@ -1,0 +1,88 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.22,
+  "leadIn": 0.1,
+  "pauseAfter": 0.1,
+  "say": {
+    "9,000": "nine thousand",
+    "90%": "ninety percent",
+    "2029": "twenty twenty-nine",
+    "MPs": "M Ps",
+    "MP": "M P",
+    "PM": "P M",
+    "100": "a hundred",
+    "25,000": "twenty-five thousand"
+  },
+  "pronounce": {},
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "Britain's new PM won under 25,000 votes."
+    },
+    {
+      "id": "loops",
+      "text": "How? Whose seat? And why now?"
+    },
+    {
+      "id": "chairs",
+      "text": "Britons never vote for a PM. They elect MPs. The biggest party's leader gets the job."
+    },
+    {
+      "id": "seven",
+      "text": "Swap the leader, swap the PM. Seven in ten years."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: Labour's leader needs a seat in Parliament. He had none."
+    },
+    {
+      "id": "blocked",
+      "text": "He was Manchester's mayor, and his party blocked his first try."
+    },
+    {
+      "id": "greens",
+      "text": "Labour lost it. To the Greens."
+    },
+    {
+      "id": "may",
+      "text": "Then Labour crashed in May's elections. Nearly 100 MPs told Starmer to go."
+    },
+    {
+      "id": "strange",
+      "text": "Now it gets strange: an MP quit, to hand him his seat."
+    },
+    {
+      "id": "ballot",
+      "text": "Makerfield voted: one cross, one name. He won by 9,000."
+    },
+    {
+      "id": "quit",
+      "text": "Four days later, Starmer quit."
+    },
+    {
+      "id": "contest",
+      "text": "Candidates need a fifth of Labour's MPs. Burnham got 90%. Rivals: zero."
+    },
+    {
+      "id": "king",
+      "text": "On 20 July, the King made him PM."
+    },
+    {
+      "id": "next",
+      "text": "Everyone else votes by 2029."
+    },
+    {
+      "id": "share",
+      "text": "Send this to someone who thinks Britain voted for him."
+    },
+    {
+      "id": "crown",
+      "text": "And the crown tag? MPs can't quit. So that MP took a do-nothing Crown job."
+    },
+    {
+      "id": "question",
+      "text": "Should a new PM face voters first?"
+    }
+  ]
+}

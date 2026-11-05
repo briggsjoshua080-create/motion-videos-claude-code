@@ -1,0 +1,983 @@
+{
+ "audio": "voiceover/burnham-pm.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 59.13,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "Britain's new PM won under 25,000 votes.",
+   "start": 0.13,
+   "end": 3.45,
+   "words": [
+    {
+     "text": "Britain's",
+     "start": 0.13,
+     "end": 0.613
+    },
+    {
+     "text": "new",
+     "start": 0.613,
+     "end": 0.915
+    },
+    {
+     "text": "PM",
+     "start": 0.915,
+     "end": 1.337
+    },
+    {
+     "text": "won",
+     "start": 1.337,
+     "end": 1.579
+    },
+    {
+     "text": "under",
+     "start": 1.579,
+     "end": 1.881
+    },
+    {
+     "text": "25,000",
+     "start": 1.881,
+     "end": 3.088
+    },
+    {
+     "text": "votes.",
+     "start": 3.088,
+     "end": 3.45
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "How? Whose seat? And why now?",
+   "start": 3.61,
+   "end": 5.28,
+   "words": [
+    {
+     "text": "How?",
+     "start": 3.61,
+     "end": 3.809
+    },
+    {
+     "text": "Whose",
+     "start": 3.883,
+     "end": 4.132
+    },
+    {
+     "text": "seat?",
+     "start": 4.132,
+     "end": 4.38
+    },
+    {
+     "text": "And",
+     "start": 4.58,
+     "end": 4.771
+    },
+    {
+     "text": "why",
+     "start": 4.771,
+     "end": 5.025
+    },
+    {
+     "text": "now?",
+     "start": 5.025,
+     "end": 5.28
+    }
+   ]
+  },
+  {
+   "id": "chairs",
+   "text": "Britons never vote for a PM. They elect MPs. The biggest party's leader gets the job.",
+   "start": 5.43,
+   "end": 10.86,
+   "words": [
+    {
+     "text": "Britons",
+     "start": 5.43,
+     "end": 5.866
+    },
+    {
+     "text": "never",
+     "start": 5.866,
+     "end": 6.139
+    },
+    {
+     "text": "vote",
+     "start": 6.139,
+     "end": 6.411
+    },
+    {
+     "text": "for",
+     "start": 6.411,
+     "end": 6.575
+    },
+    {
+     "text": "a",
+     "start": 6.575,
+     "end": 6.738
+    },
+    {
+     "text": "PM.",
+     "start": 6.738,
+     "end": 7.12
+    },
+    {
+     "text": "They",
+     "start": 7.39,
+     "end": 7.602
+    },
+    {
+     "text": "elect",
+     "start": 7.602,
+     "end": 8.025
+    },
+    {
+     "text": "MPs.",
+     "start": 8.025,
+     "end": 8.73
+    },
+    {
+     "text": "The",
+     "start": 9.06,
+     "end": 9.166
+    },
+    {
+     "text": "biggest",
+     "start": 9.166,
+     "end": 9.536
+    },
+    {
+     "text": "party's",
+     "start": 9.536,
+     "end": 9.907
+    },
+    {
+     "text": "leader",
+     "start": 9.907,
+     "end": 10.225
+    },
+    {
+     "text": "gets",
+     "start": 10.225,
+     "end": 10.489
+    },
+    {
+     "text": "the",
+     "start": 10.489,
+     "end": 10.595
+    },
+    {
+     "text": "job.",
+     "start": 10.595,
+     "end": 10.86
+    }
+   ]
+  },
+  {
+   "id": "seven",
+   "text": "Swap the leader, swap the PM. Seven in ten years.",
+   "start": 11.02,
+   "end": 13.98,
+   "words": [
+    {
+     "text": "Swap",
+     "start": 11.02,
+     "end": 11.366
+    },
+    {
+     "text": "the",
+     "start": 11.366,
+     "end": 11.505
+    },
+    {
+     "text": "leader,",
+     "start": 11.505,
+     "end": 11.92
+    },
+    {
+     "text": "swap",
+     "start": 12.02,
+     "end": 12.206
+    },
+    {
+     "text": "the",
+     "start": 12.206,
+     "end": 12.28
+    },
+    {
+     "text": "PM.",
+     "start": 12.28,
+     "end": 12.54
+    },
+    {
+     "text": "Seven",
+     "start": 12.75,
+     "end": 13.16
+    },
+    {
+     "text": "in",
+     "start": 13.16,
+     "end": 13.365
+    },
+    {
+     "text": "ten",
+     "start": 13.365,
+     "end": 13.638
+    },
+    {
+     "text": "years.",
+     "start": 13.638,
+     "end": 13.98
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the weird part: Labour's leader needs a seat in Parliament. He had none.",
+   "start": 14.14,
+   "end": 18.33,
+   "words": [
+    {
+     "text": "But",
+     "start": 14.14,
+     "end": 14.355
+    },
+    {
+     "text": "here's",
+     "start": 14.355,
+     "end": 14.624
+    },
+    {
+     "text": "the",
+     "start": 14.624,
+     "end": 14.732
+    },
+    {
+     "text": "weird",
+     "start": 14.732,
+     "end": 15.001
+    },
+    {
+     "text": "part:",
+     "start": 15.001,
+     "end": 15.27
+    },
+    {
+     "text": "Labour's",
+     "start": 15.51,
+     "end": 15.851
+    },
+    {
+     "text": "leader",
+     "start": 15.851,
+     "end": 16.144
+    },
+    {
+     "text": "needs",
+     "start": 16.144,
+     "end": 16.436
+    },
+    {
+     "text": "a",
+     "start": 16.436,
+     "end": 16.582
+    },
+    {
+     "text": "seat",
+     "start": 16.582,
+     "end": 16.826
+    },
+    {
+     "text": "in",
+     "start": 16.826,
+     "end": 16.973
+    },
+    {
+     "text": "Parliament.",
+     "start": 16.973,
+     "end": 17.46
+    },
+    {
+     "text": "He",
+     "start": 17.78,
+     "end": 17.93
+    },
+    {
+     "text": "had",
+     "start": 17.93,
+     "end": 18.13
+    },
+    {
+     "text": "none.",
+     "start": 18.13,
+     "end": 18.33
+    }
+   ]
+  },
+  {
+   "id": "blocked",
+   "text": "He was Manchester's mayor, and his party blocked his first try.",
+   "start": 18.49,
+   "end": 21.67,
+   "words": [
+    {
+     "text": "He",
+     "start": 18.49,
+     "end": 18.654
+    },
+    {
+     "text": "was",
+     "start": 18.654,
+     "end": 18.819
+    },
+    {
+     "text": "Manchester's",
+     "start": 18.819,
+     "end": 19.421
+    },
+    {
+     "text": "mayor,",
+     "start": 19.421,
+     "end": 19.64
+    },
+    {
+     "text": "and",
+     "start": 19.9,
+     "end": 20.056
+    },
+    {
+     "text": "his",
+     "start": 20.056,
+     "end": 20.264
+    },
+    {
+     "text": "party",
+     "start": 20.264,
+     "end": 20.577
+    },
+    {
+     "text": "blocked",
+     "start": 20.577,
+     "end": 20.889
+    },
+    {
+     "text": "his",
+     "start": 20.889,
+     "end": 21.097
+    },
+    {
+     "text": "first",
+     "start": 21.097,
+     "end": 21.41
+    },
+    {
+     "text": "try.",
+     "start": 21.41,
+     "end": 21.67
+    }
+   ]
+  },
+  {
+   "id": "greens",
+   "text": "Labour lost it. To the Greens.",
+   "start": 21.83,
+   "end": 23.47,
+   "words": [
+    {
+     "text": "Labour",
+     "start": 21.83,
+     "end": 22.185
+    },
+    {
+     "text": "lost",
+     "start": 22.185,
+     "end": 22.482
+    },
+    {
+     "text": "it.",
+     "start": 22.482,
+     "end": 22.6
+    },
+    {
+     "text": "To",
+     "start": 22.8,
+     "end": 22.968
+    },
+    {
+     "text": "the",
+     "start": 22.968,
+     "end": 23.079
+    },
+    {
+     "text": "Greens.",
+     "start": 23.079,
+     "end": 23.47
+    }
+   ]
+  },
+  {
+   "id": "may",
+   "text": "Then Labour crashed in May's elections. Nearly 100 MPs told Starmer to go.",
+   "start": 23.63,
+   "end": 28.57,
+   "words": [
+    {
+     "text": "Then",
+     "start": 23.63,
+     "end": 23.882
+    },
+    {
+     "text": "Labour",
+     "start": 23.882,
+     "end": 24.26
+    },
+    {
+     "text": "crashed",
+     "start": 24.26,
+     "end": 24.638
+    },
+    {
+     "text": "in",
+     "start": 24.638,
+     "end": 24.828
+    },
+    {
+     "text": "May's",
+     "start": 24.828,
+     "end": 25.143
+    },
+    {
+     "text": "elections.",
+     "start": 25.143,
+     "end": 25.71
+    },
+    {
+     "text": "Nearly",
+     "start": 26.07,
+     "end": 26.403
+    },
+    {
+     "text": "100",
+     "start": 26.403,
+     "end": 26.903
+    },
+    {
+     "text": "MPs",
+     "start": 26.903,
+     "end": 27.459
+    },
+    {
+     "text": "told",
+     "start": 27.459,
+     "end": 27.792
+    },
+    {
+     "text": "Starmer",
+     "start": 27.792,
+     "end": 28.181
+    },
+    {
+     "text": "to",
+     "start": 28.181,
+     "end": 28.348
+    },
+    {
+     "text": "go.",
+     "start": 28.348,
+     "end": 28.57
+    }
+   ]
+  },
+  {
+   "id": "strange",
+   "text": "Now it gets strange: an MP quit, to hand him his seat.",
+   "start": 28.73,
+   "end": 31.96,
+   "words": [
+    {
+     "text": "Now",
+     "start": 28.73,
+     "end": 28.946
+    },
+    {
+     "text": "it",
+     "start": 28.946,
+     "end": 29.054
+    },
+    {
+     "text": "gets",
+     "start": 29.054,
+     "end": 29.324
+    },
+    {
+     "text": "strange:",
+     "start": 29.324,
+     "end": 29.81
+    },
+    {
+     "text": "an",
+     "start": 30.1,
+     "end": 30.216
+    },
+    {
+     "text": "MP",
+     "start": 30.216,
+     "end": 30.621
+    },
+    {
+     "text": "quit,",
+     "start": 30.621,
+     "end": 30.91
+    },
+    {
+     "text": "to",
+     "start": 31.13,
+     "end": 31.249
+    },
+    {
+     "text": "hand",
+     "start": 31.249,
+     "end": 31.446
+    },
+    {
+     "text": "him",
+     "start": 31.446,
+     "end": 31.604
+    },
+    {
+     "text": "his",
+     "start": 31.604,
+     "end": 31.762
+    },
+    {
+     "text": "seat.",
+     "start": 31.762,
+     "end": 31.96
+    }
+   ]
+  },
+  {
+   "id": "ballot",
+   "text": "Makerfield voted: one cross, one name. He won by 9,000.",
+   "start": 32.12,
+   "end": 36.01,
+   "words": [
+    {
+     "text": "Makerfield",
+     "start": 32.12,
+     "end": 32.694
+    },
+    {
+     "text": "voted:",
+     "start": 32.694,
+     "end": 33.06
+    },
+    {
+     "text": "one",
+     "start": 33.32,
+     "end": 33.556
+    },
+    {
+     "text": "cross,",
+     "start": 33.556,
+     "end": 33.851
+    },
+    {
+     "text": "one",
+     "start": 33.939,
+     "end": 34.175
+    },
+    {
+     "text": "name.",
+     "start": 34.175,
+     "end": 34.47
+    },
+    {
+     "text": "He",
+     "start": 34.77,
+     "end": 34.925
+    },
+    {
+     "text": "won",
+     "start": 34.925,
+     "end": 35.132
+    },
+    {
+     "text": "by",
+     "start": 35.132,
+     "end": 35.338
+    },
+    {
+     "text": "9,000.",
+     "start": 35.338,
+     "end": 36.01
+    }
+   ]
+  },
+  {
+   "id": "quit",
+   "text": "Four days later, Starmer quit.",
+   "start": 36.17,
+   "end": 37.87,
+   "words": [
+    {
+     "text": "Four",
+     "start": 36.17,
+     "end": 36.407
+    },
+    {
+     "text": "days",
+     "start": 36.407,
+     "end": 36.704
+    },
+    {
+     "text": "later,",
+     "start": 36.704,
+     "end": 37.06
+    },
+    {
+     "text": "Starmer",
+     "start": 37.19,
+     "end": 37.587
+    },
+    {
+     "text": "quit.",
+     "start": 37.587,
+     "end": 37.87
+    }
+   ]
+  },
+  {
+   "id": "contest",
+   "text": "Candidates need a fifth of Labour's MPs. Burnham got 90%. Rivals: zero.",
+   "start": 38.03,
+   "end": 43.58,
+   "words": [
+    {
+     "text": "Candidates",
+     "start": 38.03,
+     "end": 38.75
+    },
+    {
+     "text": "need",
+     "start": 38.75,
+     "end": 39.05
+    },
+    {
+     "text": "a",
+     "start": 39.05,
+     "end": 39.23
+    },
+    {
+     "text": "fifth",
+     "start": 39.23,
+     "end": 39.53
+    },
+    {
+     "text": "of",
+     "start": 39.53,
+     "end": 39.65
+    },
+    {
+     "text": "Labour's",
+     "start": 39.65,
+     "end": 40.07
+    },
+    {
+     "text": "MPs.",
+     "start": 40.07,
+     "end": 40.67
+    },
+    {
+     "text": "Burnham",
+     "start": 40.98,
+     "end": 41.319
+    },
+    {
+     "text": "got",
+     "start": 41.319,
+     "end": 41.512
+    },
+    {
+     "text": "90%.",
+     "start": 41.512,
+     "end": 42.19
+    },
+    {
+     "text": "Rivals:",
+     "start": 42.51,
+     "end": 42.97
+    },
+    {
+     "text": "zero.",
+     "start": 43.16,
+     "end": 43.58
+    }
+   ]
+  },
+  {
+   "id": "king",
+   "text": "On 20 July, the King made him PM.",
+   "start": 43.74,
+   "end": 46.26,
+   "words": [
+    {
+     "text": "On",
+     "start": 43.74,
+     "end": 43.9
+    },
+    {
+     "text": "20",
+     "start": 43.9,
+     "end": 44.273
+    },
+    {
+     "text": "July,",
+     "start": 44.273,
+     "end": 44.7
+    },
+    {
+     "text": "the",
+     "start": 44.96,
+     "end": 45.078
+    },
+    {
+     "text": "King",
+     "start": 45.078,
+     "end": 45.315
+    },
+    {
+     "text": "made",
+     "start": 45.315,
+     "end": 45.61
+    },
+    {
+     "text": "him",
+     "start": 45.61,
+     "end": 45.846
+    },
+    {
+     "text": "PM.",
+     "start": 45.846,
+     "end": 46.26
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "text": "Everyone else votes by 2029.",
+   "start": 46.41,
+   "end": 48.78,
+   "words": [
+    {
+     "text": "Everyone",
+     "start": 46.41,
+     "end": 46.918
+    },
+    {
+     "text": "else",
+     "start": 46.918,
+     "end": 47.144
+    },
+    {
+     "text": "votes",
+     "start": 47.144,
+     "end": 47.482
+    },
+    {
+     "text": "by",
+     "start": 47.482,
+     "end": 47.708
+    },
+    {
+     "text": "2029.",
+     "start": 47.708,
+     "end": 48.78
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "text": "Send this to someone who thinks Britain voted for him.",
+   "start": 48.94,
+   "end": 51.81,
+   "words": [
+    {
+     "text": "Send",
+     "start": 48.94,
+     "end": 49.227
+    },
+    {
+     "text": "this",
+     "start": 49.227,
+     "end": 49.457
+    },
+    {
+     "text": "to",
+     "start": 49.457,
+     "end": 49.629
+    },
+    {
+     "text": "someone",
+     "start": 49.629,
+     "end": 50.031
+    },
+    {
+     "text": "who",
+     "start": 50.031,
+     "end": 50.26
+    },
+    {
+     "text": "thinks",
+     "start": 50.26,
+     "end": 50.605
+    },
+    {
+     "text": "Britain",
+     "start": 50.605,
+     "end": 51.006
+    },
+    {
+     "text": "voted",
+     "start": 51.006,
+     "end": 51.408
+    },
+    {
+     "text": "for",
+     "start": 51.408,
+     "end": 51.58
+    },
+    {
+     "text": "him.",
+     "start": 51.58,
+     "end": 51.81
+    }
+   ]
+  },
+  {
+   "id": "crown",
+   "text": "And the crown tag? MPs can't quit. So that MP took a do-nothing Crown job.",
+   "start": 51.97,
+   "end": 56.8,
+   "words": [
+    {
+     "text": "And",
+     "start": 51.97,
+     "end": 52.128
+    },
+    {
+     "text": "the",
+     "start": 52.128,
+     "end": 52.233
+    },
+    {
+     "text": "crown",
+     "start": 52.233,
+     "end": 52.549
+    },
+    {
+     "text": "tag?",
+     "start": 52.549,
+     "end": 52.76
+    },
+    {
+     "text": "MPs",
+     "start": 53.03,
+     "end": 53.592
+    },
+    {
+     "text": "can't",
+     "start": 53.592,
+     "end": 53.929
+    },
+    {
+     "text": "quit.",
+     "start": 53.929,
+     "end": 54.21
+    },
+    {
+     "text": "So",
+     "start": 54.53,
+     "end": 54.741
+    },
+    {
+     "text": "that",
+     "start": 54.741,
+     "end": 54.952
+    },
+    {
+     "text": "MP",
+     "start": 54.952,
+     "end": 55.322
+    },
+    {
+     "text": "took",
+     "start": 55.322,
+     "end": 55.533
+    },
+    {
+     "text": "a",
+     "start": 55.533,
+     "end": 55.691
+    },
+    {
+     "text": "do-nothing",
+     "start": 55.691,
+     "end": 56.219
+    },
+    {
+     "text": "Crown",
+     "start": 56.219,
+     "end": 56.536
+    },
+    {
+     "text": "job.",
+     "start": 56.536,
+     "end": 56.8
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Should a new PM face voters first?",
+   "start": 56.96,
+   "end": 59.0,
+   "words": [
+    {
+     "text": "Should",
+     "start": 56.96,
+     "end": 57.181
+    },
+    {
+     "text": "a",
+     "start": 57.181,
+     "end": 57.346
+    },
+    {
+     "text": "new",
+     "start": 57.346,
+     "end": 57.622
+    },
+    {
+     "text": "PM",
+     "start": 57.622,
+     "end": 58.008
+    },
+    {
+     "text": "face",
+     "start": 58.008,
+     "end": 58.283
+    },
+    {
+     "text": "voters",
+     "start": 58.283,
+     "end": 58.669
+    },
+    {
+     "text": "first?",
+     "start": 58.669,
+     "end": 59.0
+    }
+   ]
+  }
+ ]
+}

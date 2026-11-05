@@ -306,6 +306,17 @@ prompt says otherwise.
   Sundays, hence Tuesday) and "So, should America scrap midterms?" as the ending. Its props (`ReportCard`,
   `GradeStamp`, `HorseSticker`, `Horse`, `HangingSign`, `SheriffStar`, `Car`, `Couch`, …) are in
   `src/scenes/us-midterms/ui.tsx`.
+  `BurnhamPM` ("Britain's new PM won under 25,000 votes.", `briefs/burnham-prime-minister/`) is the second **comedy
+  explainer**, made "in the same style as US midterms" (5 Nov 2026) with no questions asked: how and why Andy Burnham
+  became UK prime minister (20 July 2026). The `USMidterms` look in Union flag blue with red accent blocks, red re-hook
+  flashes, the standard red subtitle pill, plus Commons green for the props. The premise is **musical chairs** (you need
+  a Commons seat to be PM): a green Commons chair with a small gold crown tag (the rewatch detail) on frame 0, no vote
+  for PM (650 seats, No. 10), seven PMs in ten years, the chair yanked away (a leader must be an MP), blocked from
+  Gorton and Denton (lost to the Greens), May's crash and nearly 100 MPs, an MP who gave him his seat, the Makerfield
+  ballot (+9,000), Starmer quits, a fifth of MPs needed vs 90% (rivals: zero), the King, everyone else votes by 2029, the
+  crown tag as the Chiltern Hundreds, and "Should a new PM face voters first?" as the ending. Props (`Chair`, `Crown`,
+  `Door`, `Rosette`, `BallotBox`) are in `src/scenes/burnham-pm/ui.tsx`. This brief is not a "political system" video,
+  so who can vote is in the fact sheet only.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
