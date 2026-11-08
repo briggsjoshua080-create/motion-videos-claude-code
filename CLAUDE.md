@@ -327,6 +327,16 @@ prompt says otherwise.
   crown tag as the Chiltern Hundreds, and "Should a new PM face voters first?" as the ending. Props (`Chair`, `Crown`,
   `Door`, `Rosette`, `BallotBox`) are in `src/scenes/burnham-pm/ui.tsx`. This brief is not a "political system" video,
   so who can vote is in the fact sheet only.
+  `CeutaCrisis` ("A city of 83,000. 72,000 arrived.", `briefs/ceuta-crisis-2026/`) is the first **news-event explainer**
+  (8 Nov 2026, no questions asked): the summer 2026 Ceuta crisis (29–31 July) — what happened, when, why, and whether it
+  can happen again. The standard look themed **to the topic instead of a flag** ("adjust graphics to fit topic"):
+  Strait-of-Gibraltar sea blue with **rescue orange** accent blocks, orange re-hook flashes and an orange subtitle pill
+  with navy text, light "nautical chart" paper. A real Spain–Morocco outline map (`strait.ts`, Natural Earth), a
+  schematic chart of Ceuta's border with swimmers rounding the fence's end (`maps.tsx`), and **three overlapping
+  circles** (Geography / Politics / Social, `Problems.tsx`) that fill one by one and spark where they overlap, to show
+  how the causes came together; a likelihood gauge (`Meter.tsx`) answers "again?". The dotted orange line in the sea on
+  frame 0 is the floating barrier (rewatch detail). Ends on "Should Spain send swimmers back at once?". Not a political
+  system video, so the election parts of the standing brief don't apply.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;

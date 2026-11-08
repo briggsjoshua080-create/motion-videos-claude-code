@@ -1,0 +1,105 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.27,
+  "leadIn": 0.1,
+  "pauseAfter": 0.16,
+  "say": {
+    "83,000": "eighty-three thousand",
+    "72,000": "seventy-two thousand",
+    "80": "eighty",
+    "15 August": "the fifteenth of August"
+  },
+  "pronounce": {
+    "Ceuta": "sˈeɪuːtə",
+    "Fnideq": "fnɪdˈɛk"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "A city of 83,000. In three days, 72,000 arrived."
+    },
+    {
+      "id": "loops",
+      "text": "How? Why that week? And could it happen again?",
+      "pauseAfter": 0.22
+    },
+    {
+      "id": "where",
+      "text": "This is Ceuta: Spain, but in Africa."
+    },
+    {
+      "id": "fence",
+      "text": "Its fence with Morocco stops at the sea."
+    },
+    {
+      "id": "swim",
+      "text": "So in late July, tens of thousands swam around it."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: they thought the border was open.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "three",
+      "text": "Three problems collided."
+    },
+    {
+      "id": "geo",
+      "text": "Geography: Europe is one short swim away."
+    },
+    {
+      "id": "law",
+      "text": "Politics: Spain's top court ruled swimmers can't be sent straight back."
+    },
+    {
+      "id": "jobs",
+      "text": "Social: in Fnideq next door, jobs vanished with the border trade."
+    },
+    {
+      "id": "rumour",
+      "text": "On Facebook, that ruling became a rumour: the border is open.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "back",
+      "text": "Within days, almost all went back."
+    },
+    {
+      "id": "dead",
+      "text": "But at least 80 people died.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "date",
+      "text": "Now it gets strange: a new rumour named a date, 15 August.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "stopped",
+      "text": "Morocco sent thousands of police, and stopped it."
+    },
+    {
+      "id": "again",
+      "text": "Could it happen again? This big, not soon."
+    },
+    {
+      "id": "smaller",
+      "text": "Smaller swims? Almost surely: the jobs and the sea haven't changed."
+    },
+    {
+      "id": "buoys",
+      "text": "And the dotted line at the start? A floating barrier, to make sending swimmers back legal again."
+    },
+    {
+      "id": "save",
+      "text": "Save this for the next border crisis.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "question",
+      "text": "Should Spain send swimmers back at once?"
+    }
+  ]
+}
