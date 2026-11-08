@@ -1,14 +1,15 @@
 {
   "voice": "bm_george",
   "lang": "en-gb",
-  "speed": 1.27,
+  "speed": 1.29,
   "leadIn": 0.1,
   "pauseAfter": 0.16,
   "say": {
     "83,000": "eighty-three thousand",
     "72,000": "seventy-two thousand",
     "80": "eighty",
-    "15 August": "the fifteenth of August"
+    "15 August": "the fifteenth of August",
+    "2021": "twenty twenty-one"
   },
   "pronounce": {
     "Ceuta": "sˈeɪuːtə",
@@ -17,11 +18,11 @@
   "sentences": [
     {
       "id": "hook",
-      "text": "A city of 83,000. In three days, 72,000 arrived."
+      "text": "A city of 83,000. In three days, 72,000 people arrived."
     },
     {
       "id": "loops",
-      "text": "How? Why that week? And could it happen again?",
+      "text": "How did they get in? Why that week? Could it happen again?",
       "pauseAfter": 0.22
     },
     {
@@ -30,7 +31,7 @@
     },
     {
       "id": "fence",
-      "text": "Its fence with Morocco stops at the sea."
+      "text": "Its border with Morocco is a double fence, and it stops at the sea."
     },
     {
       "id": "swim",
@@ -51,16 +52,20 @@
     },
     {
       "id": "law",
-      "text": "Politics: Spain's top court ruled swimmers can't be sent straight back."
+      "text": "Politics: in June, Spain's top court ruled that swimmers can't be sent straight back."
     },
     {
       "id": "jobs",
-      "text": "Social: in Fnideq next door, jobs vanished with the border trade."
+      "text": "Social: next door in Fnideq, young people have few jobs since the border trade closed."
     },
     {
       "id": "rumour",
-      "text": "On Facebook, that ruling became a rumour: the border is open.",
+      "text": "Now it gets strange: on Facebook, that ruling became a rumour: the border is open.",
       "pauseAfter": 0.24
+    },
+    {
+      "id": "spark",
+      "text": "All three met in one week."
     },
     {
       "id": "back",
@@ -72,17 +77,24 @@
       "pauseAfter": 0.3
     },
     {
+      "id": "italy",
+      "text": "And Italy brought back border checks on travellers from Spain."
+    },
+    {
       "id": "date",
-      "text": "Now it gets strange: a new rumour named a date, 15 August.",
-      "pauseAfter": 0.24
+      "text": "Then a new rumour named a date: 15 August."
     },
     {
       "id": "stopped",
-      "text": "Morocco sent thousands of police, and stopped it."
+      "text": "Morocco sent thousands of police and soldiers, and stopped it."
+    },
+    {
+      "id": "before",
+      "text": "It's not the first time: in May 2021, thousands crossed too."
     },
     {
       "id": "again",
-      "text": "Could it happen again? This big, not soon."
+      "text": "So, could it happen again? This big, not soon."
     },
     {
       "id": "smaller",

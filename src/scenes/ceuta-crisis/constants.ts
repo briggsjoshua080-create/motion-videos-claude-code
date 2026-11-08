@@ -91,10 +91,13 @@ export const SCENE_ORDER = [
   "law",
   "jobs",
   "rumour",
+  "spark",
   "back",
   "dead",
+  "italy",
   "date",
   "stopped",
+  "before",
   "again",
   "smaller",
   "buoys",
@@ -126,12 +129,12 @@ export const CE_SUBTITLES = ["hook", "dead", "save", "question"];
 /** Frames a background wipe (paper or orange) takes. */
 export const WIPE = 12;
 
-/** Where the background is not blue: the chart (fence + swim), the court ruling, and the two orange re-hook flashes. */
+/** Where the background is not blue: the chart (fence + swim), the court ruling, and the two orange re-hook flashes (re-hook 2 is the rumour). */
 export const LIGHT_SPANS: { from: number; to: number; kind: "paper" | "flash" }[] = [
   { from: sceneFrom("fence"), to: sceneEnd("swim"), kind: "paper" },
   { from: sceneFrom("rehook"), to: sceneEnd("rehook"), kind: "flash" },
   { from: sceneFrom("law"), to: sceneEnd("law"), kind: "paper" },
-  { from: sceneFrom("date"), to: sceneEnd("date"), kind: "flash" },
+  { from: sceneFrom("rumour"), to: sceneEnd("rumour"), kind: "flash" },
 ];
 
 /** The numbered sections (ticks on the broadcast frame's ruler, and the big outlined numerals). */
@@ -139,7 +142,7 @@ export const SECTIONS: { n: string; scene: SceneId }[] = [
   { n: "01", scene: "where" },
   { n: "02", scene: "three" },
   { n: "03", scene: "back" },
-  { n: "04", scene: "stopped" },
+  { n: "04", scene: "date" },
 ];
 
 /** The music's mallet plays one note every 0.75 s (80 bpm) from the second sentence on (scripts/music.py). */

@@ -32,6 +32,9 @@ import { GeoScene } from "../scenes/ceuta-crisis/GeoScene";
 import { LawScene } from "../scenes/ceuta-crisis/LawScene";
 import { JobsScene } from "../scenes/ceuta-crisis/JobsScene";
 import { RumourScene } from "../scenes/ceuta-crisis/RumourScene";
+import { SparkScene } from "../scenes/ceuta-crisis/SparkScene";
+import { ItalyScene } from "../scenes/ceuta-crisis/ItalyScene";
+import { BeforeScene } from "../scenes/ceuta-crisis/BeforeScene";
 import { BackScene } from "../scenes/ceuta-crisis/BackScene";
 import { DeadScene } from "../scenes/ceuta-crisis/DeadScene";
 import { DateScene } from "../scenes/ceuta-crisis/DateScene";
@@ -50,9 +53,10 @@ export { CEUTA_CRISIS_DURATION };
  * blue with rescue orange. The hook line over a chart of Ceuta's border (its dotted orange line in the
  * sea is the rewatch detail); three open loops (how, why that week, again?); 01 what: Spain in Africa,
  * a fence that stops at the sea, tens of thousands swam round it; re-hook 1 (they thought the border
- * was open); 02 why: three circles (geography, politics, social) fill one by one and the rumour sparks
- * where they overlap; 03 after: 70,000 went back, at least 80 died; re-hook 2 (a new date, 15 August);
- * 04 again?: Morocco stopped it, not this big soon, smaller swims almost surely; the dotted line is a
+ * was open); 02 why: three circles (geography, politics, social) fill one by one; re-hook 2 (the Facebook
+ * rumour, orange flash); all three met in one week (a spark where they overlap); 03 after: 70,000 went
+ * back, at least 80 died, Italy brought back border checks; 04 again?: a new date (15 August), Morocco
+ * stopped it, not the first time (2021), not this big soon, smaller swims almost surely; the dotted line is a
  * floating barrier; save this; and "Should Spain send swimmers back at once?" in the hook's layout.
  * Plan, facts and sources: briefs/ceuta-crisis-2026/.
  */
@@ -68,10 +72,13 @@ const SCENES: Record<SceneId, React.FC<SceneProps>> = {
   law: LawScene,
   jobs: JobsScene,
   rumour: RumourScene,
+  spark: SparkScene,
   back: BackScene,
   dead: DeadScene,
+  italy: ItalyScene,
   date: DateScene,
   stopped: StoppedScene,
+  before: BeforeScene,
   again: AgainScene,
   smaller: SmallerScene,
   buoys: BuoysScene,
@@ -100,7 +107,7 @@ const SFX: { file: string; at: number; volume: number }[] = [
   { file: "thud", at: at("hook", "72,000") - 1, volume: 0.2 },
   { file: "pop", at: at("loops", "How") - 5, volume: 0.13 },
   { file: "pop", at: at("loops", "Why") - 2, volume: 0.1 },
-  { file: "pop", at: at("loops", "And") - 2, volume: 0.1 },
+  { file: "pop", at: at("loops", "Could") - 2, volume: 0.1 },
   { file: "pop", at: at("where", "Africa") - 3, volume: 0.12 },
   { file: "scribble", at: sceneFrom("fence") + 6, volume: 0.12 },
   { file: "pop", at: at("fence", "sea") - 3, volume: 0.12 },
@@ -109,10 +116,14 @@ const SFX: { file: string; at: number; volume: number }[] = [
   { file: "pop", at: sceneFrom("three") + 10, volume: 0.1 },
   { file: "pop", at: sceneFrom("three") + 16, volume: 0.1 },
   { file: "thud", at: at("law", "sent") - 2, volume: 0.17 },
-  { file: "scribble", at: at("jobs", "vanished") - 3, volume: 0.12 },
-  { file: "thud", at: at("rumour", "rumour") - 3, volume: 0.15 },
-  { file: "pop", at: at("rumour", "border") - 8, volume: 0.13 },
+  { file: "scribble", at: at("jobs", "closed") - 3, volume: 0.12 },
+  { file: "pop", at: at("rumour", "Facebook") - 4, volume: 0.13 },
+  { file: "pop", at: at("rumour", "border") - 2, volume: 0.1 },
+  { file: "thud", at: at("spark", "met") - 4, volume: 0.16 },
+  { file: "thud", at: at("italy", "checks") - 2, volume: 0.15 },
   { file: "thud", at: at("date", "date") - 4, volume: 0.16 },
+  { file: "pop", at: at("before", "May") - 4, volume: 0.12 },
+  { file: "pop", at: at("before", "thousands") - 2, volume: 0.12 },
   { file: "thud", at: at("stopped", "stopped") - 2, volume: 0.18 },
   { file: "pop", at: at("smaller", "Almost") - 2, volume: 0.12 },
   { file: "pop", at: at("buoys", "floating") - 4, volume: 0.13 },

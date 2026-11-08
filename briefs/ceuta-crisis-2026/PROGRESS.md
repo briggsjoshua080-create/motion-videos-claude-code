@@ -6,3 +6,4 @@
 - [x] Composition `CeutaCrisis` (copied from `ChineseElection`, themed sea blue + rescue orange)
 - [x] Stills checked, rule 6 fixes, full render: `out/ceuta-crisis.mp4` (1080×1920, 30 fps, 60.0 s, −14.0 LUFS)
 - [x] Scores (all ≥ 7) and posting texts → `posting.md`
+- [x] Version 2 (user: "doesn't matter if it's a little too long"): restored details, added Italy, 2021 and the spark beat; voice 72.5 s (speed 1.29); render `out/ceuta-crisis.mp4` (73.7 s, −14.0 LUFS); scores updated

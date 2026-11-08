@@ -334,7 +334,7 @@ prompt says otherwise.
   with navy text, light "nautical chart" paper. A real Spain–Morocco outline map (`strait.ts`, Natural Earth), a
   schematic chart of Ceuta's border with swimmers rounding the fence's end (`maps.tsx`), and **three overlapping
   circles** (Geography / Politics / Social, `Problems.tsx`) that fill one by one and spark where they overlap, to show
-  how the causes came together; a likelihood gauge (`Meter.tsx`) answers "again?". The dotted orange line in the sea on
+  how the causes came together; a likelihood gauge (`Meter.tsx`) answers "again?". At the user's word ("doesn't matter if it's a little too long") it runs 73.7 s, with Italy's border checks and the 2021 precedent. The dotted orange line in the sea on
   frame 0 is the floating barrier (rewatch detail). Ends on "Should Spain send swimmers back at once?". Not a political
   system video, so the election parts of the standing brief don't apply.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and

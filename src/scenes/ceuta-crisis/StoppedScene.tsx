@@ -2,7 +2,7 @@ import React from "react";
 import { useCurrentFrame } from "remotion";
 import { pop, rise, riseStyle, sceneExit } from "../../components/explainer/motion";
 import { CE, type SceneProps } from "./constants";
-import { Headline, SectionNumeral, Stamp } from "./ui";
+import { Headline, Stamp } from "./ui";
 
 /** A police shield (generic badge shape, no insignia). */
 const Shield: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
@@ -13,20 +13,18 @@ const Shield: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
 );
 
 /**
- * "Morocco sent thousands of police, and stopped it." Section 04 (could it happen again?): a line of
+ * "Morocco sent thousands of police and soldiers, and stopped it." A line of
  * shields closes along a stretch of beach in front of the waves, then STOPPED slams in on "stopped".
  */
 export const StoppedScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
   const exit = sceneExit(frame, duration);
-  const numeral = rise(frame, 0);
   const head = rise(frame, 2);
   const stamp = pop(frame, cue("stopped", "stopped") - 4);
   const cols = 7;
 
   return (
     <>
-      <SectionNumeral n="04" p={numeral * (1 - exit)} />
       <Headline size={130} style={{ top: 300, ...riseStyle(head, exit, 50) }}>
         MOROCCO
       </Headline>

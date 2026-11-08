@@ -1,13 +1,13 @@
 {
  "audio": "voiceover/ceuta-crisis.wav",
  "voice": "bm_george",
- "durationInSeconds": 58.96,
+ "durationInSeconds": 72.66,
  "sentences": [
   {
    "id": "hook",
-   "text": "A city of 83,000. In three days, 72,000 arrived.",
+   "text": "A city of 83,000. In three days, 72,000 people arrived.",
    "start": 0.13,
-   "end": 4.34,
+   "end": 4.55,
    "words": [
     {
      "text": "A",
@@ -31,1030 +31,1294 @@
     },
     {
      "text": "In",
-     "start": 2.01,
-     "end": 2.172
+     "start": 1.99,
+     "end": 2.149
     },
     {
      "text": "three",
-     "start": 2.172,
-     "end": 2.441
+     "start": 2.149,
+     "end": 2.415
     },
     {
      "text": "days,",
-     "start": 2.441,
-     "end": 2.71
+     "start": 2.415,
+     "end": 2.68
     },
     {
      "text": "72,000",
-     "start": 2.91,
-     "end": 3.969
+     "start": 2.89,
+     "end": 3.866
+    },
+    {
+     "text": "people",
+     "start": 3.866,
+     "end": 4.208
     },
     {
      "text": "arrived.",
-     "start": 3.969,
-     "end": 4.34
+     "start": 4.208,
+     "end": 4.55
     }
    ]
   },
   {
    "id": "loops",
-   "text": "How? Why that week? And could it happen again?",
-   "start": 4.56,
-   "end": 6.77,
+   "text": "How did they get in? Why that week? Could it happen again?",
+   "start": 4.77,
+   "end": 7.41,
    "words": [
     {
-     "text": "How?",
-     "start": 4.56,
-     "end": 4.768
+     "text": "How",
+     "start": 4.77,
+     "end": 4.946
+    },
+    {
+     "text": "did",
+     "start": 4.946,
+     "end": 5.121
+    },
+    {
+     "text": "they",
+     "start": 5.121,
+     "end": 5.253
+    },
+    {
+     "text": "get",
+     "start": 5.253,
+     "end": 5.428
+    },
+    {
+     "text": "in?",
+     "start": 5.428,
+     "end": 5.56
     },
     {
      "text": "Why",
-     "start": 4.845,
-     "end": 5.053
+     "start": 5.68,
+     "end": 5.883
     },
     {
      "text": "that",
-     "start": 5.053,
-     "end": 5.261
+     "start": 5.883,
+     "end": 6.086
     },
     {
      "text": "week?",
-     "start": 5.261,
-     "end": 5.52
+     "start": 6.086,
+     "end": 6.34
     },
     {
-     "text": "And",
-     "start": 5.75,
-     "end": 5.903
-    },
-    {
-     "text": "could",
-     "start": 5.903,
-     "end": 6.107
+     "text": "Could",
+     "start": 6.58,
+     "end": 6.775
     },
     {
      "text": "it",
-     "start": 6.107,
-     "end": 6.209
+     "start": 6.775,
+     "end": 6.873
     },
     {
      "text": "happen",
-     "start": 6.209,
-     "end": 6.515
+     "start": 6.873,
+     "end": 7.166
     },
     {
      "text": "again?",
-     "start": 6.515,
-     "end": 6.77
+     "start": 7.166,
+     "end": 7.41
     }
    ]
   },
   {
    "id": "where",
    "text": "This is Ceuta: Spain, but in Africa.",
-   "start": 7.05,
-   "end": 9.29,
+   "start": 7.69,
+   "end": 9.86,
    "words": [
     {
      "text": "This",
-     "start": 7.05,
-     "end": 7.284
+     "start": 7.69,
+     "end": 7.921
     },
     {
      "text": "is",
-     "start": 7.284,
-     "end": 7.401
+     "start": 7.921,
+     "end": 8.037
     },
     {
      "text": "Ceuta:",
-     "start": 7.401,
-     "end": 7.87
+     "start": 8.037,
+     "end": 8.5
     },
     {
      "text": "Spain,",
-     "start": 8.06,
-     "end": 8.403
+     "start": 8.68,
+     "end": 9.009
     },
     {
      "text": "but",
-     "start": 8.489,
-     "end": 8.718
+     "start": 9.092,
+     "end": 9.311
     },
     {
      "text": "in",
-     "start": 8.718,
-     "end": 8.89
+     "start": 9.311,
+     "end": 9.476
     },
     {
      "text": "Africa.",
-     "start": 8.89,
-     "end": 9.29
+     "start": 9.476,
+     "end": 9.86
     }
    ]
   },
   {
    "id": "fence",
-   "text": "Its fence with Morocco stops at the sea.",
-   "start": 9.51,
-   "end": 11.65,
+   "text": "Its border with Morocco is a double fence, and it stops at the sea.",
+   "start": 10.08,
+   "end": 13.47,
    "words": [
     {
      "text": "Its",
-     "start": 9.51,
-     "end": 9.705
+     "start": 10.08,
+     "end": 10.257
     },
     {
-     "text": "fence",
-     "start": 9.705,
-     "end": 10.029
+     "text": "border",
+     "start": 10.257,
+     "end": 10.61
     },
     {
      "text": "with",
-     "start": 10.029,
-     "end": 10.223
+     "start": 10.61,
+     "end": 10.787
     },
     {
      "text": "Morocco",
-     "start": 10.223,
-     "end": 10.742
+     "start": 10.787,
+     "end": 11.258
+    },
+    {
+     "text": "is",
+     "start": 11.258,
+     "end": 11.376
+    },
+    {
+     "text": "a",
+     "start": 11.376,
+     "end": 11.552
+    },
+    {
+     "text": "double",
+     "start": 11.552,
+     "end": 11.906
+    },
+    {
+     "text": "fence,",
+     "start": 11.906,
+     "end": 12.2
+    },
+    {
+     "text": "and",
+     "start": 12.47,
+     "end": 12.628
+    },
+    {
+     "text": "it",
+     "start": 12.628,
+     "end": 12.733
     },
     {
      "text": "stops",
-     "start": 10.742,
-     "end": 11.131
+     "start": 12.733,
+     "end": 13.049
     },
     {
      "text": "at",
-     "start": 11.131,
-     "end": 11.261
+     "start": 13.049,
+     "end": 13.154
     },
     {
      "text": "the",
-     "start": 11.261,
-     "end": 11.391
+     "start": 13.154,
+     "end": 13.259
     },
     {
      "text": "sea.",
-     "start": 11.391,
-     "end": 11.65
+     "start": 13.259,
+     "end": 13.47
     }
    ]
   },
   {
    "id": "swim",
    "text": "So in late July, tens of thousands swam around it.",
-   "start": 11.87,
-   "end": 14.66,
+   "start": 13.69,
+   "end": 16.37,
    "words": [
     {
      "text": "So",
-     "start": 11.87,
-     "end": 12.052
+     "start": 13.69,
+     "end": 13.872
     },
     {
      "text": "in",
-     "start": 12.052,
-     "end": 12.188
+     "start": 13.872,
+     "end": 14.008
     },
     {
      "text": "late",
-     "start": 12.188,
-     "end": 12.416
+     "start": 14.008,
+     "end": 14.236
     },
     {
      "text": "July,",
-     "start": 12.416,
-     "end": 12.78
+     "start": 14.236,
+     "end": 14.6
     },
     {
      "text": "tens",
-     "start": 13.03,
-     "end": 13.302
+     "start": 14.83,
+     "end": 15.087
     },
     {
      "text": "of",
-     "start": 13.302,
-     "end": 13.41
+     "start": 15.087,
+     "end": 15.189
     },
     {
      "text": "thousands",
-     "start": 13.41,
-     "end": 13.899
+     "start": 15.189,
+     "end": 15.651
     },
     {
      "text": "swam",
-     "start": 13.899,
-     "end": 14.171
+     "start": 15.651,
+     "end": 15.908
     },
     {
      "text": "around",
-     "start": 14.171,
-     "end": 14.551
+     "start": 15.908,
+     "end": 16.267
     },
     {
      "text": "it.",
-     "start": 14.551,
-     "end": 14.66
+     "start": 16.267,
+     "end": 16.37
     }
    ]
   },
   {
    "id": "rehook",
    "text": "But here's the weird part: they thought the border was open.",
-   "start": 14.88,
-   "end": 17.52,
+   "start": 16.59,
+   "end": 19.21,
    "words": [
     {
      "text": "But",
-     "start": 14.88,
-     "end": 15.088
+     "start": 16.59,
+     "end": 16.798
     },
     {
      "text": "here's",
-     "start": 15.088,
-     "end": 15.347
+     "start": 16.798,
+     "end": 17.057
     },
     {
      "text": "the",
-     "start": 15.347,
-     "end": 15.451
+     "start": 17.057,
+     "end": 17.161
     },
     {
      "text": "weird",
-     "start": 15.451,
-     "end": 15.71
+     "start": 17.161,
+     "end": 17.42
     },
     {
      "text": "part:",
-     "start": 15.71,
-     "end": 15.97
+     "start": 17.42,
+     "end": 17.68
     },
     {
      "text": "they",
-     "start": 16.21,
-     "end": 16.367
+     "start": 17.92,
+     "end": 18.075
     },
     {
      "text": "thought",
-     "start": 16.367,
-     "end": 16.629
+     "start": 18.075,
+     "end": 18.333
     },
     {
      "text": "the",
-     "start": 16.629,
-     "end": 16.734
+     "start": 18.333,
+     "end": 18.436
     },
     {
      "text": "border",
-     "start": 16.734,
-     "end": 17.048
+     "start": 18.436,
+     "end": 18.746
     },
     {
      "text": "was",
-     "start": 17.048,
-     "end": 17.206
+     "start": 18.746,
+     "end": 18.9
     },
     {
      "text": "open.",
-     "start": 17.206,
-     "end": 17.52
+     "start": 18.9,
+     "end": 19.21
     }
    ]
   },
   {
    "id": "three",
    "text": "Three problems collided.",
-   "start": 17.82,
-   "end": 19.17,
+   "start": 19.51,
+   "end": 20.86,
    "words": [
     {
      "text": "Three",
-     "start": 17.82,
-     "end": 18.113
+     "start": 19.51,
+     "end": 19.803
     },
     {
      "text": "problems",
-     "start": 18.113,
-     "end": 18.642
+     "start": 19.803,
+     "end": 20.332
     },
     {
      "text": "collided.",
-     "start": 18.642,
-     "end": 19.17
+     "start": 20.332,
+     "end": 20.86
     }
    ]
   },
   {
    "id": "geo",
    "text": "Geography: Europe is one short swim away.",
-   "start": 19.39,
-   "end": 21.86,
+   "start": 21.08,
+   "end": 23.51,
    "words": [
     {
      "text": "Geography:",
-     "start": 19.39,
-     "end": 19.99
+     "start": 21.08,
+     "end": 21.66
     },
     {
      "text": "Europe",
-     "start": 20.18,
-     "end": 20.6
+     "start": 21.85,
+     "end": 22.265
     },
     {
      "text": "is",
-     "start": 20.6,
-     "end": 20.72
+     "start": 22.265,
+     "end": 22.384
     },
     {
      "text": "one",
-     "start": 20.72,
-     "end": 20.96
+     "start": 22.384,
+     "end": 22.621
     },
     {
      "text": "short",
-     "start": 20.96,
-     "end": 21.26
+     "start": 22.621,
+     "end": 22.917
     },
     {
      "text": "swim",
-     "start": 21.26,
-     "end": 21.56
+     "start": 22.917,
+     "end": 23.214
     },
     {
      "text": "away.",
-     "start": 21.56,
-     "end": 21.86
+     "start": 23.214,
+     "end": 23.51
     }
    ]
   },
   {
    "id": "law",
-   "text": "Politics: Spain's top court ruled swimmers can't be sent straight back.",
-   "start": 22.08,
-   "end": 25.53,
+   "text": "Politics: in June, Spain's top court ruled that swimmers can't be sent straight back.",
+   "start": 23.73,
+   "end": 28.07,
    "words": [
     {
      "text": "Politics:",
-     "start": 22.08,
-     "end": 22.55
+     "start": 23.73,
+     "end": 24.23
+    },
+    {
+     "text": "in",
+     "start": 24.4,
+     "end": 24.58
+    },
+    {
+     "text": "June,",
+     "start": 24.58,
+     "end": 24.94
     },
     {
      "text": "Spain's",
-     "start": 22.76,
-     "end": 23.112
+     "start": 25.2,
+     "end": 25.54
     },
     {
      "text": "top",
-     "start": 23.112,
-     "end": 23.314
+     "start": 25.54,
+     "end": 25.735
     },
     {
      "text": "court",
-     "start": 23.314,
-     "end": 23.566
+     "start": 25.735,
+     "end": 25.978
     },
     {
      "text": "ruled",
-     "start": 23.566,
-     "end": 23.868
+     "start": 25.978,
+     "end": 26.27
+    },
+    {
+     "text": "that",
+     "start": 26.27,
+     "end": 26.465
     },
     {
      "text": "swimmers",
-     "start": 23.868,
-     "end": 24.22
+     "start": 26.465,
+     "end": 26.805
     },
     {
      "text": "can't",
-     "start": 24.22,
-     "end": 24.523
+     "start": 26.805,
+     "end": 27.097
     },
     {
      "text": "be",
-     "start": 24.523,
-     "end": 24.724
+     "start": 27.097,
+     "end": 27.292
     },
     {
      "text": "sent",
-     "start": 24.724,
-     "end": 24.976
+     "start": 27.292,
+     "end": 27.535
     },
     {
      "text": "straight",
-     "start": 24.976,
-     "end": 25.328
+     "start": 27.535,
+     "end": 27.875
     },
     {
      "text": "back.",
-     "start": 25.328,
-     "end": 25.53
+     "start": 27.875,
+     "end": 28.07
     }
    ]
   },
   {
    "id": "jobs",
-   "text": "Social: in Fnideq next door, jobs vanished with the border trade.",
-   "start": 25.75,
-   "end": 29.15,
+   "text": "Social: next door in Fnideq, young people have few jobs since the border trade closed.",
+   "start": 28.29,
+   "end": 32.97,
    "words": [
     {
      "text": "Social:",
-     "start": 25.75,
-     "end": 26.14
-    },
-    {
-     "text": "in",
-     "start": 26.224,
-     "end": 26.391
-    },
-    {
-     "text": "Fnideq",
-     "start": 26.391,
-     "end": 26.782
+     "start": 28.29,
+     "end": 28.653
     },
     {
      "text": "next",
-     "start": 26.782,
-     "end": 27.117
+     "start": 28.731,
+     "end": 29.043
     },
     {
-     "text": "door,",
-     "start": 27.117,
-     "end": 27.34
+     "text": "door",
+     "start": 29.043,
+     "end": 29.251
+    },
+    {
+     "text": "in",
+     "start": 29.251,
+     "end": 29.406
+    },
+    {
+     "text": "Fnideq,",
+     "start": 29.406,
+     "end": 29.77
+    },
+    {
+     "text": "young",
+     "start": 30.14,
+     "end": 30.358
+    },
+    {
+     "text": "people",
+     "start": 30.358,
+     "end": 30.739
+    },
+    {
+     "text": "have",
+     "start": 30.739,
+     "end": 30.956
+    },
+    {
+     "text": "few",
+     "start": 30.956,
+     "end": 31.228
     },
     {
      "text": "jobs",
-     "start": 27.63,
-     "end": 27.934
+     "start": 31.228,
+     "end": 31.555
     },
     {
-     "text": "vanished",
-     "start": 27.934,
-     "end": 28.289
-    },
-    {
-     "text": "with",
-     "start": 28.289,
-     "end": 28.441
+     "text": "since",
+     "start": 31.555,
+     "end": 31.827
     },
     {
      "text": "the",
-     "start": 28.441,
-     "end": 28.542
-    },
-    {
-     "text": "border",
-     "start": 28.542,
-     "end": 28.846
-    },
-    {
-     "text": "trade.",
-     "start": 28.846,
-     "end": 29.15
-    }
-   ]
-  },
-  {
-   "id": "rumour",
-   "text": "On Facebook, that ruling became a rumour: the border is open.",
-   "start": 29.37,
-   "end": 32.82,
-   "words": [
-    {
-     "text": "On",
-     "start": 29.37,
-     "end": 29.528
-    },
-    {
-     "text": "Facebook,",
-     "start": 29.528,
-     "end": 29.95
-    },
-    {
-     "text": "that",
-     "start": 30.19,
-     "end": 30.39
-    },
-    {
-     "text": "ruling",
-     "start": 30.39,
-     "end": 30.74
-    },
-    {
-     "text": "became",
-     "start": 30.74,
-     "end": 31.09
-    },
-    {
-     "text": "a",
-     "start": 31.09,
-     "end": 31.24
-    },
-    {
-     "text": "rumour:",
-     "start": 31.24,
-     "end": 31.54
-    },
-    {
-     "text": "the",
-     "start": 31.81,
+     "start": 31.827,
      "end": 31.936
     },
     {
      "text": "border",
      "start": 31.936,
-     "end": 32.315
+     "end": 32.262
+    },
+    {
+     "text": "trade",
+     "start": 32.262,
+     "end": 32.589
+    },
+    {
+     "text": "closed.",
+     "start": 32.589,
+     "end": 32.97
+    }
+   ]
+  },
+  {
+   "id": "rumour",
+   "text": "Now it gets strange: on Facebook, that ruling became a rumour: the border is open.",
+   "start": 33.19,
+   "end": 37.72,
+   "words": [
+    {
+     "text": "Now",
+     "start": 33.19,
+     "end": 33.394
+    },
+    {
+     "text": "it",
+     "start": 33.394,
+     "end": 33.496
+    },
+    {
+     "text": "gets",
+     "start": 33.496,
+     "end": 33.751
+    },
+    {
+     "text": "strange:",
+     "start": 33.751,
+     "end": 34.21
+    },
+    {
+     "text": "on",
+     "start": 34.49,
+     "end": 34.648
+    },
+    {
+     "text": "Facebook,",
+     "start": 34.648,
+     "end": 35.07
+    },
+    {
+     "text": "that",
+     "start": 35.29,
+     "end": 35.474
+    },
+    {
+     "text": "ruling",
+     "start": 35.474,
+     "end": 35.795
+    },
+    {
+     "text": "became",
+     "start": 35.795,
+     "end": 36.117
+    },
+    {
+     "text": "a",
+     "start": 36.117,
+     "end": 36.254
+    },
+    {
+     "text": "rumour:",
+     "start": 36.254,
+     "end": 36.53
+    },
+    {
+     "text": "the",
+     "start": 36.76,
+     "end": 36.88
+    },
+    {
+     "text": "border",
+     "start": 36.88,
+     "end": 37.24
     },
     {
      "text": "is",
-     "start": 32.315,
-     "end": 32.441
+     "start": 37.24,
+     "end": 37.36
     },
     {
      "text": "open.",
-     "start": 32.441,
-     "end": 32.82
+     "start": 37.36,
+     "end": 37.72
+    }
+   ]
+  },
+  {
+   "id": "spark",
+   "text": "All three met in one week.",
+   "start": 38.02,
+   "end": 39.63,
+   "words": [
+    {
+     "text": "All",
+     "start": 38.02,
+     "end": 38.278
+    },
+    {
+     "text": "three",
+     "start": 38.278,
+     "end": 38.6
+    },
+    {
+     "text": "met",
+     "start": 38.6,
+     "end": 38.857
+    },
+    {
+     "text": "in",
+     "start": 38.857,
+     "end": 39.05
+    },
+    {
+     "text": "one",
+     "start": 39.05,
+     "end": 39.308
+    },
+    {
+     "text": "week.",
+     "start": 39.308,
+     "end": 39.63
     }
    ]
   },
   {
    "id": "back",
    "text": "Within days, almost all went back.",
-   "start": 33.12,
-   "end": 34.98,
+   "start": 39.85,
+   "end": 41.68,
    "words": [
     {
      "text": "Within",
-     "start": 33.12,
-     "end": 33.48
+     "start": 39.85,
+     "end": 40.21
     },
     {
      "text": "days,",
-     "start": 33.48,
-     "end": 33.78
+     "start": 40.21,
+     "end": 40.51
     },
     {
      "text": "almost",
-     "start": 33.98,
-     "end": 34.389
+     "start": 40.71,
+     "end": 41.107
     },
     {
      "text": "all",
-     "start": 34.389,
-     "end": 34.571
+     "start": 41.107,
+     "end": 41.283
     },
     {
      "text": "went",
-     "start": 34.571,
-     "end": 34.798
+     "start": 41.283,
+     "end": 41.504
     },
     {
      "text": "back.",
-     "start": 34.798,
-     "end": 34.98
+     "start": 41.504,
+     "end": 41.68
     }
    ]
   },
   {
    "id": "dead",
    "text": "But at least 80 people died.",
-   "start": 35.2,
-   "end": 36.8,
+   "start": 41.9,
+   "end": 43.49,
    "words": [
     {
      "text": "But",
-     "start": 35.2,
-     "end": 35.421
+     "start": 41.9,
+     "end": 42.119
     },
     {
      "text": "at",
-     "start": 35.421,
-     "end": 35.531
+     "start": 42.119,
+     "end": 42.229
     },
     {
      "text": "least",
-     "start": 35.531,
-     "end": 35.862
+     "start": 42.229,
+     "end": 42.558
     },
     {
      "text": "80",
-     "start": 35.862,
-     "end": 36.138
+     "start": 42.558,
+     "end": 42.832
     },
     {
      "text": "people",
-     "start": 36.138,
-     "end": 36.524
+     "start": 42.832,
+     "end": 43.216
     },
     {
      "text": "died.",
-     "start": 36.524,
-     "end": 36.8
+     "start": 43.216,
+     "end": 43.49
+    }
+   ]
+  },
+  {
+   "id": "italy",
+   "text": "And Italy brought back border checks on travellers from Spain.",
+   "start": 43.85,
+   "end": 46.89,
+   "words": [
+    {
+     "text": "And",
+     "start": 43.85,
+     "end": 44.022
+    },
+    {
+     "text": "Italy",
+     "start": 44.022,
+     "end": 44.366
+    },
+    {
+     "text": "brought",
+     "start": 44.366,
+     "end": 44.71
+    },
+    {
+     "text": "back",
+     "start": 44.71,
+     "end": 44.94
+    },
+    {
+     "text": "border",
+     "start": 44.94,
+     "end": 45.284
+    },
+    {
+     "text": "checks",
+     "start": 45.284,
+     "end": 45.628
+    },
+    {
+     "text": "on",
+     "start": 45.628,
+     "end": 45.8
+    },
+    {
+     "text": "travellers",
+     "start": 45.8,
+     "end": 46.316
+    },
+    {
+     "text": "from",
+     "start": 46.316,
+     "end": 46.546
+    },
+    {
+     "text": "Spain.",
+     "start": 46.546,
+     "end": 46.89
     }
    ]
   },
   {
    "id": "date",
-   "text": "Now it gets strange: a new rumour named a date, 15 August.",
-   "start": 37.16,
-   "end": 40.59,
+   "text": "Then a new rumour named a date: 15 August.",
+   "start": 47.11,
+   "end": 49.73,
    "words": [
     {
-     "text": "Now",
-     "start": 37.16,
-     "end": 37.368
-    },
-    {
-     "text": "it",
-     "start": 37.368,
-     "end": 37.472
-    },
-    {
-     "text": "gets",
-     "start": 37.472,
-     "end": 37.732
-    },
-    {
-     "text": "strange:",
-     "start": 37.732,
-     "end": 38.2
+     "text": "Then",
+     "start": 47.11,
+     "end": 47.3
     },
     {
      "text": "a",
-     "start": 38.5,
-     "end": 38.626
+     "start": 47.3,
+     "end": 47.442
     },
     {
      "text": "new",
-     "start": 38.626,
-     "end": 38.837
+     "start": 47.442,
+     "end": 47.68
     },
     {
      "text": "rumour",
-     "start": 38.837,
-     "end": 39.09
+     "start": 47.68,
+     "end": 47.965
     },
     {
      "text": "named",
-     "start": 39.09,
-     "end": 39.343
+     "start": 47.965,
+     "end": 48.25
     },
     {
      "text": "a",
-     "start": 39.343,
-     "end": 39.469
+     "start": 48.25,
+     "end": 48.392
     },
     {
-     "text": "date,",
-     "start": 39.469,
-     "end": 39.68
+     "text": "date:",
+     "start": 48.392,
+     "end": 48.63
     },
     {
      "text": "15",
-     "start": 39.88,
-     "end": 40.259
+     "start": 48.91,
+     "end": 49.347
     },
     {
      "text": "August.",
-     "start": 40.259,
-     "end": 40.59
+     "start": 49.347,
+     "end": 49.73
     }
    ]
   },
   {
    "id": "stopped",
-   "text": "Morocco sent thousands of police, and stopped it.",
-   "start": 40.89,
-   "end": 43.29,
+   "text": "Morocco sent thousands of police and soldiers, and stopped it.",
+   "start": 49.95,
+   "end": 53.01,
    "words": [
     {
      "text": "Morocco",
-     "start": 40.89,
-     "end": 41.321
+     "start": 49.95,
+     "end": 50.378
     },
     {
      "text": "sent",
-     "start": 41.321,
-     "end": 41.59
+     "start": 50.378,
+     "end": 50.645
     },
     {
      "text": "thousands",
-     "start": 41.59,
-     "end": 42.075
+     "start": 50.645,
+     "end": 51.127
     },
     {
      "text": "of",
-     "start": 42.075,
-     "end": 42.183
+     "start": 51.127,
+     "end": 51.234
     },
     {
-     "text": "police,",
-     "start": 42.183,
-     "end": 42.56
+     "text": "police",
+     "start": 51.234,
+     "end": 51.608
     },
     {
      "text": "and",
-     "start": 42.75,
-     "end": 42.897
+     "start": 51.608,
+     "end": 51.768
+    },
+    {
+     "text": "soldiers,",
+     "start": 51.768,
+     "end": 52.25
+    },
+    {
+     "text": "and",
+     "start": 52.51,
+     "end": 52.646
     },
     {
      "text": "stopped",
-     "start": 42.897,
-     "end": 43.192
+     "start": 52.646,
+     "end": 52.919
     },
     {
      "text": "it.",
-     "start": 43.192,
-     "end": 43.29
+     "start": 52.919,
+     "end": 53.01
+    }
+   ]
+  },
+  {
+   "id": "before",
+   "text": "It's not the first time: in May 2021, thousands crossed too.",
+   "start": 53.23,
+   "end": 56.93,
+   "words": [
+    {
+     "text": "It's",
+     "start": 53.23,
+     "end": 53.387
+    },
+    {
+     "text": "not",
+     "start": 53.387,
+     "end": 53.597
+    },
+    {
+     "text": "the",
+     "start": 53.597,
+     "end": 53.702
+    },
+    {
+     "text": "first",
+     "start": 53.702,
+     "end": 54.017
+    },
+    {
+     "text": "time:",
+     "start": 54.017,
+     "end": 54.28
+    },
+    {
+     "text": "in",
+     "start": 54.53,
+     "end": 54.663
+    },
+    {
+     "text": "May",
+     "start": 54.663,
+     "end": 54.841
+    },
+    {
+     "text": "2021,",
+     "start": 54.841,
+     "end": 55.64
+    },
+    {
+     "text": "thousands",
+     "start": 55.87,
+     "end": 56.372
+    },
+    {
+     "text": "crossed",
+     "start": 56.372,
+     "end": 56.707
+    },
+    {
+     "text": "too.",
+     "start": 56.707,
+     "end": 56.93
     }
    ]
   },
   {
    "id": "again",
-   "text": "Could it happen again? This big, not soon.",
-   "start": 43.51,
-   "end": 45.7,
+   "text": "So, could it happen again? This big, not soon.",
+   "start": 57.15,
+   "end": 59.58,
    "words": [
     {
-     "text": "Could",
-     "start": 43.51,
-     "end": 43.712
+     "text": "So,",
+     "start": 57.15,
+     "end": 57.344
+    },
+    {
+     "text": "could",
+     "start": 57.416,
+     "end": 57.61
     },
     {
      "text": "it",
-     "start": 43.712,
-     "end": 43.813
+     "start": 57.61,
+     "end": 57.707
     },
     {
      "text": "happen",
-     "start": 43.813,
-     "end": 44.117
+     "start": 57.707,
+     "end": 57.998
     },
     {
      "text": "again?",
-     "start": 44.117,
-     "end": 44.37
+     "start": 57.998,
+     "end": 58.24
     },
     {
      "text": "This",
-     "start": 44.61,
-     "end": 44.846
+     "start": 58.49,
+     "end": 58.726
     },
     {
      "text": "big,",
-     "start": 44.846,
-     "end": 45.081
+     "start": 58.726,
+     "end": 58.961
     },
     {
      "text": "not",
-     "start": 45.17,
-     "end": 45.405
+     "start": 59.05,
+     "end": 59.285
     },
     {
      "text": "soon.",
-     "start": 45.405,
-     "end": 45.7
+     "start": 59.285,
+     "end": 59.58
     }
    ]
   },
   {
    "id": "smaller",
    "text": "Smaller swims? Almost surely: the jobs and the sea haven't changed.",
-   "start": 45.92,
-   "end": 49.62,
+   "start": 59.8,
+   "end": 63.45,
    "words": [
     {
      "text": "Smaller",
-     "start": 45.92,
-     "end": 46.302
+     "start": 59.8,
+     "end": 60.166
     },
     {
      "text": "swims?",
-     "start": 46.302,
-     "end": 46.63
+     "start": 60.166,
+     "end": 60.48
     },
     {
      "text": "Almost",
-     "start": 46.87,
-     "end": 47.338
+     "start": 60.72,
+     "end": 61.194
     },
     {
      "text": "surely:",
-     "start": 47.338,
-     "end": 47.65
+     "start": 61.194,
+     "end": 61.51
     },
     {
      "text": "the",
-     "start": 47.93,
-     "end": 48.032
+     "start": 61.76,
+     "end": 61.862
     },
     {
      "text": "jobs",
-     "start": 48.032,
-     "end": 48.34
+     "start": 61.862,
+     "end": 62.169
     },
     {
      "text": "and",
-     "start": 48.34,
-     "end": 48.493
+     "start": 62.169,
+     "end": 62.323
     },
     {
      "text": "the",
-     "start": 48.493,
-     "end": 48.596
+     "start": 62.323,
+     "end": 62.426
     },
     {
      "text": "sea",
-     "start": 48.596,
-     "end": 48.8
+     "start": 62.426,
+     "end": 62.63
     },
     {
      "text": "haven't",
-     "start": 48.8,
-     "end": 49.159
+     "start": 62.63,
+     "end": 62.989
     },
     {
      "text": "changed.",
-     "start": 49.159,
-     "end": 49.62
+     "start": 62.989,
+     "end": 63.45
     }
    ]
   },
   {
    "id": "buoys",
    "text": "And the dotted line at the start? A floating barrier, to make sending swimmers back legal again.",
-   "start": 49.84,
-   "end": 54.53,
+   "start": 63.67,
+   "end": 68.32,
    "words": [
     {
      "text": "And",
-     "start": 49.84,
-     "end": 49.996
+     "start": 63.67,
+     "end": 63.826
     },
     {
      "text": "the",
-     "start": 49.996,
-     "end": 50.099
+     "start": 63.826,
+     "end": 63.929
     },
     {
      "text": "dotted",
-     "start": 50.099,
-     "end": 50.411
+     "start": 63.929,
+     "end": 64.241
     },
     {
      "text": "line",
-     "start": 50.411,
-     "end": 50.671
+     "start": 64.241,
+     "end": 64.501
     },
     {
      "text": "at",
-     "start": 50.671,
-     "end": 50.774
+     "start": 64.501,
+     "end": 64.604
     },
     {
      "text": "the",
-     "start": 50.774,
-     "end": 50.878
+     "start": 64.604,
+     "end": 64.708
     },
     {
      "text": "start?",
-     "start": 50.878,
-     "end": 51.19
+     "start": 64.708,
+     "end": 65.02
     },
     {
      "text": "A",
-     "start": 51.55,
-     "end": 51.707
+     "start": 65.36,
+     "end": 65.517
     },
     {
      "text": "floating",
-     "start": 51.707,
-     "end": 52.126
+     "start": 65.517,
+     "end": 65.936
     },
     {
      "text": "barrier,",
-     "start": 52.126,
-     "end": 52.44
+     "start": 65.936,
+     "end": 66.25
     },
     {
      "text": "to",
-     "start": 52.67,
-     "end": 52.817
+     "start": 66.48,
+     "end": 66.625
     },
     {
      "text": "make",
-     "start": 52.817,
-     "end": 53.061
+     "start": 66.625,
+     "end": 66.867
     },
     {
      "text": "sending",
-     "start": 53.061,
-     "end": 53.404
+     "start": 66.867,
+     "end": 67.206
     },
     {
      "text": "swimmers",
-     "start": 53.404,
-     "end": 53.747
+     "start": 67.206,
+     "end": 67.545
     },
     {
      "text": "back",
-     "start": 53.747,
-     "end": 53.943
+     "start": 67.545,
+     "end": 67.739
     },
     {
      "text": "legal",
-     "start": 53.943,
-     "end": 54.285
+     "start": 67.739,
+     "end": 68.078
     },
     {
      "text": "again.",
-     "start": 54.285,
-     "end": 54.53
+     "start": 68.078,
+     "end": 68.32
     }
    ]
   },
   {
    "id": "save",
    "text": "Save this for the next border crisis.",
-   "start": 54.75,
-   "end": 56.63,
+   "start": 68.54,
+   "end": 70.35,
    "words": [
     {
      "text": "Save",
-     "start": 54.75,
-     "end": 55.026
+     "start": 68.54,
+     "end": 68.806
     },
     {
      "text": "this",
-     "start": 55.026,
-     "end": 55.248
+     "start": 68.806,
+     "end": 69.019
     },
     {
      "text": "for",
-     "start": 55.248,
-     "end": 55.413
+     "start": 69.019,
+     "end": 69.179
     },
     {
      "text": "the",
-     "start": 55.413,
-     "end": 55.524
+     "start": 69.179,
+     "end": 69.285
     },
     {
      "text": "next",
-     "start": 55.524,
-     "end": 55.856
+     "start": 69.285,
+     "end": 69.604
     },
     {
      "text": "border",
-     "start": 55.856,
-     "end": 56.188
+     "start": 69.604,
+     "end": 69.924
     },
     {
      "text": "crisis.",
-     "start": 56.188,
-     "end": 56.63
+     "start": 69.924,
+     "end": 70.35
     }
    ]
   },
   {
    "id": "question",
    "text": "Should Spain send swimmers back at once?",
-   "start": 56.99,
-   "end": 58.77,
+   "start": 70.71,
+   "end": 72.47,
    "words": [
     {
      "text": "Should",
-     "start": 56.99,
-     "end": 57.206
+     "start": 70.71,
+     "end": 70.923
     },
     {
      "text": "Spain",
-     "start": 57.206,
-     "end": 57.529
+     "start": 70.923,
+     "end": 71.243
     },
     {
      "text": "send",
-     "start": 57.529,
-     "end": 57.799
+     "start": 71.243,
+     "end": 71.51
     },
     {
      "text": "swimmers",
-     "start": 57.799,
-     "end": 58.177
+     "start": 71.51,
+     "end": 71.883
     },
     {
      "text": "back",
-     "start": 58.177,
-     "end": 58.392
+     "start": 71.883,
+     "end": 72.096
     },
     {
      "text": "at",
-     "start": 58.392,
-     "end": 58.5
+     "start": 72.096,
+     "end": 72.203
     },
     {
      "text": "once?",
-     "start": 58.5,
-     "end": 58.77
+     "start": 72.203,
+     "end": 72.47
     }
    ]
   }

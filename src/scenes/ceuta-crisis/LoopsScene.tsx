@@ -16,7 +16,7 @@ const QUESTIONS = ["HOW?", "WHY?", "AGAIN?"] as const;
 export const LoopsScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
   const exit = sceneExit(frame, duration);
-  const starts = [cue("loops", "How"), cue("loops", "Why"), cue("loops", "And")];
+  const starts = [cue("loops", "How"), cue("loops", "Why"), cue("loops", "Could")];
   const active = starts.reduce((current, s, i) => (frame >= s - 2 ? i : current), 0);
 
   return (

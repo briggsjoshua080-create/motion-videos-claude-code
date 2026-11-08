@@ -1,6 +1,6 @@
 # Posting: "A city of 83,000. 72,000 arrived."
 
-File: `out/ceuta-crisis.mp4` (1080×1920, 30 fps, 60.0 s, −14 LUFS).
+File: `out/ceuta-crisis.mp4` (1080×1920, 30 fps, 73.7 s, −14 LUFS).
 
 ## 3 alternative hook lines (A/B test)
 1. "72,000 people swam into Europe in three days."

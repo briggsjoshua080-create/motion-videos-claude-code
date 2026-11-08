@@ -10,8 +10,10 @@ subtitle rules. Made with **no questions asked** (the user's standing instructio
 ## Choices made (no questions)
 - **Which crisis:** the summer one, **29–31 July 2026** (the biggest in Ceuta's history). The May 2021 crisis (about
   8,000–10,000 people after Spain treated the Polisario leader in hospital) is in the fact sheet only.
-- **Format:** 1080×1920 @ 30 fps, **60.0 s** (58.8 s of voice + 1.2 s hold). The first draft measured 65.2 s and was
-  trimmed (shorter loops line, shorter fence/court/jobs/barrier lines, speed 1.25 → 1.27).
+- **Format:** 1080×1920 @ 30 fps, **73.7 s** (72.5 s of voice + 1.2 s hold). Version 1 was trimmed to 60.0 s; the user
+  then said (8 Nov 2026) **"Doesn't matter if it's a little too long"**, so version 2 restores the trimmed details and adds
+  Italy's border checks, the May 2021 precedent and an "all three met in one week" beat. A 75.2 s draft was tightened to
+  72.5 s (speed 1.29, shorter loops and barrier lines). The second re-hook moved to the rumour (33 s).
 - **Look:** the standard `ChineseElection`/`UkrainianElection` look, but themed **to the topic instead of a flag**
   ("adjust graphics to fit topic"): a deep **Strait-of-Gibraltar sea blue** background and **rescue orange** (life
   jackets, buoys, rescue boats) as the second colour, for accent blocks, the re-hook flashes and the subtitle pill
@@ -26,7 +28,7 @@ subtitle rules. Made with **no questions asked** (the user's standing instructio
   dots, never as a threat; the closing YES/NO question is the only debate line.
 - **Numbers on screen:** 83,000 (population), 72,000 (Spain's count of entries), 70,000 back, 80 dead (Spain's
   count). Other estimates (50,000–80,000 entries; 11–141 deaths depending on who counts and where) stay here.
-- **Voice:** Kokoro `bm_george`, en-gb, speed 1.27; "Ceuta" as /ˈseɪuːtə/ and "Fnideq" as /fnɪˈdɛk/ (`pronounce`).
+- **Voice:** Kokoro `bm_george`, en-gb, speed 1.29; "Ceuta" as /ˈseɪuːtə/ and "Fnideq" as /fnɪˈdɛk/ (`pronounce`).
 
 ## Fact sheet (checked 8 Nov 2026)
 Official sites (interior.gob.es, poderjudicial.es) could not be fetched in this cloud session; facts come from
@@ -44,11 +46,11 @@ WebSearch results and are cross-checked between at least two outlets. Figures fl
 | Rumour | Facebook groups (e.g. "Hraga Ceuta", 20,000+ members by 27 July) and viral posts turned the ruling into "the border is open"; it never was. EU Commission saw Russian-origin channels amplifying it | Brussels Signal; AP/Inquirer 4 Aug; Maldita.es 6 Aug; Ara |
 | Social | Fnideq (≈80,000 people) lived largely off cross-border trade with Ceuta, which Morocco ended in 2019; the border was then shut 2020–22; residents cite unemployment and decline | InfoMigrants; Al Jazeera |
 | Morocco's role | Spain says "no solid proof" of Moroccan involvement; opposition parties say otherwise; analysts note controls looked weaker *(disputed; not stated as fact in the video)* | Al Jazeera; CSMonitor 30 Sep |
-| Europe | Italy reintroduced border checks on arrivals from Spain for a month; 22 EU leaders' letter (1 Aug) called Spain's regularisation a "pull factor" (cut from the voice for length) | Al Jazeera 4 Aug; Euronews 1–2 Aug |
+| Europe | Italy reintroduced border checks on air and sea arrivals from Spain for about a month (**in the video**); 22 EU leaders' letter (1 Aug) called Spain's regularisation a "pull factor" (fact sheet only) | Al Jazeera 4 Aug; Euronews 1–2 Aug |
 | Floating barrier | Spain began a **500 m floating barrier** off the Tarajal shore on **1 Aug 2026** "to comply with the Supreme Court ruling"; critics say a court must still rule on it | Al Jazeera 1 Aug; Ara; russpain |
 | 15 August | Posts named 15 Aug as the next "open" day; Morocco deployed thousands of police and soldiers and stopped it; arrests of 61+ people for posts inciting migration; taxi drivers jailed (7 Aug) | Al Jazeera 12 & 15 Aug; Africanews 13 & 16 Aug; Ara |
 | Next | Border reinforcement works at Tarajal and Benzú due to start **17 Nov 2026** (*stale soon*); €309 m for reception | El Español 7 Nov; Wikipedia summary via search |
-| 2021 precedent | 17–18 May 2021: ~8,000–10,000 entered after Spain hosted Polisario leader Brahim Ghali; Spain called it "blackmail" | Al Jazeera 2021; Ara chronology |
+| 2021 precedent | 17–18 May 2021: ~8,000–10,000 entered after Spain hosted Polisario leader Brahim Ghali; Spain called it "blackmail" ("thousands crossed too" **in the video**) | Al Jazeera 2021; Ara chronology |
 
 **Could it happen again? (the video's answer):** a crossing this big is unlikely soon (Morocco is guarding its side,
 Spain is building sea barriers, the "open border" rumour is now known to be false), but smaller swims are almost

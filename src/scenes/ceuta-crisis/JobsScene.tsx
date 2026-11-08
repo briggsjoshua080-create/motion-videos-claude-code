@@ -7,7 +7,7 @@ import { Problems } from "./Problems";
 
 /**
  * "Social: in Fnideq next door, jobs vanished with the border trade." The circles return with geography
- * and politics filled; the third (red) fills and its shop's shutter rolls down on "vanished"; SOCIAL,
+ * and politics filled; the third (red) fills and its shop's shutter rolls down on "border trade closed"; SOCIAL,
  * "no jobs.".
  */
 export const JobsScene: React.FC<SceneProps> = ({ cue, duration }) => {
@@ -17,7 +17,7 @@ export const JobsScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const aside = rise(frame, cue("jobs", "jobs") - 6);
   const back = rise(frame, 0);
   const fill = progress(frame, 4, cue("jobs", "Fnideq"));
-  const shutter = progress(frame, cue("jobs", "vanished") - 4, cue("jobs", "trade"));
+  const shutter = progress(frame, cue("jobs", "border") - 4, cue("jobs", "closed"));
 
   return (
     <>

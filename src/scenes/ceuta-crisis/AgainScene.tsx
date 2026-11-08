@@ -9,7 +9,7 @@ import { Meter } from "./Meter";
 export const AgainScene: React.FC<SceneProps> = ({ cue, duration }) => {
   const frame = useCurrentFrame();
   const exit = sceneExit(frame, duration);
-  const head = [rise(frame, 1), rise(frame, cue("again", "This") - 8)];
+  const head = [rise(frame, 1), rise(frame, 5)];
   const meter = rise(frame, 2);
   const value = 0.5 - 0.36 * progress(frame, cue("again", "This") - 4, cue("again", "soon"), Easing.out(Easing.back(2)));
 
