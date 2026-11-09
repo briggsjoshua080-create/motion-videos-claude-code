@@ -1,0 +1,979 @@
+{
+ "audio": "voiceover/us-congress.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 58.58,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "America's most hated group chat writes every law.",
+   "start": 0.13,
+   "end": 3.02,
+   "words": [
+    {
+     "text": "America's",
+     "start": 0.13,
+     "end": 0.672
+    },
+    {
+     "text": "most",
+     "start": 0.672,
+     "end": 1.033
+    },
+    {
+     "text": "hated",
+     "start": 1.033,
+     "end": 1.455
+    },
+    {
+     "text": "group",
+     "start": 1.455,
+     "end": 1.816
+    },
+    {
+     "text": "chat",
+     "start": 1.816,
+     "end": 2.117
+    },
+    {
+     "text": "writes",
+     "start": 2.117,
+     "end": 2.478
+    },
+    {
+     "text": "every",
+     "start": 2.478,
+     "end": 2.779
+    },
+    {
+     "text": "law.",
+     "start": 2.779,
+     "end": 3.02
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "Who's in it? Why does nothing get sent? Where's the president?",
+   "start": 3.2,
+   "end": 5.93,
+   "words": [
+    {
+     "text": "Who's",
+     "start": 3.2,
+     "end": 3.41
+    },
+    {
+     "text": "in",
+     "start": 3.41,
+     "end": 3.536
+    },
+    {
+     "text": "it?",
+     "start": 3.536,
+     "end": 3.62
+    },
+    {
+     "text": "Why",
+     "start": 3.72,
+     "end": 3.908
+    },
+    {
+     "text": "does",
+     "start": 3.908,
+     "end": 4.096
+    },
+    {
+     "text": "nothing",
+     "start": 4.096,
+     "end": 4.377
+    },
+    {
+     "text": "get",
+     "start": 4.377,
+     "end": 4.565
+    },
+    {
+     "text": "sent?",
+     "start": 4.565,
+     "end": 4.8
+    },
+    {
+     "text": "Where's",
+     "start": 5.08,
+     "end": 5.33
+    },
+    {
+     "text": "the",
+     "start": 5.33,
+     "end": 5.43
+    },
+    {
+     "text": "president?",
+     "start": 5.43,
+     "end": 5.93
+    }
+   ]
+  },
+  {
+   "id": "approval",
+   "text": "Approval: 14%. Ouch.",
+   "start": 6.14,
+   "end": 8.17,
+   "words": [
+    {
+     "text": "Approval:",
+     "start": 6.14,
+     "end": 6.613
+    },
+    {
+     "text": "14%.",
+     "start": 6.692,
+     "end": 7.48
+    },
+    {
+     "text": "Ouch.",
+     "start": 7.76,
+     "end": 8.17
+    }
+   ]
+  },
+  {
+   "id": "members",
+   "text": "Congress: 535 members.",
+   "start": 8.35,
+   "end": 10.94,
+   "words": [
+    {
+     "text": "Congress:",
+     "start": 8.35,
+     "end": 8.82
+    },
+    {
+     "text": "535",
+     "start": 8.97,
+     "end": 10.534
+    },
+    {
+     "text": "members.",
+     "start": 10.534,
+     "end": 10.94
+    }
+   ]
+  },
+  {
+   "id": "house",
+   "text": "The House: 435, one per district, every two years.",
+   "start": 11.12,
+   "end": 15.04,
+   "words": [
+    {
+     "text": "The",
+     "start": 11.12,
+     "end": 11.249
+    },
+    {
+     "text": "House:",
+     "start": 11.249,
+     "end": 11.57
+    },
+    {
+     "text": "435,",
+     "start": 11.71,
+     "end": 12.96
+    },
+    {
+     "text": "one",
+     "start": 13.18,
+     "end": 13.377
+    },
+    {
+     "text": "per",
+     "start": 13.377,
+     "end": 13.526
+    },
+    {
+     "text": "district,",
+     "start": 13.526,
+     "end": 13.97
+    },
+    {
+     "text": "every",
+     "start": 14.18,
+     "end": 14.487
+    },
+    {
+     "text": "two",
+     "start": 14.487,
+     "end": 14.733
+    },
+    {
+     "text": "years.",
+     "start": 14.733,
+     "end": 15.04
+    }
+   ]
+  },
+  {
+   "id": "senate",
+   "text": "The Senate: two per state, for six years.",
+   "start": 15.22,
+   "end": 17.38,
+   "words": [
+    {
+     "text": "The",
+     "start": 15.22,
+     "end": 15.325
+    },
+    {
+     "text": "Senate:",
+     "start": 15.325,
+     "end": 15.64
+    },
+    {
+     "text": "two",
+     "start": 15.8,
+     "end": 16.003
+    },
+    {
+     "text": "per",
+     "start": 16.003,
+     "end": 16.155
+    },
+    {
+     "text": "state,",
+     "start": 16.155,
+     "end": 16.46
+    },
+    {
+     "text": "for",
+     "start": 16.66,
+     "end": 16.826
+    },
+    {
+     "text": "six",
+     "start": 16.826,
+     "end": 17.103
+    },
+    {
+     "text": "years.",
+     "start": 17.103,
+     "end": 17.38
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the weird part: Wyoming gets as many senators as California!",
+   "start": 17.56,
+   "end": 21.45,
+   "words": [
+    {
+     "text": "But",
+     "start": 17.56,
+     "end": 17.764
+    },
+    {
+     "text": "here's",
+     "start": 17.764,
+     "end": 18.019
+    },
+    {
+     "text": "the",
+     "start": 18.019,
+     "end": 18.12
+    },
+    {
+     "text": "weird",
+     "start": 18.12,
+     "end": 18.375
+    },
+    {
+     "text": "part:",
+     "start": 18.375,
+     "end": 18.63
+    },
+    {
+     "text": "Wyoming",
+     "start": 19.01,
+     "end": 19.521
+    },
+    {
+     "text": "gets",
+     "start": 19.521,
+     "end": 19.804
+    },
+    {
+     "text": "as",
+     "start": 19.804,
+     "end": 19.918
+    },
+    {
+     "text": "many",
+     "start": 19.918,
+     "end": 20.202
+    },
+    {
+     "text": "senators",
+     "start": 20.202,
+     "end": 20.656
+    },
+    {
+     "text": "as",
+     "start": 20.656,
+     "end": 20.769
+    },
+    {
+     "text": "California!",
+     "start": 20.769,
+     "end": 21.45
+    }
+   ]
+  },
+  {
+   "id": "wyoming",
+   "text": "With 68 times fewer people.",
+   "start": 21.63,
+   "end": 23.39,
+   "words": [
+    {
+     "text": "With",
+     "start": 21.63,
+     "end": 21.79
+    },
+    {
+     "text": "68",
+     "start": 21.79,
+     "end": 22.377
+    },
+    {
+     "text": "times",
+     "start": 22.377,
+     "end": 22.697
+    },
+    {
+     "text": "fewer",
+     "start": 22.697,
+     "end": 23.017
+    },
+    {
+     "text": "people.",
+     "start": 23.017,
+     "end": 23.39
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "text": "Every law, every tax, every dollar: through this chat.",
+   "start": 23.57,
+   "end": 26.41,
+   "words": [
+    {
+     "text": "Every",
+     "start": 23.57,
+     "end": 23.864
+    },
+    {
+     "text": "law,",
+     "start": 23.864,
+     "end": 24.1
+    },
+    {
+     "text": "every",
+     "start": 24.19,
+     "end": 24.52
+    },
+    {
+     "text": "tax,",
+     "start": 24.52,
+     "end": 24.85
+    },
+    {
+     "text": "every",
+     "start": 24.98,
+     "end": 25.265
+    },
+    {
+     "text": "dollar:",
+     "start": 25.265,
+     "end": 25.55
+    },
+    {
+     "text": "through",
+     "start": 25.79,
+     "end": 26.011
+    },
+    {
+     "text": "this",
+     "start": 26.011,
+     "end": 26.189
+    },
+    {
+     "text": "chat.",
+     "start": 26.189,
+     "end": 26.41
+    }
+   ]
+  },
+  {
+   "id": "president",
+   "text": "The president? Not even in the chat.",
+   "start": 26.58,
+   "end": 28.42,
+   "words": [
+    {
+     "text": "The",
+     "start": 26.58,
+     "end": 26.675
+    },
+    {
+     "text": "president?",
+     "start": 26.675,
+     "end": 27.15
+    },
+    {
+     "text": "Not",
+     "start": 27.37,
+     "end": 27.58
+    },
+    {
+     "text": "even",
+     "start": 27.58,
+     "end": 27.895
+    },
+    {
+     "text": "in",
+     "start": 27.895,
+     "end": 28.052
+    },
+    {
+     "text": "the",
+     "start": 28.052,
+     "end": 28.157
+    },
+    {
+     "text": "chat.",
+     "start": 28.157,
+     "end": 28.42
+    }
+   ]
+  },
+  {
+   "id": "law",
+   "text": "Both chats pass the same text. He signs... or vetoes.",
+   "start": 28.6,
+   "end": 31.79,
+   "words": [
+    {
+     "text": "Both",
+     "start": 28.6,
+     "end": 28.866
+    },
+    {
+     "text": "chats",
+     "start": 28.866,
+     "end": 29.185
+    },
+    {
+     "text": "pass",
+     "start": 29.185,
+     "end": 29.398
+    },
+    {
+     "text": "the",
+     "start": 29.398,
+     "end": 29.505
+    },
+    {
+     "text": "same",
+     "start": 29.505,
+     "end": 29.771
+    },
+    {
+     "text": "text.",
+     "start": 29.771,
+     "end": 30.09
+    },
+    {
+     "text": "He",
+     "start": 30.36,
+     "end": 30.553
+    },
+    {
+     "text": "signs...",
+     "start": 30.553,
+     "end": 30.94
+    },
+    {
+     "text": "or",
+     "start": 31.2,
+     "end": 31.318
+    },
+    {
+     "text": "vetoes.",
+     "start": 31.318,
+     "end": 31.79
+    }
+   ]
+  },
+  {
+   "id": "override",
+   "text": "Two thirds can overrule him.",
+   "start": 31.97,
+   "end": 33.71,
+   "words": [
+    {
+     "text": "Two",
+     "start": 31.97,
+     "end": 32.219
+    },
+    {
+     "text": "thirds",
+     "start": 32.219,
+     "end": 32.591
+    },
+    {
+     "text": "can",
+     "start": 32.591,
+     "end": 32.84
+    },
+    {
+     "text": "overrule",
+     "start": 32.84,
+     "end": 33.461
+    },
+    {
+     "text": "him.",
+     "start": 33.461,
+     "end": 33.71
+    }
+   ]
+  },
+  {
+   "id": "strange",
+   "text": "Now it gets strange: ignore a bill for ten days, and it's law anyway!",
+   "start": 33.89,
+   "end": 37.57,
+   "words": [
+    {
+     "text": "Now",
+     "start": 33.89,
+     "end": 34.1
+    },
+    {
+     "text": "it",
+     "start": 34.1,
+     "end": 34.205
+    },
+    {
+     "text": "gets",
+     "start": 34.205,
+     "end": 34.467
+    },
+    {
+     "text": "strange:",
+     "start": 34.467,
+     "end": 34.94
+    },
+    {
+     "text": "ignore",
+     "start": 35.25,
+     "end": 35.576
+    },
+    {
+     "text": "a",
+     "start": 35.576,
+     "end": 35.74
+    },
+    {
+     "text": "bill",
+     "start": 35.74,
+     "end": 35.957
+    },
+    {
+     "text": "for",
+     "start": 35.957,
+     "end": 36.12
+    },
+    {
+     "text": "ten",
+     "start": 36.12,
+     "end": 36.338
+    },
+    {
+     "text": "days,",
+     "start": 36.338,
+     "end": 36.61
+    },
+    {
+     "text": "and",
+     "start": 36.72,
+     "end": 36.862
+    },
+    {
+     "text": "it's",
+     "start": 36.862,
+     "end": 37.003
+    },
+    {
+     "text": "law",
+     "start": 37.003,
+     "end": 37.192
+    },
+    {
+     "text": "anyway!",
+     "start": 37.192,
+     "end": 37.57
+    }
+   ]
+  },
+  {
+   "id": "shutdown",
+   "text": "No deal on money? Shutdown. Last year: 43 days.",
+   "start": 37.75,
+   "end": 41.03,
+   "words": [
+    {
+     "text": "No",
+     "start": 37.75,
+     "end": 37.95
+    },
+    {
+     "text": "deal",
+     "start": 37.95,
+     "end": 38.2
+    },
+    {
+     "text": "on",
+     "start": 38.2,
+     "end": 38.35
+    },
+    {
+     "text": "money?",
+     "start": 38.35,
+     "end": 38.6
+    },
+    {
+     "text": "Shutdown.",
+     "start": 38.77,
+     "end": 39.31
+    },
+    {
+     "text": "Last",
+     "start": 39.55,
+     "end": 39.833
+    },
+    {
+     "text": "year:",
+     "start": 39.833,
+     "end": 40.06
+    },
+    {
+     "text": "43",
+     "start": 40.16,
+     "end": 40.758
+    },
+    {
+     "text": "days.",
+     "start": 40.758,
+     "end": 41.03
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "text": "On November 3, Democrats took both chats.",
+   "start": 41.21,
+   "end": 43.72,
+   "words": [
+    {
+     "text": "On",
+     "start": 41.21,
+     "end": 41.367
+    },
+    {
+     "text": "November",
+     "start": 41.367,
+     "end": 41.838
+    },
+    {
+     "text": "3,",
+     "start": 41.838,
+     "end": 42.1
+    },
+    {
+     "text": "Democrats",
+     "start": 42.33,
+     "end": 42.918
+    },
+    {
+     "text": "took",
+     "start": 42.918,
+     "end": 43.132
+    },
+    {
+     "text": "both",
+     "start": 43.132,
+     "end": 43.399
+    },
+    {
+     "text": "chats.",
+     "start": 43.399,
+     "end": 43.72
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "text": "Now every law needs both parties. Expect a lot of 'left on read'.",
+   "start": 43.9,
+   "end": 47.55,
+   "words": [
+    {
+     "text": "Now",
+     "start": 43.9,
+     "end": 44.136
+    },
+    {
+     "text": "every",
+     "start": 44.136,
+     "end": 44.431
+    },
+    {
+     "text": "law",
+     "start": 44.431,
+     "end": 44.667
+    },
+    {
+     "text": "needs",
+     "start": 44.667,
+     "end": 45.022
+    },
+    {
+     "text": "both",
+     "start": 45.022,
+     "end": 45.317
+    },
+    {
+     "text": "parties.",
+     "start": 45.317,
+     "end": 45.73
+    },
+    {
+     "text": "Expect",
+     "start": 46.01,
+     "end": 46.421
+    },
+    {
+     "text": "a",
+     "start": 46.421,
+     "end": 46.575
+    },
+    {
+     "text": "lot",
+     "start": 46.575,
+     "end": 46.78
+    },
+    {
+     "text": "of",
+     "start": 46.78,
+     "end": 46.883
+    },
+    {
+     "text": "'left",
+     "start": 46.883,
+     "end": 47.139
+    },
+    {
+     "text": "on",
+     "start": 47.139,
+     "end": 47.293
+    },
+    {
+     "text": "read'.",
+     "start": 47.293,
+     "end": 47.55
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "text": "Send this to the friend who never replies.",
+   "start": 47.81,
+   "end": 50.05,
+   "words": [
+    {
+     "text": "Send",
+     "start": 47.81,
+     "end": 48.113
+    },
+    {
+     "text": "this",
+     "start": 48.113,
+     "end": 48.355
+    },
+    {
+     "text": "to",
+     "start": 48.355,
+     "end": 48.536
+    },
+    {
+     "text": "the",
+     "start": 48.536,
+     "end": 48.658
+    },
+    {
+     "text": "friend",
+     "start": 48.658,
+     "end": 49.021
+    },
+    {
+     "text": "who",
+     "start": 49.021,
+     "end": 49.263
+    },
+    {
+     "text": "never",
+     "start": 49.263,
+     "end": 49.566
+    },
+    {
+     "text": "replies.",
+     "start": 49.566,
+     "end": 50.05
+    }
+   ]
+  },
+  {
+   "id": "dots",
+   "text": "And those typing dots? Senators talking. The record: 25 hours. Ending it takes 60 votes.",
+   "start": 50.23,
+   "end": 55.76,
+   "words": [
+    {
+     "text": "And",
+     "start": 50.23,
+     "end": 50.384
+    },
+    {
+     "text": "those",
+     "start": 50.384,
+     "end": 50.642
+    },
+    {
+     "text": "typing",
+     "start": 50.642,
+     "end": 51.002
+    },
+    {
+     "text": "dots?",
+     "start": 51.002,
+     "end": 51.26
+    },
+    {
+     "text": "Senators",
+     "start": 51.46,
+     "end": 51.94
+    },
+    {
+     "text": "talking.",
+     "start": 51.94,
+     "end": 52.36
+    },
+    {
+     "text": "The",
+     "start": 52.66,
+     "end": 52.778
+    },
+    {
+     "text": "record:",
+     "start": 52.778,
+     "end": 53.19
+    },
+    {
+     "text": "25",
+     "start": 53.3,
+     "end": 53.935
+    },
+    {
+     "text": "hours.",
+     "start": 53.935,
+     "end": 54.2
+    },
+    {
+     "text": "Ending",
+     "start": 54.44,
+     "end": 54.733
+    },
+    {
+     "text": "it",
+     "start": 54.733,
+     "end": 54.831
+    },
+    {
+     "text": "takes",
+     "start": 54.831,
+     "end": 55.124
+    },
+    {
+     "text": "60",
+     "start": 55.124,
+     "end": 55.467
+    },
+    {
+     "text": "votes.",
+     "start": 55.467,
+     "end": 55.76
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So, should the Senate scrap the sixty-vote rule?",
+   "start": 55.94,
+   "end": 58.43,
+   "words": [
+    {
+     "text": "So,",
+     "start": 55.94,
+     "end": 56.174
+    },
+    {
+     "text": "should",
+     "start": 56.262,
+     "end": 56.497
+    },
+    {
+     "text": "the",
+     "start": 56.497,
+     "end": 56.614
+    },
+    {
+     "text": "Senate",
+     "start": 56.614,
+     "end": 56.965
+    },
+    {
+     "text": "scrap",
+     "start": 56.965,
+     "end": 57.317
+    },
+    {
+     "text": "the",
+     "start": 57.317,
+     "end": 57.434
+    },
+    {
+     "text": "sixty-vote",
+     "start": 57.434,
+     "end": 58.137
+    },
+    {
+     "text": "rule?",
+     "start": 58.137,
+     "end": 58.43
+    }
+   ]
+  }
+ ]
+}

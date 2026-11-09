@@ -337,6 +337,15 @@ prompt says otherwise.
   how the causes came together; a likelihood gauge (`Meter.tsx`) answers "again?". At the user's word ("doesn't matter if it's a little too long") it runs 73.7 s, with Italy's border checks and the 2021 precedent. The dotted orange line in the sea on
   frame 0 is the floating barrier (rewatch detail). Ends on "Should Spain send swimmers back at once?". Not a political
   system video, so the election parts of the standing brief don't apply.
+  `USCongress` ("America's most hated group chat writes every law.", `briefs/us-congress/`) is the third **comedy
+  explainer** (9 Nov 2026, no questions asked): how Congress is elected, why it matters for every law, why it's
+  controversial and what the president has to do with it, with the 3 Nov 2026 midterms as the example. The `USMidterms`
+  look; the premise is a **group chat** (props `ChatWindow`, `Bubble`, `DoubleTick`, `Figure`, `Clock`, `SenateGrid` in
+  `src/scenes/us-congress/ui.tsx`): 14% approval, 535 members, House and Senate, Wyoming = California in the Senate,
+  the president isn't in the chat (sign or veto, 2/3 override, ten days and it's law anyway), the 43-day shutdown,
+  Democrats took both chambers, "left on read", and the frame-0 typing dots as the filibuster talk (25-hour record, 60
+  votes), ending on "Should the Senate scrap 60-vote rules?". First video with **expression in the voice**: per-sentence
+  `speed` (also `voice`, `lang`, `gain`) in the voice-over script, plus "!", "..." and short interjections ("Ouch.").
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
@@ -401,6 +410,8 @@ model files download from the kokoro-onnx GitHub release (no Hugging Face access
      American female `af_heart` `af_bella` `af_nicole` `af_sarah`…. `lang`: `en-gb` or `en-us`.
    - `speed` (1.0 = normal), `leadIn` (silence at the start), `pauseAfter` (silence after each
      sentence; can be set per sentence to give a scene's last visual time to land).
+   - Per sentence, `speed`, `voice`, `lang` and `gain` override the defaults: use them for **expression** (a slower,
+     flat punchline, a faster excited re-hook ending in "!", a quieter aside), as in `us-congress.script.json`.
    - `sentences`: `{ "id", "text" }` — one per idea; scenes are cued off these ids. `text` is
      exactly what the subtitles show.
    - `say`: how to read a word aloud (`"2022": "twenty twenty-two"`, `"28%": "twenty-eight percent"`).

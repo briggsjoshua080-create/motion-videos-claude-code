@@ -125,8 +125,11 @@ def align(words: list, pauses: list[tuple[float, float]], start: float, end: flo
     return spans, len(anchors)
 
 
-def synthesize_sentence(kokoro: Kokoro, cfg: dict, text: str):
-    lang = cfg.get("lang", "en-gb")
+def synthesize_sentence(kokoro: Kokoro, cfg: dict, text: str, sentence: dict | None = None):
+    # A sentence may override the voice, speed and loudness ("expressions": a slower, deadpan line,
+    # a fast excited one, a quieter aside). Unset fields fall back to the script's defaults.
+    sentence = sentence or {}
+    lang = sentence.get("lang", cfg.get("lang", "en-gb"))
     say, pronounce = cfg.get("say", {}), cfg.get("pronounce", {})
 
     words = []  # (display token, phonemes used for timing, ends a phrase?)
@@ -151,8 +154,13 @@ def synthesize_sentence(kokoro: Kokoro, cfg: dict, text: str):
     flush()
 
     samples, sr = kokoro.create(
-        " ".join(chunks), voice=cfg["voice"], speed=cfg.get("speed", 1.0), lang=lang, is_phonemes=True
+        " ".join(chunks),
+        voice=sentence.get("voice", cfg["voice"]),
+        speed=sentence.get("speed", cfg.get("speed", 1.0)),
+        lang=lang,
+        is_phonemes=True,
     )
+    samples = samples * sentence.get("gain", 1.0)
     rms = loudness(samples, sr)
     threshold = 0.06 * rms.max()
     loud = np.nonzero(rms >= threshold)[0]
@@ -186,7 +194,7 @@ def main() -> None:
     cursor = cfg.get("leadIn", 0.25)
     sentences = []
     for s in cfg["sentences"]:
-        clip, sr, timings, anchored, breaks = synthesize_sentence(kokoro, cfg, s["text"])
+        clip, sr, timings, anchored, breaks = synthesize_sentence(kokoro, cfg, s["text"], s)
         duration = len(clip) / sr
         sentences.append(
             {

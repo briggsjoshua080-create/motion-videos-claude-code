@@ -1,0 +1,103 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.27,
+  "leadIn": 0.1,
+  "pauseAfter": 0.12,
+  "say": {
+    "435": "four hundred and thirty-five",
+    "535": "five hundred and thirty-five",
+    "14%": "fourteen percent",
+    "18": "eighteen",
+    "43": "forty-three",
+    "25": "twenty-five",
+    "60": "sixty",
+    "68": "sixty-eight",
+    "3": "third"
+  },
+  "pronounce": {},
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "America's most hated group chat writes every law."
+    },
+    {
+      "id": "loops",
+      "text": "Who's in it? Why does nothing get sent? Where's the president?",
+      "pauseAfter": 0.15
+    },
+    {
+      "id": "approval",
+      "text": "Approval: 14%. Ouch.",
+      "speed": 1.18
+    },
+    {
+      "id": "members",
+      "text": "Congress: 535 members."
+    },
+    {
+      "id": "house",
+      "text": "The House: 435, one per district, every two years."
+    },
+    {
+      "id": "senate",
+      "text": "The Senate: two per state, for six years."
+    },
+    {
+      "id": "rehook",
+      "text": "But here's the weird part: Wyoming gets as many senators as California!",
+      "speed": 1.24
+    },
+    {
+      "id": "wyoming",
+      "text": "With 68 times fewer people."
+    },
+    {
+      "id": "power",
+      "text": "Every law, every tax, every dollar: through this chat."
+    },
+    {
+      "id": "president",
+      "text": "The president? Not even in the chat."
+    },
+    {
+      "id": "law",
+      "text": "Both chats pass the same text. He signs... or vetoes."
+    },
+    {
+      "id": "override",
+      "text": "Two thirds can overrule him."
+    },
+    {
+      "id": "strange",
+      "text": "Now it gets strange: ignore a bill for ten days, and it's law anyway!",
+      "speed": 1.24
+    },
+    {
+      "id": "shutdown",
+      "text": "No deal on money? Shutdown. Last year: 43 days."
+    },
+    {
+      "id": "result",
+      "text": "On November 3, Democrats took both chats."
+    },
+    {
+      "id": "next",
+      "text": "Now every law needs both parties. Expect a lot of 'left on read'.",
+      "pauseAfter": 0.2
+    },
+    {
+      "id": "share",
+      "text": "Send this to the friend who never replies."
+    },
+    {
+      "id": "dots",
+      "text": "And those typing dots? Senators talking. The record: 25 hours. Ending it takes 60 votes."
+    },
+    {
+      "id": "question",
+      "text": "So, should the Senate scrap the sixty-vote rule?",
+      "speed": 1.18
+    }
+  ]
+}
