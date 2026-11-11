@@ -1,0 +1,108 @@
+{
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 1.24,
+  "leadIn": 0.1,
+  "pauseAfter": 0.16,
+  "say": {
+    "28 February": "the twenty-eighth of February",
+    "26 February": "the twenty-sixth of February",
+    "1 March": "the first of March",
+    "2 March": "the second of March",
+    "2025": "twenty twenty-five",
+    "US": "U S"
+  },
+  "pronounce": {
+    "Hormuz": "hɔːmˈuːz",
+    "Khamenei": "kɑːmənˈeɪ",
+    "Mojtaba": "mɒdʒtˈɑːbɑː",
+    "Hezbollah": "hˌɛzbəlˈɑː",
+    "Tehran": "tɛərˈɑːn"
+  },
+  "sentences": [
+    {
+      "id": "hook",
+      "text": "One night killed Iran's leader.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "loops",
+      "text": "Who struck? Why then? And who took over?",
+      "pauseAfter": 0.4
+    },
+    {
+      "id": "strike",
+      "text": "On 28 February, the US and Israel hit Iran together: hundreds of strikes in one day."
+    },
+    {
+      "id": "dead",
+      "text": "Supreme Leader Ali Khamenei was killed, and Iran's state media later confirmed it.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "rehook",
+      "text": "But the fuse was lit months earlier.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "june",
+      "text": "June 2025: Israel and Iran fight a twelve-day war."
+    },
+    {
+      "id": "talks",
+      "text": "A ceasefire stops it, but the nuclear dispute stays unsolved."
+    },
+    {
+      "id": "protests",
+      "text": "Then, in late December, Iran's money crashes, shops shut in Tehran, and protests spread."
+    },
+    {
+      "id": "crackdown",
+      "text": "Rights groups say thousands were killed in the crackdown. Iran's government gives a lower count."
+    },
+    {
+      "id": "fleet",
+      "text": "Now it gets strange: America is sending warships.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "retaliate",
+      "text": "So when the strikes come, Iran hits back within hours: missiles and drones at US bases in Bahrain, Qatar, Kuwait and the UAE."
+    },
+    {
+      "id": "usdead",
+      "text": "On 1 March, a drone strike in Kuwait kills American soldiers: the first US deaths of the war."
+    },
+    {
+      "id": "hormuz",
+      "text": "Then tankers stop crossing the Strait of Hormuz, the route for a fifth of the world's oil."
+    },
+    {
+      "id": "spread",
+      "text": "And it spreads: on 2 March, Hezbollah fires on Israel, and Israel strikes back across Lebanon.",
+      "pauseAfter": 0.24
+    },
+    {
+      "id": "son",
+      "text": "Within ten days, Iran names Khamenei's son, Mojtaba, its new leader."
+    },
+    {
+      "id": "talk26",
+      "text": "And the huge number at the start? 26 February: the US and Iran were still talking in Geneva."
+    },
+    {
+      "id": "twodays",
+      "text": "Two days later, the bombs fell.",
+      "pauseAfter": 0.26
+    },
+    {
+      "id": "save",
+      "text": "Part two covers where it stands now. Save this.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "question",
+      "text": "Was striking Iran justified?"
+    }
+  ]
+}

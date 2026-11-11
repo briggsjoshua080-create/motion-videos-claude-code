@@ -1,0 +1,1294 @@
+{
+ "audio": "voiceover/iran-crisis-start.wav",
+ "voice": "bm_george",
+ "durationInSeconds": 79.85,
+ "sentences": [
+  {
+   "id": "hook",
+   "text": "One night killed Iran's leader.",
+   "start": 0.13,
+   "end": 2.0,
+   "words": [
+    {
+     "text": "One",
+     "start": 0.13,
+     "end": 0.418
+    },
+    {
+     "text": "night",
+     "start": 0.418,
+     "end": 0.777
+    },
+    {
+     "text": "killed",
+     "start": 0.777,
+     "end": 1.137
+    },
+    {
+     "text": "Iran's",
+     "start": 1.137,
+     "end": 1.568
+    },
+    {
+     "text": "leader.",
+     "start": 1.568,
+     "end": 2.0
+    }
+   ]
+  },
+  {
+   "id": "loops",
+   "text": "Who struck? Why then? And who took over?",
+   "start": 2.36,
+   "end": 4.54,
+   "words": [
+    {
+     "text": "Who",
+     "start": 2.36,
+     "end": 2.508
+    },
+    {
+     "text": "struck?",
+     "start": 2.508,
+     "end": 2.73
+    },
+    {
+     "text": "Why",
+     "start": 2.91,
+     "end": 3.215
+    },
+    {
+     "text": "then?",
+     "start": 3.215,
+     "end": 3.52
+    },
+    {
+     "text": "And",
+     "start": 3.71,
+     "end": 3.866
+    },
+    {
+     "text": "who",
+     "start": 3.866,
+     "end": 4.073
+    },
+    {
+     "text": "took",
+     "start": 4.073,
+     "end": 4.281
+    },
+    {
+     "text": "over?",
+     "start": 4.281,
+     "end": 4.54
+    }
+   ]
+  },
+  {
+   "id": "strike",
+   "text": "On 28 February, the US and Israel hit Iran together: hundreds of strikes in one day.",
+   "start": 4.99,
+   "end": 10.25,
+   "words": [
+    {
+     "text": "On",
+     "start": 4.99,
+     "end": 5.121
+    },
+    {
+     "text": "28",
+     "start": 5.121,
+     "end": 5.603
+    },
+    {
+     "text": "February,",
+     "start": 5.603,
+     "end": 6.04
+    },
+    {
+     "text": "the",
+     "start": 6.32,
+     "end": 6.437
+    },
+    {
+     "text": "US",
+     "start": 6.437,
+     "end": 6.845
+    },
+    {
+     "text": "and",
+     "start": 6.845,
+     "end": 7.019
+    },
+    {
+     "text": "Israel",
+     "start": 7.019,
+     "end": 7.427
+    },
+    {
+     "text": "hit",
+     "start": 7.427,
+     "end": 7.661
+    },
+    {
+     "text": "Iran",
+     "start": 7.661,
+     "end": 7.952
+    },
+    {
+     "text": "together:",
+     "start": 7.952,
+     "end": 8.36
+    },
+    {
+     "text": "hundreds",
+     "start": 8.69,
+     "end": 9.158
+    },
+    {
+     "text": "of",
+     "start": 9.158,
+     "end": 9.262
+    },
+    {
+     "text": "strikes",
+     "start": 9.262,
+     "end": 9.678
+    },
+    {
+     "text": "in",
+     "start": 9.678,
+     "end": 9.834
+    },
+    {
+     "text": "one",
+     "start": 9.834,
+     "end": 10.042
+    },
+    {
+     "text": "day.",
+     "start": 10.042,
+     "end": 10.25
+    }
+   ]
+  },
+  {
+   "id": "dead",
+   "text": "Supreme Leader Ali Khamenei was killed, and Iran's state media later confirmed it.",
+   "start": 10.47,
+   "end": 15.14,
+   "words": [
+    {
+     "text": "Supreme",
+     "start": 10.47,
+     "end": 10.981
+    },
+    {
+     "text": "Leader",
+     "start": 10.981,
+     "end": 11.321
+    },
+    {
+     "text": "Ali",
+     "start": 11.321,
+     "end": 11.605
+    },
+    {
+     "text": "Khamenei",
+     "start": 11.605,
+     "end": 12.116
+    },
+    {
+     "text": "was",
+     "start": 12.116,
+     "end": 12.286
+    },
+    {
+     "text": "killed,",
+     "start": 12.286,
+     "end": 12.57
+    },
+    {
+     "text": "and",
+     "start": 12.95,
+     "end": 13.114
+    },
+    {
+     "text": "Iran's",
+     "start": 13.114,
+     "end": 13.443
+    },
+    {
+     "text": "state",
+     "start": 13.443,
+     "end": 13.771
+    },
+    {
+     "text": "media",
+     "start": 13.771,
+     "end": 14.209
+    },
+    {
+     "text": "later",
+     "start": 14.209,
+     "end": 14.538
+    },
+    {
+     "text": "confirmed",
+     "start": 14.538,
+     "end": 15.031
+    },
+    {
+     "text": "it.",
+     "start": 15.031,
+     "end": 15.14
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But the fuse was lit months earlier.",
+   "start": 15.44,
+   "end": 17.46,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.44,
+     "end": 15.701
+    },
+    {
+     "text": "the",
+     "start": 15.701,
+     "end": 15.831
+    },
+    {
+     "text": "fuse",
+     "start": 15.831,
+     "end": 16.222
+    },
+    {
+     "text": "was",
+     "start": 16.222,
+     "end": 16.417
+    },
+    {
+     "text": "lit",
+     "start": 16.417,
+     "end": 16.678
+    },
+    {
+     "text": "months",
+     "start": 16.678,
+     "end": 17.069
+    },
+    {
+     "text": "earlier.",
+     "start": 17.069,
+     "end": 17.46
+    }
+   ]
+  },
+  {
+   "id": "june",
+   "text": "June 2025: Israel and Iran fight a twelve-day war.",
+   "start": 17.76,
+   "end": 21.43,
+   "words": [
+    {
+     "text": "June",
+     "start": 17.76,
+     "end": 18.058
+    },
+    {
+     "text": "2025:",
+     "start": 18.058,
+     "end": 19.0
+    },
+    {
+     "text": "Israel",
+     "start": 19.34,
+     "end": 19.735
+    },
+    {
+     "text": "and",
+     "start": 19.735,
+     "end": 19.905
+    },
+    {
+     "text": "Iran",
+     "start": 19.905,
+     "end": 20.187
+    },
+    {
+     "text": "fight",
+     "start": 20.187,
+     "end": 20.47
+    },
+    {
+     "text": "a",
+     "start": 20.47,
+     "end": 20.639
+    },
+    {
+     "text": "twelve-day",
+     "start": 20.639,
+     "end": 21.204
+    },
+    {
+     "text": "war.",
+     "start": 21.204,
+     "end": 21.43
+    }
+   ]
+  },
+  {
+   "id": "talks",
+   "text": "A ceasefire stops it, but the nuclear dispute stays unsolved.",
+   "start": 21.65,
+   "end": 24.89,
+   "words": [
+    {
+     "text": "A",
+     "start": 21.65,
+     "end": 21.803
+    },
+    {
+     "text": "ceasefire",
+     "start": 21.803,
+     "end": 22.262
+    },
+    {
+     "text": "stops",
+     "start": 22.262,
+     "end": 22.568
+    },
+    {
+     "text": "it,",
+     "start": 22.568,
+     "end": 22.67
+    },
+    {
+     "text": "but",
+     "start": 22.97,
+     "end": 23.172
+    },
+    {
+     "text": "the",
+     "start": 23.172,
+     "end": 23.273
+    },
+    {
+     "text": "nuclear",
+     "start": 23.273,
+     "end": 23.728
+    },
+    {
+     "text": "dispute",
+     "start": 23.728,
+     "end": 24.183
+    },
+    {
+     "text": "stays",
+     "start": 24.183,
+     "end": 24.486
+    },
+    {
+     "text": "unsolved.",
+     "start": 24.486,
+     "end": 24.89
+    }
+   ]
+  },
+  {
+   "id": "protests",
+   "text": "Then, in late December, Iran's money crashes, shops shut in Tehran, and protests spread.",
+   "start": 25.11,
+   "end": 29.96,
+   "words": [
+    {
+     "text": "Then,",
+     "start": 25.11,
+     "end": 25.287
+    },
+    {
+     "text": "in",
+     "start": 25.353,
+     "end": 25.486
+    },
+    {
+     "text": "late",
+     "start": 25.486,
+     "end": 25.706
+    },
+    {
+     "text": "December,",
+     "start": 25.706,
+     "end": 26.06
+    },
+    {
+     "text": "Iran's",
+     "start": 26.31,
+     "end": 26.673
+    },
+    {
+     "text": "money",
+     "start": 26.673,
+     "end": 26.976
+    },
+    {
+     "text": "crashes,",
+     "start": 26.976,
+     "end": 27.4
+    },
+    {
+     "text": "shops",
+     "start": 27.69,
+     "end": 27.97
+    },
+    {
+     "text": "shut",
+     "start": 27.97,
+     "end": 28.194
+    },
+    {
+     "text": "in",
+     "start": 28.194,
+     "end": 28.363
+    },
+    {
+     "text": "Tehran,",
+     "start": 28.363,
+     "end": 28.811
+    },
+    {
+     "text": "and",
+     "start": 28.895,
+     "end": 29.063
+    },
+    {
+     "text": "protests",
+     "start": 29.063,
+     "end": 29.624
+    },
+    {
+     "text": "spread.",
+     "start": 29.624,
+     "end": 29.96
+    }
+   ]
+  },
+  {
+   "id": "crackdown",
+   "text": "Rights groups say thousands were killed in the crackdown. Iran's government gives a lower count.",
+   "start": 30.18,
+   "end": 34.97,
+   "words": [
+    {
+     "text": "Rights",
+     "start": 30.18,
+     "end": 30.5
+    },
+    {
+     "text": "groups",
+     "start": 30.5,
+     "end": 30.873
+    },
+    {
+     "text": "say",
+     "start": 30.873,
+     "end": 31.087
+    },
+    {
+     "text": "thousands",
+     "start": 31.087,
+     "end": 31.567
+    },
+    {
+     "text": "were",
+     "start": 31.567,
+     "end": 31.727
+    },
+    {
+     "text": "killed",
+     "start": 31.727,
+     "end": 31.993
+    },
+    {
+     "text": "in",
+     "start": 31.993,
+     "end": 32.153
+    },
+    {
+     "text": "the",
+     "start": 32.153,
+     "end": 32.26
+    },
+    {
+     "text": "crackdown.",
+     "start": 32.26,
+     "end": 32.74
+    },
+    {
+     "text": "Iran's",
+     "start": 33.11,
+     "end": 33.429
+    },
+    {
+     "text": "government",
+     "start": 33.429,
+     "end": 33.96
+    },
+    {
+     "text": "gives",
+     "start": 33.96,
+     "end": 34.226
+    },
+    {
+     "text": "a",
+     "start": 34.226,
+     "end": 34.385
+    },
+    {
+     "text": "lower",
+     "start": 34.385,
+     "end": 34.651
+    },
+    {
+     "text": "count.",
+     "start": 34.651,
+     "end": 34.97
+    }
+   ]
+  },
+  {
+   "id": "fleet",
+   "text": "Now it gets strange: America is sending warships.",
+   "start": 35.19,
+   "end": 38.02,
+   "words": [
+    {
+     "text": "Now",
+     "start": 35.19,
+     "end": 35.402
+    },
+    {
+     "text": "it",
+     "start": 35.402,
+     "end": 35.508
+    },
+    {
+     "text": "gets",
+     "start": 35.508,
+     "end": 35.773
+    },
+    {
+     "text": "strange:",
+     "start": 35.773,
+     "end": 36.25
+    },
+    {
+     "text": "America",
+     "start": 36.52,
+     "end": 37.0
+    },
+    {
+     "text": "is",
+     "start": 37.0,
+     "end": 37.12
+    },
+    {
+     "text": "sending",
+     "start": 37.12,
+     "end": 37.54
+    },
+    {
+     "text": "warships.",
+     "start": 37.54,
+     "end": 38.02
+    }
+   ]
+  },
+  {
+   "id": "retaliate",
+   "text": "So when the strikes come, Iran hits back within hours: missiles and drones at US bases in Bahrain, Qatar, Kuwait and the UAE.",
+   "start": 38.32,
+   "end": 46.09,
+   "words": [
+    {
+     "text": "So",
+     "start": 38.32,
+     "end": 38.509
+    },
+    {
+     "text": "when",
+     "start": 38.509,
+     "end": 38.698
+    },
+    {
+     "text": "the",
+     "start": 38.698,
+     "end": 38.793
+    },
+    {
+     "text": "strikes",
+     "start": 38.793,
+     "end": 39.171
+    },
+    {
+     "text": "come,",
+     "start": 39.171,
+     "end": 39.36
+    },
+    {
+     "text": "Iran",
+     "start": 39.62,
+     "end": 39.908
+    },
+    {
+     "text": "hits",
+     "start": 39.908,
+     "end": 40.196
+    },
+    {
+     "text": "back",
+     "start": 40.196,
+     "end": 40.426
+    },
+    {
+     "text": "within",
+     "start": 40.426,
+     "end": 40.772
+    },
+    {
+     "text": "hours:",
+     "start": 40.772,
+     "end": 41.06
+    },
+    {
+     "text": "missiles",
+     "start": 41.41,
+     "end": 41.977
+    },
+    {
+     "text": "and",
+     "start": 41.977,
+     "end": 42.19
+    },
+    {
+     "text": "drones",
+     "start": 42.19,
+     "end": 42.686
+    },
+    {
+     "text": "at",
+     "start": 42.686,
+     "end": 42.828
+    },
+    {
+     "text": "US",
+     "start": 42.828,
+     "end": 43.324
+    },
+    {
+     "text": "bases",
+     "start": 43.324,
+     "end": 43.82
+    },
+    {
+     "text": "in",
+     "start": 43.82,
+     "end": 44.033
+    },
+    {
+     "text": "Bahrain,",
+     "start": 44.033,
+     "end": 44.6
+    },
+    {
+     "text": "Qatar,",
+     "start": 44.74,
+     "end": 45.17
+    },
+    {
+     "text": "Kuwait",
+     "start": 45.44,
+     "end": 45.714
+    },
+    {
+     "text": "and",
+     "start": 45.714,
+     "end": 45.816
+    },
+    {
+     "text": "the",
+     "start": 45.816,
+     "end": 45.885
+    },
+    {
+     "text": "UAE.",
+     "start": 45.885,
+     "end": 46.09
+    }
+   ]
+  },
+  {
+   "id": "usdead",
+   "text": "On 1 March, a drone strike in Kuwait kills American soldiers: the first US deaths of the war.",
+   "start": 46.3,
+   "end": 52.05,
+   "words": [
+    {
+     "text": "On",
+     "start": 46.3,
+     "end": 46.468
+    },
+    {
+     "text": "1",
+     "start": 46.468,
+     "end": 46.693
+    },
+    {
+     "text": "March,",
+     "start": 46.693,
+     "end": 47.03
+    },
+    {
+     "text": "a",
+     "start": 47.28,
+     "end": 47.446
+    },
+    {
+     "text": "drone",
+     "start": 47.446,
+     "end": 47.779
+    },
+    {
+     "text": "strike",
+     "start": 47.779,
+     "end": 48.166
+    },
+    {
+     "text": "in",
+     "start": 48.166,
+     "end": 48.333
+    },
+    {
+     "text": "Kuwait",
+     "start": 48.333,
+     "end": 48.776
+    },
+    {
+     "text": "kills",
+     "start": 48.776,
+     "end": 49.053
+    },
+    {
+     "text": "American",
+     "start": 49.053,
+     "end": 49.551
+    },
+    {
+     "text": "soldiers:",
+     "start": 49.551,
+     "end": 50.05
+    },
+    {
+     "text": "the",
+     "start": 50.41,
+     "end": 50.527
+    },
+    {
+     "text": "first",
+     "start": 50.527,
+     "end": 50.878
+    },
+    {
+     "text": "US",
+     "start": 50.878,
+     "end": 51.288
+    },
+    {
+     "text": "deaths",
+     "start": 51.288,
+     "end": 51.581
+    },
+    {
+     "text": "of",
+     "start": 51.581,
+     "end": 51.698
+    },
+    {
+     "text": "the",
+     "start": 51.698,
+     "end": 51.816
+    },
+    {
+     "text": "war.",
+     "start": 51.816,
+     "end": 52.05
+    }
+   ]
+  },
+  {
+   "id": "hormuz",
+   "text": "Then tankers stop crossing the Strait of Hormuz, the route for a fifth of the world's oil.",
+   "start": 52.27,
+   "end": 56.66,
+   "words": [
+    {
+     "text": "Then",
+     "start": 52.27,
+     "end": 52.486
+    },
+    {
+     "text": "tankers",
+     "start": 52.486,
+     "end": 52.864
+    },
+    {
+     "text": "stop",
+     "start": 52.864,
+     "end": 53.135
+    },
+    {
+     "text": "crossing",
+     "start": 53.135,
+     "end": 53.513
+    },
+    {
+     "text": "the",
+     "start": 53.513,
+     "end": 53.621
+    },
+    {
+     "text": "Strait",
+     "start": 53.621,
+     "end": 53.999
+    },
+    {
+     "text": "of",
+     "start": 53.999,
+     "end": 54.108
+    },
+    {
+     "text": "Hormuz,",
+     "start": 54.108,
+     "end": 54.54
+    },
+    {
+     "text": "the",
+     "start": 54.87,
+     "end": 54.978
+    },
+    {
+     "text": "route",
+     "start": 54.978,
+     "end": 55.25
+    },
+    {
+     "text": "for",
+     "start": 55.25,
+     "end": 55.412
+    },
+    {
+     "text": "a",
+     "start": 55.412,
+     "end": 55.575
+    },
+    {
+     "text": "fifth",
+     "start": 55.575,
+     "end": 55.846
+    },
+    {
+     "text": "of",
+     "start": 55.846,
+     "end": 55.955
+    },
+    {
+     "text": "the",
+     "start": 55.955,
+     "end": 56.063
+    },
+    {
+     "text": "world's",
+     "start": 56.063,
+     "end": 56.443
+    },
+    {
+     "text": "oil.",
+     "start": 56.443,
+     "end": 56.66
+    }
+   ]
+  },
+  {
+   "id": "spread",
+   "text": "And it spreads: on 2 March, Hezbollah fires on Israel, and Israel strikes back across Lebanon.",
+   "start": 56.88,
+   "end": 62.1,
+   "words": [
+    {
+     "text": "And",
+     "start": 56.88,
+     "end": 57.017
+    },
+    {
+     "text": "it",
+     "start": 57.017,
+     "end": 57.109
+    },
+    {
+     "text": "spreads:",
+     "start": 57.109,
+     "end": 57.43
+    },
+    {
+     "text": "on",
+     "start": 57.73,
+     "end": 57.896
+    },
+    {
+     "text": "2",
+     "start": 57.896,
+     "end": 58.118
+    },
+    {
+     "text": "March,",
+     "start": 58.118,
+     "end": 58.45
+    },
+    {
+     "text": "Hezbollah",
+     "start": 58.72,
+     "end": 59.247
+    },
+    {
+     "text": "fires",
+     "start": 59.247,
+     "end": 59.563
+    },
+    {
+     "text": "on",
+     "start": 59.563,
+     "end": 59.721
+    },
+    {
+     "text": "Israel,",
+     "start": 59.721,
+     "end": 60.09
+    },
+    {
+     "text": "and",
+     "start": 60.26,
+     "end": 60.409
+    },
+    {
+     "text": "Israel",
+     "start": 60.409,
+     "end": 60.757
+    },
+    {
+     "text": "strikes",
+     "start": 60.757,
+     "end": 61.155
+    },
+    {
+     "text": "back",
+     "start": 61.155,
+     "end": 61.354
+    },
+    {
+     "text": "across",
+     "start": 61.354,
+     "end": 61.652
+    },
+    {
+     "text": "Lebanon.",
+     "start": 61.652,
+     "end": 62.1
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "text": "Within ten days, Iran names Khamenei's son, Mojtaba, its new leader.",
+   "start": 62.4,
+   "end": 66.65,
+   "words": [
+    {
+     "text": "Within",
+     "start": 62.4,
+     "end": 62.732
+    },
+    {
+     "text": "ten",
+     "start": 62.732,
+     "end": 62.953
+    },
+    {
+     "text": "days,",
+     "start": 62.953,
+     "end": 63.23
+    },
+    {
+     "text": "Iran",
+     "start": 63.45,
+     "end": 63.742
+    },
+    {
+     "text": "names",
+     "start": 63.742,
+     "end": 64.093
+    },
+    {
+     "text": "Khamenei's",
+     "start": 64.093,
+     "end": 64.736
+    },
+    {
+     "text": "son,",
+     "start": 64.736,
+     "end": 64.97
+    },
+    {
+     "text": "Mojtaba,",
+     "start": 65.07,
+     "end": 65.71
+    },
+    {
+     "text": "its",
+     "start": 65.98,
+     "end": 66.123
+    },
+    {
+     "text": "new",
+     "start": 66.123,
+     "end": 66.363
+    },
+    {
+     "text": "leader.",
+     "start": 66.363,
+     "end": 66.65
+    }
+   ]
+  },
+  {
+   "id": "talk26",
+   "text": "And the huge number at the start? 26 February: the US and Iran were still talking in Geneva.",
+   "start": 66.87,
+   "end": 72.47,
+   "words": [
+    {
+     "text": "And",
+     "start": 66.87,
+     "end": 67.001
+    },
+    {
+     "text": "the",
+     "start": 67.001,
+     "end": 67.088
+    },
+    {
+     "text": "huge",
+     "start": 67.088,
+     "end": 67.393
+    },
+    {
+     "text": "number",
+     "start": 67.393,
+     "end": 67.654
+    },
+    {
+     "text": "at",
+     "start": 67.654,
+     "end": 67.741
+    },
+    {
+     "text": "the",
+     "start": 67.741,
+     "end": 67.828
+    },
+    {
+     "text": "start?",
+     "start": 67.828,
+     "end": 68.09
+    },
+    {
+     "text": "26",
+     "start": 68.45,
+     "end": 69.028
+    },
+    {
+     "text": "February:",
+     "start": 69.028,
+     "end": 69.51
+    },
+    {
+     "text": "the",
+     "start": 69.83,
+     "end": 69.95
+    },
+    {
+     "text": "US",
+     "start": 69.95,
+     "end": 70.37
+    },
+    {
+     "text": "and",
+     "start": 70.37,
+     "end": 70.55
+    },
+    {
+     "text": "Iran",
+     "start": 70.55,
+     "end": 70.85
+    },
+    {
+     "text": "were",
+     "start": 70.85,
+     "end": 71.03
+    },
+    {
+     "text": "still",
+     "start": 71.03,
+     "end": 71.33
+    },
+    {
+     "text": "talking",
+     "start": 71.33,
+     "end": 71.75
+    },
+    {
+     "text": "in",
+     "start": 71.75,
+     "end": 71.93
+    },
+    {
+     "text": "Geneva.",
+     "start": 71.93,
+     "end": 72.47
+    }
+   ]
+  },
+  {
+   "id": "twodays",
+   "text": "Two days later, the bombs fell.",
+   "start": 72.69,
+   "end": 74.45,
+   "words": [
+    {
+     "text": "Two",
+     "start": 72.69,
+     "end": 72.906
+    },
+    {
+     "text": "days",
+     "start": 72.906,
+     "end": 73.176
+    },
+    {
+     "text": "later,",
+     "start": 73.176,
+     "end": 73.5
+    },
+    {
+     "text": "the",
+     "start": 73.69,
+     "end": 73.828
+    },
+    {
+     "text": "bombs",
+     "start": 73.828,
+     "end": 74.174
+    },
+    {
+     "text": "fell.",
+     "start": 74.174,
+     "end": 74.45
+    }
+   ]
+  },
+  {
+   "id": "save",
+   "text": "Part two covers where it stands now. Save this.",
+   "start": 74.77,
+   "end": 77.33,
+   "words": [
+    {
+     "text": "Part",
+     "start": 74.77,
+     "end": 75.042
+    },
+    {
+     "text": "two",
+     "start": 75.042,
+     "end": 75.259
+    },
+    {
+     "text": "covers",
+     "start": 75.259,
+     "end": 75.586
+    },
+    {
+     "text": "where",
+     "start": 75.586,
+     "end": 75.803
+    },
+    {
+     "text": "it",
+     "start": 75.803,
+     "end": 75.912
+    },
+    {
+     "text": "stands",
+     "start": 75.912,
+     "end": 76.292
+    },
+    {
+     "text": "now.",
+     "start": 76.292,
+     "end": 76.51
+    },
+    {
+     "text": "Save",
+     "start": 76.75,
+     "end": 77.072
+    },
+    {
+     "text": "this.",
+     "start": 77.072,
+     "end": 77.33
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "Was striking Iran justified?",
+   "start": 77.69,
+   "end": 79.66,
+   "words": [
+    {
+     "text": "Was",
+     "start": 77.69,
+     "end": 77.894
+    },
+    {
+     "text": "striking",
+     "start": 77.894,
+     "end": 78.505
+    },
+    {
+     "text": "Iran",
+     "start": 78.505,
+     "end": 78.845
+    },
+    {
+     "text": "justified?",
+     "start": 78.845,
+     "end": 79.66
+    }
+   ]
+  }
+ ]
+}

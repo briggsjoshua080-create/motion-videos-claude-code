@@ -346,6 +346,13 @@ prompt says otherwise.
   Democrats took both chambers, "left on read", and the frame-0 typing dots as the filibuster talk (25-hour record, 60
   votes), ending on "Should the Senate scrap 60-vote rules?". First video with **expression in the voice**: per-sentence
   `speed` (also `voice`, `lang`, `gain`) in the voice-over script, plus "!", "..." and short interjections ("Ouch.").
+  `IranCrisisStart` ("One night killed Iran's leader.", `briefs/iran-crisis-start/`) is the second **news-event explainer** (11 Nov 2026,
+  no questions asked; the user makes a separate "current state" video): how the 2026 Iran war began, from the June 2025 twelve-day war and the
+  December protests to the 28 Feb 2026 US-Israeli strikes, Iran's retaliation, the first US deaths, Hormuz, Lebanon and the new supreme leader
+  (9 Mar). Neutral, attributed claims. The standard look themed to the topic: midnight indigo with amber accent blocks, amber re-hook flashes and an
+  amber subtitle pill with navy text; 80.9 s. The huge outlined 26 on frame 0 is the rewatch detail (the 26 Feb Geneva talks, two days before the
+  bombs); ends on "Was striking Iran justified?" and "Part 2: where it stands now". The region map is `src/components/iran.ts`; scenes in
+  `src/scenes/iran-crisis-start/scenes.tsx`.
 - **Reference videos in another style:** if the user shares a video to copy, keep its layout, typography, motion and
   format details, but theme it in **the country's flag colours**. The user's Belgian reference
   (`belgian-elections-explained.mp4`: black background, yellow and red) is dark only because Belgium's flag is black;
